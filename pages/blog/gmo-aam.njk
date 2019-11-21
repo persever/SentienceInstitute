@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/gmo-aam", "Cell-cultured meat: lessons from GMO adoption and resistance", "blog/" + blogposts[12].img, "In early 2019, we started drafting papers to submit to peer-reviewed journals. The first of these papers, “Cell-Cultured Meat: Lessons from GMO Adoption and Resistance,” is now accepted at the journal Appetite.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[12], authors) }}
+
+{% endblock %}

@@ -1,0 +1,880 @@
+{
+  "team": [
+    {
+      "id": "kelly",
+      "name": "Kelly Witwicki",
+      "role": "Co-Founder & Executive Director",
+      "email": "kelly@sentienceinstitute.org",
+      "twitterId": "kellywitwicki",
+      "facebookId": "kellywitwicki",
+      "desc": "Kelly previously served as Director of Communications at Sentience Politics and co-organized a grassroots animal advocacy organization. She is also a designer and web developer, and earned-to-give at Google, where she was recognized as an outstanding UX Engineer. Kelly has volunteered for several animal advocacy organizations, primarily in animal rescue and graphic design."
+    },
+    {
+      "id": "jacy",
+      "name": "Jacy Reese",
+      "link": "https://jacyreese.com/",
+      "email": "jacy@sentienceinstitute.org",
+      "twitterId": "jacyreese",
+      "facebookId": "jacyreese",
+      "role": "Co-Founder & Research Fellow",
+      "desc": "Jacy is a writer, social scientist, and author of <i>The End of Animal Farming</i>. He previously worked as a Senior Fellow at Sentience Politics, and before that as a researcher and Chair of the board of directors at Animal Charity Evaluators. He has written on effective altruism topics in outlets such as <i>The Guardian<\/i>, <i>Vox<\/i>, and <i>National Review<\/i>, and presented his research in over 20 countries."
+    },
+    {
+      "id": "jamie",
+      "name": "Jamie Harris",
+      "role": "Researcher",
+      "email": "jamie@sentienceinstitute.org",
+      "twitterId": "",
+      "facebookId": "jamie.harris.397",
+      "desc": "Jamie has a History degree from Oxford University and a Postgraduate Certificate in Education from Nottingham University. Dedicated to reducing animal suffering, he has volunteered for a variety of effective animal advocacy organisations, including Faunalytics, The Humane League and the Good Food Institute. He is also working to grow the effective altruism movement by managing the local group Effective Animal Altruism London."
+    }
+  ],
+  "board": [
+    {
+      "id": "diana",
+      "name": "Diana Fleischman",
+      "twitterId": "sentientist",
+      "desc": "Diana Santos Fleischman, Ph.D, is an Associate Professor in psychology at the University of Portsmouth. As an effective altruist, Diana is committed to reducing the suffering of nonhuman animals by promoting research into effective interventions through Animal Charity Evaluators, engaging with the public through podcasts, blogs and interviews, and conducting psychological research into human attitudes towards nonhuman animals. You can follow Diana @Sentientist."
+    },
+    {
+      "id": "max",
+      "name": "Max Daniel",
+      "desc": "Max Daniel is a Senior Research Scholar at the Future of Humanity Institute. His research is focussed on the governance of artificial intelligence and the macrostrategy of how to best shape to long-term future. He holds a master’s in mathematics with a minor in philosophy from Heidelberg University. Before joining FHI, he led the research wing of the Effective Altruism Foundation, where he currently serves as a board member.y. Before joining FHI, he led the research wing of the Effective Altruism Foundation, where he currently serves as a board member."
+    },
+    {
+      "id": "kelly",
+      "name": "Kelly Witwicki"
+    }
+  ],
+  "advisors": [
+    {
+      "id": "natalie",
+      "name": "Natalie Cargill",
+      "desc": "Natalie is the Founder & Director of Effective Giving UK, which helps high-net worth donors maximize their impact. She also coordinates a group of donors who collectively give over $60M annually to end factory farming. She is an associate barrister at Serjeants’ Inn Chambers, which is known for cases of ethical and political importance, and graduated first-class from Oxford. Natalie has worked with the UNHRC, Global Alliance for Improved Nutrition, 80,000 Hours, and Sentience Politics, and has lectured on effective giving at Cambridge and King's College."
+    },
+    {
+      "id": "oscar",
+      "name": "Oscar Horta",
+      "link": "https://usc-es.academia.edu/OscarHorta",
+      "desc": "Oscar Horta has been involved in antispeciesist and vegan activism since the mid 90s. He’s a founding member of Animal Ethics. He teaches philosophy at the University of Santiago de Compostela, and has been a visiting researcher in other universities. His main fields of research are speciesism and wild animal suffering."
+    },
+    {
+      "id": "j",
+      "name": "J. Mohorčich",
+      "desc": "J. Mohorčich is Assistant Professor of Political Science at Lehman College, CUNY, where he teaches courses in American politics, political philosophy, and science policy. He has previously taught at Johns Hopkins University and the University of Mannheim and was a Research Fellow at Sentience Institute. His published work has to do with technology adoption and social change, nonhuman cognition and intellectual labor, and political theory and survival."
+    },
+    {
+      "id": "jeff",
+      "name": "Jeff Sebo",
+      "link": "https://jeffsebo.net",
+      "twitterId": "jeffrsebo",
+      "facebookId": "jeffsebo",
+      "desc": "Jeff Sebo is Clinical Assistant Professor of Environmental Studies, Affiliated Professor of Bioethics, Medical Ethics, and Philosophy, and Director of the Animal Studies M.A. Program at New York University. He is co-author of the recent Chimpanzee Rights (Routledge, 2018) and Food, Animals, and the Environment (Routledge, 2018). He also holds positions at Animal Charity Evaluators, the Animals and Society Institute, and Minding Animals International."
+    }
+  ],
+  "authors": {
+    "jacy": {
+      "name": "Jacy Reese",
+      "role": "Co-Founder & Research Fellow",
+      "twitterId": "jacyreese",
+      "facebookId": "jacyreese",
+      "website": "https://jacyreese.com/",
+      "img": "../img/team/jacy.png"
+    },
+    "kelly": {
+      "name": "Kelly Witwicki",
+      "role": "Co-Founder & Executive Director",
+      "twitterId": "kellywitwicki",
+      "facebookId": "kellywitwicki",
+      "img": "../img/team/kelly.png"
+    },
+    "j": {
+      "name": "J. Mohorčich",
+      "role": "Research Fellow",
+      "img": "../img/team/j.png"
+    },
+    "jamie": {
+      "name": "Jamie Harris",
+      "role": "Researcher",
+      "facebookId": "jamie.harris.397",
+      "img": "../img/team/jamie.png"
+    }
+  },
+  "photos": {
+    "home_image": {
+      "title": "Rescued Rooster At Catskill Animal Sanctuary",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "1": {
+      "title": "Running goats at Farm Sanctuary",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "2": {
+      "title": "Curious rescue sheep at Edgar's Mission",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "3": {
+      "title": "Desnooded turkeys on a factory farm",
+      "credit": "Jo-Anne McArthur / Djurattsalliansen"
+    },
+    "4": {
+      "title": "Barramundi in tanks at a fish farm in South Australia",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "5": {
+      "title": "Rescued laying hens",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "6": {
+      "title": "A hen with her rescuer",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "7": {
+      "title": "Chickens in a transport truck on their way to slaughter",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "8": {
+      "title": "Rescued goose at Edgar's Mission",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "9": {
+      "title": "Running piglets at Farm Sanctuary",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "10": {
+      "title": "Calves In A Sale Yard",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "11": {
+      "title": "Rescued Goose at Edgar's Mission",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "afa-2017": {
+      "title": "Sheep In A Sale Yard",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "us-factory-farming-estimates": {
+      "title": "Young broiler birds in an industrial barn",
+      "credit": "Jo-Anne McArthur / Animal Equality"
+    },
+    "global-animal-farming-estimates": {
+      "title": "Factory farmed turkeys",
+      "credit": "Jo-Anne McArthur / Djurattsalliansen"
+    },
+    "outreach":{
+      "title": "David, a rescued Malayan sun bear, at Tam Dao sanctuary in Vietnam",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "research":{
+      "title": "Young Factory Farmed Broiler Chickens",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "transparency": {
+      "title": "Rescued laying hens",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "transparency-items": {
+      "title": "A rescued rooster at Farm Sanctuary's Acton shelter",
+      "credit": "Jo-Anne McArthur / We Animals"
+    }
+  },
+  "blogposts": [
+    {
+      "url": "introducing-sentience-institute",
+      "gdocname": "IntroducingSentienceInstitute",
+      "date": "June 2, 2017",
+      "title": "Introducing Sentience Institute",
+      "img": "170602",
+      "authors": ["kelly", "jacy"]
+    },
+    {
+      "url": "speculation-and-intuition-as-evidence",
+      "gdocname": "ANoteonSpeculationandIntuitionasEvidence",
+      "date": "June 2, 2017",
+      "title": "A Note on Speculation and Intuition as Evidence",
+      "img": "170602_1",
+      "authors": ["jacy"]
+    },
+    {
+      "url": "eaa-researcher-survey-june-2017",
+      "gdocname": "EAAResearcherSurveyJune2017",
+      "date": "June 16, 2017",
+      "title": "Effective Animal Advocacy Researcher Survey June 2017",
+      "img": "170616",
+      "authors": ["jacy"]
+    },
+    {
+      "url": "what-we-can-do-in-2018-with-your-support",
+      "gdocname": "Whatwecandoin2018withyoursupport",
+      "date": "December 6, 2017",
+      "title": "What We Can Do in 2018 with Your Support",
+      "img": "171206",
+      "img_info": {
+        "title": "Rescued goat living at Farm Sanctuary in Watkins Glen",
+        "credit": "Jo-Anne McArthur / We Animals"
+      },
+      "authors": ["kelly"]
+    },
+    {
+      "url": "mce-v-aia",
+      "gdocname": "ComparingtheCauseAreasofMoralCircleExpansiona",
+      "date": "February 20, 2018",
+      "year": "2018",
+      "title": "Comparing the Cause Areas of Moral Circle Expansion and Artificial Intelligence Alignment",
+      "img": "180220",
+      "img_info": {
+        "title": "Shai, a young gorilla at Ape Action Africa, a sanctuary for primates in Cameroon",
+        "credit": "Jo-Anne McArthur / We Animals"
+      },
+      "authors": ["jacy"],
+      "isResearch": true
+    },
+    {
+      "url": "what-is-sentience",
+      "gdocname": "Whatexactlydowemeanbysentience",
+      "date": "June 21, 2018",
+      "year": "2018",
+      "title": "What is sentience?",
+      "img": "180621",
+      "img_info": {
+        "title": "Dolphin at the Vancouver Aquarium",
+        "credit": "Jo-Anne McArthur / We Animals"
+      },
+      "authors": ["jacy"]
+    },
+    {
+      "url": "three-big-changes",
+      "gdocname": "3BigChangesWeNeedintheFarmedAnimalMovement",
+      "date": "June 25, 2018",
+      "year": "2018",
+      "title": "3 Big Changes We Need in the Farmed Animal Movement",
+      "img": "180625",
+      "img_info": {
+        "title": "Cows In A Sale Yard",
+        "credit": "Jo-Anne McArthur / We Animals"
+      },
+      "authors": ["jacy"]
+    },
+    {
+      "url": "dei",
+      "gdocname": "EffectiveStrategiesforEquityandInclusion",
+      "date": "November 21, 2018",
+      "year": "2018",
+      "title": "Effective Strategies for Equity and Inclusion",
+      "img": "181121",
+      "authors": ["kelly"],
+      "isResearch": true
+    },
+    {
+      "url": "eoy2018",
+      "gdocname": "2018EndofYearSummary",
+      "date": "November 26, 2018",
+      "year": "2018",
+      "title": "2018 End of Year Summary",
+      "img": "181126",
+      "img_info": {
+        "title": "Esther the Wonder Pig at her new home",
+        "credit": "Jo-Anne McArthur / We Animals"
+      },
+      "authors": ["kelly"]
+    },
+    {
+      "url": "how-tractable-is-changing-the-course-of-history",
+      "gdocname": "Howtractableischangingthecours",
+      "date": "March 12, 2019",
+      "year": "2019",
+      "title": "How tractable is changing the course of history?",
+      "img": "190312",
+      "authors": ["jamie"],
+      "isResearch": true
+    },
+    {
+      "url": "what-can-the-farmed-animal-movement-learn-from-history",
+      "gdocname": "Whatcanthefarmedanimalmo",
+      "date": "May 17, 2019",
+      "year": "2019",
+      "title": "What can the farmed animal movement learn from history?",
+      "img": "190517a",
+      "img_info": {
+        "title": "Pigs going to the slaughterhouse in transport trucks, in the heat of summer",
+        "credit": "Jo-Anne McArthur / We Animals"
+      },
+      "authors": ["jamie"],
+      "isResearch": true
+    },
+    {
+      "url": "how-is-SI-research-different",
+      "gdocname": "HowisSIresearchdifferent",
+      "date": "May 17, 2019",
+      "year": "2019",
+      "title": "How is SI research different from existing social movement literature and relevant historical works?",
+      "img": "190517b",
+      "img_info": {
+        "title": "Portrait of a fox in a cage at a fur farm in Canada",
+        "credit": "Jo-Anne McArthur / #MakeFurHistory"
+      },
+      "authors": ["jamie"]
+    },
+    {
+      "url": "gmo-aam",
+      "gdocname": "GMOAAM",
+      "date": "August 20, 2019",
+      "year": "2019",
+      "title": "Cell-cultured meat: lessons from GMO adoption and resistance",
+      "img": "190820",
+      "authors": ["jacy"],
+      "isJournal": true
+    },
+    {
+      "url": "tech-studies-update",
+      "gdocname": "TechStudiesUpdate",
+      "date": "September 23, 2019",
+      "year": "2019",
+      "title": "Technology Case Studies Update",
+      "img": "190923",
+      "authors": ["jacy"],
+      "isJournal": true
+    }
+  ],
+  "pressreleases": [
+    {
+      "url": "animal-farming-attitudes-survey-2017",
+      "gdocname": "AnimalFarmingAttitudesSurvey2017PressRelease",
+      "date": "2017-11-20",
+      "title": "New poll shows majority uncomfortable with animal farming despite eating turkeys for Thanksgiving",
+      "img": "afa-2017",
+      "img_info": {
+        "title": "Sheep In A Sale Yard",
+        "credit": "Jo-Anne McArthur / We Animals"
+      }
+    },
+    {
+      "url": "us-farmed-animals-live-on-factory-farms",
+      "gdocname": "Pressreleasefor2019USDAdata",
+      "date": "2019-04-11",
+      "title": "99% of US farmed animals live on factory farms, study shows",
+      "img": "us-factory-farming-estimates",
+      "img_info": {
+        "title": "Young broiler birds in an industrial barn",
+        "credit": "Jo-Anne McArthur / Animal Equality"
+      }
+    }
+  ],
+  "outreachitems": {
+    "book": {
+      "externalurl": "https://www.amazon.com/End-Animal-Farming-Entrepreneurs-Animal-Free/dp/0807019453/",
+      "img": "teoaf.png",
+      "quote": "Places the issue of factory farming in the context of human progress and presents compelling arguments on how we should deal with it today.",
+      "quoteattribution": "STEVEN PINKER, author of The Better Angels of Our Nature and Enlightenment Now"
+    },
+    "externalarticles": [
+      {
+        "externalurl": "https://qz.com/1209936/our-treatment-of-animals-is-stalling-human-progress/",
+        "title": "Our treatment of animals is stalling human progress",
+        "source": "Quartz",
+        "date": "February 19, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "quartzpinker.png"
+      },
+      {
+        "externalurl": "https://effective-altruism.com/ea/1l0/why_i_prioritize_moral_circle_expansion_over/",
+        "title": "Why I prioritize moral circle expansion over artificial intelligence alignment",
+        "source": "Effective Altruism Forum",
+        "date": "February 20, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "mcevaia.png"
+      },
+      {
+        "externalurl": "https://quillette.com/2018/03/27/convergent-case-veganism/",
+        "title": "The Convergent Case for Veganism",
+        "source": "Quillette",
+        "date": "March 27, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "quilletteconvergence.png"
+      },
+      {
+        "externalurl": "https://www.feedstuffs.com/commentary/few-minutes-jacy-reese-why-pay-attention-preachers-animal-rights",
+        "title": "A few minutes with Jacy Reese: Why pay attention to preachers of animal rights",
+        "source": "Feedstuffs",
+        "date": "August 8, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "feedstuffs.png"
+      },
+      {
+        "externalurl": "https://www.livekindly.co/china-lab-meat-capital-world/",
+        "title": "China Could Become the Lab Meat Capital of the World",
+        "source": "LIVEKINDLY",
+        "date": "August 26, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "livekindly.png"
+      },
+      {
+        "externalurl": "https://www.huffingtonpost.com/entry/will-people-eat-slaughter-free-lab-grown-meat_us_5bc8915ae4b0a8f17ee9e84a",
+        "title": "Slaughter-Free Meat Is An Answer To Our Cruel And Broken Food System",
+        "source": "Huffington Post",
+        "date": "October 19, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "huffposlaughterfreemeat.png"
+      },
+      {
+        "externalurl": "https://quillette.com/2018/10/20/why-its-time-to-end-factory-farming/",
+        "title": "Why It's Time to End Factory Farming",
+        "source": "Quillette",
+        "date": "October 20, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "quilletteendfactoryfarming.png"
+      },
+      {
+        "externalurl": "https://www.fastcompany.com/90262415/can-we-end-animal-farming-by-the-end-of-the-century",
+        "title": "Can we end animal farming by the end of the century?",
+        "source": "Fast Company",
+        "date": "November 6, 2018",
+        "year": "2018",
+        "author": "Adele Peters",
+        "img": "fastcompanyteoaf.png"
+      },
+      {
+        "externalurl": "https://www.nationalreview.com/2018/11/clean-meat-the-future-of-vegetarianism/",
+        "title": "‘Clean Meat,’ the Future of Vegetarianism",
+        "source": "National Review",
+        "date": "November 6, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "nationalreviewteoaf.png"
+      },
+      {
+        "externalurl": "https://quillette.com/2018/11/07/a-world-without-animal-farming/",
+        "title": "A World Without Animal Farming",
+        "source": "Quillette",
+        "date": "November 7, 2018",
+        "year": "2018",
+        "author": "Spencer Case",
+        "img": "quilletteteoaf.png"
+      },
+      {
+        "externalurl": "https://www.theverge.com/2018/11/9/18078810/animal-farming-end-jacy-reese-food-cultured-meat-plants-politics-policy",
+        "title": "These are the technology advances that could end animal farming",
+        "source": "The Verge",
+        "date": "November 9, 2018",
+        "year": "2018",
+        "author": "Angela Chen",
+        "img": "vergeteoaf.png"
+      },
+      {
+        "externalurl": "https://www.currentaffairs.org/2018/11/can-we-end-animal-farming-forever",
+        "title": "Can we end animal farming forever?",
+        "source": "Current Affairs",
+        "date": "November 12, 2018",
+        "year": "2018",
+        "author": "Nathan J. Robinson",
+        "img": "currentaffairsteoaf.png"
+      },
+      {
+        "externalurl": "https://www.vox.com/future-perfect/2018/11/15/18088776/end-animal-farming-vegetarian-vegan-meat-alternatives-jacy-reese",
+        "title": "We could end factory farming this century",
+        "source": "Vox",
+        "date": "November 15, 2018",
+        "year": "2018",
+        "author": "Kelsey Piper",
+        "img": "voxteoaf.png"
+      },
+      {
+        "externalurl": "https://www.theguardian.com/food/2018/nov/16/theres-no-such-thing-as-humane-meat-or-eggs-stop-kidding-yourself",
+        "title": "There's no such thing as humane meat or eggs. Stop kidding yourself",
+        "source": "The Guardian",
+        "date": "November 16, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "guardianhumane.png"
+      },
+      {
+        "externalurl": "https://motherboard.vice.com/en_us/article/vbavgm/jacy-reese-thinks-technology-and-ethics-will-see-the-end-of-animal-farming",
+        "title": "Jacy Reese Thinks Technology and Ethics Will See the ‘End of Animal Farming'",
+        "source": "Vice Motherboard",
+        "date": "November 17, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "viceteoaf.png"
+      },
+      {
+        "externalurl": "https://vegconomist.com/business-insiders/jacy-reese-author-of-the-end-of-animal-farming/",
+        "title": "Jacy Reese – Author of The End of Animal Farming",
+        "source": "Vegconomist",
+        "date": "November 22, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "vegconomist.png"
+      },
+      {
+        "externalurl": "https://www.geekwire.com/2018/end-animal-farming-jacy-reese-lays-meat-free-future-thanks-science-tech/",
+        "title": "In ‘The End of Animal Farming,’ Jacy Reese lays out a meat-free future thanks to science and tech",
+        "source": "GeekWire",
+        "date": "November 22, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "geekwire.png"
+      },
+      {
+        "externalurl": "https://www.nydailynews.com/opinion/ny-oped-vegan-how-to-talk-to-your-family-on-thanksgiving-20181120-story.html",
+        "title": "Vegan? Here's how to talk to your family on Thanksgiving",
+        "source": "NY Daily News",
+        "date": "November 22, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "nydailythanksgiving.png"
+      },
+      {
+        "externalurl": "https://www.forbes.com/sites/davidebanis/2018/11/27/new-book-draws-detailed-roadmap-of-how-we-can-end-animal-farming/#36d897d12dfc",
+        "title": "New Book Draws Detailed Roadmap Of How We Can End Animal Farming",
+        "source": "Forbes",
+        "date": "November 27, 2018",
+        "year": "2018",
+        "author": "Davide Banis",
+        "img": "forbesteoaf.png"
+      },
+      {
+        "externalurl": "https://progressive.org/magazine/emptying-the-cages/",
+        "title": "Emptying the Cages",
+        "source": "The Progressive",
+        "date": "December 01, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "theprogressiveteoaf.png"
+      },
+      {
+        "externalurl": "https://quillette.com/2018/12/28/what-peta-has-cost-the-animal-rights-movement/",
+        "title": "What PETA Has Cost the Animal Rights Movement",
+        "source": "Quillette",
+        "date": "December 28, 2018",
+        "year": "2018",
+        "author": "Jacy Reese",
+        "img": "quillettepeta.png"
+      },
+      {
+        "externalurl": "https://www.theguardian.com/commentisfree/2019/mar/03/clean-meat-lab-grown-china-india",
+        "title": "Is the world ready for lab-grown meat?",
+        "source": "The Guardian",
+        "date": "March 3, 2019",
+        "year": "2019",
+        "author": "Jacy Reese",
+        "img": "guardianchinaindia.png"
+      },
+      {
+        "externalurl": "https://www.vox.com/future-perfect/2019/4/4/18285986/robot-animal-nature-expanding-moral-circle-peter-singer",
+        "title": "Should animals, plants, and robots have the same rights as you?",
+        "source": "Vox",
+        "date": "April 4, 2019",
+        "year": "2019",
+        "author": "Sigal Samuel",
+        "img": "voxmoralcircle.png"
+      }
+    ],
+    "audiointerviews": [
+      {
+        "externalurl": "https://player.fm/series/livegan/e8-jacy-reese",
+        "audio": "https://www.buzzsprout.com/128075/609587-e8-jacy-reese.mp3",
+        "title": "E8: Jacy Reese",
+        "source": "LIVEGAN",
+        "date": "December 12, 2017",
+        "img": "livegan.png"
+      },
+      {
+        "externalurl": "https://www.onegreenplanet.org/episode-forty-two-jacy-reese/",
+        "audio": "/audio/onegreenplanet.mp3",
+        "title": "#42 - The End of Animal Farming, Effective Altruism, and the Quest to Expand Our Moral Circle with Jacy Reese",
+        "source": "Eat for the Planet",
+        "img": "onegreenplanet.png"
+      },
+      {
+        "externalurl": "https://www.bbc.co.uk/programmes/b0b1syd3",
+        "audio": "/audio/bbc4.mp3",
+        "title": "Animals",
+        "source": "BBC Radio 4 - FutureProofing",
+        "date": "May 12, 2018",
+        "year": "2018",
+        "img": "bbc4.png"
+      },
+      {
+        "externalurl": "https://www.buzzsprout.com/120806/768903-woke-stutters-episode-12-jacy-reese",
+        "audio": "wokestutters.mp3",
+        "title": "Episode 12: Co-Founder and Research Director at the Sentience Institute Jacy Reese",
+        "source": "Woke Stutters",
+        "date": "August 5, 2018",
+        "year": "2018",
+        "img": "wokestutters.png"
+      },
+      {
+        "externalurl": "https://www.foodnavigator-usa.com/Article/2018/09/07/Soup-to-Nuts-Podcast-As-plant-based-eating-takes-off-is-the-end-of-animal-agriculture-near",
+        "audio": "https://cdn-a.william-reed.com/content/download/529603/8586820/version/1/file/animal+farming.mp3",
+        "title": "Soup-to-Nuts Podcast: As plant-based eating takes off, is the end of animal agriculture near?",
+        "source": "Food Navigator",
+        "date": "September 7, 2018",
+        "year": "2018",
+        "img": "foodnavigator.png"
+      },
+      {
+        "externalurl": "https://www.ourhenhouse.org/2018/09/episode-455-jacy-reese/",
+        "audio": "https://media.blubrry.com/ourhenhouse/s/dts.podtrac.com/redirect.mp3/media.blubrry.com/ohhsignature/s/www.ourhenhouse.org/podcastepisode455.mp3",
+        "title": "Episode 455: Jacy Reese",
+        "source": "Our Hen House",
+        "date": "September 29, 2018",
+        "year": "2018",
+        "img": "ourhenhouse.png"
+      },
+      {
+        "externalurl": "https://mainstreetvegan.net/msv-podcast-november-7-2018-protest-kitchen-the-end-of-animal-farming/",
+        "audio": "https://dcs.megaphone.fm/UOR6194287664.mp3?key=48cdb945fc62e1e506fbbe9352177684",
+        "title": "Protest Kitchen + The End of Animal Farming",
+        "source": "Main Street Vegan",
+        "date": "November 8, 2018",
+        "year": "2018",
+        "img": "mainstreetvegan.png"
+      }
+    ],
+    "videointerviews": [
+      {
+        "externalurl": "https://nowthisnews.com/videos/food/is-the-end-of-animal-farming-in-sight",
+        "videourl": "https://content.jwplatform.com/videos/VaIcuamG.mp4",
+        "title": "Is the end of animal farming in sight?",
+        "source": "NowThis",
+        "date": "October 15, 2018",
+        "year": "2018",
+        "img": "nowthis.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=Ha9pn_JR80Y",
+        "videourl": "https://www.youtube.com/embed/Ha9pn_JR80Y",
+        "title": "How To End Animal Farming",
+        "source": "The Damage Report",
+        "date": "November 26, 2018",
+        "year": "2018",
+        "img": "damagereport.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=ZZes_aHxjAY&fbclid=IwAR1vTe448sHbp0v1VrxOjCIR7vx22hL2LcZWDNrbgEWUtjWI3IJLxq1ZR2s",
+        "videourl": "https://www.youtube.com/embed/ZZes_aHxjAY",
+        "title": "Is Cenk Unethical For Eating Meat?!",
+        "source": "The Young Turks Rebel HQ",
+        "date": "December 4, 2018",
+        "year": "2018",
+        "img": "tytrebelhq.png"
+      },
+      {
+        "externalurl": "https://nowthisnews.com/videos/politics/the-end-of-animal-farming-argues-against-factory-farming",
+        "videourl": "https://content.jwplatform.com/videos/7OdwSavR-1280.mp4",
+        "title": "'The End of Animal Farming' Argues Against Factory Farming",
+        "source": "NowThis",
+        "date": "January 31, 2019",
+        "year": "2019",
+        "img": "nowthismce.png"
+      }
+    ],
+    "presentations": [
+      {
+        "externalurl": "https://www.youtube.com/watch?v=TmxcDnV7DwE",
+        "videourl": "https://www.youtube.com/embed/TmxcDnV7DwE",
+        "title": "Expanding the Moral Circle",
+        "source": "EA Global Boston",
+        "date": "June 4, 2017",
+        "speaker": "Kelly Witwicki",
+        "img": "eagboston.png"
+      },
+      {
+        "externalurl": "https://www.facebook.com/JaneVelezMitchell/videos/10159139032905693/",
+        "videourl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FJaneVelezMitchell%2Fvideos%2F10159139032905693%2F&show_text=0&width=560",
+        "title": "The Power of Confrontation",
+        "source": "Animal Rights National Conference",
+        "date": "August 6, 2017",
+        "speaker": "Jacy Reese",
+        "img": "arncjacy2017.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=PBmbVphZKYc",
+        "videourl": "https://www.youtube.com/embed/PBmbVphZKYc",
+        "title": "The End of Animal Farming",
+        "source": "TEDxUniversityofMississippi",
+        "date": "February 3, 2018",
+        "year": "2018",
+        "speaker": "Jacy Reese",
+        "img": "tedxumiss.png"
+      },
+      {
+        "externalurl": "https://www.facebook.com/jacyreese/videos/1993612760957791/",
+        "videourl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjacyreese%2Fvideos%2F1993612760957791%2F&show_text=0&width=560",
+        "title": "Why we need to go beyond Veggie Pride",
+        "source": "Veggie Pride Parade NYC",
+        "date": "April 8, 2018",
+        "year": "2018",
+        "speaker": "Jacy Reese",
+        "img": "veggiepride.png"
+      },
+      {
+        "externalurl": "https://livestream.com/accounts/7587656/events/8298507/player?width=560&height=315&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false",
+        "videourl": "https://livestream.com/accounts/7587656/events/8298507/player?width=560&height=315&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false",
+        "title": "The End of Animal Farming",
+        "source": "University of Tasmania",
+        "date": "July 24, 2018",
+        "year": "2018",
+        "speaker": "Jacy Reese",
+        "img": "utasmania.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=ACAIKt8IUZo",
+        "videourl": "https://www.youtube.com/embed/ACAIKt8IUZo",
+        "title": "The Future is Vegan",
+        "source": "International Animal Rights Conference",
+        "date": "September 25, 2018",
+        "year": "2018",
+        "speaker": "Jacy Reese",
+        "img": "iarc2018.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=ipuKfcB9DhYo",
+        "videourl": "https://www.youtube.com/embed/ipuKfcB9DhY",
+        "title": "Tech vs. Advocacy for Farmed Animals",
+        "source": "EA Global San Francisco",
+        "date": "June 10, 2018",
+        "year": "2018",
+        "speaker": "Kelly Witwicki & Kieran Greig",
+        "img": "eagsf2018kellykieran.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=NTV81NZSuKw",
+        "videourl": "https://www.youtube.com/embed/NTV81NZSuKw",
+        "title": "Animal Ethics and the Far Future",
+        "source": "EAGxAustralia",
+        "date": "July 15, 2018",
+        "year": "2018",
+        "speaker": "Jacy Reese",
+        "img": "eagxaustralia2018jacy.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=U-p9gyaclI4",
+        "videourl": "https://www.youtube.com/embed/U-p9gyaclI4",
+        "title": "Driving the Adoption of Animal-Free Food",
+        "source": "ProVeg International",
+        "date": "March 19, 2019",
+        "speaker": "Kelly Witwicki",
+        "img": "provegtalkkelly2019.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=Ls3NBFenjGw",
+        "title": "What can animal advocates learn from history",
+        "source": "CARE 2019",
+        "date": "Oct 17, 2019",
+        "year": "2019",
+        "img": "carejamie2019.png"
+      }
+    ]
+  },
+  "researchitems": {
+    "estimates": [
+      {
+        "url": "us-factory-farming-estimates",
+        "type": "Estimate",
+        "title": "US Factory Farming Estimates",
+        "author": "Jacy Reese",
+        "date": "Last updated April 11, 2019",
+        "img": "us-factory-farming-estimates",
+        "abstract": "We estimate that 99% of US farmed animals are living in factory farms at present.",
+        "spreadsheetsrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSF6WrMq9gMQ0zoCGLWc5QGHNz0xwWRwPqTqoehKkITVkEiBRvRgCOMq6wxm-Zt5jkdPJh78durrcly/pubhtml?widget=true&amp;headers=false",
+        "spreadsheeturl": "https://docs.google.com/spreadsheets/d/1iUpRFOPmAE5IO4hO4PyS4MP_kHzkuM_-soqAyVNQcJc/edit#gid=0"
+      },{
+        "url": "global-animal-farming-estimates",
+        "type": "Estimate",
+        "title": "Global Farmed & Factory Farmed Animals Estimates",
+        "author": "Kelly Witwicki",
+        "date": "Last updated February 21, 2019",
+        "img": "global-animal-farming-estimates",
+        "abstract": "We estimate that over 90% of farmed animals globally are living in factory farms at present. This includes an estimated 74% of farmed land animals and virtually all farmed fish. However, there is substantial uncertainty in these figures given the land animal estimates’ heavy reliance on information from Worldwatch Institute with unclear methodology and limited data on fish farming. In total, we estimate that around 31.0 billion land animals and 38.8 to 215.9 billion fish are being farmed globally at any given time.",
+        "spreadsheetsrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR6ypxCIVIX_PHvYbXaJvmZWmRibqa6JlWq7Px3ehsnY1QDWKjrpPAYbrXmkNVRtYzIgIv2WScjfyBK/pubhtml?widget=true&amp;headers=false",
+        "spreadsheeturl": "https://docs.google.com/spreadsheets/d/1Njl_GS7jDOELjOtywvk3thIFpW_v10uZ5APJl1KgaY0/edit#gid=0"
+      }
+    ],
+    "surveys": [
+      {
+        "url": "animal-farming-attitudes-survey-2017",
+        "type": "Survey",
+        "title": "Survey of US Attitudes Towards Animal Farming and Animal-Free Food October 2017",
+        "author": "Jacy Reese",
+        "date": "November 20, 2017",
+        "img": "afa-2017",
+        "abstract": "We surveyed 1,094 US adults, census-balanced to be representative of age, sex, region, ethnicity, and income, on their attitudes towards animal farming and animal-free food. Among other insights, we found that 49% of US adults support a ban on factory farming, 47% support a ban on slaughterhouses, and 33% support a ban on animal farming, suggesting that animal-free food advocates might be more successful with a stronger focus on institutions than individuals, and with stronger institutional proposals than they currently campaign for."
+      }
+    ],
+    "socialmovements": [
+      {
+        "url": "british-antislavery",
+        "type": "Social Movement Case Study",
+        "title": "Social Movement Lessons From the British Antislavery Movement: Focused on Applications to the Movement Against Animal Farming",
+        "author": "Kelly Witwicki",
+        "date": "December 1, 2017",
+        "img": "british-antislavery",
+        "abstract": "Studying past social movements can provide invaluable insights for modern movement strategy. This report aims to assess (1) what factors led the British government to abolish the transatlantic Slave trade in 1807 and then human chattel slavery in 1833, and (2) what those findings suggest about how modern social movements should strategize. While many of the implications are generalizable to a variety of movements, the analysis will focus on applications to the movement against animal farming. Key implications include the need to focus on institutional change, the circumstances under which strategic reforms can facilitate the eventual elimination of the institution, and what messaging can best generate support.",
+        "pdf": {
+          "url": "https://drive.google.com/a/sentienceinstitute.org/file/d/1YfOaKYK2ncgJnrSXQay7bC0033IGwiZA/view"
+        }
+      }
+    ],
+    "technologyadoption": [
+      {
+        "abstract": "Studies on clean meat adoption have mostly focused on consumer acceptance, but institutional choices by governments, industries, and news media can also delay or accelerate the adoption of new technologies. This report examines the factors that contributed to nuclear power’s widespread adoption in France and applies those findings to the question of how to advance the adoption of clean meat. Among other conclusions, this report finds that supply constraints on a competing good can accelerate the adoption of a new technology, that technical explanations about why a new product is safe are likely to backfire, that safety incidents that appear to confirm preexisting concerns are especially damaging to a new technology, and that states reliant on imports to meet their needs for a good or service are more promising targets for the early adoption of substitute technologies than states that are more self-reliant.",
+        "author": "J. Mohorčich",
+        "date": "November 28, 2017",
+        "date_meta": "2017/11/28",
+        "description": "This case study examines the rise of nuclear power in France.",
+        "img": "nuclear-france",
+        "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;NUCLEAR ENERGY;NUCLEAR POWER",
+        "pdf": {
+          "name": "sentience-institute-tech-study-nuclear-energy"
+        },
+        "series": "Technology Adoption Case Studies",
+        "type": "Technology Adoption Case Study",
+        "title": "What can nuclear power teach us about the institutional adoption of clean meat?",
+        "url": "nuclear-power-clean-meat",
+        "year": "2019"
+      },
+      {
+        "abstract": "This report seeks to understand the choices and strategies that can hasten or hurt the adoption of novel food technologies by examining how genetically modified (GM) food became an object of controversy in the United States and Europe. Among other conclusions, this report finds that perceptions of food companies as secretive and aggressive damaged GM food adoption, that GM firms understood their work to be humanitarian, innovative, and environmentally-friendly and so were largely caught unawares by popular backlash, that technology adoption is more readily affected by advocacy when buyers in a supply chain exert relatively more pressure on sellers than the reverse, and that focusing on the positive aspects of a technology has been more successful for encouraging its adoption than focusing on responding to negative perceptions.",
+        "author": "J. Mohorčich",
+        "date": "June 20, 2018",
+        "date_meta": "2018/6/20",
+        "description": "This case study examines the adoption failures of genetically modified foods.",
+        "img": "gmos",
+        "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;GMOS;GM FOOD;GM FOODS",
+        "pdf": {
+          "name": "sentience-institute-tech-study-gmos"
+        },
+        "series": "Technology Adoption Case Studies",
+        "type": "Technology Adoption Case Study",
+        "title": "What can the adoption of GM foods teach us about the adoption of other food technologies?",
+        "url": "gm-foods",
+        "year": "2018"
+      },
+      {
+        "abstract": "This paper examines the history of four biofuel firms (KiOR, Amyris, REG, and Novozymes) to draw lessons for the development and commercialization of cell-cultured meat. Findings include the strategic advantage of pursuing high-margin, low-volume products before low-margin, high-volume products, the pitfalls of overpromising with respect to timelines and product, the trap of technological inflexibility, and the way that many different firms pursuing parallel vertical integration strategies can spread fragility within an industry.",
+        "author": "J. Mohorčich",
+        "date": "August 21, 2019",
+        "date_meta": "2019/8/21",
+        "description": "This case study examines the adoption failures of biofuels.",
+        "img": "biofuels",
+        "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;BIOFUELS;BIOFUEL;KIOR;AMRYIS;NOVOZYMES",
+        "pdf": {
+          "url": "https://drive.google.com/file/d/1IWBz-f3e9GVOaIEwoMQSibN_Mi9XkfPu/view"
+        },
+        "series": "Technology Adoption Case Studies",
+        "type": "Technology Adoption Case Study",
+        "title": "What can biofuel commercialization teach us about scale, failure, and success in biotechnology?",
+        "url": "biofuels",
+        "year": "2019"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{% extends "layout.njk" %}
+
+{% set item = researchitems.technologyadoption[2] %}
+
+{% block metatags %}
+{% from "../templates/partials/reportmetatags.njk" import reportmetatags %}
+{{ reportmetatags(item) }}
+{{ metatagsrender(item.url, item.title, "header_photos/" + item.img, item.description) }}
+{% endblock %}
+
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(item.img, photos[item.img]) }}
+
+{% from "../templates/partials/pageinfo.njk" import pageinfo %}
+{{ pageinfo(item) }}
+<div class="container first-container report-container gdoc-html-container biofuels-container">
+  {% from "../templates/partials/pdf.njk" import pdf %}
+  {{ pdf(item.pdf) }}
+  {% include "../page_content/BiofuelsWeb.html" %}
+</div>
+
+{% endblock %}

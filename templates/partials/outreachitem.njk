@@ -1,0 +1,49 @@
+{% macro outreachitem(item, type) %}
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+
+{%if type == "article"%}
+  <a class="outreach-item-link" href="{{item.externalurl}}">
+{%endif%}
+
+<div class="outreach-item">
+
+  {#
+  {%if (type == "presentation") or ((type == "interview") and (item.videourl))%}
+    <div class="iframecontainer"><iframe src="{{item.videourl}}" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" height="154"></iframe></div>
+  {%else%}
+  #}
+
+    <div class="outreach-item-image" style="background-image: url(../img/outreach/{{item.img}})"></div>
+
+  {#
+  {%endif%}
+  #}
+
+  <div class="outreach-item-info">
+    {#
+    {%if (type == "interview") and (item.audio)%}
+      <audio controls>
+        <source src="{{item.audio}}" type="audio/ogg">
+      </audio>
+    {%endif%}
+    #}
+    <div><span class="outreach-item-date">{{item.date}}</span></div>
+    {%if type == "article"%}
+      <div class="outreach-item-title">{{item.title}}</div>
+      <div class="outreach-item-author">{{item.author}}</div>
+    {%else%}
+      <div class="outreach-item-title"><a class="outreach-item-link" href="{{item.externalurl}}">{{item.title}}</a></div>
+    {%endif%}
+    <div><span class="outreach-item-source">{{item.source}}</span></div>
+  </div>
+
+</div>
+
+{%if type == "article"%}
+  </a>
+{%endif%}
+
+</div>
+
+{% endmacro %}

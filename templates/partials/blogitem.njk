@@ -1,0 +1,26 @@
+{% macro blogitem(post, authors) %}
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+  <a class="blog-item-link" href="/blog/{{post.url}}">
+    <div class="blog-item">
+      <div class="blog-item-image" style="background-image: url(../img/blog/{{post.img}}_small.png)"></div>
+      <div class="blog-item-info">
+        <div class="blog-item-date">
+        {{post.date}}
+        </div>
+        <div class="blog-item-title">
+          {{post.title}}
+        </div>
+        <div class="blog-item-authors">
+          {% for author in post.authors %}
+          <span class="blog-item-author">
+            {{authors[author].name}}<span class="joiner"> & </span>
+          </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+{% endmacro %}

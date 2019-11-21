@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/mce-v-aia", "Comparing the Cause Areas of Moral Circle Expansion and Artificial Intelligence Alignment", "blog/" + blogposts[4].img, "In the effective altruism (EA) community (one of Sentience Institute’s two core communities along with animal advocacy), many are focused on impacting the far future — on making a difference to what the universe looks like many millennia and further into the future, where potentially astronomically more sentient beings could exist than today.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[4], authors) }}
+
+{% endblock %}

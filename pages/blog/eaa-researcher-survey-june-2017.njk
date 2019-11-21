@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/eaa-researcher-survey-june-2017", "Effective Animal Advocacy Researcher Survey June 2017", "blog/" + blogposts[2].img, "We recently published our foundational questions summary page, which catalogs the evidence on each side of important debates in the field of effective animal advocacy...") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[2], authors) }}
+
+{% endblock %}

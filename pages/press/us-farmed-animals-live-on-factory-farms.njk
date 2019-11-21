@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("press/" + pressreleases[1].url, pressreleases[1].title, "press/" + pressreleases[1].img, "According to a new analysis conducted by the nonprofit think tank Sentience Institute (SI), around 99% of US farmed animals live on factory farms...", pressreleases[1].date) }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/pressrelease.njk" import pressrelease %}
+{{ pressrelease(pressreleases[1], pressreleases[1].url) }}
+
+{% endblock %}

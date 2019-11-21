@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/dei", "Effective Strategies for Equity and Inclusion", "blog/" + blogposts[7].img, "This post summarizes recommendations of strategies to improve equity and inclusion from academic research, government research, and research done in collaboration between consulting firms and companies.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[7], authors) }}
+
+{% endblock %}

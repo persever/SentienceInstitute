@@ -1,0 +1,31 @@
+{% macro blogpost(post, authors) %}
+
+<div class="container image-container" img-id="{{post.img}}" style="background-image: url(/img/blog/{{post.img}}.png);">
+  {% if post.img_info %}
+  {% from "./imagecredit.njk" import imagecredit %}
+  {{ imagecredit(post.img_info) }}
+  {% endif %}
+</div>
+
+<div class="container first-container gdoc-html-container blog-container {{post.url}}-container">
+  <div class="title">
+    {{post.title}}
+  </div>
+  <div class="author-info">
+    {% for author in post.authors %}
+    <div class="author">
+      <div class="author-img"><img src="{{authors[author].img}}"/></div>
+      <div class="author-name-and-role">
+      <div class="author-name">{{authors[author].name}}<a class="author-twitter" href="https://twitter.com/{{authors[author].twitterId}}"><img src="../img/icons/icon_twitter_blue.png"/></a></div>
+      <div class="author-role">{{authors[author].role}}</div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+  <div class="date">
+    {{post.date}}
+  </div>
+  {% include "../../page_content/blogpost_content/" + post.gdocname + ".html" %}
+</div>
+
+{% endmacro %}

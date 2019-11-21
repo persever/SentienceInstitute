@@ -1,0 +1,29 @@
+{% extends "layout_for_iframe.njk" %}
+
+{%set item = researchitems.estimates[1] %}
+
+{% block metatags %}
+{{ metatagsrender("global-animal-farming-estimates", "Global Farmed & Factory Farmed Animals Estimates", "header_photos/" + "global-animal-farming-estimates", "What percentage of animals are factory farmed around the world? " + item.abstract) }}
+{% endblock %}
+
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(item.img, photos[item.img]) }}
+
+{% from "../templates/partials/pageinfo.njk" import pageinfo %}
+{{ pageinfo(item) }}
+<div class="container first-container report-container gdoc-html-container">
+  {% include "../page_content/GlobalFarmedFactoryFarmedAnimalsEstimates.html" %}
+
+  <h1>Calculations</h1>
+  <div class="estimates-spreadsheet-container">
+    <p><a target="_blank" href="{{item.spreadsheeturl}}"><span>View this spreadsheet in Google Sheets</span><i class="material-icons">open_in_new</i></a></p>
+    <iframe class="estimates-iframe" frameborder="0" scrolling="no" onload="resizeIframe(this)" src="{{item.spreadsheetsrc}}"></iframe>
+  </div>
+
+  <hr class="c6"><div><p class="c0"><a href="#ftnt_ref1" id="ftnt1">[1]</a><span class="c4 c2">&nbsp;This is based on our knowledge of their confinement and living conditions, though there is limited data on fish farm conditions and no standardized definition. Our total estimates of US farmed fish are based on fishcount.org.uk annual slaughter estimates and Animal Charity Evaluators lifespan estimates (see sheet &ldquo;Fish Estimates&rdquo; in the embedded spreadsheet).</span></p></div><div><p class="c0"><a href="#ftnt_ref2" id="ftnt2">[2]</a><span class="c2">&nbsp;</span><span class="c9 c2"><a class="c5" href="https://www.google.com/url?q=http://www.worldwatch.org/rising-number-farm-animals-poses-environmental-and-public-health-risks-0&amp;sa=D&amp;ust=1550268398519000">&quot;Rising Number of Farm Animals Poses Environmental and Public Health Risks&quot;</a></span></p><p class="c0 c8"><span class="c1"></span></p><p class="c0"><span class="c2">Please note that a</span><span class="c2">&nbsp;CAFO </span><span class="c9 c2"><a class="c5" href="https://www.google.com/url?q=https://www3.epa.gov/npdes/pubs/sector_table.pdf&amp;sa=D&amp;ust=1550268398520000">as defined by the EPA</a></span><span class="c2 c4">&nbsp;and what the public would regard as a &quot;factory farm&quot; are not necessarily the same. For instance, a farm with 37,500 chickens or 3,000 pigs is only considered a CAFO if it meets certain conditions regarding surface water pollution, but farms of these sizes that don&#39;t meet these conditions could still house animals in ways that would be publicly regarded as crowded &quot;factory&quot; conditions.</span></p></div><div><p class="c0"><a href="#ftnt_ref3" id="ftnt3">[3]</a><span class="c2">&nbsp;</span><span class="c2 c9"><a class="c5" href="https://www.google.com/url?q=http://fishcount.org.uk/studydatascreens2/2015/numbers-of-farmed-fish-B0-2015.php?countrysort%3DUnited%252BStates%252Bof%252BAmerica&amp;sa=D&amp;ust=1550268398521000">&rdquo;Estimated numbers of individuals in annual aquaculture production (FAO) of fish species&quot;</a></span></p></div></body></html>
+</div>
+
+{% endblock %}

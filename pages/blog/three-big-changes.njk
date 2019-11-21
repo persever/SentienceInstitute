@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/three-big-changes", "3 Big Changes We Need in the Farmed Animal Movement", "blog/" + blogposts[6].img, "Sentience Institute was founded around a year ago, and we’re happy to say we’ve seen a very positive response from the animal advocacy community. While this positivity is great, we worry the lack of criticism and resistance suggests we’re not framing our conclusions strongly enough.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[6], authors) }}
+
+{% endblock %}

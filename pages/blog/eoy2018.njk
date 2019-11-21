@@ -1,0 +1,153 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/eoy2018", "2018 End of Year Summary", "blog/" + blogposts[8].img, "What we've done in 2018, and what we'll do in 2019 with your support.") }}
+{% endblock %}
+
+{% block content %}
+
+<div class="container image-container" img-id="{{blogposts[8].img}}" style="background-image: url(/img/blog/{{blogposts[8].img}}.png);">
+  {% from "./../templates/partials/imagecredit.njk" import imagecredit %}
+  {{ imagecredit(blogposts[8].img_info) }}
+</div>
+
+<div class="container first-container gdoc-html-container blog-container {{blogposts[8].url}}-container eoy-container">
+  <div class="title">
+    {{blogposts[8].title}}
+  </div>
+  <div class="author-info">
+    {% for author in blogposts[8].authors %}
+    <div class="author">
+      <div class="author-img"><img src="{{authors[author].img}}"/></div>
+      <div class="author-name-and-role">
+      <div class="author-name">{{authors[author].name}}<a class="author-twitter" href="https://twitter.com/{{authors[author].twitterId}}"><img src="../img/icons/icon_twitter_blue.png"/></a></div>
+      <div class="author-role">{{authors[author].role}}</div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+  <div class="date">
+    {{blogposts[8].date}}
+  </div>
+
+  <p>Last year we launched with our <a href="https://www.sentienceinstitute.org/foundational-questions-summaries">foundational questions summaries</a> and published several original research reports, including a <a href="https://www.sentienceinstitute.org/animal-farming-attitudes-survey-2017">survey</a> of US attitudes, our first <a href="https://www.sentienceinstitute.org/nuclear-power-clean-meat">technology adoption</a> case study, and our first <a href="https://www.sentienceinstitute.org/british-antislavery">social movement</a> case study, which contributed to our thinking on <a href="https://sentienceinstitute.org/blog/three-big-changes">important strategic changes</a> the movement for an animal-free food system needs to make. This year we focused more on outreach, particularly around the publication of our research director's book, <a href="https://www.amazon.com/End-Animal-Farming-Entrepreneurs-Animal-Free/dp/0807019453/"><i>The End of Animal Farming</i></a>. We expanded our team from three to four in late summer, and we engaged more advocates with our research on effective animal advocacy strategy.</p>
+
+  <p>Now we're aiming to raise $180,000 by the end of December in order to start 2019 strong and hire a new researcher to work on the important quantitative projects on our agenda. Note that in our last hiring round, we had multiple excellent candidates but only the funding to hire one. Below you'll find a summary of our research and outreach accomplishments this year, what research we're planning next, and what funding we need to make that happen.</p>
+
+  <h1> Accomplishments in 2018 (To Date)</h1>
+  <h2><span>Publication of <i>The End of Animal Farming</i></span></h2>
+  <div class="row outreach-section-list book">
+    <div class="link">
+      <a href="{{outreachitems.book.externalurl}}">
+        <img src="../img/outreach/{{outreachitems.book.img}}"/>
+      </a>
+    </div>
+    <div class="quote">
+      <div>"{{outreachitems.book.quote}}"</div>
+      <div class="quote-attribution">—{{outreachitems.book.quoteattribution}}</div>
+    </div>
+  </div>
+
+  <h2><span>Reports</span></h2>
+  <ul>
+  {% for researchproject in researchitems.technologyadoption | reverse %}
+    {% if researchproject.year == "2018" %}
+    {% from "../templates/partials/miniitem.njk" import miniitem %}
+    <li>{{ miniitem(researchproject) }}</li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+  <h2><span>Blog Posts</span></h2>
+  <ul>
+  {% for blogpost in blogposts | reverse %}
+    {% if blogpost.year == "2018" %}
+      {% if blogpost.title != "2018 End of Year Summary" %}
+      {% from "../templates/partials/miniitem.njk" import miniitem %}
+      <li>{{ miniitem(blogpost, authors, true) }}</li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+  <h2><span>Outreach</span></h2>
+  <h3>Articles</h3>
+  <ul>
+  {% for article in outreachitems.externalarticles | reverse %}
+    {% if article.year == "2018" %}
+      {% from "../templates/partials/miniitem.njk" import miniitem %}
+      <li>{{ miniitem(article) }}</li>
+    {% endif %}
+  {% endfor %}
+    <li>Our 2017 survey of US attitudes towards animal farming and animal-free foods (or its OSU replication) also continues to be <a href="https://www.latimes.com/opinion/op-ed/la-oe-friedrich-ivmeat-20180725-story.html">used by advocates</a> in media publications.</li>
+  </ul>
+
+  <h3>Podcasts & Radio</h3>
+  <ul>
+  {% for audio in outreachitems.audio | reverse %}
+    {% if audio.year == "2018" %}
+      {% from "../templates/partials/miniitem.njk" import miniitem %}
+      <li>{{ miniitem(audio) }}</li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+  <h3>Select Recorded Presentations</h3>
+  <ul>
+  {% for video in outreachitems.presentations | reverse %}
+    {% if video.year == "2018" %}
+      {% from "../templates/partials/miniitem.njk" import miniitem %}
+      <li>{{ miniitem(video) }}</li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+  <h3>Unrecorded Speaking Engagements</h3>
+  <ul>
+    <li>Kelly spoke on a <span class="bold">plenary about diversity at the Animal Rights National Conference</span>.</li>
+    <li>Kelly spoke about institutional change at an <span class="bold">Effective Animal Advocacy graduate class at NYU</span>.</li>
+    <li>Kelly also did a <span class="bold">Q&A with The Humane League staff</span>.</li>
+    <li>Jacy gave a talk at the <span class="bold">Animal Rights National Conference</a> outlining a roadmap to the end of animal farming.</li>
+    <li>Jacy gave a talk on moral circle expansion and the far future at <span class="bold">EAGxMelbourne</span>.</li>
+    <li>Jacy spoke at <span class="bold">Brazil's VegFest</span>.</li>
+    <li>Jacy gave <span class="bold">27 other talks</span> to university students, effective altruism groups, and animal rights groups on a tour of Oceania, Asia, and Europe.</li>
+    <li>Jacy also just closed a <span class="bold">speaking tour in the US</span> following the publication of his book.</li>
+  </ul>
+
+  <h3>Interpersonal</h3>
+  <div>We continued to regularly engage in strategic conversations with farmed animal movement leaders and influencers, several of whom are avid readers of our publications. We were also solicited for career and research advice on several occasions.</div>
+
+  <h1><span>In-progress research to be published in coming months</span></h1>
+  <ul>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#technology-adoption-case-studies">Biofuels technology adoption case study</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#messaging-strategies-rct">Messaging Strategies RCT</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#moral-expansiveness-literature-review">Moral expansiveness literature review</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#health-behavior-interventions-literature-review">Health behavior interventions literature review</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#history-fragility-study">History fragility study</span</a></li>
+  </ul>
+
+  <h1><span>2018 Spending</span></h1>
+  <p>We've spent approximately $190,000 so far this year, broken down roughly as follows:</p>
+  <p><img class="budget-image" src="images/eoy2018/piechartbudget.png"/></p>
+  <p>This year included an unusually large focus on outreach due to the publication of <i>The End of Animal Farming</i> and a focus on establishing ourselves as a credible and well-known organization, in the interest of both public outreach and effectively disseminating our research insights to advocates.</p>
+
+  <h1><span>Room for More Funding</span></h1>
+  <div>In order to start 2019 with a 9-month runway for our current staff, we are aiming to raise at least $120,000 by the end of this year; if we raise $180,000 we'll hire a fifth team member, who would focus on quantitative research projects such as those listed among our research priorities below. As mentioned above, in our last hiring round, <span class="bold">we had multiple excellent candidates but only the funding to hire one</span>, so we are confident that we will have other excellent candidates in our next hiring round and are strictly constrained by funding. Support in excess of $180,000 will either extend our limited runway or be held until we have the capacity to hire another new researcher, which may be shortly after the next hire.</div>
+
+  <h1><span>Priority Future Research Projects</span></h1>
+  <ul>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#voter-turnout-literature-review">Voter turnout literature review</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#environmentalism-case-study">Environmentalism case study</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#cell-based-meat-moral-messaging-rct">Cell-based meat moral messaging RCT</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#dietary-asks-and-cognitive-dissonance-rct">Dietary asks and cognitive dissonance RCT</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#effects-of-animal-free-food-tech-exposure-on-animal-farming-attitudes-rct">Effects of animal-free food tech exposure on animal farming attitudes RCT</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#varied-victim-experiences-messaging-rct">Varied victim experiences messaging RCT</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#humane-myth-persistence-attribution-study">Humane myth persistence attribution study</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#reform-messaging-and-counter-messaging-effects-study">Reform messaging and counter-messaging effects study</a></li>
+    <li><a href="https://www.sentienceinstitute.org/research-agenda#support-for-bans-on-producing-vs.-consuming-meat-survey">Support for bans on producing vs. consuming meat survey</a></li>
+  </ul>
+
+  <h1><span>Help us raise $180,000 by the end of the year!</span></h1>
+  <div>We are so grateful to our donors for supporting this research and empowering the farmed animal and animal-free food movements to be as effective as possible. There is more useful research to be done and we intend to press forward as immediately as our funding enables us to. Please consider donating this year so we can get more strategic insights into advocates' hands!</div>
+</div>
+
+{% endblock %}

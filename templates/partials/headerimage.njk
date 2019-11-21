@@ -1,0 +1,16 @@
+{% macro headerimage(imageId, photo, title) %}
+
+<div class="container image-container {{imageId}}-image-container" img-id="{{imageId}}" style="background-image: url(../img/header_photos/{{imageId}}.png);">
+  {% if title %}
+  <div class="page-title">
+    {{title}}
+  </div>
+  {% endif %}
+
+  {% if photo.credit %}
+  {% from "./imagecredit.njk" import imagecredit %}
+  {{ imagecredit(photo) }}
+  {% endif %}
+</div>
+
+{% endmacro %}

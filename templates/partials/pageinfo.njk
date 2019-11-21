@@ -1,0 +1,28 @@
+{% macro pageinfo(item) %}
+
+<div class="page-info-box page-info-{{item.url}}">
+  <div class="page-type">
+    {{item.type}}
+  </div>
+  <div class="page-title">
+    {{item.title}}
+  </div>
+  {%if item.subtitle%}
+  <div class="page-subtitle">
+    {{item.subtitle}}
+  </div>
+  {%endif%}
+  <div class="page-author-and-date">
+    <span class="page-author">
+      {{item.author | safe}}
+    </span>
+    {%if item.author and item.date%}
+    <span>&nbsp;&bull;&nbsp;</span>
+    {%endif%}
+    <span class="page-date">
+      {{item.date}}
+    </span>
+  </div>
+</div>
+
+{% endmacro %}

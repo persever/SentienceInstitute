@@ -1,0 +1,26 @@
+{% macro miniitem(item, authors, isBlog) %}
+
+<div class="mini-item">
+  <span class="mini-item-source">{{item.source}}</span>
+  {%if item.externalurl%}
+  <a class="mini-item-link" href="{{item.externalurl}}"><span class="mini-item-title">{{item.title}}</span></a>
+  {%elif item.url%}
+    {%if isBlog%}
+    <a class="mini-item-link" href="../blog/{{item.url}}"><span class="mini-item-title">{{item.title}}</span></a>
+    {%else%}
+    <a class="mini-item-link" href="../{{item.url}}"><span class="mini-item-title">{{item.title}}</span></a>
+    {%endif%}
+  {%endif%}
+  {%if item.author%}
+    <span class="mini-item-author">by {{item.author}} | </span>
+  {%elif item.speaker%}
+    <span class="mini-item-author"> | {{item.speaker}} | </span>
+  {%elif item.authors%}
+    {%for author in item.authors%}
+    <span class="mini-item-author">by {{authors[author].name}} | </span>
+    {%endfor%}
+  {%endif%}
+  <span class="mini-item-date">{{item.date}}</span>
+</div>
+
+{% endmacro %}

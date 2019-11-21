@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/tech-studies-update", "Technology Case Studies Update", "blog/" + blogposts[13].img, "Our first three technology case studies have provided significantly more useful insights than we expected. We believe they successfully gathered the low-hanging fruit in this field: emerging technologies that had the context, discourse, and evidence base to be particularly useful case studies for strategic research.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[13], authors) }}
+
+{% endblock %}

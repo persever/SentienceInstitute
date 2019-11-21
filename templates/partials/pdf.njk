@@ -1,0 +1,13 @@
+{% macro pdf(pdf) %}
+
+{%if pdf.url %}
+  <a class="download-button-wrapper" href="{{pdf.url}}">
+    <div class="button download-button"><span>View Report as a PDF on Google Drive</span><i class="material-icons">insert_drive_file</i></div>
+  </a>
+{%else%}
+  <a class="download-button-wrapper" href="/downloads/{{pdf.name}}.pdf" download="{{pdf.name}}">
+    <div class="button download-button"><span>Download Report as a PDF </span><i class="material-icons">file_download</i></div>
+  </a>
+{%endif%}
+
+{% endmacro %}

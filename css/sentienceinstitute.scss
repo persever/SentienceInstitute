@@ -1,0 +1,2268 @@
+$small-font-size: .8em; // Note that em sizing is contextual.
+$normal-font-size: 1em; // Note that em sizing is contextual.
+$large-font-size: 1.4em; // Note that em sizing is contextual.
+$extra-large-font-size: 2em; // Note that em sizing is contextual.
+$light-blue: #005EB2;
+$blue: #004b8c;
+$dark-blue: #003B6F;
+$blue-trio-2: #3F94E0;
+$blue-trio-3: #80B4E2;
+$light-grey: #E0E0E0;
+$grey-shadow: rgba(158,158,158, 0.8);
+$grey: #9E9E9E;
+$dark-grey: #212121;
+$red: #AC3600;
+$small-space: 6px;
+$normal-space: 15px;
+$large-space: 30px;
+$nav-shadow: 0px 2px 2px 0px $dark-blue;
+$material-shadow: 1px 2px 2px 0px $grey-shadow;
+$material-shadow-hover: 2px 3px 4px 0px $grey-shadow;
+$input-shadow: 0px 0px 2px $blue;
+$transition: all .2s ease-in-out;
+$font: 'Source Sans Pro', sans-serif;
+$normal-weight: 300;
+$bold-weight: 600;
+
+$donation-amount: 200;
+$donation-goal: 180000;
+
+body{
+  padding-top: 60px;
+  font-family: $font;
+  font-weight: $normal-weight;
+  font-size: 18px;
+  color: $dark-grey;
+
+  .container:not(.image-container):not(.home-image-container){
+    max-width: 960px;
+    width: 100%;
+  }
+}
+
+a {
+  cursor: pointer;
+
+  &:hover, &:focus{
+    text-decoration: none;
+  }
+}
+
+.bold{
+  font-weight: $bold-weight;
+}
+
+iframe{
+  width: 100%;
+  border: none;
+  margin: -4px;
+  width: calc(100% + 8px);
+  overflow: scroll;
+}
+
+.iframe-body{
+  padding: 4px 4px;
+}
+
+h3{
+  margin-top: 0;
+  font-size: $large-font-size;
+}
+
+// .container h3:first-of-type{
+//   margin-top: 0px;
+// }
+
+h4{
+  margin-top: $normal-space;
+  font-size: $normal-font-size;
+  font-weight: $bold-weight;
+}
+
+input.form-input:focus, input.form-input:hover{
+  border: 1px solid $blue;
+  box-shadow: $input-shadow;
+}
+
+a:focus, a:hover, input:focus, input:hover{
+  outline: none;
+}
+
+a{
+  color: $light-blue;
+}
+a:hover, a:focus{
+  color: $blue;
+  // text-decoration: none;
+}
+
+.button, #mc_embed_signup #mc-embedded-subscribe {
+  transition: $transition;
+  height: 32px;
+  font-family: $font;
+  line-height: $normal-font-size;
+  font-size: 14.4px;
+  background-color: #fff;
+  color: $blue;
+  border: 2px solid $blue;
+  border-radius: 2px;
+  padding: $small-space $normal-space;
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover, &:focus{
+    background-color: $blue;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .material-icons{
+    font-size: 20px;
+  }
+}
+
+.button:not(.donate-button){
+  font-weight: 600;
+}
+
+.download-button{
+  &:not(.pdf-button-alternate) {
+    margin-bottom: $large-space;
+  }
+
+  &.pdf-button-alternate {
+    margin-top: $normal-space;
+  }
+}
+
+#mc-embedded-subscribe{
+  font-weight: $bold-weight;
+}
+
+.material-icons.margin-left{
+  margin-left: 6px;
+}
+
+.document-image-link a {
+  display: flex;
+  align-items: center;
+
+  .material-icons {
+    font-size: $normal-font-size;
+  }
+}
+
+.donate-button{
+  color: #fff;
+  background-color: $blue;
+  border: none;
+  font-size: $normal-font-size;
+  padding: $normal-space $large-space;
+  height: auto;
+  margin: 0px 15px;
+  line-height: 1.2em;
+  box-shadow: $material-shadow;
+  transition: $transition;
+
+  &:hover, &:focus{
+    background-color: $dark-blue;
+    box-shadow: $material-shadow-hover;
+  }
+}
+
+.first-container{
+  padding-top: 60px;
+}
+
+nav.navbar{
+  font-size: $small-font-size;
+  background-color: $blue;
+  border: none;
+  box-shadow: $nav-shadow;
+  padding: 0;
+
+  .container{
+    padding: 0px 15px;
+    background-color: $blue;
+    border: none;
+    min-height: 60px;
+    height: 60px;
+    text-transform: uppercase;
+
+    a{
+      &:hover, &:focus{
+        text-decoration: none;
+      }
+    }
+
+    // .navbar-brand{
+    //   margin-left: auto;
+    //   color: #fff;
+    //   padding: 10px 15px 10px 0px;
+    //   height: 60px;
+    //
+    //   .nav-logo{
+    //     height: 40px;
+    //   }
+    // }
+
+    .navbar-brand{
+      margin-left: auto;
+      color: #fff;
+      padding: 10px 15px 10px 0px;
+      height: 60px;
+      display: flex;
+
+      .nav-logo-brandmark{
+        height: 40px;
+      }
+
+      .nav-logo-text{
+        display: flex;
+        margin-left: 10px;
+
+        // line-height: $normal-font-size;
+        // font-size: $normal-font-size;
+        // justify-content: center;
+        // flex-direction: column;
+        align-items: center;
+        font-size: $normal-font-size;
+        line-height: $normal-font-size;
+
+        .nav-logo-text-institute{
+          // letter-spacing: .8px;
+          margin-left: $small-space;
+        }
+      }
+    }
+
+    .navbar-toggler{
+      border: none;
+      border-radius: 2px;
+      height: 100%;
+      padding: 0;
+
+      &:hover, &:focus{
+        background-color: $blue;
+        outline: none;
+      }
+    }
+
+    #navbarText.navbar-collapse{
+      .navbar-nav{
+        background-color: #004b8c;
+        float: right;
+
+        li {
+          a{
+            padding: 15px 7px 15px 8px;
+            color: #fff;
+            cursor: pointer;
+          }
+        }
+
+        .active, .active a, .active a:focus, .active a:hover,
+        .dropdown.open, .dropdown.open a{
+          background-color: $light-blue;
+        }
+
+        .dropdown{
+          .dropdown-menu{
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            margin-top: 0px;
+            font-size: $normal-font-size;
+            background-color: $light-blue;
+            border: none;
+            padding: 0px;
+            overflow: hidden;
+
+            li a{
+              font-weight: $normal-weight;
+              padding: 7px 15px 8px 15px;
+            }
+          }
+        }
+      }
+
+      &[aria-expanded="true"], &.collapsing{
+        padding: 0px;
+
+        .navbar-nav{
+          background-color: #004b8c;
+          float: left;
+          width: 100%;
+          margin-left: auto;
+          overflow: scroll;
+          max-height: calc(100vh - 60px);
+
+          .dropdown.open .dropdown-toggle{
+            background-color: $blue;
+          }
+
+          .dropdown-menu{
+            li:first-of-type a{
+              padding-top: 15px;
+            }
+
+            li:last-of-type a{
+              padding-bottom: 15px;
+            }
+          }
+
+          li a{
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px){
+  #navbarText.navbar-collapse{
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
+  }
+
+  .navbar-nav{
+    height: 100%;
+  }
+
+  li.nav-item{
+    display: flex;
+    align-items: center;
+  }
+
+  .dropdown-menu{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: $nav-shadow;
+    min-width: 200px;
+    width: auto;
+
+    li{
+      display: flex;
+      align-items: center;
+      border-top: 1px solid $blue;
+
+      a{
+        padding: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px){
+  nav .container{
+    margin: 0;
+  }
+
+  .navbar-nav{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: $nav-shadow;
+  }
+
+  .dropdown-menu{
+    border-radius: 0px;
+
+    li{
+      display: flex;
+      justify-content: center;
+
+      a{
+        width: 100%;
+        padding: 8px 15px 7px 15px;
+      }
+    }
+  }
+
+}
+
+.image-container, .home-image-container{
+  width: 100vw;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-info-container, .home-image-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.home-image-container{
+  height: calc(100vh - 60px + 44px);
+  background-position: left center !important;
+  position: relative;
+  // background-image: url(../img/header_photos/home_image_darkened.png);
+
+  .home-image-text{
+    border-radius: 2px;
+    padding: 15px 30px;
+    position: absolute;
+    text-align: center;
+    font-size: $large-font-size;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    opacity: 0;
+
+    &.blurring{
+      color: transparent;
+    }
+  }
+
+  &.parallax-window {
+    min-height: 400px;
+    background: transparent;
+  }
+}
+
+.page-info-box{
+  left: 0;
+  background-color: $dark-grey;
+  padding: $large-space;
+  // padding-left: 260px;
+  color: #FFF;
+
+  .page-type{
+    text-transform: uppercase;
+    font-size: $small-font-size;
+  }
+
+  .page-title{
+    margin-top: 15px;
+    font-weight: $bold-weight;
+    font-size: $extra-large-font-size;
+    line-height: $large-font-size;
+  }
+
+  .page-subtitle{
+    font-size: $large-font-size;
+    font-style: italic;
+  }
+
+  .page-author-and-date{
+    margin-top: 15px;
+  }
+}
+
+.image-container .page-title{
+  text-shadow: 1px 1px 10px rgba(51,51,51,.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: $bold-weight;
+  font-size: $extra-large-font-size;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .page-info-box {
+    width: 100%;
+
+    .page-title {
+      font-size: $large-font-size;
+    }
+
+    .page-subtitle {
+      font-size: $normal-font-size;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .page-info-box {
+    z-index: 1;
+    position: absolute;
+    max-width: 50%;
+    transform: translateY(calc(-100% + 60px));
+  }
+
+  .first-container.report-container{
+    margin-top: 30px;
+  }
+}
+
+.container:not(.press-container) h1 {
+  background-color: $dark-blue;
+  word-break: break-word;
+  width: fit-content;
+  font-size: $extra-large-font-size;
+  padding: $small-space $large-space;
+  margin-left: -$large-space;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: $bold-weight;
+
+  span {
+  }
+}
+
+h1 span{
+  line-height: 42px;
+}
+
+h2 {
+  color: $dark-blue;
+  text-transform: uppercase;
+  font-weight: $bold-weight;
+  font-size: $extra-large-font-size;
+  position: relative;
+}
+
+h3 {
+  color: $dark-blue;
+  font-weight: $bold-weight;
+  font-size: $large-font-size;
+}
+
+.image-container{
+  max-height: 50%;
+  position: relative;
+  display: flex;
+}
+
+.image-container{
+  background-position: center;
+  // background-position-y: 50%;
+}
+
+@media (max-width: 767px) {
+  .image-container{
+    height: calc((100vh - 60px)/3);
+  }
+}
+
+@media (min-width: 768px) {
+  .image-container{
+    height: calc((100vh - 60px)/ 2);
+  }
+}
+
+.image-info-container{
+  position: relative;
+  margin-top: auto;
+}
+
+.image-credit{
+  cursor: default;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  opacity: .8;
+  font-size: $small-font-size;
+  font-style: italic;
+  padding-bottom: 15px;
+
+  .photo-icon{
+    font-size: $small-font-size;
+    margin-right: $small-space;
+  }
+}
+
+.image-title{
+  bottom: 32px;
+  position: absolute;
+  display: none;
+  margin-right: 15px;
+
+  .image-title-text{
+    background-color: #fff;
+    border-radius: 2px;
+    font-size: $small-font-size;
+    padding: 3px $small-space;
+  }
+}
+
+.arrow-down{
+  width: 0;
+  height: 0;
+  border-left: $small-space solid transparent;
+  border-right: $small-space solid transparent;
+  border-top: $small-space solid #fff;
+  margin-left: $small-space;
+}
+
+@media (max-width: 767px){
+  .home-image-container{
+    svg{
+      right: 30%;
+    }
+    .home-image-text{
+      font-size: $large-font-size;
+    }
+  }
+}
+
+hr{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.newsletter-container{
+  padding-bottom: 60px;
+
+  .newsletter-form-text{
+    margin-bottom: 15px;
+  }
+}
+
+// #mc_embed_signup_scroll.student-group-signup{
+//   margin-top: $normal-space;
+//   display: flex;
+//   flex-direction: column;
+//
+//   input:not(#mc-embedded-subscribe){
+//     height: 34px;
+//     margin-bottom: $normal-space;
+//     width: 100%;
+//   }
+// }
+
+#mc_embed_signup{
+  #mc_embed_signup_scroll{
+    input.form-input{
+      height: 32px;
+      border: 1px solid $grey;
+      border-radius: 2px;
+      padding: 0px 7.2px;
+      background-color: transparent;
+      font-size: 18px;
+      font-family: inherit;
+      font-weight: $normal-weight;
+      max-width: 100%;
+      font-family: $font;
+    }
+  }
+
+  #mc-embedded-subscribe-form{
+    padding: 0px;
+  }
+
+  #mc_embed_signup_scroll.multiple-inputs{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    .form-input{
+      margin-bottom: $normal-space;
+      width: 100%;
+    }
+  }
+
+  #mc_embed_signup_scroll:not(.multiple-inputs){
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+
+    .form-input{
+      margin: 0;
+    }
+  }
+
+  #mce-responses{
+    display: none;
+  }
+}
+
+.donate-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+  margin-top: 60px;
+}
+
+.donate-container.donate-page-donate-container{
+  padding-bottom: $normal-space;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 0;
+}
+
+.donation-page-container {
+  h3{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .donorbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+
+.donation-bar-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 65px;
+  margin-bottom: 60px;
+
+  .donation-bar-goal{
+    padding-left: $normal-space;
+    color: $blue;
+    font-weight: $bold-weight;
+  }
+
+  .donation-bar{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border: 1px solid $dark-grey;
+    border-radius: 2px;
+
+    .donation-bar-fill{
+      height: 100%;
+      width: calc((#{$donation-amount}/#{$donation-goal})*100%);
+      background-color: $blue;
+    }
+
+    .donation-bar-intermediate-goal, .donation-bar-current{
+      position: absolute;
+      margin-right: -12px;
+      display: flex;
+      flex-direction: column;
+      margin-top: -8px;
+      align-items: flex-end;
+    }
+
+    .donation-bar-intermediate-goal{
+      left: calc((120/180)*100%);
+      transform: translateX(calc(-100% + 12px));
+      top: 34px;
+
+      .arrow-up{
+        margin-top: 4px;
+        width: 0;
+        height: 0;
+        border-left: $small-space solid transparent;
+        border-right: $small-space solid transparent;
+        border-bottom: $small-space solid $blue;
+        margin-right: 6px;
+        margin-left: 0;
+      }
+
+      .amount{
+        border: 2px solid $blue;
+        color: $blue;
+        padding: 4px;
+        font-weight: $bold-weight;
+      }
+    }
+
+    .donation-bar-current{
+      right: calc(((#{$donation-goal} - #{$donation-amount})/#{$donation-goal})*100%);
+      top: -39px;
+
+      .amount{
+        border-radius: 2px;
+        background-color: $blue;
+        color: #fff;
+        padding: 6px;
+      }
+
+      .arrow-down{
+        margin-right: 6px;
+        margin-left: 0;
+        border-top: $small-space solid $blue;
+      }
+    }
+  }
+}
+
+@media (max-width: 751px){
+  .donation-bar-container {
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 498px){
+  .donation-bar-container {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 270px){
+  .donation-bar-container {
+    .donation-bar .donation-bar-current{
+      top: -66px;
+    }
+  }
+}
+
+@media (max-width: 991px){
+  #mc_embed_signup_scroll{
+    text-align: left;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 575px){
+  .page-title{
+      width: calc(100% - 30px);
+  }
+
+  .mailchimp-newsletter-iframe{
+    height: 78px;
+  }
+
+  #mc_embed_signup #mc_embed_signup_scroll:not(.multiple-inputs){
+    flex-direction: column;
+
+    .clear {
+      width: auto;
+
+      .button{
+        margin-top: $small-space;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px){
+  #mc_embed_signup_scroll:not(.multiple-inputs) .form-input {
+    min-width: 300px;
+  }
+
+  nav.navbar{
+    display: flex;
+    align-items: center;
+  }
+  .mailchimp-newsletter-iframe{
+    height: 40px;
+  }
+
+  .newsletter-container p{
+    text-align: center;
+  }
+
+  #mc_embed_signup {
+    #mc_embed_signup_scroll:not(.multiple-inputs) {
+      justify-content: center;
+
+      .button[name='subscribe']{
+        margin-left: $small-space;
+      }
+    }
+  }
+}
+
+#mc_embed_signup #mc_embed_signup_scroll.fqs-update-signup {
+  justify-content: left;
+  margin-bottom: $large-space;
+}
+.fqs-update-signup-description{
+  margin-bottom: $small-space;
+}
+
+.footer{
+  font-size: $small-font-size;
+  background-color: $dark-grey;
+  color: $grey;
+  padding: 30px 0px;
+
+  .container{
+    a{
+      color: #fff;
+
+      &:hover, &:focus{
+        color: $grey;
+        text-decoration: none;
+      }
+    }
+
+    .last-column{
+      text-align: right;
+    }
+
+    .icons{
+      padding: 5px 0px;
+      display: flex;
+      align-items: center;
+
+      a{
+        display: flex;
+
+        .material-icons{
+          font-size: 25px;
+          color: #fff;
+          margin-right: 4px;
+
+          &:hover, &:focus{
+            color: #fff;
+          }
+        }
+
+        .icon{
+          margin-right: 8px;
+          height: 20px;
+          width: 20px;
+
+          &:last-of-type{
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px){
+  .footer .container .last-column{
+    text-align: left;
+  }
+}
+
+.person{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+
+  .person-image{
+    border-radius: 50%;
+    width: 80%;
+    max-width: 200px;
+    align-self: center;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .person-name{
+    font-weight: $bold-weight;
+    color: $blue;
+    display: flex;
+    align-items: center;
+  }
+
+  .person-links {
+    margin-top: $normal-space;
+    display: flex;
+    align-items: center;
+
+    a {
+      display: inline-flex;
+      text-decoration: none;
+
+      i {
+        font-size: 20px;
+
+        &.link-icon{
+          font-size: 25px;
+        }
+      }
+
+      img {
+        height: 20px;
+      }
+    }
+
+    a:not(:first-of-type) {
+      margin-left: $small-space;
+    }
+  }
+
+  .person-role{
+    font-weight: $bold-weight;
+    margin-bottom: $normal-space;
+  }
+}
+
+.team-container-individual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-list-container,
+.press-list-container,
+.research-list-container,
+.outreach-list-container {
+  padding-top: 45px;
+}
+
+.research-section-list, .outreach-section-list {
+  margin-bottom: 60px;
+}
+
+.blog-item-link:hover, .blog-item-link:focus,
+.press-item-link:hover, .press-item-link:focus,
+.research-item-link:hover, .research-item-link:focus,
+.outreach-item-link:hover, .outreach-item-link:focus {
+  text-decoration: none;
+}
+
+.blog-item,
+.press-item,
+.research-item,
+.outreach-item{
+  height: calc(100% - 15px);
+  margin-top: $normal-space;
+  border-radius: 2px;
+  overflow-x: hidden;
+  background-color: #fff;
+  box-shadow: $material-shadow;
+
+  .blog-item-image,
+  .press-item-image,
+  .research-item-image,
+  .outreach-item-image {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .blog-item-image,
+  .press-item-image {
+    height: 200px;
+  }
+
+  .research-item-image,
+  .outreach-item-image {
+    height: 100px;
+  }
+
+  .research-item-author,
+  .research-item-date{
+    text-transform: uppercase;
+    font-size: $small-font-size;
+  }
+
+  .research-item-title{
+    font-weight: $bold-weight;
+  }
+
+  .outreach-item-source{
+    font-weight: $bold-weight;
+    text-transform: uppercase;
+    font-size: $small-font-size;
+    margin-right: $small-space;
+  }
+
+  .blog-item-info,
+  .outreach-item-info{
+    color: $dark-grey;
+    padding: $normal-space;
+    height: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+
+    .blog-item-date,
+    .outreach-item-date{
+      font-size: $small-font-size;
+      text-transform: uppercase;
+    }
+
+    .blog-item-title,
+    .outreach-item-title{
+      color: $blue;
+      font-weight: $bold-weight;
+    }
+
+    .blog-item-authors{
+      font-size: $small-font-size;
+      margin-top: auto;
+
+      .blog-item-author:last-of-type{
+        .joiner{
+          display: none;
+        }
+      }
+    }
+
+    .outreach-item-author{
+      font-size: $small-font-size;
+    }
+  }
+
+  .press-item-info{
+    color: $dark-grey;
+    padding: $normal-space;
+    height: calc(100% - 200px);
+  }
+
+  .research-item-info,
+  .outreach-item-info{
+    color: $dark-grey;
+    padding: $normal-space;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.research-item{
+  height: auto;
+}
+
+.research-item-abstract{
+  padding: $normal-space;
+  background-color: $light-grey;
+  border-radius: 2px;
+  box-shadow: inset 0px 4px 4px -2px rgba(158,158,158,.8);
+  margin: 0px $small-space;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  // margin-top: $small-space;
+  // font-size: $small-font-size;
+  // color: $grey;
+}
+
+.outreach-section-list.book{
+  display: flex;
+  flex-direction: row;
+  margin-top: calc(15px + 8px);
+
+  .link {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 259px;
+    }
+  }
+
+  .quote {
+    width: calc(100% - 259px - 15px);
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .quote-attribution {
+      font-style: italic;
+    }
+  }
+}
+
+@media (max-width: 498px) {
+  .outreach-section-list.book {
+    flex-direction: column;
+    align-items: center;
+
+    .quote {
+      width: calc(100% - 30px);
+      margin-left: 15px;
+    }
+  }
+}
+
+.outreach-section-list.interviews,
+.outreach-section-list.presentations{
+  .outreach-item {
+    display: flex;
+    flex-direction: column;
+
+    .iframecontainer {
+      margin-bottom: 15px;
+    }
+
+    audio {
+      margin-left: -$normal-space;
+      width: calc(100% + 30px);
+      margin-bottom: $normal-space;
+    }
+
+    .outreach-item-info {
+      padding-top: 0px;
+    }
+  }
+}
+
+.outreach-section-list:last-of-type{
+  margin: 0 $small-space;
+}
+
+.presentations {
+  .outreach-item-image {
+    background-position: top;
+  }
+}
+
+.title, .press-container h1{
+  font-weight: $bold-weight;
+  font-size: $large-font-size;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.date{
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.author-info{
+  margin-bottom: 30px;
+
+  .author {
+    display: flex;
+    align-items: center;
+    margin-bottom: $normal-space;
+
+    &:last-of-type{
+      margin-bottom: 0;
+    }
+
+    .author-img{
+      display: inline-block;
+      height: 60px;
+      border-radius: 50%;
+      overflow-x: hidden;
+      margin-right: $normal-space;
+
+      img{
+        height: 100%;
+      }
+    }
+
+    .author-name-and-role {
+      display: flex;
+      flex-direction: column;
+
+      .author-name{
+        display: flex;
+        align-items: center;
+
+        .author-twitter{
+          display: inline-flex;
+          margin-left: $small-space;
+          text-decoration: none;
+
+          img{
+            height: 20px;
+          }
+        }
+      }
+
+      .author-role{
+        color: $grey;
+      }
+    }
+  }
+}
+
+.container.gdoc-html-container{
+  word-wrap: break-word;
+
+  h1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  h2 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+
+  // h3[id^='h']{
+  //   margin-top: 30px;
+  // }!!
+
+  h3 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  table h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  &.perspective-container, &.research-agenda-container, &.press-container {
+    h1:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  span {
+    max-width: 100%;
+
+    img{
+      width: 100% !important;
+      height: auto !important;
+      max-height: 100%; // CHECK THIS IS OKAY ACROSS GDOC PAGES!!
+      margin-left: 0 !important;
+      margin-top: 0 !important;
+    }
+  }
+
+  &.press-container.animal-farming-attitudes-survey-2017{
+    .c5 .c12 {
+      font-style: italic;
+    }
+    .c5 .c4 {
+      font-weight: $bold-weight;
+    }
+  }
+
+  &.press-container.us-farmed-animals-live-on-factory-farms{
+    .c5 .c4, .c5 .c9 {
+      font-style: italic;
+    }
+    .c5 .c11 {
+      font-weight: $bold-weight;
+    }
+  }
+
+  &.summaries-container{
+    // TOC
+    table.c40:first-of-type{
+      margin-left: 60px;
+
+      p, span{
+        margin: 0;
+        line-height: 1.5;
+        font-size: $normal-font-size;
+        font-weight: $normal-weight;
+
+        background: none;
+      }
+
+      p.c37, p.c39{
+        margin-left: -60px;
+        font-weight: $normal-weight;
+      }
+
+      p.c18{
+        margin-left: -30px;
+      }
+    }
+    // red (recent updates)
+    .c8 {
+      color: $red;
+    }
+    //italicized
+    .c19{
+      font-style: italic;
+    }
+
+    // some new paragraphs are instead converting to double breaks, as in antislavery
+    p span:first-of-type br {
+      display: none;
+    }
+
+    h1:first-of-type{
+      margin-top: 0;
+    }
+
+    h2:not(#clarifying-notes):not(#broad\-vs.\-animal-focus){
+      margin-top: 60px;
+    }
+
+    ol[class*='lst-kix_'][class*='-0'].start {
+      counter-reset: lst-ctn-kix_rdedshs0ihy4-0 0;
+    }
+    [class*='lst-kix_'][class*='-0']>li {
+      counter-increment: lst-ctn-kix_rdedshs0ihy4-0;
+    }
+    ol[class*='lst-kix_'][class*='-1'].start {
+      counter-reset: lst-ctn-kix_rdedshs0ihy4-1 0;
+    }
+    [class*='lst-kix_'][class*='-1']>li {
+      margin-left: 60px;
+      list-style-type: lower-alpha;
+      counter-increment: lst-ctn-kix_rdedshs0ihy4-1;
+    }
+    ol[class*='lst-kix_'][class*='-2'].start {
+      counter-reset: lst-ctn-kix_rdiq4cr6tvu6-2 0;
+    }
+    [class*='lst-kix_'][class*='-2'] > li {
+      margin-left: 120px;
+      list-style-type: lower-roman;
+      counter-increment: lst-ctn-kix_rdiq4cr6tvu6-2;
+    }
+
+    ol{
+      margin-bottom: 0;
+    }
+    ol li{
+      padding-bottom: $normal-space;
+    }
+  }
+
+  &.research-agenda-container{
+    .c5 {
+      font-style: italic;
+    }
+
+    table.c17 {
+      *{
+        font-size: $normal-font-size;
+        font-weight: $normal-weight;
+        margin: 0;
+        line-height: 1.5;
+      }
+
+      .c10{
+        margin-left: 30px;
+
+      }
+    }
+
+    ul.c9{
+      margin-bottom: 0;
+    }
+
+    li.c12{
+      margin-left: 30px;
+    }
+  }
+
+  &.perspective-container {
+    ul .c1 .c8 {
+      font-weight: $bold-weight;
+    }
+  }
+
+  table{
+    display: flex;
+
+    tbody{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      td{
+        display: inline-flex;
+        flex-direction: column;
+        padding: 0;
+        word-wrap: break-word;
+
+        p {
+          max-width: 100%;
+        }
+      }
+
+      tr{
+        &:first-of-type, td:first-of-type{
+          font-weight: $bold-weight;
+        }
+
+        td:not(:first-of-type){
+          padding-left: $normal-space;
+          align-items: flex-end;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  &.eaa-researcher-survey-june-2017-container{
+    .c13{
+      .c14{
+        background-color: #E53935;
+      }
+      .c20{
+        background-color: #FFEE58;
+      }
+      .c18{
+        background-color: #A5D6A7;
+      }
+    }
+    table {
+      border-right: 1px solid $dark-grey;
+      border-bottom: 1px solid $dark-grey;
+
+      .c5 {
+        display: flex;
+        align-items: stretch;
+
+        td{
+          align-items: center;
+          justify-content: center;
+          padding: $normal-space;
+          border-left: 1px solid $dark-grey;
+          border-top: 1px solid $dark-grey;
+
+          p{
+            margin: 0;
+          }
+
+          &.c14{
+            background-color: #E53935;
+          }
+          &.c3{
+            background-color: #FFEE58;
+          }
+          &.c2{
+            background-color: #A5D6A7;
+          }
+        }
+      }
+    }
+  }
+
+  &.animal-farming-attitudes-survey-2017-container {
+    .c2 .c12 {
+      font-style: italic;
+    }
+
+    table {
+      tr{
+        display: flex;
+      }
+      p{
+        margin: 0;
+      }
+    }
+
+    table:first-of-type {
+      td {
+        font-weight: $normal-weight;
+      }
+
+      .c25{
+        margin-left: 30px;
+      }
+
+      .c38{
+        margin-left: 60px;
+      }
+    }
+
+    table:not(:first-of-type) {
+      border-bottom: 1px solid $dark-grey;
+      border-right: 1px solid $dark-grey;
+
+      td {
+        border-left: 1px solid $dark-grey;
+        border-top: 1px solid $dark-grey;
+        align-items: flex-start;
+        text-align: left;
+        justify-content: center;
+        padding: $normal-space;
+      }
+    }
+
+    table:nth-of-type(2) {
+      *{
+        font-size: $normal-font-size;
+        margin: 0;
+        line-height: 1.5;
+      }
+
+      tr {
+        td {
+          &.c20{
+            font-weight: $normal-weight;
+          }
+          &.c21{
+            font-weight: $bold-weight;
+          }
+          &.c28{ // "weak positive"
+            background-color: #78B494;
+          }
+          &.c23{ // "strong positive"
+            background-color: #28784D;
+          }
+          &.c32{ // "weak negative"
+            background-color: #FFBDAA;
+          }
+
+          &:first-of-type{
+            width: 40%;
+          }
+          &:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4){
+            width: 20%;
+          }
+        }
+      }
+    }
+
+    table:nth-of-type(3), table:nth-of-type(4) {
+      tr td.c8:first-of-type{
+        width: 50%;
+      }
+      tr td.c8:not(:first-of-type){
+        width: 25%;
+      }
+    }
+  }
+
+  &.nuclear-power-clean-meat-container{
+    // also move bibliography in html
+
+    // italics, in main and footnotes
+    .c3 {
+      font-style: italic;
+    }
+
+    // hr
+    hr:nth-of-type(1) {
+      margin: 30px 0;
+    }
+
+    // figures
+    .c35{
+      text-align: center;
+
+      span {
+        height: auto !important;
+      }
+    }
+
+    // figures text
+    .c19.c24 {
+      margin-left: 30px;
+      font-size: $small-font-size;
+    }
+
+    // blockquotes, e.g. "the reduction of the"
+    .c0.c19 {
+      margin-left: 30px;
+    }
+
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c21{
+          margin-left: 30px;
+        }
+        .c19{
+          margin-left: 60px;
+        }
+      }
+    }
+  }
+
+  &.gm-foods-container{
+    // also replace all src="images/ with src="images/gmos/
+
+    // table
+    table.c44, table.c29 {
+      border-top: 1px solid #000;
+      border-left: 1px solid #000;
+
+      tr {
+        display: flex;
+
+        td {
+          font-weight: $normal-weight;
+          text-align: left;
+          align-items: flex-start;
+          padding: 6px;
+          border-bottom: 1px solid #000;
+          border-right: 1px solid #000;
+
+          p {
+            text-align: left;
+            align-items: flex-start;
+          }
+        }
+
+        td.c47 p,
+        td.c18.c39 p {
+          font-weight: $bold-weight;
+        }
+      }
+    }
+
+    // TOC
+    table:nth-of-type(1) {
+      border: none;
+
+      tr{
+        display: flex;
+        td {
+          border: none;
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c21{
+          margin-left: 30px;
+        }
+        .c20{
+          margin-left: 60px;
+        }
+      }
+    }
+
+    // italics, in main and footnotes
+    .c1 {
+      font-style: italic;
+    }
+
+    ul.c30 {
+      margin-bottom: 0;
+
+      li.c6 {
+        margin-bottom: $normal-space;
+      }
+
+      // second-level list items
+      li.c10 {
+        margin-left: 60px;
+        list-style-type: circle;
+      }
+    }
+
+
+    // indented block quotes, e.g. those in appendix two
+    .c10.c20 {
+      margin-left: 30px;
+    }
+
+    // figures
+    .c13{
+      text-align: center;
+
+      span {
+        height: auto !important;
+      }
+    }
+
+    // figures text
+    h5 {
+      font-size: $small-font-size;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: $large-space;
+    }
+
+    // hr
+    hr:nth-of-type(1) {
+      margin: 30px 0;
+    }
+  }
+
+  &.biofuels-container {
+    // also replace all src="images/ with src="images/biofuels/
+
+    // hr
+    hr:nth-of-type(1) {
+      margin: 30px 0;
+    }
+
+    // TOC
+    table:nth-of-type(1) {
+      border: none;
+
+      tr {
+        display: flex;
+        td {
+          border: none;
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c15{
+          margin-left: 30px;
+        }
+        .c6 {
+          margin-left: 60px;
+        }
+      }
+    }
+
+    // italics, in main and footnotes
+    .c14 {
+      font-style: italic;
+    }
+
+    // bold, in numbered list in "The end of KiOR"
+    .c29 {
+      font-weight: $bold-weight;
+    }
+
+    // list in "Summary of Implications"
+    ul.c32 {
+      margin-bottom: 0;
+
+      li {
+        margin-bottom: $normal-space;
+      }
+
+      // second-level list items
+      li.c12 {
+        margin-left: 60px;
+        list-style-type: circle;
+      }
+    }
+
+    // indented block quotes, e.g. "we've seen the..."
+    .c30 {
+      margin-left: 30px;
+    }
+
+    // second-level indented block quotes, e.g. "Research used 2 liter..."
+    .c12 {
+      margin-left: 60px;
+    }
+
+    // figures
+    .c44{
+      text-align: center;
+
+      span {
+        height: auto !important;
+      }
+    }
+
+    // figures text
+    h5 {
+      font-size: $small-font-size;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: $large-space;
+    }
+
+  }
+
+  &.british-antislavery-container{
+    // also move bibliography in html
+    // also add to appendix <div class="full-page-image"><a href="/images/britishantislaverytimeline.png"><img src="/images/britishantislaverytimeline.png"/></a></div><p class="document-image-link"><a target="_blank" href="https://docs.google.com/a/sentienceinstitute.org/spreadsheets/d/1xz5WzTLk8KvzsVAs4fFwCuWt2Wy4O9w_Yd62L1r4dU4"><span>See original spreadsheet&nbsp;</span><i class="material-icons">open_in_new</i></a></p>
+
+    // italics for top-level and in footnotes
+    .c18 {
+      font-style: italic;
+    }
+
+    // bolded implications
+    .c9 .c21, .c9 .c15 {
+      font-weight: $bold-weight;
+    }
+
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c11{
+          margin-left: 30px;
+        }
+        .c24.c22{
+          margin-left: 60px;
+        }
+      }
+    }
+
+    // blockquotes e.g. "now tho"
+    .c9.c22 {
+      margin-left: 30px;
+    }
+
+    // some new paragraphs are instead converting to double breaks, as in summaries
+    p span:first-of-type br {
+      display: none;
+    }
+
+    .full-page-image {
+      img {
+        width: 100%;
+        margin: 30px 0px;
+      }
+    }
+  }
+}
+
+.estimates-spreadsheet-container {
+  margin-top: $normal-space;
+
+  a {
+  display: flex;
+  align-items: center;
+
+    .material-icons {
+      margin-left: $small-space;
+      font-size: $normal-font-size;
+    }
+  }
+  .estimates-iframe {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.transparency-container {
+  .open-data-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    img {
+      // display: block;
+      margin-right: 15px;
+      height: 100px;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .animal-farming-attitudes-survey-2017-container {
+    td.c33, td.c20 {
+      width: 55%;
+    }
+
+    td.c45, td.c42, td.c40, td.c21, td.c5, td.c28, td.c32, td.c23 {
+      width: 15%;
+    }
+  }
+}
+
+// @media (max-width: 767px){
+//   .animal-farming-attitudes-survey-2017-container {
+//     td.c33, td.c20 {
+//       width: 28%;
+//     }
+//
+//     td.c45, td.c42, td.c40, td.c21, td.c5, td.c28, td.c32, td.c23 {
+//       width: 24%;
+//     }
+//   }
+// }
+
+@media (max-width: 900px) {
+  .page-info-british-antislavery .page-subtitle{
+    font-size: $normal-font-size;
+  }
+}
+
+@media (max-width: 767px) {
+  .british-antislavery-image-container,
+  .afa-2017-image-container,
+  [img-id="171206"] {
+    background-position: right;
+  }
+}
+
+.what-we-can-do-in-2018-with-your-support-container {
+  .c4 {
+    font-style: italic;
+  }
+  .c8{
+    font-weight: $bold-weight;
+  }
+  .c13{
+    text-decoration: underline;
+  }
+
+  .external-link{
+    display: flex;
+    align-items: center;
+  }
+}
+
+.what-is-sentience-container {
+  .c8 {
+    font-style: italic;
+  }
+}
+
+.three-big-changes-container{
+  .c6 {
+    font-weight: $bold-weight;
+  }
+}
+
+.dei-container{
+  // also add "dei/" to "images/" links in html!
+  // add "image" class to .p15 around first image (just after "defining" header)
+
+  .c14 {
+    font-style: italic;
+  }
+  .c21 {
+    font-weight: $bold-weight;
+  }
+
+  // TOC
+  table {
+    tr{
+      display: flex;
+      td {
+        p {
+          font-weight: $normal-weight;
+          margin: 0;
+        }
+      }
+      .c6, .c28 {
+        margin-left: 30px;
+      }
+      .c23 {
+        margin-left: 60px;
+      }
+    }
+  }
+
+  // bullets
+  ul {
+    margin-bottom: 0;
+
+    li.c7 {
+      margin-left: 60px;
+      list-style-type: circle;
+
+      img {
+        padding-top: 10px
+      }
+    }
+
+    li.c15.c19 {
+        margin-left: 90px;
+        list-style-type: square;
+    }
+  }
+
+  .image{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+}
+
+.eoy-container {
+
+  .outreach-section-list.book {
+    img {
+      height: 200px;
+    }
+  }
+
+  .mini-item {
+
+    .mini-item-source {
+      font-weight: $bold-weight;
+    }
+
+    .mini-item-date {
+      font-style: italic;
+    }
+  }
+
+  .budget-image {
+    max-height: 200px;
+  }
+
+}
+
+.how-tractable-is-changing-the-course-of-history-container {
+
+  // also add "how-tractable-is-changing-the-course-of-history/" to "images/" links in html!
+
+  .c6 {
+    font-style: italic;
+  }
+
+  // TOC
+  table {
+    tr{
+      display: flex;
+      td {
+        p {
+          font-weight: $normal-weight;
+          margin: 0;
+        }
+      }
+      .c16 {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  // figure
+  .c39 {
+    text-align: center;
+
+    span {
+      height: auto !important;
+    }
+  }
+
+  //figure text
+  h5 {
+    font-size: $small-font-size;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: $large-space;
+  }
+
+  // blockquotes, e.g. "if you look at the long-run history"
+  .c9.c24 {
+    margin-left: 30px;
+  }
+
+  // bullets
+  ul {
+    margin-bottom: 0;
+
+    // "Military: WWI, Cold War"
+    li.c9.c11 {
+      margin-left: 60px;
+      list-style-type: circle;
+
+      img {
+        padding-top: 10px
+      }
+    }
+  }
+
+}
+
+.what-can-the-farmed-animal-movement-learn-from-history-container {
+
+  // italics
+  .c10 {
+    font-style: italic;
+  }
+
+  // TOC
+  table {
+    tr{
+      display: flex;
+      td {
+        p {
+          font-weight: $normal-weight;
+          margin: 0;
+        }
+      }
+      .c16 {
+        margin-left: 30px;
+      }
+    }
+  }
+
+}
+
+.how-is-SI-research-different-container {
+
+  // italics
+  .c6 {
+    font-style: italic;
+  }
+
+  // bold
+  .c30 {
+    font-weight: $bold-weight;
+  }
+
+  // TOC
+  table {
+    tr{
+      display: flex;
+      td {
+        p {
+          font-weight: $normal-weight;
+          margin: 0;
+        }
+      }
+      .c19 {
+        margin-left: 30px;
+      }
+    }
+
+    // Colored table
+    &.c60 {
+      border-right: 1px solid $dark-grey;
+      border-bottom: 1px solid $dark-grey;
+
+      tr {
+        display: flex;
+        align-items: stretch;
+
+        td{
+          align-items: center;
+          justify-content: center;
+          padding: $normal-space;
+          border-left: 1px solid $dark-grey;
+          border-top: 1px solid $dark-grey;
+
+          p{
+            margin: 0;
+          }
+
+          // title row (not bolding because that splits up the long word "methodology")
+          // .c27 {
+            // font-weight: $bold-weight;
+          // }
+
+          &.c34, &.c29, &.c36, &.c41, &.c43 {
+            background-color: $blue;
+          }
+          &.c21, &.c14, &.c13, &.c38, &.c33, &.c16 {
+            background-color: $blue-trio-2;
+          }
+          &.c26, &.c54, &.c44, &.c48, &.c24, &.c44, &.c23, &.c31, &.c20 {
+            background-color: $blue-trio-3;
+          }
+        }
+      }
+    }
+  }
+
+  ol[class*='lst-kix_'][class*='-1'] {
+    margin-left: 60px;
+    list-style-type: lower-alpha;
+  }
+}
+
+.gmo-aam-container {
+  .c7 {
+    font-weight: $bold-weight;
+  }
+}
+
+.tech-studies-update-container {
+  p span:not(.c6):not(.c0) {
+    font-weight: $bold-weight;
+  }
+
+  .c9 {
+    font-style: italic;
+  }
+}
+
+
+[href="/blog/how-is-SI-research-different"] .blog-item-image{
+  background-position: left;
+}
+
+[href="/blog/what-can-the-farmed-animal-movement-learn-from-history"] .blog-item-image{
+  background-position: right;
+}
+
+[href="/blog/what-we-can-do-in-2018-with-your-support"] .blog-item-image{
+  background-position: right;
+}
+
+[href="/blog/three-big-changes"] .blog-item-image{
+  background-position: left;
+}

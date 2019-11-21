@@ -1,0 +1,25 @@
+{% extends "layout.njk" %}
+
+{%set item = researchitems.socialmovements[0] %}
+
+{% block metatags %}
+{{ metatagsrender("british-antislavery", "Social Movement Lessons From the British Antislavery Movement: Focused on Applications to the Movement Against Animal Farming", "header_photos/" + "british-antislavery", "Studying past social movements can provide invaluable insights for modern movement strategy. This report aims to assess (1) what factors led the British government to abolish the transatlantic Slave trade in 1807 and then human chattel slavery in 1833, and (2) what those findings suggest about how modern social movements should strategize.") }}
+{% endblock %}
+
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(item.img, photos[item.img]) }}
+
+{% from "../templates/partials/pageinfo.njk" import pageinfo %}
+{{ pageinfo(item) }}
+<div class="container first-container report-container gdoc-html-container british-antislavery-container">
+  {% from "../templates/partials/pdf.njk" import pdf %}
+  
+  {{ pdf(item.pdf) }}
+  
+  {% include "../page_content/BritishAntislaveryWeb.html" %}
+</div>
+
+{% endblock %}

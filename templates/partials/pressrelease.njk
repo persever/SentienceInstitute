@@ -1,0 +1,14 @@
+{% macro pressrelease(release, classname) %}
+
+<div class="container image-container" img-id="{{release.img}}" style="background-image: url(/img/press/{{release.img}}.png);">
+  {% if release.img_info %}
+  {% from "./imagecredit.njk" import imagecredit %}
+  {{ imagecredit(release.img_info) }}
+  {% endif %}
+</div>
+
+<div class="container first-container gdoc-html-container press-container {{classname}}">
+  {% include "../../page_content/pressrelease_content/" + release.gdocname + ".html" %}
+</div>
+
+{% endmacro %}

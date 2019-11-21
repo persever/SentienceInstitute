@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/what-can-the-farmed-animal-movement-learn-from-history", "What can the farmed animal movement learn from history?", "blog/" + blogposts[10].img, "Philosophers have argued that conclusively proving historical causation is impossible, but most historians have continued to posit causal relationships...") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[10], authors) }}
+
+{% endblock %}

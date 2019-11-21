@@ -1,0 +1,41 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("transparency", "Transparency", "header_photos/" + "transparency", "As part of our commitments to being rigorous in our own research and encouraging rigor in advocacy communities, we aim to be open about our governance, procedures, finances, and mistakes.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("transparency", photos["transparency"], "Transparency") }}
+
+<div class="container first-container transparency-container">
+  <p>
+    <a href="/downloads/SI_Bylaws_11152017.pdf" download="SI_Bylaws_11152017">Bylaws</a>
+  </p>
+  <p>
+    <span>990s</span>
+    <ul style="margin-left: 30px;">
+      <li><a href="/downloads/SI_990_2018.pdf">2018</a></li>
+      <li><a href="/downloads/SI_990_2017.pdf">2017</a></li>
+    </ul>
+  </p>
+  <p>
+    <a href="/minutes">Board of Directors Meeting Minutes</a>
+  </p>
+  <p>
+    <a href="/disclosures">Disclosures</a>
+  </p>
+  <p>
+    <a href="/mistakes">Mistakes</a>
+  </p>
+  <p>
+    <a href="/downloads/HarassmentDiscriminationPolicy.pdf" download="HarassmentDiscriminationPolicy">Harassment & Discrimination Policy</a>
+  </p>
+  <hr>
+  <div class="open-data-section">
+    <img src="../img/icons/opendata.png"/>
+    <div>Sentience Institute participates in the Center for Open Science's <a href="https://cos.io/our-services/open-science-badges/">Open Data badge program</a>. We grant the Open Data badge based on two criteria: the published article (1) provides the URL, DOI, or other permanent path for accessing the data in a public, open access repository, and (2) contains sufficient information for an independent researcher to reproduce the reported results, though we do not conduct a full replication ourselves.</div>
+  </div>
+</div>
+
+{% endblock %}

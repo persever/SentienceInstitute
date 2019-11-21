@@ -1,0 +1,26 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/what-we-can-do-in-2018-with-your-support", "What we can do in 2018 with your support", "blog/" + blogposts[3].img + "_meta", "Since we founded Sentience Institute (SI) earlier in 2017, we’ve had our noses to the grindstone working to produce high-quality strategic research that informs advocates. In this post, we’ll summarize what we’ve learned so far and discuss what we’ll do next year if we raise sufficient funding.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[3], authors) }}
+<style>
+  .donate-container:not(.donate-page-donate-container) {
+    display: none;
+  }
+  .newsletter-container + hr {
+    display: none;
+  }
+  .newsletter-container{
+    padding-bottom: 60px;
+  }
+</style>
+<div class="donate-container donate-page-donate-container">
+  <a class="button donate-button" href="https://app.effectivealtruism.org/donations/new?utm_source=sentience-institute&utm_medium=partner_charity&utm_campaign=partner_charity_donations&allocation%5Bsentience-institute%5D=100">
+    Donate to Sentience Institute Through Effective Altruism Funds&nbsp;<i class="material-icons">open_in_new</i>
+  </a>
+</div>
+{% endblock %}

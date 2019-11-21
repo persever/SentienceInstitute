@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("press/" + pressreleases[0].url, pressreleases[0].title, "press/" + pressreleases[0].img, "According to a new poll conducted by the nonprofit think tank Sentience Institute (SI), in collaboration with Ipsos Group, Americans are surprisingly supportive of major changes in agricultural policy...", pressreleases[0].date) }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/pressrelease.njk" import pressrelease %}
+{{ pressrelease(pressreleases[0], pressreleases[0].url) }}
+
+{% endblock %}

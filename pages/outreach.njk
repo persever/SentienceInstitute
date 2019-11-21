@@ -1,0 +1,58 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("outreach", "Outreach", "header_photos/" + "outreach", "") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("outreach", photos["outreach"], "Outreach") }}
+
+<div class="container first-container outreach-list-container">
+      <h1><span><i>The End of Animal Farming</i></span></h1>
+      <div class="row outreach-section-list book">
+        <div class="link">
+          <a href="{{outreachitems.book.externalurl}}">
+            <img src="../img/outreach/{{outreachitems.book.img}}"/>
+          </a>
+        </div>
+        <div class="quote">
+          <div>"{{outreachitems.book.quote}}"</div>
+          <div class="quote-attribution">—{{outreachitems.book.quoteattribution}}</div>
+        </div>
+      </div>
+
+      <h1><span>Articles</span></h1>
+      <div class="row outreach-section-list">
+        {% for articleitem in outreachitems.externalarticles | reverse %}
+          {% from "../templates/partials/outreachitem.njk" import outreachitem %}
+          {{ outreachitem(articleitem, "article") }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Presentations</span></h1>
+      <div class="row outreach-section-list presentations">
+        {% for presentationitem in outreachitems.presentations | reverse %}
+          {% from "../templates/partials/outreachitem.njk" import outreachitem %}
+          {{ outreachitem(presentationitem, "presentation") }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Video Interviews</span></h1>
+      <div class="row outreach-section-list interviews">
+        {% for interviewitem in outreachitems.videointerviews | reverse %}
+          {% from "../templates/partials/outreachitem.njk" import outreachitem %}
+          {{ outreachitem(interviewitem, "interview") }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Radio & Podcasts</span></h1>
+      <div class="row outreach-section-list interviews">
+        {% for interviewitem in outreachitems.audiointerviews | reverse %}
+          {% from "../templates/partials/outreachitem.njk" import outreachitem %}
+          {{ outreachitem(interviewitem, "interview") }}
+        {% endfor %}
+      </div>
+</div>
+
+{% endblock %}

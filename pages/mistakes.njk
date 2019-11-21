@@ -1,0 +1,15 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("mistakes", "Mistakes", "header_photos/" + "transparency-items", "This case study examines the rise of nuclear power in France.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("transparency-items", photos["transparency-items"], "Mistakes") }}
+
+<div class="container first-container gdoc-html-container">
+  {% include "../page_content/Mistakes.html" %}
+</div>
+
+{% endblock %}

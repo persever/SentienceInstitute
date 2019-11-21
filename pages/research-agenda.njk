@@ -1,0 +1,15 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("research-agenda", "Research Agenda", "header_photos/" + 10, "There is a lot of important research to do to determine what strategies will most effectively expand humanity's moral circle. Here are our priorities.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(10, photos[10], "Research Agenda") }}
+
+<div class="container first-container gdoc-html-container research-agenda-container">
+  {% include "../page_content/ResearchAgenda.html" %}
+</div>
+
+{% endblock %}

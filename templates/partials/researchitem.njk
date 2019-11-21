@@ -1,0 +1,37 @@
+{% macro researchitem(item) %}
+
+<div class="col-lg-6 col-sm-12 research-item-container">
+{%if item.url%}
+  <a class="research-item-link" href="/{{item.url}}">
+{%elif item.externalurl%}
+  <a class="research-item-link" href="{{item.externalurl}}">
+{%endif%}
+    <div class="research-item">
+      <div class="research-item-image" style="background-image: url(../img/header_photos/{{item.img}}-small.png)"></div>
+      <div class="research-item-info">
+        {%if item.author%}
+          <div><span class="research-item-author">{{item.author}} &bull; </span><span class="research-item-date">{{item.date}}</span></div>
+        {%endif%}
+        <div class="research-item-title">{{item.title}}</div>
+      </div>
+    </div>
+  </a>
+  {%if item.abstract%}
+    <div class="research-item-abstract">
+    {{item.abstract}}
+      {%if item.pdf%}
+      <div>
+        {%if item.pdf.name%}
+        <a class="download-button-wrapper" href="/downloads/{{item.pdf.name}}.pdf">
+        {%elif item.pdf.url%}
+        <a class="download-button-wrapper" href="{{item.pdf.url}}">
+        {%endif%}
+          <div class="button download-button pdf-button-alternate"><span>View PDF</span></div>
+        </a>
+      </div>
+      {%endif%}
+    </div>
+  {%endif%}
+</div>
+
+{% endmacro %}

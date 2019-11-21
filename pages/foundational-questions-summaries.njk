@@ -1,0 +1,20 @@
+{% extends "layout_for_iframe.njk" %}
+{% block metatags %}
+{{ metatagsrender("foundational-questions-summaries", "A Summary of Evidence for Foundational Questions in Effective Animal Advocacy", "header_photos/" + 5, "This page summarizes the evidence on all sides of important foundational questions in effective animal advocacy. The page is a living document and will be updated as we acquire new evidence.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(5, photos[5]) }}
+
+{% from "../templates/partials/pageinfo.njk" import pageinfo %}
+{{ pageinfo({title: "Summary of Evidence for Foundational Questions in Effective Animal Advocacy", date: "Last Updated June 21, 2018"}) }}
+<div class="container first-container report-container gdoc-html-container summaries-container">
+  <iframe frameborder="0" scrolling="no" onload="resizeIframe(this)" src="/mailchimp-fqsupdates" class="mailchimp-fqsupdates-iframe"></iframe>
+  {% include "../page_content/FoundationalQuestionsSummaries1.html" %}
+  {% include "../page_content/FoundationalQuestionsSummaries2.html" %}
+  {% include "../page_content/FoundationalQuestionsSummaries3.html" %}
+</div>
+
+{% endblock %}

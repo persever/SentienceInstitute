@@ -1,0 +1,19 @@
+{% macro pressitem(post, authors) %}
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+  <a class="press-item-link" href="/press/{{post.url}}">
+    <div class="press-item">
+      <div class="press-item-image" style="background-image: url(../img/press/{{post.img}}-small.png)"></div>
+      <div class="press-item-info">
+        <span class="press-item-date bold">
+          {{post.date}}:
+        </span>
+        <span class="press-item-title">
+          {{post.title}}
+        </span>
+      </div>
+    </div>
+  </a>
+</div>
+
+{% endmacro %}

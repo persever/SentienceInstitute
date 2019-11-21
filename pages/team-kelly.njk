@@ -1,0 +1,16 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("team", "Our Team: Kelly Witwicki", "team/" + kelly, "Kelly Witwicki is our Co-Founder and Executive Director...") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(1, photos[1], "") }}
+
+<div class="container first-container team-container-individual">
+  {% from "../templates/partials/teammember.njk" import teammember %}
+  {{ teammember(team[0]) }}
+</div>
+
+{% endblock %}

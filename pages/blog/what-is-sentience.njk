@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/what-is-sentience", "What is sentience?", "blog/" + blogposts[5].img, "Our aim is to expand the moral circle to include all sentient beings, but the term sentience opens up a host of important philosophical and empirical questions about exactly which beings we’re talking about.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[5], authors) }}
+
+{% endblock %}

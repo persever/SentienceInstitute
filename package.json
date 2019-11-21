@@ -1,0 +1,31 @@
+{
+  "name": "sentienceinstitute",
+  "version": "0.1.4",
+  "devDependencies": {
+    "express": "4.17.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-data": "^1.3.1",
+    "gulp-initial-cleaning": "0.0.1",
+    "gulp-minifier": "^0.2.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.2.1",
+    "gulp-strip-code": "^0.1.4",
+    "gulp-version-append": "0.2.0",
+    "gulp-watch": "4.3.11"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "braces": "^3.0.2",
+    "express": "^4.17.1",
+    "gulp-version-append": "^0.2.0",
+    "node-sass": "^4.13.0"
+  }
+}

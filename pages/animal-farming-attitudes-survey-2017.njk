@@ -1,0 +1,21 @@
+{% extends "layout.njk" %}
+
+{%set item = researchitems.surveys[0] %}
+
+{% block metatags %}
+{{ metatagsrender("animal-farming-attitudes-survey-2017", "Animal Farming Attitudes Survey 2017", "header_photos/" + "afa-2017", "In October 2017, we conducted a survey on attitudes towards animal farming and animal-free food in collaboration with the survey company Ipsos Group, with 1,094 US adults, census-balanced to be representative of age, sex, region, ethnicity, and income.") }}
+{% endblock %}
+
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(item.img, photos[item.img]) }}
+
+{% from "../templates/partials/pageinfo.njk" import pageinfo %}
+{{ pageinfo(item) }}
+<div class="container first-container report-container gdoc-html-container animal-farming-attitudes-survey-2017-container">
+  {% include "../page_content/AFAWriteUp.html" %}
+</div>
+
+{% endblock %}

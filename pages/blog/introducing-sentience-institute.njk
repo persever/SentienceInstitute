@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/introducing-sentience-institute", "Introducing Sentience Institute", "blog/" + blogposts[0].img, "We’re excited to announce the launch of Sentience Institute (SI), a new think tank dedicated to the expansion of humanity’s moral circle. We are founded on the principle of effective altruism, meaning we strive to help others as much as possible using the best evidence available.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[0], authors) }}
+
+{% endblock %}

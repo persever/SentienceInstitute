@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/how-is-SI-research-different", "How is SI research different from existing social movement literature and relevant historical works?", "blog/" + blogposts[11].img, "Sentience Institute uses historical evidence in both social movement and technology adoption case studies...") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[11], authors) }}
+
+{% endblock %}

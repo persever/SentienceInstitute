@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/speculation-and-intuition-as-evidence", "A Note on Speculation and Intuition as Evidence", "blog/" + blogposts[1].img, "Sometimes critics in EAA discussions assert that if a piece of evidence is weak, it counts for nothing or the conclusion it points to is wrong, and some critics make statements that there is absolutely no evidence for a position. While evidence strength is worth discussing, these tactics are unhealthy and unproductive because the weaknesses of evidence is not by itself an argument against a conclusion.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[1], authors) }}
+
+{% endblock %}
