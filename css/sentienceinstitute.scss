@@ -156,24 +156,6 @@ a:hover, a:focus{
   }
 }
 
-.donate-button{
-  color: #fff;
-  background-color: $blue;
-  border: none;
-  font-size: $normal-font-size;
-  padding: $normal-space $large-space;
-  height: auto;
-  margin: 0px 15px;
-  line-height: 1.2em;
-  box-shadow: $material-shadow;
-  transition: $transition;
-
-  &:hover, &:focus{
-    background-color: $dark-blue;
-    box-shadow: $material-shadow-hover;
-  }
-}
-
 .first-container{
   padding-top: 60px;
 }
@@ -702,15 +684,22 @@ hr{
 
   .address {
     font-weight: $bold-weight;
-    // text-align: center;
   }
 
   #paypal-button-container {
-    border: 2px solid $light-grey;
-    padding: $large-space;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+
+    input[type='image'] {
+      max-height: 75px;
+      border-radius: 2px;
+      box-shadow: $material-shadow;
+
+      &:hover, &:focus {
+        cursor: pointer;
+      }
+    }
   }
 }
 
