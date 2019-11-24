@@ -1,0 +1,17 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("thank-you!", "Thank you for your support.", "header_photos/" + "transparency", "Your donation helps advocates of moral circle expansion focus their efforts on the highest-impact strategies.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("transparency", photos["transparency"], "Thank You!") }}
+
+<div class="container first-container">
+  <p>
+    <span class="bold">Thank you for your support!</span> Your donation helps advocates of moral circle expansion learn about and focus their efforts on the highest-impact advocacy strategies.
+  </p>
+</div>
+
+{% endblock %}
