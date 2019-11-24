@@ -1,7 +1,11 @@
 {% extends "layout.njk" %}
 {% block metatags %}
-  {{ metatagsrender("donate", "Donate", "header_photos/" + 3, "Support our work by donating to us through Effective Altruism Funds.") }}
-  <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
+
+  {{ metatagsrender("donate", "Donate", "header_photos/" + 3, "Support our work by donating.") }}
+
+  <script src="https://www.paypal.com/sdk/js?client-id=AeK94AwcohuNExMEZqPvnsvD4VV33534-oVuIDVw2wggGfD4aNQz4JgPY9oTh9jbAGmiYIGNod27DhPV"></script>
 {% endblock %}
 
 {% block content %}
@@ -35,9 +39,36 @@
     Sentience Institute is a 501(c)(3) public charity. You can donate via PayPal below, or if you would prefer to send a check, please make it out to: <span class="address">Sentience Institute, 77 Water St Fl 8, New York, NY 10005</span>
   </div>
 
-  <div class="paypal"></div>
+  <div id="paypal-button-container"></div>
 </div>
 
-<script>paypal.Buttons().render('.paypal');</script>
+<script>
+  paypal.Buttons({
+    createOrder: function(data, actions) {
+      return actions.order.create({
+        purchase_units: [{
+          amount: {
+            value: '0.01'
+          }
+        }]
+      });
+    },
+    onApprove: function(data, actions) {
+      return actions.order.capture().then(function(details) {
+        alert('Transaction completed by ' + details.payer.name.given_name);
+        // Call your server to save the transaction
+        return fetch('/paypal-transaction-complete', {
+          method: 'post',
+          headers: {
+            'content-type': 'application/json'
+          },
+          body: JSON.stringify({
+            orderID: data.orderID
+          })
+        });
+      });
+    }
+  }).render('#paypal-button-container');
+</script>
 
 {% endblock %}
