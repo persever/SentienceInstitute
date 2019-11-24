@@ -26,10 +26,9 @@ function watcher() {
         "css/sentienceinstitute.scss",
         "downloads/**/*.+(pdf)",
         "img/**/*.+(png|jpg)"],
-        function() {
           // This compiles everything again, when a single doc is changed...
-          compile();
-  });
+        compile()
+  );
 }
 
 exports.compile = compile();
