@@ -1,61 +1,44 @@
-var gulp = require("gulp");
-    nunjucksRender = require("gulp-nunjucks-render");
-    data = require("gulp-data");
-    watch = require("gulp-watch");
-    autoprefixer = require('gulp-autoprefixer');
-    stripCode = require('gulp-strip-code');
-    replace = require('gulp-replace');
-    minify = require('gulp-minifier');
-    sass = require('gulp-sass');
-    cleaning = require('gulp-initial-cleaning');
-    path = "dev/";
-    destination = "dist/";
-
+const { parallel, series, src, dest, watch } = require("gulp"),
+    autoprefixer = require('gulp-autoprefixer'),
+    // babel = require('babel'),
+    data = require("gulp-data"),
+    del = require('del'),
+    destination = "dist/",
+    minify = require('gulp-minifier'),
+    nunjucksRender = require("gulp-nunjucks-render"),
+    path = "dev/",
+    replace = require('gulp-replace'),
+    sass = require('gulp-sass'),
+    stripCode = require('gulp-strip-code'),
     versionAppend = require('gulp-version-append');
 
-    // destination = "../sentienceinstitute.github.io/";
+function compile() {
+  return series(css, rss, nunjucks, js, downloads, audio, img, gdocImages, gdocBlogImages, gdocPressImages, favicon, faviconBlog, faviconPress, htaccess, htaccessBlog,
+  htaccessPress);
+}
 
-cleaning({tasks: ['default'], folders: ['dist/']});
-
-gulp.task("default", function () {
-  gulp.start("compile");
-
+function watcher() {
   return watch(["js/app.js",
-                "rss.xml",
-                "page_content/**/*.+(html)",
-                "pages/**/*.+(html|njk)",
-                "templates/**/*.+(html|njk)",
-                "js/ready.js",
-                "css/sentienceinstitute.scss",
-                "downloads/**/*.+(pdf)",
-                "img/**/*.+(png|jpg)"],
-                function() {
-                  gulp.start("compile");
+        "rss.xml",
+        "page_content/**/*.+(html)",
+        "pages/**/*.+(html|njk)",
+        "templates/**/*.+(html|njk)",
+        "js/ready.js",
+        "css/sentienceinstitute.scss",
+        "downloads/**/*.+(pdf)",
+        "img/**/*.+(png|jpg)"],
+        function() {
+          // This compiles everything again, when a single doc is changed...
+          compile();
   });
-});
+}
 
-gulp.task("compile", function () {
-  gulp.start("css");
-  gulp.start("rss");
-  gulp.start("nunjucks");
-  gulp.start("js");
-  gulp.start("downloads");
-  gulp.start("audio");
-  gulp.start("img");
-  gulp.start("gdoc-images");
-  gulp.start("gdoc-blog-images");
-  gulp.start("gdoc-press-images");
-  gulp.start("favicon");
-  gulp.start("favicon-blog");
-  gulp.start("favicon-press");
-  gulp.start("htaccess");
-  gulp.start("htaccess-blog");
-  gulp.start("htaccess-press");
-  // gulp.start("blog");
-});
+exports.compile = compile();
+exports.watcher = watcher;
+exports.default = series(compile(), watcher);
 
-gulp.task("css", function () {
-  return gulp.src("css/sentienceinstitute.scss")
+function css() {
+  return src("css/sentienceinstitute.scss")
     .pipe(sass().on('error', sass.logError))
     .pipe(versionAppend(['css']))
     .pipe(minify({
@@ -69,16 +52,17 @@ gulp.task("css", function () {
           return m && m.join('\n') + '\n' || '';
       }
     }))
-    .pipe(gulp.dest(destination + "css/"));
-});
+    .pipe(dest(destination + "css/"));
+}
 
-gulp.task("rss", function () {
-  return gulp.src("rss.xml")
-    .pipe(gulp.dest(destination));
-});
+function rss() {
+  return src("rss.xml")
+    .pipe(dest(destination));
+}
 
-gulp.task("js", function () {
-  return gulp.src(["js/ready.js", "js/parallax.min.js"])
+function js() {
+  return src(["js/ready.js", "js/parallax.min.js"])
+    // .pipe(babel())
     .pipe(minify({
       minify: true,
       collapseWhitespace: true,
@@ -90,73 +74,73 @@ gulp.task("js", function () {
           return m && m.join('\n') + '\n' || '';
       }
     }))
-    .pipe(gulp.dest(destination + "js"));
-});
+    .pipe(dest(destination + "js"));
+}
 
-gulp.task("downloads", function () {
-  return gulp.src(["downloads/**/*.+(pdf)"])
-    .pipe(gulp.dest(destination + "downloads"));
-});
+function downloads() {
+  return src(["downloads/**/*.+(pdf)"])
+    .pipe(dest(destination + "downloads"));
+}
 
-gulp.task("audio", function () {
-  return gulp.src(["audio/**/*.+(mp3)"])
-    .pipe(gulp.dest(destination + "audio"));
-});
+function audio() {
+  return src(["audio/**/*.+(mp3)"])
+    .pipe(dest(destination + "audio"));
+}
 
-gulp.task("img", function () {
-  return gulp.src(["img/**/*.+(png|jpg)", "!img/images/**", "!img/header_photos_original/**"])
-  // return gulp.src(["img/**/*.+(png|jpg)", "!img/header_photos_original/**"])
-    .pipe(gulp.dest(destination + "img"));
-});
+function img() {
+  return src(["img/**/*.+(png|jpg)", "!img/images/**", "!img/header_photos_original/**"])
+  // return src(["img/**/*.+(png|jpg)", "!img/header_photos_original/**"])
+    .pipe(dest(destination + "img"));
+}
 
-gulp.task("gdoc-images", function () {
-  return gulp.src(["img/images/**/*.+(png|jpg)"])
-    .pipe(gulp.dest(destination + "images"));
-});
+function gdocImages() {
+  return src(["img/images/**/*.+(png|jpg)"])
+    .pipe(dest(destination + "images"));
+}
 
-gulp.task("gdoc-blog-images", function () {
-  return gulp.src(["img/blog-images/*.+(png|jpg)", "img/blog-images/**", ])
-    .pipe(gulp.dest(destination + "blog/images"));
-});
+function gdocBlogImages() {
+  return src(["img/blog-images/*.+(png|jpg)", "img/blog-images/**", ])
+    .pipe(dest(destination + "blog/images"));
+}
 
-gulp.task("gdoc-press-images", function () {
-  return gulp.src(["img/press-images/*.+(png|jpg)"])
-    .pipe(gulp.dest(destination + "press/images"));
-});
+function gdocPressImages() {
+  return src(["img/press-images/*.+(png|jpg)"])
+    .pipe(dest(destination + "press/images"));
+}
 
-gulp.task("favicon", function () {
-  return gulp.src(["favicon.ico"])
-    .pipe(gulp.dest(destination));
-});
+function favicon() {
+  return src(["favicon.ico"])
+    .pipe(dest(destination));
+}
 
-gulp.task("favicon-blog", function () {
-  return gulp.src(["favicon.ico"])
-    .pipe(gulp.dest(destination + "blog"));
-});
+function faviconBlog() {
+  return src(["favicon.ico"])
+    .pipe(dest(destination + "blog"));
+}
 
-gulp.task("favicon-press", function () {
-  return gulp.src(["favicon.ico"])
-    .pipe(gulp.dest(destination + "press"));
-});
+function faviconPress() {
+  return src(["favicon.ico"])
+    .pipe(dest(destination + "press"));
+}
 
-gulp.task("htaccess", function () {
-  return gulp.src([".htaccess"], {dot: true})
-    .pipe(gulp.dest(destination));
-});
+function htaccess() {
+  return src([".htaccess"], {dot: true})
+    .pipe(dest(destination));
+}
 
-gulp.task("htaccess-blog", function () {
-  return gulp.src([".htaccess"], {dot: true})
-    .pipe(gulp.dest(destination + "blog"));
-});
+function htaccessBlog() {
+  return src([".htaccess"], {dot: true})
+    .pipe(dest(destination + "blog"));
+}
 
-gulp.task("htaccess-press", function () {
-  return gulp.src([".htaccess"], {dot: true})
-    .pipe(gulp.dest(destination + "press"));
-});
+function htaccessPress() {
+  return src([".htaccess"], {dot: true})
+    .pipe(dest(destination + "press"));
+}
 
 
-// gulp.task("blog", function () {
-//   return gulp.src(["pages/blog/**/*.+(html|njk)"])
+// function blog() {
+//   return src(["pages/blog/**/*.+(html|njk)"])
 //     .pipe(data(function() {
 //       return require("./data/data.json");
 //     }))
@@ -186,11 +170,11 @@ gulp.task("htaccess-press", function () {
 //           return m && m.join('\n') + '\n' || '';
 //       }
 //     }))
-//     .pipe(gulp.dest(destination));
-// });
+//     .pipe(dest(destination));
+// }
 
-gulp.task("nunjucks", function () {
-  return gulp.src(["pages/**/*.+(html|njk)"])
+function nunjucks() {
+  return src(["pages/**/*.+(html|njk)"])
     .pipe(data(function() {
       return require("./data/data.json");
     }))
@@ -223,5 +207,5 @@ gulp.task("nunjucks", function () {
       }
     }))
     .pipe(versionAppend(['css']))
-    .pipe(gulp.dest(destination));
-});
+    .pipe(dest(destination));
+}

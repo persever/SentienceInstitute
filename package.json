@@ -2,6 +2,9 @@
   "name": "sentienceinstitute",
   "version": "0.1.4",
   "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
     "express": "4.17.1",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^4.1.0",
@@ -12,8 +15,7 @@
     "gulp-replace": "^0.5.4",
     "gulp-sass": "^3.2.1",
     "gulp-strip-code": "^0.1.4",
-    "gulp-version-append": "0.2.0",
-    "gulp-watch": "4.3.11"
+    "gulp-version-append": "0.2.0"
   },
   "main": "app.js",
   "scripts": {
@@ -23,7 +25,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
     "braces": "^3.0.2",
+    "del": "^5.1.0",
     "express": "^4.17.1",
     "gulp-version-append": "^0.2.0",
     "node-sass": "^4.13.0"
