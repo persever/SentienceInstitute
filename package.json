@@ -6,9 +6,9 @@
     "url": "https://github.com/persever/SentienceInstistute.git"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/register": "^7.7.0",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
     "clean-css": "^4.1.11",
     "express": "^4.17.1",
     "gulp": "^4.0.0",
