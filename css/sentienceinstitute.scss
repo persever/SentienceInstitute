@@ -1187,10 +1187,6 @@ hr{
   }
 }
 
-.outreach-section-list:last-of-type{
-  margin: 0 $small-space;
-}
-
 .presentations {
   .outreach-item-image {
     background-position: top;
@@ -2297,6 +2293,31 @@ hr{
   }
 }
 
+.podcast-container {
+  .directory-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    .directory-links-instr {
+      margin-right: $normal-space;
+      font-weight: $bold-weight;
+      font-size: $large-font-size;
+    }
+
+    .directory-link {
+      margin-right: $normal-space;
+
+      img {
+        max-height: 50px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
 
 [href="/blog/how-is-SI-research-different"] .blog-item-image{
   background-position: left;

@@ -1,0 +1,30 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("podcast", "The Sentience Institute Podcast", "header_photos/" + "podcast", "Interviews with activists, social scientists, entrepreneurs and change-makers about the most effective strategies to expand humanity’s moral circle, with an emphasis on expanding the circle to farmed animals.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("podcast", photos["podcast"], "The Sentience Institute Podcast") }}
+
+<div class="container first-container podcast-container">
+  <div>
+    <p>Sentience Institute researcher Jamie Harris interview advocates, social scientists, entrepreneurs and change-makers about the most effective strategies to expand humanity’s moral circle, with an emphasis on expanding the circle to farmed animals. Dive deep into advocacy strategies from political initiatives to corporate campaigns to technological innovation to consumer interventions, and discover advocacy lessons from history, sociology, and psychology.</p>
+    <div class="directory-links">
+      <div class="directory-links-instr">Listen here, or find the podcast on: </div>
+      {#
+      <div class="directory-link"><a target="_blank" href=""><img src="/img/icons/podcast-icons-google.png"/></a></div>
+      <div class="directory-link"><a target="_blank" href=""><img src="/img/icons/podcast-icons-apple.png"/></a></div>
+      #}
+      <div class="directory-link"><a target="_blank" href="https://open.spotify.com/show/6wHmiXgbAUGHOZ9lNTyDay"><img src="/img/icons/podcast-icons-spotify.png"/></a></div>
+      <div class="directory-link"><a target="_blank" href="https://feeds.buzzsprout.com/737534.rss"><img src="/img/icons/podcast-icons-rss.png"/></a></div>
+    </div>
+    </p>
+  </div>
+  <div class="podcasts">
+    <script src="https://www.buzzsprout.com/737534.js?player=large" type="text/javascript" charset="utf-8"></script>
+  </div>
+</div>
+
+{% endblock %}
