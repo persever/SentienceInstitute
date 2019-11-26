@@ -1836,6 +1836,58 @@ hr{
 
   }
 
+  &.anti-abortion-container {
+    // also replace all src="images/ with src="images/anti-abortion
+
+    .c6 {
+      font-style: italic;
+    }
+
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c20{
+          margin-left: 30px;
+        }
+      }
+    }
+
+    // bold, e.g. strategic implications
+    .c16 {
+      font-weight: bold;
+    }
+
+    // blockquotes e.g. "The State of Texas began..."
+    .c9.c26 {
+      margin-left: 30px;
+    }
+
+    // figures
+    .c36 {
+      text-align: center;
+
+      span {
+        height: auto !important;
+      }
+    }
+
+    // figures text
+    h5 {
+      font-size: $small-font-size;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: $large-space;
+    }
+
+  }
+
   &.british-antislavery-container{
     // also move bibliography in html
     // also add to appendix <div class="full-page-image"><a href="/images/britishantislaverytimeline.png"><img src="/images/britishantislaverytimeline.png"/></a></div><p class="document-image-link"><a target="_blank" href="https://docs.google.com/a/sentienceinstitute.org/spreadsheets/d/1xz5WzTLk8KvzsVAs4fFwCuWt2Wy4O9w_Yd62L1r4dU4"><span>See original spreadsheet&nbsp;</span><i class="material-icons">open_in_new</i></a></p>
