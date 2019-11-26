@@ -12,8 +12,7 @@ const { parallel, series, src, dest, watch } = require("gulp"),
     versionAppend = require('gulp-version-append');
 
 function compile() {
-  return series(css, rss, nunjucks, js, downloads, audio, img, gdocImages, gdocBlogImages, gdocPressImages, favicon, faviconBlog, faviconPress, htaccess, htaccessBlog,
-  htaccessPress);
+  return series(css, rss, nunjucks, js, downloads, audio, img, gdocImages, gdocBlogImages, gdocPressImages, favicon, faviconBlog, faviconPress, htaccess);
 }
 
 function watcher() {
@@ -126,15 +125,15 @@ function htaccess() {
     .pipe(dest(destination));
 }
 
-function htaccessBlog() {
-  return src([".htaccess"], {dot: true})
-    .pipe(dest(destination + "blog"));
-}
+// function htaccessBlog() {
+//   return src([".htaccess"], {dot: true})
+//     .pipe(dest(destination + "blog"));
+// }
 
-function htaccessPress() {
-  return src([".htaccess"], {dot: true})
-    .pipe(dest(destination + "press"));
-}
+// function htaccessPress() {
+//   return src([".htaccess"], {dot: true})
+//     .pipe(dest(destination + "press"));
+// }
 
 
 // function blog() {
