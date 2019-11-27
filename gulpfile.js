@@ -1,6 +1,7 @@
 const { parallel, series, src, dest, watch } = require("gulp"),
     autoprefixer = require('gulp-autoprefixer'),
     // babel = require('babel'),
+    // change = require('gulp-change'),
     data = require("gulp-data"),
     destination = "dist/",
     minify = require('gulp-minifier'),
@@ -12,12 +13,16 @@ const { parallel, series, src, dest, watch } = require("gulp"),
     versionAppend = require('gulp-version-append');
 
 function compile() {
-  return series(css, rss, nunjucks, js, downloads, audio, img, gdocImages, gdocBlogImages, gdocPressImages, favicon, faviconBlog, faviconPress, htaccess);
+  //  NEED A CLEANER!!
+  return series(css, fonts, nunjucks, js, downloads, audio, img, gdocImages, gdocBlogImages, gdocPressImages, favicon, faviconBlog, faviconPress, htaccess
+    // , htaccessBlog, htaccessPress
+  );
 }
 
 function watcher() {
   return watch(["js/app.js",
-        "rss.xml",
+        "data/data.json", // Does this work?
+        "fonts/**/*.+(ttf)",
         "page_content/**/*.+(html)",
         "pages/**/*.+(html|njk)",
         "templates/**/*.+(html|njk)",
@@ -52,10 +57,15 @@ function css() {
     .pipe(dest(destination + "css/"));
 }
 
-function rss() {
-  return src("rss.xml")
-    .pipe(dest(destination));
+function fonts() {
+  return src(["fonts/**/*.+(ttf)"])
+    .pipe(dest(destination + "fonts"));
 }
+
+// function rss() {
+//   return src("rss.xml")
+//     .pipe(dest(destination));
+// }
 
 function js() {
   return src(["js/ready.js", "js/parallax.min.js"])
@@ -125,16 +135,22 @@ function htaccess() {
     .pipe(dest(destination));
 }
 
+// function changeHTABlog(content) {
+//   return content.replace(/RewriteBase \//g, 'RewriteBase \/blog\/');
+// }
 // function htaccessBlog() {
 //   return src([".htaccess"], {dot: true})
+//     .pipe(change(changeHTABlog))
 //     .pipe(dest(destination + "blog"));
 // }
-
+// function changeHTAPress(content) {
+//   return content.replace(/RewriteBase \//g, 'RewriteBase \/press\/');
+// }
 // function htaccessPress() {
 //   return src([".htaccess"], {dot: true})
+//     .pipe(change(changeHTAPress))
 //     .pipe(dest(destination + "press"));
 // }
-
 
 // function blog() {
 //   return src(["pages/blog/**/*.+(html|njk)"])

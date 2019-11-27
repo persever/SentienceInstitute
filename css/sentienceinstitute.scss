@@ -24,6 +24,11 @@ $font: 'Source Sans Pro', sans-serif;
 $normal-weight: 300;
 $bold-weight: 600;
 
+@font-face {
+  font-family: "Existence-Light";
+  src: url("../fonts/Existence-Light.ttf");
+}
+
 $donation-amount: 87500;
 $donation-goal: 120000;
 
@@ -203,7 +208,8 @@ nav.navbar{
         height: 40px;
       }
 
-      .nav-logo-text{
+      .nav-logo-text {
+        font-family: "Existence-Light";
         display: flex;
         margin-left: 10px;
 
