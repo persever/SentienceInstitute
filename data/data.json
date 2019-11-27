@@ -826,8 +826,7 @@
         "pdf": {
           "url": "https://drive.google.com/a/sentienceinstitute.org/file/d/1YfOaKYK2ncgJnrSXQay7bC0033IGwiZA/view"
         }
-      },
-      {
+      },{
         "url": "anti-abortion",
         "type": "Social Movement Case Study",
         "title": "Social Movement Lessons From the US Anti-Abortion Movement",
@@ -837,6 +836,17 @@
         "abstract": "This report aims to assess (1) the extent to which the modern (1966-2019) anti-abortion movement in the United States can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize. The analysis highlights the farmed animal movement as an illustrative example of the strategic implications for a variety of movements. Key findings of this report include that encouraging legal change without popular support can provide momentum for a social movement’s opponents; legislation and direct action may be effective at reducing supply through disruption and burdensome regulation, but direct effects on demand are smaller; and close alignment with political or religious groups may be tractable but risks longer-term stagnation.",
         "pdf": {
           "name": "Anti-Abortion_Movement_Study"
+        }
+      },{
+        "url": "scotus",
+        "type": "Social Movement Case Study",
+        "title": "Is the US Supreme Court a Driver of Social Change or Driven by it? A Literature Review",
+        "author": "Jamie Harris",
+        "date": "November 27, 2019",
+        "img": "scotus",
+        "abstract": "Whether the Supreme Court of the United States drives or is driven by social change is an important strategic question for social movements that seek to implement systemic change in the United States. However, a thorough summary of empirical research on this question is lacking. This report summarizes the results of the most important empirical contributions to this debate. The results of aggregating 121 research items based on the strength of evidence suggest that Supreme Court decision-making is influenced by public opinion and by the activities of interest groups. Supreme Court rulings that are favorable to social movements’ goals can encourage positive changes in public attitudes, behavior, and policy, though these effects are sometimes negligible and the evidence is slightly weaker than that for the influence of public opinion on Supreme Court decisions. Additionally, Supreme Court rulings may encourage substantial backlash, so it may be counterproductive for social movements to actively pursue radical legal change if they are not prepared to respond to these threats.",
+        "pdf": {
+          "name": "SCOTUS_and_Social_Change"
         }
       }
     ],

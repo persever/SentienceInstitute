@@ -1838,6 +1838,57 @@ hr{
 
   }
 
+  &.british-antislavery-container {
+    // also move bibliography in html
+    // also add to appendix <div class="full-page-image"><a href="/images/britishantislaverytimeline.png"><img src="/images/britishantislaverytimeline.png"/></a></div><p class="document-image-link"><a target="_blank" href="https://docs.google.com/a/sentienceinstitute.org/spreadsheets/d/1xz5WzTLk8KvzsVAs4fFwCuWt2Wy4O9w_Yd62L1r4dU4"><span>See original spreadsheet&nbsp;</span><i class="material-icons">open_in_new</i></a></p>
+
+    // italics for top-level and in footnotes
+    .c18 {
+      font-style: italic;
+    }
+
+    // bolded implications
+    .c9 .c21, .c9 .c15 {
+      font-weight: $bold-weight;
+    }
+
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c11{
+          margin-left: 30px;
+        }
+        .c24.c22{
+          margin-left: 60px;
+        }
+      }
+    }
+
+    // blockquotes e.g. "now tho"
+    .c9.c22 {
+      margin-left: 30px;
+    }
+
+    // some new paragraphs are instead converting to double breaks, as in summaries
+    p span:first-of-type br {
+      display: none;
+    }
+
+    .full-page-image {
+      img {
+        width: 100%;
+        margin: 30px 0px;
+      }
+    }
+  }
+
   &.anti-abortion-container {
     // also replace all src="images/ with src="images/anti-abortion
 
@@ -1888,20 +1939,14 @@ hr{
       margin-bottom: $large-space;
     }
 
+    ul li {
+      margin-bottom: $normal-space;
+    }
   }
 
-  &.british-antislavery-container{
-    // also move bibliography in html
-    // also add to appendix <div class="full-page-image"><a href="/images/britishantislaverytimeline.png"><img src="/images/britishantislaverytimeline.png"/></a></div><p class="document-image-link"><a target="_blank" href="https://docs.google.com/a/sentienceinstitute.org/spreadsheets/d/1xz5WzTLk8KvzsVAs4fFwCuWt2Wy4O9w_Yd62L1r4dU4"><span>See original spreadsheet&nbsp;</span><i class="material-icons">open_in_new</i></a></p>
-
-    // italics for top-level and in footnotes
-    .c18 {
+  &.scotus-container {
+    .c2 {
       font-style: italic;
-    }
-
-    // bolded implications
-    .c9 .c21, .c9 .c15 {
-      font-weight: $bold-weight;
     }
 
     // TOC
@@ -1914,30 +1959,59 @@ hr{
             margin: 0;
           }
         }
-        .c11{
+        .c66{
           margin-left: 30px;
         }
-        .c24.c22{
+        .c62{
           margin-left: 60px;
         }
       }
     }
 
-    // blockquotes e.g. "now tho"
-    .c9.c22 {
-      margin-left: 30px;
+    // bold, e.g. "Estimated likelihood..." in table
+    .c5.c58 {
+      font-weight: bold;
     }
 
-    // some new paragraphs are instead converting to double breaks, as in summaries
-    p span:first-of-type br {
-      display: none;
-    }
+    // table except TOC
+    table.c41:not(:first-of-type) {
+      border-top: 1px solid #000;
+      border-left: 1px solid #000;
 
-    .full-page-image {
-      img {
-        width: 100%;
-        margin: 30px 0px;
+      tr {
+        display: flex;
+
+        td {
+          font-weight: $normal-weight;
+          text-align: left;
+          align-items: flex-start;
+          padding: 6px;
+          border-bottom: 1px solid #000;
+          border-right: 1px solid #000;
+
+          p {
+            text-align: left;
+            align-items: flex-start;
+          }
+        }
       }
+
+      &:nth-of-type(3), &:nth-of-type(5), &:nth-of-type(7) {
+        tr:first-of-type{
+          display: flex;
+
+          td.c24{
+            width: calc(100%/7) !important; // Need to override bootstrap inline style.
+          }
+          td.c60, td.c69 {
+            width: calc((100%/7)*3) !important; // Need to override bootstrap inline style.
+          }
+        }
+      }
+    }
+
+    ul li {
+      margin-bottom: $normal-space;
     }
   }
 }
