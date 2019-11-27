@@ -2299,7 +2299,36 @@ hr{
   }
 }
 
+[href="/blog/how-is-SI-research-different"] .blog-item-image{
+  background-position: left;
+}
+
+[href="/blog/what-can-the-farmed-animal-movement-learn-from-history"] .blog-item-image{
+  background-position: right;
+}
+
+[href="/blog/what-we-can-do-in-2018-with-your-support"] .blog-item-image{
+  background-position: right;
+}
+
+[href="/blog/three-big-changes"] .blog-item-image{
+  background-position: left;
+}
+
 .podcast-container {
+  .podcast-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .podcast-img {
+      margin-right: $large-space;
+      img {
+        max-height: 150px;
+        border-radius: 2px;
+      }
+    }
+  }
   .directory-links {
     display: flex;
     align-items: center;
@@ -2325,18 +2354,15 @@ hr{
   }
 }
 
-[href="/blog/how-is-SI-research-different"] .blog-item-image{
-  background-position: left;
-}
+@media (max-width: 767px){
+  .podcast-container {
+    .podcast-info {
+      flex-direction: column;
 
-[href="/blog/what-can-the-farmed-animal-movement-learn-from-history"] .blog-item-image{
-  background-position: right;
-}
-
-[href="/blog/what-we-can-do-in-2018-with-your-support"] .blog-item-image{
-  background-position: right;
-}
-
-[href="/blog/three-big-changes"] .blog-item-image{
-  background-position: left;
+      .podcast-img {
+        margin-right: 0;
+        margin-bottom: $large-space;
+      }
+    }
+  }
 }
