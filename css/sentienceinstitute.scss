@@ -1006,6 +1006,10 @@ hr{
   margin-bottom: 60px;
 }
 
+.research-section-list {
+  align-items: center;
+}
+
 .blog-item-link:hover, .blog-item-link:focus,
 .press-item-link:hover, .press-item-link:focus,
 .research-item-link:hover, .research-item-link:focus,
@@ -1131,6 +1135,32 @@ hr{
   // font-size: $small-font-size;
   // color: $grey;
 }
+
+
+// .research-item-container {
+//   .research-item-abstract {
+//     span {
+//       overflow: hidden;
+//
+//       // white-space: nowrap;
+//       // text-overflow: ellipsis;
+//       // position: relative;
+//
+//       height: calc(18px * 1.4 * 3); /* exactly three lines */
+//       line-height: calc(18px * 1.4);
+//       &:after {
+//         content: "";
+//         text-align: right;
+//         position: absolute;
+//         bottom: 72px;
+//         right: 21px;
+//         width: 50%;
+//         height: 1.2em;
+//         background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(224, 224, 224, .8) 50%);
+//       }
+//     }
+//   }
+// }
 
 .outreach-section-list.book{
   display: flex;

@@ -22,7 +22,7 @@ function compile() {
 function watcher() {
   return watch(["js/app.js",
         "data/data.json", // Does this work?
-        "fonts/**/*.+(ttf)",
+        "fonts/*.+(ttf)",
         "page_content/**/*.+(html)",
         "pages/**/*.+(html|njk)",
         "templates/**/*.+(html|njk)",
@@ -57,18 +57,8 @@ function css() {
     .pipe(dest(destination + "css/"));
 }
 
-function fonts() {
-  return src(["fonts/**/*.+(ttf)"])
-    .pipe(dest(destination + "fonts"));
-}
-
-// function rss() {
-//   return src("rss.xml")
-//     .pipe(dest(destination));
-// }
-
 function js() {
-  return src(["js/ready.js", "js/parallax.min.js"])
+  return src(["js/prod/*.js"])
     // .pipe(babel())
     .pipe(minify({
       minify: true,
@@ -82,6 +72,16 @@ function js() {
       }
     }))
     .pipe(dest(destination + "js"));
+}
+
+// function rss() {
+//   return src("rss.xml")
+//     .pipe(dest(destination));
+// }
+
+function fonts() {
+  return src(["fonts/*.+(ttf)"])
+    .pipe(dest(destination + "fonts"));
 }
 
 function downloads() {

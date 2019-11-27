@@ -9,22 +9,6 @@
 {{ headerimage("research", photos["research"], "Reports") }}
 
 <div class="container first-container research-list-container">
-      <h1><span>Surveys</span></h1>
-      <div class="row research-section-list">
-        {% for item in researchitems.surveys | reverse %}
-          {% from "../templates/partials/researchitem.njk" import researchitem %}
-          {{ researchitem(item) }}
-        {% endfor %}
-      </div>
-
-      <h1><span>Estimates</span></h1>
-      <div class="row research-section-list">
-        {% for item in researchitems.estimates | reverse %}
-          {% from "../templates/partials/researchitem.njk" import researchitem %}
-          {{ researchitem(item) }}
-        {% endfor %}
-      </div>
-
       <h1><span>Technology Adoption Case Studies</span></h1>
       <div class="row research-section-list tech-studies-list">
         {% for item in researchitems.technologyadoption | reverse %}
@@ -41,6 +25,24 @@
         {% endfor %}
       </div>
 
+      <h1><span>Estimates, Literature Reviews, and Surveys</span></h1>
+      <div class="row research-section-list">
+        {% for item in researchitems.other | reverse %}
+        {% from "../templates/partials/miniresearchitem.njk" import miniresearchitem %}
+        {{ miniresearchitem(item) }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Other Research (via blog)</span></h1>
+      <div class="row research-section-list">
+        {% for post in blogposts | reverse %}
+          {% from "../templates/partials/blogitem.njk" import blogitem %}
+          {%if post.isResearch%}
+          {{ blogitem(post, authors) }}
+          {%endif%}
+        {% endfor %}
+      </div>
+
       <h1><span>Journal Publications (via Blog)</span></h1>
       <div class="row research-section-list">
         {% for post in blogposts | reverse %}
@@ -50,16 +52,14 @@
           {%endif%}
         {% endfor %}
       </div>
-
-      <h1><span>Other Research (via Blog)</span></h1>
-      <div class="row research-section-list">
-        {% for post in blogposts | reverse %}
-          {% from "../templates/partials/blogitem.njk" import blogitem %}
-          {%if post.isResearch%}
-          {{ blogitem(post, authors) }}
-          {%endif%}
-        {% endfor %}
-      </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/clamp.min.js"></script>
+<script>
+  $(".research-item-abstract span").each(function() {
+    $clamp(this, {clamp: 5});
+  });
+</script>
 
 {% endblock %}

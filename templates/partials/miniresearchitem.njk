@@ -1,6 +1,6 @@
-{% macro researchitem(item) %}
+{% macro miniresearchitem(item) %}
 
-<div class="col-lg-6 col-sm-12 research-item-container">
+<div class="col-lg-6 col-sm-12 research-item-container mini-research-item">
 {%if item.url%}
   <a class="research-item-link" href="/{{item.url}}">
 {%elif item.externalurl%}
@@ -16,22 +16,6 @@
       </div>
     </div>
   </a>
-  {%if item.abstract%}
-    <div class="research-item-abstract">
-      <span>{{item.abstract}}</span>
-      {%if item.pdf%}
-      <div>
-        {%if item.pdf.name%}
-        <a class="download-button-wrapper" href="/downloads/{{item.pdf.name}}.pdf">
-        {%elif item.pdf.url%}
-        <a class="download-button-wrapper" href="{{item.pdf.url}}">
-        {%endif%}
-          <div class="button download-button pdf-button-alternate"><span>View PDF</span></div>
-        </a>
-      </div>
-      {%endif%}
-    </div>
-  {%endif%}
 </div>
 
 {% endmacro %}
