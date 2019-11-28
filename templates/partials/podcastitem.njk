@@ -1,0 +1,27 @@
+{% macro podcastitem(episode) %}
+
+<a class="podcast-episode" href="/podcast/episode-{{episode.no}}.html">
+  <div class="podcast-episode-img">
+    <img src="../img/podcast_logo.png"/>
+  </div>
+  <div class="podcast-episode-info">
+    <div class="podcast-episode-title">
+      {{episode.title}}
+    </div>
+    <div class="podcast-episode-date">
+      {{episode.date}}
+    </div>
+
+    {#
+    <div class="podcast-episode-guest-name">
+      {{episode.guest.name}}
+    </div>
+    <div class="podcast-episode-guest-affiliation">
+      {{episode.guest.affiliation}}
+    </div>
+    #}
+
+  </div>
+</a>
+
+{% endmacro %}

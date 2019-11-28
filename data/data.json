@@ -779,6 +779,36 @@
       }
     ]
   },
+  "podcastitems": [
+    {
+      "no": "1",
+      "embedscript": "<script src=\"https:\/\/www.buzzsprout.com\/737534\/2173151-kevin-schneider-nonhuman-rights-project.js?player=small\" type=\"text/javascript\" charset=\"utf-8\"><\/script>",
+      "title": "Kevin Schneider of the Nonhuman Rights Project on using litigation to expand the moral circle",
+      "date": "December 9, 2019",
+      "guest": {
+        "name": "Kevin Schneider",
+        "affiliation": "Nonhuman Rights Project"
+      }
+    },{
+      "no": "2",
+      "embedscript": "",
+      "title": "Pei Su of ACTAsia",
+      "date": "December 9, 2019",
+      "guest": {
+        "name": "Pei Su",
+        "affiliation": "ACTAsia"
+      }
+    },{
+      "no": "3",
+      "embedscript": "",
+      "title": "Ria Rehberg of Veganuary on driving institutional change through online campaigns",
+      "date": "December 9, 2019",
+      "guest": {
+        "name": "Ria Rehberg",
+        "affiliation": "Veganuary"
+      }
+    }
+  ],
   "researchitems": {
     "socialmovements": [
       {

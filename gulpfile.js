@@ -4,9 +4,11 @@ const { parallel, series, src, dest, watch } = require("gulp"),
     // change = require('gulp-change'),
     data = require("gulp-data"),
     destination = "dist/",
+    file = require('gulp-file'),
+    fs = require('fs'),
     minify = require('gulp-minifier'),
     nunjucksRender = require("gulp-nunjucks-render"),
-    path = "dev/",
+    rename = require("gulp-rename"),
     replace = require('gulp-replace'),
     sass = require('gulp-sass'),
     stripCode = require('gulp-strip-code'),
@@ -14,14 +16,13 @@ const { parallel, series, src, dest, watch } = require("gulp"),
 
 function compile() {
   //  NEED A CLEANER!!
-  return series(css, fonts, nunjucks, js, downloads, audio, img, gdocImages, gdocBlogImages, gdocPressImages, favicon, faviconBlog, faviconPress, htaccess
+  return series(css, fonts, compilePodcastEpisodes, njk, js, downloads, audio, img, gdocImages, gdocBlogImages, gdocPressImages, favicon, htaccess
     // , htaccessBlog, htaccessPress
   );
 }
 
 function watcher() {
   return watch(["js/app.js",
-        "data/data.json", // Does this work?
         "fonts/*.+(ttf)",
         "page_content/**/*.+(html)",
         "pages/**/*.+(html|njk)",
@@ -96,7 +97,6 @@ function audio() {
 
 function img() {
   return src(["img/**/*.+(png|jpg)", "!img/images/**", "!img/header_photos_original/**"])
-  // return src(["img/**/*.+(png|jpg)", "!img/header_photos_original/**"])
     .pipe(dest(destination + "img"));
 }
 
@@ -117,17 +117,10 @@ function gdocPressImages() {
 
 function favicon() {
   return src(["favicon.ico"])
-    .pipe(dest(destination));
-}
-
-function faviconBlog() {
-  return src(["favicon.ico"])
-    .pipe(dest(destination + "blog"));
-}
-
-function faviconPress() {
-  return src(["favicon.ico"])
-    .pipe(dest(destination + "press"));
+    .pipe(dest(destination))
+    .pipe(dest(destination + "blog"))
+    .pipe(dest(destination + "press"))
+    .pipe(dest(destination + "podcast"));
 }
 
 function htaccess() {
@@ -135,58 +128,20 @@ function htaccess() {
     .pipe(dest(destination));
 }
 
-// function changeHTABlog(content) {
-//   return content.replace(/RewriteBase \//g, 'RewriteBase \/blog\/');
-// }
-// function htaccessBlog() {
-//   return src([".htaccess"], {dot: true})
-//     .pipe(change(changeHTABlog))
-//     .pipe(dest(destination + "blog"));
-// }
-// function changeHTAPress(content) {
-//   return content.replace(/RewriteBase \//g, 'RewriteBase \/press\/');
-// }
-// function htaccessPress() {
-//   return src([".htaccess"], {dot: true})
-//     .pipe(change(changeHTAPress))
-//     .pipe(dest(destination + "press"));
-// }
+//should export to dev, then njk can take it to dist
+async function compilePodcastEpisodes() {
+  const podcasts = JSON.parse(fs.readFileSync('data/data.json')).podcastitems;
+  const episode = podcasts[0];
+  podcasts.forEach(function(episode) {
+    return src('templates/partials/podcastepisode.njk')
+      .pipe(nunjucksRender({path: ['templates/', 'page_content'], data: {"episode": episode}, ext: '.html'}))
+      .pipe(rename('episode-' + episode.no + '.html'))
+      .pipe(dest(destination + 'podcast/'));
+  });
+}
+exports.podcasts = compilePodcastEpisodes;
 
-// function blog() {
-//   return src(["pages/blog/**/*.+(html|njk)"])
-//     .pipe(data(function() {
-//       return require("./data/data.json");
-//     }))
-//     .pipe(nunjucksRender({
-//       path: ["templates/", "page_content/"]
-//     }))
-//     .pipe(stripCode({
-//       pattern: /<style\stype="text\/css">.+?(?=<\/style>)<\/style>/g
-//     }))
-//     // For Google redirects, expression before actual link
-//     .pipe(stripCode({
-//       pattern: /https:\/\/www.google.com\/url\?q=/g
-//     }))
-//     // For Google redirects, expression after actual link
-//     .pipe(stripCode({
-//       pattern: /&amp;sa=D&amp;ust=(?:(?!\">).)*/g
-//     }))
-//     .pipe(replace(/src="images/g, "src=\"../img/images"))
-//     .pipe(minify({
-//       minify: true,
-//       collapseWhitespace: true,
-//       conservativeCollapse: true,
-//       minifyJS: true,
-//       minifyCSS: true,
-//       getKeptComment: function (content, filePath) {
-//           var m = content.match(/\/\*![\s\S]*?\*\//img);
-//           return m && m.join('\n') + '\n' || '';
-//       }
-//     }))
-//     .pipe(dest(destination));
-// }
-
-function nunjucks() {
+async function njk() {
   return src(["pages/**/*.+(html|njk)"])
     .pipe(data(function() {
       return require("./data/data.json");

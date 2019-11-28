@@ -1,0 +1,33 @@
+{% macro podcastepisodecontent(episode) %}
+
+<div class="container image-container" style="background-image: url(/img/header_photos/podcast_logo_header.png);"></div>
+<div class="container first-container gdoc-html-container podcast-episode-container podcast-episode-{{episode.no}}-container">
+  {#
+  <div class="title">
+    {{episode.title}}
+  </div>
+  #}
+  {%if episode.no == 1 %}
+  <div class="player">
+    {{episode.embedscript | safe}}
+  </div>
+  {%endif%}
+  <div class="episode-info">
+    <div class="episode-date">{{episode.date}}</div>
+    <div>Guest <span class="guest-name">{{episode.guest.name}}</span>, <span class="guest-affiliation">{{episode.guest.affiliation}}</span></div>
+    <div>Hosted by <span class="host-name">Jamie Harris</span>, <i>Sentience Institute</i></div>
+  </div>
+  {%if episode.no == 1 %}
+  <div class="podcast-episode-writeup">
+    {% include "../../page_content/podcast/" + episode.no + ".html" %}
+  </div>
+</div>
+<div class="container podcast-episode-container podcast-episode-{{episode.no}}-container">
+  <div class="podcast-episode-transcript">
+    <h1>Transcript</h1>
+    {% include "../../page_content/podcast/" + episode.no + ".txt" %}
+  </div>
+  {%endif%}
+</div>
+
+{% endmacro %}
