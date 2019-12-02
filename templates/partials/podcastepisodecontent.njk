@@ -9,7 +9,7 @@
   #}
   {%if episode.no == 1 %}
   <div class="player">
-    {{episode.embedscript | safe}}
+    <script src="https://www.buzzsprout.com/737534/{{episode.embedsnippet}}.js?player=small" type="text/javascript" charset="utf-8"></script>
   </div>
   {%endif%}
   <div class="episode-info">
@@ -24,7 +24,7 @@
 </div>
 <div class="container podcast-episode-container podcast-episode-{{episode.no}}-container">
   <div class="podcast-episode-transcript">
-    <h1>Transcript</h1>
+    <h1>Transcript (Automated)</h1>
     {% include "../../page_content/podcast/" + episode.no + ".txt" %}
   </div>
   {%endif%}
