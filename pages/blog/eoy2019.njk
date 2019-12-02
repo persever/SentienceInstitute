@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/eoy2019", "2019 End of Year Summary", "blog/" + blogposts[14].img, "") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[14], authors) }}
+
+{% endblock %}

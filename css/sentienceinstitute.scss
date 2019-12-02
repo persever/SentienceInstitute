@@ -1494,11 +1494,11 @@ hr{
   }
 
   &.research-agenda-container{
-    .c5 {
+    .c15 {
       font-style: italic;
     }
 
-    table.c17 {
+    table {
       *{
         font-size: $normal-font-size;
         font-weight: $normal-weight;
@@ -1506,17 +1506,17 @@ hr{
         line-height: 1.5;
       }
 
-      .c10{
+      .c6{
         margin-left: 30px;
 
       }
     }
 
-    ul.c9{
+    ul.c8{
       margin-bottom: 0;
     }
 
-    li.c12{
+    li.c7{
       margin-left: 30px;
     }
   }
@@ -2288,6 +2288,10 @@ hr{
     max-height: 200px;
   }
 
+}
+
+.eoy2019-container {
+  // change src="images/ to src="images/eoy2019/
 }
 
 .how-tractable-is-changing-the-course-of-history-container {

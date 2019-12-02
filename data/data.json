@@ -339,6 +339,19 @@
       "img": "190923",
       "authors": ["jacy"],
       "isJournal": true
+    },
+    {
+      "url": "eoy2019",
+      "gdocname": "2019EndofYearSummary",
+      "date": "December 2, 2019",
+      "year": "2019",
+      "title": "2019 End of Year Summary",
+      "img": "191202",
+      "img_info": {
+        "title": "Rescued Horses from the PMU Industry at Equine Voices Rescue and Sanctuary",
+        "credit": "Jo-Anne McArthur / We Animals"
+      },
+      "authors": ["kelly"]
     }
   ],
   "pressreleases": [
