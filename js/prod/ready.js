@@ -120,9 +120,9 @@ function docReady() {
   });
 
   if ($('.podcast-episode-container')[0]) {
-    let $podcastTitleEl = $('.podcast-episode-writeup p:first-of-type span');
-    $podcastTitleEl.text(
-      $podcastTitleEl.text().replace('.', '')
+    let $podcastTitleEl = $('.podcast-episode-writeup p:first-of-type');
+    $podcastTitleEl.html(
+      $podcastTitleEl.html().replace('.', '')
     );
   }
 }

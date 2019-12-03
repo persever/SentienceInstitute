@@ -352,6 +352,15 @@
         "credit": "Jo-Anne McArthur / We Animals"
       },
       "authors": ["kelly"]
+    },
+    {
+      "url": "introducing-the-si-podcast",
+      "gdocname": "IntroducingtheSentienceInstitutepodcast",
+      "date": "December 3, 2019",
+      "year": "2019",
+      "title": "Introducing the Sentience Institute Podcast",
+      "img": "191203",
+      "authors": ["jamie"]
     }
   ],
   "pressreleases": [
@@ -819,7 +828,7 @@
     },{
       "no": "2",
       "embedsnippet": "2173280-pei-su-actasia",
-      "title": "Pei Su of ACTAsia",
+      "title": "Pei Su of ACTAsia on humane education in China",
       "date": "December 3, 2019",
       "guest": {
         "name": "Pei Su",
