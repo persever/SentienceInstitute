@@ -118,6 +118,13 @@ function docReady() {
   $(document).on("iframeinputfocus", function(event, iframeClass){
     resizeIframe($("iframe." + iframeClass)[0]);
   });
+
+  if ($('.podcast-episode-container')[0]) {
+    let $podcastTitleEl = $('.podcast-episode-writeup p:first-of-type span');
+    $podcastTitleEl.text(
+      $podcastTitleEl.text().replace('.', '')
+    );
+  }
 }
 
 function elementSizing() {

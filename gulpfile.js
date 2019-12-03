@@ -136,12 +136,34 @@ async function compilePodcastEpisodes() {
     return src('templates/partials/podcastepisode.njk')
       .pipe(nunjucksRender({path: ['templates/', 'page_content'], data: {"episode": episode}, ext: '.html'}))
       .pipe(rename('episode-' + episode.no + '.html'))
-      .pipe(dest(destination + 'podcast/'));
+      // Refactor with njk()...
+      .pipe(stripCode({
+        pattern: /<style\stype="text\/css">.+?(?=<\/style>)<\/style>/g
+      }))
+      .pipe(stripCode({
+        pattern: /https:\/\/www.google.com\/url\?q=/g
+      }))
+      .pipe(stripCode({
+        pattern: /&amp;sa=D&amp;ust=(?:(?!\">).)*/g
+      }))
+      .pipe(replace(/%23/g, "#"))
+      .pipe(minify({
+        minify: true,
+        collapseWhitespace: true,
+        conservativeCollapse: true,
+        minifyJS: true,
+        minifyCSS: true,
+        getKeptComment: function (content, filePath) {
+            var m = content.match(/\/\*![\s\S]*?\*\//img);
+            return m && m.join('\n') + '\n' || '';
+        }
+      }))
+      .pipe(versionAppend(['css']))
+      .pipe(dest(destination + 'podcast'));
   });
 }
-exports.podcasts = compilePodcastEpisodes;
 
-async function njk() {
+async function njk(d) {
   return src(["pages/**/*.+(html|njk)"])
     .pipe(data(function() {
       return require("./data/data.json");

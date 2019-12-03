@@ -806,28 +806,43 @@
       "no": "1",
       "embedsnippet": "2173151-kevin-schneider-nonhuman-rights-project",
       "title": "Kevin Schneider of the Nonhuman Rights Project on using litigation to expand the moral circle",
-      "date": "December 9, 2019",
+      "date": "December 3, 2019",
       "guest": {
         "name": "Kevin Schneider",
         "affiliation": "Nonhuman Rights Project"
+      },
+      "directories": {
+        "google": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz&episode=QnV6enNwcm91dC0yMTczMTUx&hl=en",
+        "apple": "https://podcasts.apple.com/us/podcast/kevin-schneider-nonhuman-rights-project/id1489363314?i=1000457935527",
+        "spotify": "https://open.spotify.com/episode/1spCY30hyQgcKceX24GaPu"
       }
     },{
       "no": "2",
       "embedsnippet": "2173280-pei-su-actasia",
       "title": "Pei Su of ACTAsia",
-      "date": "December 9, 2019",
+      "date": "December 3, 2019",
       "guest": {
         "name": "Pei Su",
         "affiliation": "ACTAsia"
+      },
+      "directories": {
+        "google": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz&episode=QnV6enNwcm91dC0yMTczMjgw&hl=en",
+        "apple": "https://podcasts.apple.com/us/podcast/pei-su-actasia/id1489363314?i=1000457935526",
+        "spotify": "https://open.spotify.com/episode/30R0cfBebKN70CFJgAd7YD"
       }
     },{
       "no": "3",
       "embedsnippet": "2173268-ria-rehberg-veganuary",
       "title": "Ria Rehberg of Veganuary on driving institutional change through online campaigns",
-      "date": "December 9, 2019",
+      "date": "December 3, 2019",
       "guest": {
         "name": "Ria Rehberg",
         "affiliation": "Veganuary"
+      },
+      "directories": {
+        "google": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz&episode=QnV6enNwcm91dC0yMTczMjY4&hl=en",
+        "apple": "https://podcasts.apple.com/us/podcast/ria-rehberg-veganuary/id1489363314?i=1000457935525",
+        "spotify": "https://open.spotify.com/episode/5wwlFBLPXQmNc9nTOmNpUZ"
       }
     }
   ],

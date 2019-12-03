@@ -1,33 +1,27 @@
 {% macro podcastepisodecontent(episode) %}
 
-<div class="container image-container" style="background-image: url(/img/header_photos/podcast_logo_header.png);"></div>
+<div class="container image-container podcast-episode-image-container"></div>
 <div class="container first-container gdoc-html-container podcast-episode-container podcast-episode-{{episode.no}}-container">
-  {#
-  <div class="title">
-    {{episode.title}}
-  </div>
-  #}
-  {%if episode.no == 1 %}
   <div class="player">
     <script src="https://www.buzzsprout.com/737534/{{episode.embedsnippet}}.js?player=small" type="text/javascript" charset="utf-8"></script>
   </div>
-  {%endif%}
+  <div class="podcast-directory-links">
+    <div class="directory-links-instr">Also available on: </div>
+    <div class="directory-link"><a target="_blank" href="{{episode.directories.google}}"><img src="/img/icons/podcast-icons-google.png"/></a></div>
+    <div class="directory-link"><a target="_blank" href="{{episode.directories.apple}}"><img src="/img/icons/podcast-icons-apple.png"/></a></div>
+    <div class="directory-link"><a target="_blank" href="{{episode.directories.spotify}}"><img src="/img/icons/podcast-icons-spotify.png"/></a></div>
+  </div>
   <div class="episode-info">
     <div class="episode-date">{{episode.date}}</div>
     <div>Guest <span class="guest-name">{{episode.guest.name}}</span>, <span class="guest-affiliation">{{episode.guest.affiliation}}</span></div>
     <div>Hosted by <span class="host-name">Jamie Harris</span>, <i>Sentience Institute</i></div>
   </div>
-  {%if episode.no == 1 %}
   <div class="podcast-episode-writeup">
     {% include "../../page_content/podcast/" + episode.no + ".html" %}
   </div>
-</div>
-<div class="container podcast-episode-container podcast-episode-{{episode.no}}-container">
+  <h3>Transcript (Automated, imperfect)</h3>
   <div class="podcast-episode-transcript">
-    <h1>Transcript (Automated)</h1>
     {% include "../../page_content/podcast/" + episode.no + ".txt" %}
   </div>
-  {%endif%}
 </div>
-
 {% endmacro %}

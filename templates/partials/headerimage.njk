@@ -1,9 +1,13 @@
-{% macro headerimage(imageId, photo, title) %}
+{% macro headerimage(imageId, photo, title, titleImage) %}
 
 <div class="container image-container {{imageId}}-image-container" img-id="{{imageId}}" style="background-image: url(../img/header_photos/{{imageId}}.png);">
   {% if title %}
   <div class="page-title">
     {{title}}
+  </div>
+  {% elif titleImage %}
+  <div class="title-image">
+    <img src="{{titleImage}}" />
   </div>
   {% endif %}
 

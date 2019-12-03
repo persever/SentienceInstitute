@@ -1120,6 +1120,25 @@ hr{
   }
 }
 
+.podcast-image-container {
+  justify-content: center;
+
+  .title-image {
+    max-height: 100%;
+    max-width: 100%;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    padding: $large-space;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      margin: auto;
+    }
+  }
+}
+
 .podcasts {
   display: flex;
   flex-direction: column;
@@ -1151,12 +1170,66 @@ hr{
   }
 }
 
-.podcast-episode-container {
-  .title {
-    color: $blue;
+.podcast-container {
+  .podcast-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .podcast-img {
+      margin-right: $large-space;
+      img {
+        max-height: 150px;
+        border-radius: 2px;
+      }
+    }
+  }
+}
+
+.podcast-directory-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+  .directory-links-instr {
+    margin-right: $normal-space;
+    font-weight: $bold-weight;
+    font-size: $large-font-size;
+  }
+
+  .directory-link {
+    margin-right: $normal-space;
+
+    img {
+      max-height: 50px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.podcast-episode-image-container {
+  background-image: url('/img/podcast/podcast_logo_transparent.png');
+  background-size: contain;
+  padding: $large-space;
+  background-color: #004b8c;
+}
+
+.container.podcast-episode-container {
+  // Individual page 'header' bolds
+  &.podcast-episode-3-container .c9,
+  &.podcast-episode-2-container .c10,
+  &.podcast-episode-1-container .c11 {
+    font-weight: $bold-weight;
   }
 
   .player {
+    margin-bottom: $normal-space;
+  }
+
+  .podcast-directory-links {
     margin-bottom: $normal-space;
   }
 
@@ -1172,6 +1245,40 @@ hr{
     .guest-affiliation {
       font-style: italic;
     }
+  }
+
+  .podcast-episode-writeup {
+    p:first-of-type span {
+      // Turn into h2
+      color: $dark-blue;
+      text-transform: uppercase;
+      font-weight: $bold-weight;
+      font-size: $extra-large-font-size;
+      position: relative;
+    }
+
+    p:nth-of-type(3) {
+      margin-left: $large-space;
+      font-style: italic;
+    }
+
+    ul:first-of-type {
+      list-style: none;
+      padding: 0;
+      margin-left: $large-space;
+
+      li {
+        font-weight: $bold-weight;
+      }
+    }
+
+    p:last-of-type {
+      display: none;
+    }
+  }
+
+  .podcast-episode-writeup+h3 {
+    margin-top: 60px;
   }
 
   .podcast-episode-transcript {
@@ -2484,45 +2591,6 @@ hr{
 
 [href="/blog/three-big-changes"] .blog-item-image{
   background-position: left;
-}
-
-.podcast-container {
-  .podcast-info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    .podcast-img {
-      margin-right: $large-space;
-      img {
-        max-height: 150px;
-        border-radius: 2px;
-      }
-    }
-  }
-  .directory-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 30px;
-    margin-bottom: 60px;
-
-    .directory-links-instr {
-      margin-right: $normal-space;
-      font-weight: $bold-weight;
-      font-size: $large-font-size;
-    }
-
-    .directory-link {
-      margin-right: $normal-space;
-
-      img {
-        max-height: 50px;
-        border-radius: 50%;
-      }
-    }
-  }
 }
 
 @media (max-width: 767px){
