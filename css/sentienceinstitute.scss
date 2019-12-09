@@ -1601,7 +1601,7 @@ hr{
   }
 
   &.research-agenda-container{
-    .c15 {
+    .c18 {
       font-style: italic;
     }
 
@@ -1613,17 +1613,17 @@ hr{
         line-height: 1.5;
       }
 
-      .c6{
+      .c2{
         margin-left: 30px;
 
       }
     }
 
-    ul.c8{
+    ul.c5{
       margin-bottom: 0;
     }
 
-    li.c7{
+    li.c12{
       margin-left: 30px;
     }
   }
@@ -1713,7 +1713,7 @@ hr{
   }
 
   &.animal-farming-attitudes-survey-2017-container {
-    .c2 .c12 {
+    .c16 {
       font-style: italic;
     }
 
@@ -1729,13 +1729,14 @@ hr{
     table:first-of-type {
       td {
         font-weight: $normal-weight;
+        width: 100%;
       }
 
-      .c25{
+      .c40{
         margin-left: 30px;
       }
 
-      .c38{
+      .c1.c35, .c1.c36{
         margin-left: 60px;
       }
     }
@@ -1763,19 +1764,19 @@ hr{
 
       tr {
         td {
-          &.c20{
+          &.c4{
             font-weight: $normal-weight;
           }
-          &.c21{
+          &.c0{
             font-weight: $bold-weight;
           }
-          &.c28{ // "weak positive"
+          &.c18{ // "weak positive"
             background-color: #78B494;
           }
-          &.c23{ // "strong positive"
+          &.c25{ // "strong positive"
             background-color: #28784D;
           }
-          &.c32{ // "weak negative"
+          &.c21{ // "weak negative"
             background-color: #FFBDAA;
           }
 
@@ -1790,10 +1791,10 @@ hr{
     }
 
     table:nth-of-type(3), table:nth-of-type(4) {
-      tr td.c8:first-of-type{
+      tr td.c3:first-of-type{
         width: 50%;
       }
-      tr td.c8:not(:first-of-type){
+      tr td.c3:not(:first-of-type){
         width: 25%;
       }
     }
@@ -2399,6 +2400,9 @@ hr{
 
 .eoy2019-container {
   // change src="images/ to src="images/eoy2019/
+  .c4 {
+    font-style: italic;
+  }
 }
 
 .how-tractable-is-changing-the-course-of-history-container {
