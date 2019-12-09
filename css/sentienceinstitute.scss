@@ -744,10 +744,11 @@ hr{
     }
 
     .donation-bar-intermediate-goal{
-      left: calc((120/180)*100%);
-      transform: translateX(calc(-100% + 12px));
-      top: 34px;
-
+      display: none;
+      // left: calc((120/180)*100%);
+      // transform: translateX(calc(-100% + 12px));
+      // top: 34px;
+      //
       // .arrow-up{
       //   margin-top: 4px;
       //   width: 0;
@@ -758,13 +759,13 @@ hr{
       //   margin-right: 6px;
       //   margin-left: 0;
       // }
-
-      .amount{
-        border: 2px solid $blue;
-        color: $blue;
-        padding: 4px;
-        font-weight: $bold-weight;
-      }
+      //
+      // .amount{
+      //   border: 2px solid $blue;
+      //   color: $blue;
+      //   padding: 4px;
+      //   font-weight: $bold-weight;
+      // }
     }
 
     .donation-bar-current{
