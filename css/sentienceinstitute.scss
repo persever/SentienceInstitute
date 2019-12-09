@@ -796,6 +796,10 @@ hr{
 @media (max-width: 498px){
   .donation-bar-container {
     margin-bottom: 100px;
+
+    .donation-bar .donation-bar-current {
+      top: calc(-72px - 1px + 8px);
+    }
   }
 }
 
