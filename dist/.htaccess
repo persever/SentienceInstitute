@@ -1,11 +1,5 @@
 RewriteEngine On
 
-RewriteBase /
-
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} !^www\.sentienceinstitute\.org$ [NC]
-RewriteRule ^(.*)$ https://www.sentienceinstitute.org/$1 [L,R=301]
-
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
