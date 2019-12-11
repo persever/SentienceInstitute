@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 
 var __dirname = './dist/';
-// var __dirname = "../sentienceinstitute.github.io/";
 
 app.use(express.static(__dirname));
 
