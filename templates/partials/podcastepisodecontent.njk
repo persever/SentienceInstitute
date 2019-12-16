@@ -19,7 +19,11 @@
   <div class="podcast-episode-writeup">
     {% include "../../page_content/podcast/" + episode.no + ".html" %}
   </div>
+  {% if episode.no == 3 %}
+  <h3>Transcript (Automated, imperfect, timestamps ahead by ~4 min starting at 00:19:02)</h3>
+  {% else %}
   <h3>Transcript (Automated, imperfect)</h3>
+  {% endif %}
   <div class="podcast-episode-transcript">
     {% include "../../page_content/podcast/" + episode.no + ".txt" %}
   </div>
