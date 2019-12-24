@@ -1564,13 +1564,17 @@ hr{
         background: none;
       }
 
-      p.c18, p.c31{
+      p.c18, p.c31, p.c39{
         margin-left: -60px;
         font-weight: $normal-weight;
       }
 
       p.c16{
         margin-left: -30px;
+      }
+
+      p.c29 {
+        display: none;
       }
     }
 
