@@ -1531,21 +1531,7 @@ hr{
   }
 
   &.summaries-container{
-    &.loading .content {
-      display: none;
-    }
-
-    .loading-indicator {
-      color: $blue;
-      font-style: italic;
-      font-weight: $bold-weight;
-      text-align: center;
-      margin-top: $normal-space;
-    }
-
-    &.loaded .loading-indicator {
-      display: none;
-    }
+    // Don't forget to update the "Last Updated" date in [].njk!!
 
     // UPDATE WHEN UPDATING PAGE (1/3)
     //italicized, e.g. "1 = most promising in terms of this criterion"
@@ -1586,6 +1572,22 @@ hr{
       p.c16{
         margin-left: -30px;
       }
+    }
+
+    &.loading .content {
+      display: none;
+    }
+
+    .loading-indicator {
+      color: $blue;
+      font-style: italic;
+      font-weight: $bold-weight;
+      text-align: center;
+      margin-top: $normal-space;
+    }
+
+    &.loaded .loading-indicator {
+      display: none;
     }
 
     // some new paragraphs are instead converting to double breaks, as in antislavery
