@@ -27,7 +27,7 @@ function watcher() {
         "page_content/**/*.+(html)",
         "pages/**/*.+(html|njk)",
         "templates/**/*.+(html|njk)",
-        "js/ready.js",
+        "js/prod/ready.js",
         "css/sentienceinstitute.scss",
         "downloads/**/*.+(pdf)",
         "img/**/*.+(png|jpg)"],

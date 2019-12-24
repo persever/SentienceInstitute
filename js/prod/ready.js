@@ -23,7 +23,8 @@ function docReady() {
         });
       });
 
-      // Makes page too jumpy on scroll
+      // Homepage image blur on scroll effect.
+      // Makes page too jumpy on scroll.
       // if ($(window).width() >= 767) {
         //   $(window).scroll(function(e) {
           //     $(".home-image-text").addClass("blurring");
@@ -38,6 +39,39 @@ function docReady() {
   $("nav a.nav-link:not(.dropdown-toggle)").click(function() {
     window.location.href = $(this).attr("destination");
   });
+
+  if ($(".summaries-container")[0]) {
+    async function removeComments() {
+      // Remove comment text.
+      await $("a[href*='#cmnt_ref']").parent().each((i, el) => {
+        $(el).parent().remove();
+      });
+
+      // Remove comment links, after removing text.
+      // (Additional and after, because this selector would catch the text too, but needs to be handled differently.)
+      await $("a[href*='#cmnt']").each((i, el) => {
+        let set = $(el).parent().nextUntil('span');
+        let prevContent = $(el).parent().prev().html().replace(/\r?\n|\r/g, '');
+        let nextContent;
+        if (set[0]) {
+          nextContent = $(set[set.length-1]).next().text().replace(/\r?\n|\r/g, '');
+        } else if ($(el).parent().next().html()) {
+          nextContent = $(el).parent().next().html();
+        } else {
+          nextContent = $(el).parent().next().text().replace(/\r?\n|\r/g, '');
+        }
+
+        // Check: Footnote 42, 'coexistence', footnote 66, TOC heading
+        $(el).parent().prev().html(prevContent + nextContent);
+        set[0] ? $(set[set.length-1]).next().remove() : $(el).parent().next().remove();
+        $(el).parent().remove();
+      });
+
+      $(".summaries-container").removeClass('loading').addClass('loaded');
+    }
+
+    removeComments();
+  }
 
   $(".image-credit").mouseenter(function(){
     var imgId = $(this).parent().parents().attr("img-id");
