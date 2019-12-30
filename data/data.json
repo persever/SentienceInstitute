@@ -1,15 +1,6 @@
 {
   "team": [
     {
-      "id": "kelly",
-      "name": "Kelly Witwicki",
-      "role": "Co-Founder & Executive Director",
-      "email": "kelly@sentienceinstitute.org",
-      "twitterId": "kellywitwicki",
-      "facebookId": "kellywitwicki",
-      "desc": "Kelly previously served as Director of Communications at Sentience Politics and co-organized a grassroots animal advocacy organization. She is also a designer and web developer, and earned-to-give at Google, where she was recognized as an outstanding UX Engineer. Kelly has volunteered for several animal advocacy organizations, primarily in animal rescue and graphic design."
-    },
-    {
       "id": "jacy",
       "name": "Jacy Reese",
       "link": "https://jacyreese.com/",
@@ -43,7 +34,8 @@
     },
     {
       "id": "kelly",
-      "name": "Kelly Witwicki"
+      "name": "Kelly Witwicki",
+      "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
     }
   ],
   "advisors": [
@@ -75,6 +67,11 @@
       "twitterId": "jeffrsebo",
       "facebookId": "jeffsebo",
       "desc": "Jeff Sebo is Clinical Assistant Professor of Environmental Studies, Affiliated Professor of Bioethics, Medical Ethics, and Philosophy, and Director of the Animal Studies M.A. Program at New York University. He is co-author of the recent Chimpanzee Rights (Routledge, 2018) and Food, Animals, and the Environment (Routledge, 2018). He also holds positions at Animal Charity Evaluators, the Animals and Society Institute, and Minding Animals International."
+    },
+    {
+      "id": "kelly",
+      "name": "Kelly Witwicki",
+      "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
     }
   ],
   "authors": {
