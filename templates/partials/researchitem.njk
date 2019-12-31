@@ -22,11 +22,11 @@
       {%if item.pdf%}
       <div>
         {%if item.pdf.name%}
-        <a class="download-button-wrapper" href="/downloads/{{item.pdf.name}}.pdf">
+        <a class="pdf-button-wrapper" href="/downloads/{{item.pdf.name}}.pdf">
         {%elif item.pdf.url%}
-        <a class="download-button-wrapper" href="{{item.pdf.url}}">
+        <a class="pdf-button-wrapper" href="{{item.pdf.url}}">
         {%endif%}
-          <div class="button download-button pdf-button-alternate"><span>View PDF</span></div>
+          <div class="button pdf-button pdf-button-alternate"><span>View PDF</span></div>
         </a>
       </div>
       {%endif%}
