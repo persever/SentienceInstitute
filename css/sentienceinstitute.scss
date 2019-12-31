@@ -134,6 +134,10 @@ a:hover, a:focus{
   font-weight: 600;
 }
 
+.pdf-button-wrapper + meta + div p {
+  display: none;
+}
+
 .pdf-button{
   &:not(.pdf-button-alternate) {
     margin-bottom: $large-space;
