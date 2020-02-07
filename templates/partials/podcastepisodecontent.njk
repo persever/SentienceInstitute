@@ -9,9 +9,11 @@
     <div class="directory-links-instr">Also available on: </div>
     {% if episode.directories.google %}
     <div class="directory-link"><a target="_blank" href="{{episode.directories.google}}"><img src="/img/icons/podcast-icons-google.png"/></a></div>
-    {% elif episode.directories.apple %}
+    {% endif %}
+    {% if episode.directories.apple %}
     <div class="directory-link"><a target="_blank" href="{{episode.directories.apple}}"><img src="/img/icons/podcast-icons-apple.png"/></a></div>
-    {% elif episode.directories.spotify %}
+    {% endif %}
+    {% if episode.directories.spotify %}
     <div class="directory-link"><a target="_blank" href="{{episode.directories.spotify}}"><img src="/img/icons/podcast-icons-spotify.png"/></a></div>
     {% endif %}
   </div>
