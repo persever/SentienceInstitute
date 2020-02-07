@@ -7,11 +7,13 @@
   </div>
   <div class="podcast-directory-links">
     <div class="directory-links-instr">Also available on: </div>
+    {% if episode.directories.google %}
     <div class="directory-link"><a target="_blank" href="{{episode.directories.google}}"><img src="/img/icons/podcast-icons-google.png"/></a></div>
-    {% if episode.directories.apple %}
+    {% elif episode.directories.apple %}
     <div class="directory-link"><a target="_blank" href="{{episode.directories.apple}}"><img src="/img/icons/podcast-icons-apple.png"/></a></div>
-    {% endif %}
+    {% elif episode.directories.spotify %}
     <div class="directory-link"><a target="_blank" href="{{episode.directories.spotify}}"><img src="/img/icons/podcast-icons-spotify.png"/></a></div>
+    {% endif %}
   </div>
   <div class="episode-info">
     <div class="episode-date">{{episode.date}}</div>
