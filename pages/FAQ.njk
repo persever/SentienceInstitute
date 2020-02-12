@@ -6,7 +6,7 @@
 {% block content %}
 
 {% from "../templates/partials/headerimage.njk" import headerimage %}
-{{ headerimage(7, photos[7], "FAQ") }}
+{{ headerimage("faq", photos['faq'], "FAQ") }}
 
 <div class="container first-container gdoc-html-container perspective-container">
   {% include "../page_content/SIFAQ.html" %}
