@@ -1499,7 +1499,7 @@ hr{
     margin-bottom: 0 !important;
   }
 
-  &.perspective-container, &.research-agenda-container, &.press-container {
+  &.research-agenda-container, &.press-container {
     h1:first-of-type {
       margin-top: 0;
     }
@@ -1670,7 +1670,6 @@ hr{
 
       .c2{
         margin-left: 30px;
-
       }
     }
 
@@ -1684,7 +1683,20 @@ hr{
   }
 
   &.perspective-container {
-    ul .c1 .c8 {
+    table {
+      margin-bottom: calc(16px*3);
+
+      * {
+        font-weight: $normal-weight;
+        margin-bottom: 0;
+      }
+
+      .c6, .c17 {
+        margin-left: 30px;
+      }
+    }
+
+    ul .c5 .c8 {
       font-weight: $bold-weight;
     }
   }
