@@ -61,14 +61,6 @@
       "desc": "J. Mohorčich is Assistant Professor of Political Science at Lehman College, CUNY, where he teaches courses in American politics, political philosophy, and science policy. He has previously taught at Johns Hopkins University and the University of Mannheim and was a Research Fellow at Sentience Institute. His published work has to do with technology adoption and social change, nonhuman cognition and intellectual labor, and political theory and survival."
     },
     {
-      "id": "jeff",
-      "name": "Jeff Sebo",
-      "link": "https://jeffsebo.net",
-      "twitterId": "jeffrsebo",
-      "facebookId": "jeffsebo",
-      "desc": "Jeff Sebo is Clinical Assistant Professor of Environmental Studies, Affiliated Professor of Bioethics, Medical Ethics, and Philosophy, and Director of the Animal Studies M.A. Program at New York University. He is co-author of the recent Chimpanzee Rights (Routledge, 2018) and Food, Animals, and the Environment (Routledge, 2018). He also holds positions at Animal Charity Evaluators, the Animals and Society Institute, and Minding Animals International."
-    },
-    {
       "id": "kelly",
       "name": "Kelly Witwicki",
       "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
@@ -371,6 +363,15 @@
       "title": "Institutional Change and the Limitations of Consumer Activism",
       "img": "200212",
       "authors": ["jacy"]
+    },
+    {
+      "url": "institutional-tactics",
+      "gdocname": "Whichinstitutionaltacticscananimaladvocatesus",
+      "date": "April 27, 2020",
+      "year": "2020",
+      "title": "Which institutional tactics can animal advocates use?",
+      "img": "institutional-tactics",
+      "authors": ["jamie"]
     }
   ],
   "pressreleases": [
