@@ -18,53 +18,38 @@
       "twitterId": "",
       "facebookId": "jamie.harris.397",
       "desc": "Jamie has a History degree from Oxford University and a Postgraduate Certificate in Education from Nottingham University. Dedicated to reducing animal suffering, he has volunteered for a variety of effective animal advocacy organisations, including Faunalytics, The Humane League and the Good Food Institute. He is also working to grow the effective altruism movement by managing the local group Effective Animal Altruism London."
-    }
-  ],
-  "board": [
-    {
-      "id": "diana",
-      "name": "Diana Fleischman",
-      "twitterId": "sentientist",
-      "desc": "Diana Santos Fleischman, Ph.D, is an Associate Professor in psychology at the University of Portsmouth. As an effective altruist, Diana is committed to reducing the suffering of nonhuman animals by promoting research into effective interventions through Animal Charity Evaluators, engaging with the public through podcasts, blogs and interviews, and conducting psychological research into human attitudes towards nonhuman animals. You can follow Diana @Sentientist."
-    },
-    {
-      "id": "max",
-      "name": "Max Daniel",
-      "desc": "Max Daniel is a Senior Research Scholar at the Future of Humanity Institute. His research is focussed on the governance of artificial intelligence and the macrostrategy of how to best shape to long-term future. He holds a master’s in mathematics with a minor in philosophy from Heidelberg University. Before joining FHI, he led the research wing of the Effective Altruism Foundation, where he currently serves as a board member. Before joining FHI, he led the research wing of the Effective Altruism Foundation, where he currently serves as a board member."
     },
     {
       "id": "kelly",
       "name": "Kelly Witwicki",
+      "role": "Advisory Board Member",
       "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
-    }
-  ],
-  "advisors": [
+    },
     {
       "id": "natalie",
       "name": "Natalie Cargill",
+      "role": "Advisory Board Member",
       "desc": "Natalie is the Founder & Director of Effective Giving UK, which helps high-net worth donors maximize their impact. She also coordinates a group of donors who collectively give over $60M annually to end factory farming. She is an associate barrister at Serjeants’ Inn Chambers, which is known for cases of ethical and political importance, and graduated first-class from Oxford. Natalie has worked with the UNHRC, Global Alliance for Improved Nutrition, 80,000 Hours, and Sentience Politics, and has lectured on effective giving at Cambridge and King's College."
     },
     {
       "id": "oscar",
       "name": "Oscar Horta",
+      "role": "Advisory Board Member",
       "link": "https://usc-es.academia.edu/OscarHorta",
       "desc": "Oscar Horta has been involved in antispeciesist and vegan activism since the mid 90s. He’s a founding member of Animal Ethics. He teaches philosophy at the University of Santiago de Compostela, and has been a visiting researcher in other universities. His main fields of research are speciesism and wild animal suffering."
     },
     {
       "id": "kellym",
       "name": "Kelly McNamara",
+      "role": "Advisory Board Member",
       "desc": "Kelly is a writer and editor specializing in the writing and publication of nonfiction manuscripts and case studies. During recent years, she has collaborated with authors and subject matter experts from Harvard Business School and Ernst & Young (EY) and ghostwritten a number of books dealing with topics including women’s health, entrepreneurship, and consumer loyalty in the twenty-first century. She has served as an intern and fellow at The Humane League and is currently conducting independent research into financial market trends and the potential implications of these for both alternative protein innovation and traditional animal agriculture. Kelly holds a BA in philosophy from the University of Pennsylvania and a MPhil in philosophy from Cambridge University."
     },
     {
       "id": "j",
       "name": "J. Mohorčich",
+      "role": "Advisory Board Member",
       "link": "https://www.lehman.edu/academics/political-science/faculty-mohorcich.php",
       "desc": "J. Mohorčich is Assistant Professor of Political Science at Lehman College, CUNY, where he teaches courses in American politics, political philosophy, and science policy. He has previously taught at Johns Hopkins University and the University of Mannheim and was a Research Fellow at Sentience Institute. His published work has to do with technology adoption and social change, nonhuman cognition and intellectual labor, and political theory and survival."
-    },
-    {
-      "id": "kelly",
-      "name": "Kelly Witwicki",
-      "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
     }
   ],
   "authors": {
