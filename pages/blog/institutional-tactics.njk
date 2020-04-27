@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/institutional-tactics", "Which institutional tactics can animal advocates use?", "blog/" + blogposts[17].img, "This blog post outlines examples of institutional tactics and links to available resources on how to maximize their effectiveness....") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[17], authors) }}
+
+{% endblock %}
