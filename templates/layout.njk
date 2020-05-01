@@ -13,7 +13,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@sentienceinst" />
 
-    {% macro metatagsrender(pageurl, title, imgsrc, description, date) %}
+    {% macro metatagsrender(pageurl, title, imgsrc, description, date, keywords, type) %}
     {% if description %}
     <meta property="description" content="{{description}}" />
     <meta property="og:description" content="{{description}}" />
@@ -32,6 +32,12 @@
     {% endif %}
     {% if date %}
     <meta name="date" content={{date}} scheme="YYYY-MM-DD">
+    {% endif %}
+    {% if keywords %}
+    <meta name="keywords" content="{{keywords}}">
+    {% endif %}
+    {% if keywords %}
+    <meta name="type" content="{{type}}">
     {% endif %}
     <meta property="og:url" content="http://www.sentienceinstitute.org/{{pageurl}}" />
     <meta property="og:image" content="http://www.sentienceinstitute.org/img/{{imgsrc}}.png" />
