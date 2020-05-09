@@ -23,7 +23,7 @@
     },
     {
       "id": "kelly",
-      "name": "Kelly Witwicki",
+      "name": "Kelly Anthis",
       "role": "Advisory Board Member",
       "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
     },
@@ -64,7 +64,7 @@
       "img": "../img/team/jacy.png"
     },
     "kelly": {
-      "name": "Kelly Witwicki",
+      "name": "Kelly Anthis",
       "role": "Co-Founder & Executive Director",
       "twitterId": "kellywitwicki",
       "facebookId": "kellywitwicki",
@@ -722,7 +722,7 @@
         "title": "Expanding the Moral Circle",
         "source": "EA Global Boston",
         "date": "June 4, 2017",
-        "speaker": "Kelly Witwicki",
+        "speaker": "Kelly Anthis",
         "img": "eagboston.png"
       },
       {
@@ -781,7 +781,7 @@
         "source": "EA Global San Francisco",
         "date": "June 10, 2018",
         "year": "2018",
-        "speaker": "Kelly Witwicki & Kieran Greig",
+        "speaker": "Kelly Anthis & Kieran Greig",
         "img": "eagsf2018kellykieran.png"
       },
       {
@@ -800,7 +800,7 @@
         "title": "Driving the Adoption of Animal-Free Food",
         "source": "ProVeg International",
         "date": "March 19, 2019",
-        "speaker": "Kelly Witwicki",
+        "speaker": "Kelly Anthis",
         "img": "provegtalkkelly2019.png"
       },
       {
@@ -920,7 +920,7 @@
         "url": "british-antislavery",
         "type": "Social Movement Case Study",
         "title": "Social Movement Lessons From the British Antislavery Movement: Focused on Applications to the Movement Against Animal Farming",
-        "author": "Kelly Witwicki",
+        "author": "Kelly Anthis",
         "date": "December 1, 2017",
         "img": "british-antislavery",
         "abstract": "Studying past social movements can provide invaluable insights for modern movement strategy. This report aims to assess (1) what factors led the British government to abolish the transatlantic Slave trade in 1807 and then human chattel slavery in 1833, and (2) what those findings suggest about how modern social movements should strategize. While many of the implications are generalizable to a variety of movements, the analysis will focus on applications to the movement against animal farming. Key implications include the need to focus on institutional change, the circumstances under which strategic reforms can facilitate the eventual elimination of the institution, and what messaging can best generate support.",
@@ -1016,7 +1016,7 @@
         "url": "global-animal-farming-estimates",
         "type": "Estimate",
         "title": "Global Farmed & Factory Farmed Animals Estimates",
-        "author": "Kelly Witwicki",
+        "author": "Kelly Anthis",
         "date": "Last updated February 21, 2019",
         "img": "global-animal-farming-estimates",
         "abstract": "We estimate that over 90% of farmed animals globally are living in factory farms at present. This includes an estimated 74% of farmed land animals and virtually all farmed fish. However, there is substantial uncertainty in these figures given the land animal estimates’ heavy reliance on information from Worldwatch Institute with unclear methodology and limited data on fish farming. In total, we estimate that around 31.0 billion land animals and 38.8 to 215.9 billion fish are being farmed globally at any given time.",
