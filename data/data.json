@@ -908,9 +908,23 @@
         "affiliation": "Global Food Partners"
       },
       "directories": {
-        "google": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz&episode=QnV6enNwcm91dC0zMDI3Njcw&ved=0CAcQ38oDahcKEwiA5K388tboAhUAAAAAHQAAAAAQAQ&hl=en",
-        "apple": "https://podcasts.apple.com/us/podcast/jayasimha-nuggehalli-on-capacity-building-animal-welfare/id1489363314?i=1000470803494",
-        "spotify": "https://open.spotify.com/episode/2BNfsNRc5lUxcIXnIjT8sJ"
+        "google": "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz&hl=en",
+        "apple": "https://podcasts.apple.com/us/podcast/the-sentience-institute-podcast/id1489363314",
+        "spotify": "https://open.spotify.com/show/6wHmiXgbAUGHOZ9lNTyDay"
+      }
+    },{
+      "no": "8",
+      "embedsnippet": "3689416-laila-kassam-of-animal-think-tank-on-popular-protest-movements-mass-arrests-and-publicity-stunts",
+      "title": "Laila Kassam of Animal Think Tank on popular protest movements, mass arrests, and publicity stunts",
+      "date": "May 12, 2020",
+      "guest": {
+        "name": "Laila Kassam",
+        "affiliation": "Animal Think Tank"
+      },
+      "directories": {
+        "google": "",
+        "apple": "",
+        "spotify": ""
       }
     }
   ],
