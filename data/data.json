@@ -1048,16 +1048,21 @@
           "name": "SCOTUS_and_Social_Change"
         }
       },{
-          "url": "afft-experiment",
-          "type": "Experiment",
-          "title": "The Effects of Animal-Free Food Technology Awareness on Animal Farming Opposition",
-          "author": "Jamie Harris",
-          "date": "May 14, 2020",
-          "img": "afft-experiment",
-          "abstract": "There is limited research on the effects of animal-free food technologies (AFFT), such as cultured meat and new plant-based foods that accurately mimic animal products, on attitudes toward animal farming. This study found that providing participants with information about AFFT significantly lowered animal farming opposition (AFO) relative to participants who were provided with information about low-technology plant-based foods or about an unrelated topic. The results suggest that including information about AFFT in advocacy materials can be detrimental to attitudinal change. Information about low-technology plant-based foods had no significant effects on AFO relative to information about an unrelated topic, so does not seem to have this downside.",
-          "pdf": {
-            "name": "The Effects of Animal-Free Food Technology Awareness on Animal Farming Opposition"
-          }
+        "url": "afft-experiment",
+        "type": "Experiment",
+        "title": "The Effects of Animal-Free Food Technology Awareness on Animal Farming Opposition",
+        "author": "Jamie Harris",
+        "date": "May 14, 2020",
+        "img": "afft-experiment",
+        "abstract": "There is limited research on the effects of animal-free food technologies (AFFT), such as cultured meat and new plant-based foods that accurately mimic animal products, on attitudes toward animal farming. This study found that providing participants with information about AFFT significantly lowered animal farming opposition (AFO) relative to participants who were provided with information about low-technology plant-based foods or about an unrelated topic. The results suggest that including information about AFFT in advocacy materials can be detrimental to attitudinal change. Information about low-technology plant-based foods had no significant effects on AFO relative to information about an unrelated topic, so does not seem to have this downside.",
+        "pdf": {
+          "name": "The Effects of Animal-Free Food Technology Awareness on Animal Farming Opposition"
+        },
+        "date_meta": "2020/5/14",
+        "description": "This experiment tests the effects of learning about food technology on attitudes towards animal farming.",
+        "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;EXPERIMENT;ANIMAL FARMING;ANIMAL AGRICULTURE;TECHNOLOGY",
+        "series": "Experiments",
+        "year": "2020"
       }
     ]
   }
