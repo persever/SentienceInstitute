@@ -95,7 +95,8 @@ function docReady() {
   if ($(".gdoc-html-container")[0]){
     $("a[href*='%3']").each(function(){
       var oldhref = this.href;
-      var newhref = oldhref.replace("%3", "=");
+      var newhref = oldhref.replace("%3D", "=");
+      console.log(oldhref,newhref);
       $(this).attr("href", newhref);
     });
 
