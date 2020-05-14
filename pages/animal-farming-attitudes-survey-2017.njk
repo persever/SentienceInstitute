@@ -3,6 +3,8 @@
 {%set item = researchitems.other[0] %}
 
 {% block metatags %}
+{% from "../templates/partials/reportmetatags.njk" import reportmetatags %}
+{{ reportmetatags(item) }}
 {{ metatagsrender("animal-farming-attitudes-survey-2017", "Animal Farming Attitudes Survey 2017", "header_photos/" + "afa-2017", "In October 2017, we conducted a survey on attitudes towards animal farming and animal-free food in collaboration with the survey company Ipsos Group, with 1,094 US adults, census-balanced to be representative of age, sex, region, ethnicity, and income.") }}
 {% endblock %}
 

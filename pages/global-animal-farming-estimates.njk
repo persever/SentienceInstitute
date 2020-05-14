@@ -3,6 +3,8 @@
 {%set item = researchitems.other[2] %}
 
 {% block metatags %}
+{% from "../templates/partials/reportmetatags.njk" import reportmetatags %}
+{{ reportmetatags(item) }}
 {{ metatagsrender("global-animal-farming-estimates", "Global Farmed & Factory Farmed Animals Estimates", "header_photos/" + "global-animal-farming-estimates", "What percentage of animals are factory farmed around the world? " + item.abstract) }}
 {% endblock %}
 

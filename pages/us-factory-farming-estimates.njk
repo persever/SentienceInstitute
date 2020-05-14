@@ -3,6 +3,8 @@
 {%set item = researchitems.other[1] %}
 
 {% block metatags %}
+{% from "../templates/partials/reportmetatags.njk" import reportmetatags %}
+{{ reportmetatags(item) }}
 {{ metatagsrender("us-factory-farming-estimates", "US Factory Farming Estimates", "header_photos/" + "us-factory-farming-estimates", "How many animals are factory farmed? " + item.abstract) }}
 {% endblock %}
 
