@@ -2286,6 +2286,71 @@ hr{
       margin-bottom: $normal-space;
     }
   }
+
+&.afft-experiment-container {
+  .c13 {
+    font-style: italic;
+  }
+
+  // TOC
+  table {
+    tr{
+      display: flex;
+      td {
+        p{
+          font-weight: $normal-weight;
+          margin: 0;
+        }
+      }
+      .c28{
+        margin-left: 30px;
+      }
+      .c56{
+        margin-left: 60px;
+      }
+    }
+  }
+}
+
+  // bold first rows in table
+  .c5.c34 {
+    font-weight: bold;
+  }
+
+  // table except TOC
+  table:not(:first-of-type) {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    margin-bottom: $normal-space;
+
+    tr {
+      display: flex;
+
+      td {
+        font-weight: $normal-weight;
+        text-align: left;
+        align-items: flex-start;
+        padding: 6px;
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+
+        p {
+          text-align: left;
+          align-items: flex-start;
+        }
+      }
+    }
+  }
+
+  // text below tables
+  .c1 .c9,.c1 .c54 {
+    font-size:$small-font-size;
+  }
+
+  // spacing for bullet point lists
+  ul li {
+    margin-bottom: $normal-space;
+  }
 }
 
 .estimates-spreadsheet-container {
