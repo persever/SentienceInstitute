@@ -2288,7 +2288,7 @@ hr{
   }
 
 &.afft-experiment-container {
-  .c13 {
+  .c8 {
     font-style: italic;
   }
 
@@ -2302,10 +2302,10 @@ hr{
           margin: 0;
         }
       }
-      .c28{
+      .c31{
         margin-left: 30px;
       }
-      .c56{
+      .c40{
         margin-left: 60px;
       }
     }
@@ -2313,7 +2313,7 @@ hr{
 }
 
   // bold first rows in table
-  .c5.c34 {
+  .c26.c1 {
     font-weight: bold;
   }
 
@@ -2343,8 +2343,20 @@ hr{
   }
 
   // text below tables
-  .c1 .c9,.c1 .c54 {
+  .c22 {
     font-size:$small-font-size;
+  }
+
+  // headlines in message texts
+  .c41.c26 {
+    font-size: $large-font-size;
+    font-weight: $bold-weight;
+  }
+
+  // thin line in message texts
+  .c49 {
+    font-size: $small-font-size;
+    color: $grey;
   }
 
   // spacing for bullet point lists
