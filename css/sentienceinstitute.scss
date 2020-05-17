@@ -2287,81 +2287,81 @@ hr{
     }
   }
 
-&.afft-experiment-container {
-  .c8 {
-    font-style: italic;
-  }
+  &.afft-experiment-container {
+    .c8 {
+      font-style: italic;
+    }
 
-  // TOC
-  table {
-    tr{
-      display: flex;
-      td {
-        p{
-          font-weight: $normal-weight;
-          margin: 0;
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c31{
+          margin-left: 30px;
+        }
+        .c40{
+          margin-left: 60px;
         }
       }
-      .c31{
-        margin-left: 30px;
-      }
-      .c40{
-        margin-left: 60px;
-      }
     }
-  }
-}
 
-  // bold first rows in table
-  .c26.c1 {
-    font-weight: bold;
-  }
+    // bold first rows in table
+    .c26.c1 {
+      font-weight: bold;
+    }
 
-  // table except TOC
-  table:not(:first-of-type) {
-    border-top: 1px solid #000;
-    border-left: 1px solid #000;
-    margin-bottom: $normal-space;
+    // table except TOC
+    table:not(:first-of-type) {
+      border-top: 1px solid #000;
+      border-left: 1px solid #000;
+      margin-bottom: $normal-space;
 
-    tr {
-      display: flex;
+      tr {
+        display: flex;
 
-      td {
-        font-weight: $normal-weight;
-        text-align: left;
-        align-items: flex-start;
-        padding: 6px;
-        border-bottom: 1px solid #000;
-        border-right: 1px solid #000;
-
-        p {
+        td {
+          font-weight: $normal-weight;
           text-align: left;
           align-items: flex-start;
+          padding: 6px;
+          border-bottom: 1px solid #000;
+          border-right: 1px solid #000;
+
+          p {
+            text-align: left;
+            align-items: flex-start;
+          }
         }
       }
     }
-  }
 
-  // text below tables
-  .c22 {
-    font-size:$small-font-size;
-  }
+    // text below tables
+    .c22 {
+      font-size:$small-font-size;
+    }
 
-  // headlines in message texts
-  .c41.c26 {
-    font-size: $large-font-size;
-    font-weight: $bold-weight;
-  }
+    // headlines in message texts
+    .c41.c26 {
+      font-size: $large-font-size;
+      font-weight: $bold-weight;
+    }
 
-  // thin line in message texts
-  .c49 {
-    font-size: $small-font-size;
-    color: $grey;
-  }
+    // thin line in message texts
+    .c49 {
+      font-size: $small-font-size;
+      color: $grey;
+    }
 
-  // spacing for bullet point lists
-  ul li {
-    margin-bottom: $normal-space;
+    // spacing for bullet point lists
+    ul li {
+      margin-bottom: $normal-space;
+    }
   }
 }
 
