@@ -2363,6 +2363,84 @@ hr{
       margin-bottom: $normal-space;
     }
   }
+
+  &.death-penalty-container {
+    .c4.c7.c3 {
+      font-style: italic;
+    }
+
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c33 {
+          margin-left: 30px;
+        }
+        .c44.c20 {
+          margin-left: 60px;
+        }
+      }
+    }
+
+    // spacing for bullet point lists
+    ul li {
+      margin-bottom: $normal-space;
+    }
+
+    // bolded strategic implications
+    .c14.c7.c5 {
+      font-weight: bold;
+    }
+
+    // italics for court cases in TOC
+    .c18.c21.c3.c1 {
+      font-style: italic;
+    }
+
+    // blockquotes
+    .c9.c20 {
+      margin-left: 30px;
+    }
+
+    // bold first rows in table
+    .c14.c5.c1 {
+      font-weight: bold;
+    }
+
+    // table except TOC
+    table:not(:first-of-type) {
+      border-top: 1px solid #000;
+      border-left: 1px solid #000;
+      margin-bottom: $normal-space;
+
+      tr {
+        display: flex;
+
+        td {
+          font-weight: $normal-weight;
+          text-align: left;
+          align-items: flex-start;
+          padding: 6px;
+          border-bottom: 1px solid #000;
+          border-right: 1px solid #000;
+
+          p {
+            text-align: left;
+            align-items: flex-start;
+          }
+        }
+      }
+    }
+
+    // I can't find a way to center the images right now, though I probably could by editing the Google Document
+
+  }
 }
 
 .estimates-spreadsheet-container {

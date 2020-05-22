@@ -962,6 +962,25 @@
         "keywords": "ABORTION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE;ANTI-ABORTION",
         "series": "Social Movement Case Studies",
         "year": "2019"
+      },{
+        "url": "death-penalty",
+        "type": "Social Movement Case Study",
+        "title": "Social Movement Lessons from the US Anti-Death Penalty Movement",
+        "author": "Jamie Harris",
+        "date": "May 22, 2020",
+        "img": "death-penalty",
+        "img_info": {
+          "title": "Anti-Death Penalty Summit",
+          "credit": "C. Elle"
+        },
+        "abstract": "This report aims to assess (1) the extent to which the anti-death penalty movement in the United States, especially from 1966-2015, can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize. The analysis highlights the farmed animal movement as an illustrative example of the strategic implications for a variety of movements. Key findings of this report include that a narrow focus on legal strategies can discourage the growth of a grassroots movement that may be more effective in the longer term and that legislative change is possible without public support.",
+        "pdf": {
+          "name": "Social Movement Lessons from the US Anti-Death Penalty Movement"
+        },
+        "date_meta": "2020/05/22",
+        "keywords": "DEATH PENALTY;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE;ANTI-ABORTION",
+        "series": "Social Movement Case Studies",
+        "year": "2020"
       }
     ],
     "technologyadoption": [
