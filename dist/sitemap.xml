@@ -1,210 +1,375 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>http://sentienceinstitute.org/</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/terms</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/perspective</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/transparency</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/research</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/faq</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/team</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/gmo-aam</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/get-involved</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/research-agenda</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/tech-studies-update</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/mission</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/mce-v-aia</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/dei</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/how-tractable-is-changing-the-course-of-history</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/foundational-questions-summaries</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/what-can-the-farmed-animal-movement-learn-from-history</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/us-factory-farming-estimates</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/global-animal-farming-estimates</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/animal-farming-attitudes-survey-2017</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/british-antislavery</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/Anti-Abortion_Movement_Study.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/scotus</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/sentience-institute-tech-study-nuclear-energy.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/nuclear-power-clean-meat</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/gm-foods</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/anti-abortion</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/sentience-institute-tech-study-gmos.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/mistakes</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/SI_990_2017.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/biofuels</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/HarassmentDiscriminationPolicy.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/SI_Bylaws_11152017.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/disclosures</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/minutes</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/SI_990_2019.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/SI_990_2018.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/mailchimp-newsletter</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/GMO-AAM.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/mailchimp-researchnetwork</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/donate</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/jamie-harris</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/jacy-reese-anthis</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/podcast/</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/speculation-and-intuition-as-evidence</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/eaa-researcher-survey-june-2017</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/three-big-changes</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/outreach</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/podcast/episode-1.html</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/podcast/episode-2.html</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/how-is-SI-research-different</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/podcast/episode-4.html</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/SCOTUS_and_Social_Change.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/podcast/episode-3.html</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/podcast/episode-6.html</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/mailchimp-fqsupdates</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/what-we-can-do-in-2018-with-your-support</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/introducing-sentience-institute</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/podcast/episode-5.html</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/eoy2019</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/what-is-sentience</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/podcast/episode-7.html</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/institutional-tactics</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/introducing-the-si-podcast</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/downloads/Reese NH Poster.pdf</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/eoy2018</loc>
-  </url>
-  <url>
-    <loc>http://sentienceinstitute.org/blog/institutional-change-palgrave</loc>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<url>
+  <loc>https://sentienceinstitute.org/</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/foundational-questions-summaries</loc>
+  <lastmod>2020-05-25T15:31:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/research</loc>
+  <lastmod>2020-05-25T15:31:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/research-agenda</loc>
+  <lastmod>2020-05-25T15:31:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/mission</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/perspective</loc>
+  <lastmod>2020-05-25T15:31:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/team</loc>
+  <lastmod>2020-05-25T15:31:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/get-involved</loc>
+  <lastmod>2020-05-25T15:31:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/transparency</loc>
+  <lastmod>2020-05-25T15:31:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/faq</loc>
+  <lastmod>2020-02-12T17:37:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/terms</loc>
+  <lastmod>2020-05-25T15:31:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/donate</loc>
+  <lastmod>2020-05-25T15:31:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/speculation-and-intuition-as-evidence</loc>
+  <lastmod>2020-05-25T15:34:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/how-tractable-is-changing-the-course-of-history</loc>
+  <lastmod>2020-05-25T15:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/animal-farming-attitudes-survey-2017</loc>
+  <lastmod>2020-05-26T15:56:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/eaa-researcher-survey-june-2017</loc>
+  <lastmod>2020-05-25T15:34:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/british-antislavery</loc>
+  <lastmod>2020-05-25T15:31:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/anti-abortion</loc>
+  <lastmod>2020-05-25T15:31:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/scotus</loc>
+  <lastmod>2020-05-25T15:31:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/gm-foods</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/what-can-the-farmed-animal-movement-learn-from-history</loc>
+  <lastmod>2020-05-25T15:34:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/mailchimp-fqsupdates</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/mailchimp-newsletter</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/biofuels</loc>
+  <lastmod>2020-05-25T15:31:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/sentience-institute-tech-study-gmos.pdf</loc>
+  <lastmod>2020-05-25T15:35:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/nuclear-power-clean-meat</loc>
+  <lastmod>2020-05-25T15:31:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/sentience-institute-tech-study-nuclear-energy.pdf</loc>
+  <lastmod>2020-05-25T15:35:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/death-penalty</loc>
+  <lastmod>2020-05-25T15:31:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/Social%20Movement%20Lessons%20from%20the%20US%20Anti-Death%20Penalty%20Movement.pdf</loc>
+  <lastmod>2020-05-25T15:35:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/Anti-Abortion_Movement_Study.pdf</loc>
+  <lastmod>2020-05-25T15:35:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/afft-experiment</loc>
+  <lastmod>2020-05-25T15:31:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/global-animal-farming-estimates</loc>
+  <lastmod>2020-05-25T15:31:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/us-factory-farming-estimates</loc>
+  <lastmod>2020-05-25T15:31:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/dei</loc>
+  <lastmod>2020-05-25T15:34:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/mce-v-aia</loc>
+  <lastmod>2020-05-25T15:34:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/tech-studies-update</loc>
+  <lastmod>2020-05-25T15:34:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/gmo-aam</loc>
+  <lastmod>2020-05-25T15:34:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/jacy-reese-anthis</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/jamie-harris</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/mailchimp-researchnetwork</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/SI_Bylaws_11152017.pdf</loc>
+  <lastmod>2020-05-25T15:35:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/SI_990_2019.pdf</loc>
+  <lastmod>2020-05-25T15:35:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/SI_990_2018.pdf</loc>
+  <lastmod>2020-05-25T15:35:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/SI_990_2017.pdf</loc>
+  <lastmod>2020-05-25T15:35:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/minutes</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/disclosures</loc>
+  <lastmod>2020-05-25T15:31:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/mistakes</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/HarassmentDiscriminationPolicy.pdf</loc>
+  <lastmod>2020-05-25T15:35:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/</loc>
+  <lastmod>2020-05-25T15:34:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/podcast/</loc>
+  <lastmod>2020-05-25T15:35:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/outreach</loc>
+  <lastmod>2020-05-25T15:31:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/what-we-mean-by-sentience</loc>
+  <lastmod>2020-05-25T15:34:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/how-is-SI-research-different</loc>
+  <lastmod>2020-05-25T15:34:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/SCOTUS_and_Social_Change.pdf</loc>
+  <lastmod>2020-05-25T15:35:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/three-big-changes</loc>
+  <lastmod>2020-05-25T15:34:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/The%20Effects%20of%20Animal-Free%20Food%20Technology%20Awareness%20on%20Animal%20Farming%20Opposition.pdf</loc>
+  <lastmod>2020-05-17T14:00:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/GMO-AAM.pdf</loc>
+  <lastmod>2020-05-25T15:35:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/institutional-tactics</loc>
+  <lastmod>2020-05-25T15:34:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/institutional-change-palgrave</loc>
+  <lastmod>2020-05-25T15:34:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/introducing-the-si-podcast</loc>
+  <lastmod>2020-05-25T15:34:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/eoy2019</loc>
+  <lastmod>2020-05-25T15:34:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/eoy2018</loc>
+  <lastmod>2020-05-25T15:34:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/what-is-sentience</loc>
+  <lastmod>2020-05-25T15:34:43+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/what-we-can-do-in-2018-with-your-support</loc>
+  <lastmod>2020-05-25T15:34:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/blog/introducing-sentience-institute</loc>
+  <lastmod>2020-05-25T15:34:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/podcast/episode-8.html</loc>
+  <lastmod>2020-05-25T15:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/podcast/episode-7.html</loc>
+  <lastmod>2020-05-25T15:35:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/podcast/episode-6.html</loc>
+  <lastmod>2020-05-25T15:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/podcast/episode-5.html</loc>
+  <lastmod>2020-05-25T15:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/podcast/episode-4.html</loc>
+  <lastmod>2020-05-25T15:35:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/podcast/episode-3.html</loc>
+  <lastmod>2020-05-25T15:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/podcast/episode-2.html</loc>
+  <lastmod>2020-05-25T15:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/podcast/episode-1.html</loc>
+  <lastmod>2020-05-25T15:35:30+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://sentienceinstitute.org/downloads/Reese%20NH%20Poster.pdf</loc>
+  <lastmod>2020-05-25T15:35:05+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
 </urlset>
-<!--<guid value="fd7892e0-91c4-43d9-8bd1-b95922aca924" />-->
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
