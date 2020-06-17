@@ -1229,6 +1229,7 @@ hr{
 
 .container.podcast-episode-container {
   // Individual page 'header' bolds
+  &.podcast-episode-9-container .c7,
   &.podcast-episode-8-container .c7,
   &.podcast-episode-7-container .c9,
   &.podcast-episode-6-container .c10,
@@ -1286,10 +1287,11 @@ hr{
         font-weight: $bold-weight;
       }
     }
-
+/* This was in because all the write-ups had an extraneous heading in the Google Doc version, but that's removed in 8 and 9 so this is causing bugs.
     p:last-of-type {
       display: none;
     }
+*/
   }
 
   .podcast-episode-writeup+h3 {
