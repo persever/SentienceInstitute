@@ -1023,14 +1023,14 @@ hr{
 .blog-item-link:hover, .blog-item-link:focus,
 .press-item-link:hover, .press-item-link:focus,
 .research-item-link:hover, .research-item-link:focus,
-.outreach-item-link:hover, .outreach-item-link:focus {
+.media-item-link:hover, .media-item-link:focus {
   text-decoration: none;
 }
 
 .blog-item,
 .press-item,
 .research-item,
-.outreach-item {
+.media-item {
   height: calc(100% - 15px);
   margin-top: $normal-space;
   border-radius: 2px;
@@ -1041,7 +1041,7 @@ hr{
   .blog-item-image,
   .press-item-image,
   .research-item-image,
-  .outreach-item-image {
+  .media-item-image {
     background-position: center;
     background-size: cover;
   }
@@ -1052,7 +1052,7 @@ hr{
   }
 
   .research-item-image,
-  .outreach-item-image {
+  .media-item-image {
     height: 100px;
   }
 
@@ -1066,7 +1066,7 @@ hr{
     font-weight: $bold-weight;
   }
 
-  .outreach-item-source{
+  .media-item-source{
     font-weight: $bold-weight;
     text-transform: uppercase;
     font-size: $small-font-size;
@@ -1074,13 +1074,13 @@ hr{
   }
 
   .blog-item-info,
-  .outreach-item-info,
+  .media-item-info,
   .press-item-info {
     height: calc(100% - 200px);
   }
 
   .blog-item-info,
-  .outreach-item-info {
+  .media-item-info {
     color: $dark-grey;
     padding: $normal-space;
     display: flex;
@@ -1088,13 +1088,13 @@ hr{
     // justify-content: space-between;
 
     .blog-item-date,
-    .outreach-item-date{
+    .media-item-date{
       font-size: $small-font-size;
       text-transform: uppercase;
     }
 
     .blog-item-title,
-    .outreach-item-title{
+    .media-item-title{
       color: $blue;
       font-weight: $bold-weight;
     }
@@ -1110,7 +1110,7 @@ hr{
       }
     }
 
-    .outreach-item-author{
+    .media-item-author{
       font-size: $small-font-size;
     }
   }
@@ -1121,7 +1121,7 @@ hr{
   }
 
   .research-item-info,
-  .outreach-item-info{
+  .media-item-info{
     color: $dark-grey;
     padding: $normal-space;
     height: calc(100% - 100px);
@@ -1390,7 +1390,7 @@ hr{
 
 .outreach-section-list.interviews,
 .outreach-section-list.presentations{
-  .outreach-item {
+  .media-item {
     display: flex;
     flex-direction: column;
 
@@ -1404,14 +1404,14 @@ hr{
       margin-bottom: $normal-space;
     }
 
-    .outreach-item-info {
+    .media-item-info {
       padding-top: 0px;
     }
   }
 }
 
 .presentations {
-  .outreach-item-image {
+  .media-item-image {
     background-position: top;
   }
 }

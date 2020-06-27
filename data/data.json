@@ -392,7 +392,7 @@
       }
     }
   ],
-  "outreachitems": {
+  "mediaitems": {
     "book": {
       "externalurl": "https://www.amazon.com/End-Animal-Farming-Entrepreneurs-Animal-Free/dp/0807019453/",
       "img": "teoaf.png",
@@ -615,6 +615,24 @@
         "year": "2019",
         "author": "Jacy Reese Anthis",
         "img": "guardianfoiegras.png"
+      },
+      {
+        "externalurl": "https://www.nydailynews.com/opinion/ny-oped-animal-farming-is-a-moral-atrocity-20200213-okmydbfzvfedbcsafbamesvauy-story.html",
+        "title": "Joaquin Phoenix is right: Animal farming is a moral atrocity",
+        "source": "New York Daily News",
+        "date": "February 13, 2020",
+        "year": "2020",
+        "author": "Jacy Reese Anthis",
+        "img": "joaquin.jpg"
+      },
+      {
+        "externalurl": "https://arcdigital.media/utilitarianism-in-an-age-of-moral-turbulence-11752dbab0b8",
+        "title": "Utilitarianism in an Age of Moral Turbulence",
+        "source": "Arc Digital",
+        "date": "May 28, 2020",
+        "year": "2020",
+        "author": "Jacy Reese Anthis",
+        "img": "hills.jpg"
       }
     ],
     "audiointerviews": [
@@ -677,6 +695,24 @@
         "date": "November 8, 2018",
         "year": "2018",
         "img": "mainstreetvegan.png"
+      },
+      {
+        "externalurl": "https://mainstreetvegan.net/msv-podcast-november-7-2018-protest-kitchen-the-end-of-animal-farming/",
+        "audio": "https://dcs.megaphone.fm/UOR6194287664.mp3?key=48cdb945fc62e1e506fbbe9352177684",
+        "title": "Episode 132: Jacy Reese",
+        "source": "The Godless Spellchecker",
+        "date": "January 14, 2019",
+        "year": "2019",
+        "img": "godlessspellchecker.jpg"
+      },
+      {
+        "externalurl": "https://mainstreetvegan.net/msv-podcast-november-7-2018-protest-kitchen-the-end-of-animal-farming/",
+        "audio": "https://dcs.megaphone.fm/UOR6194287664.mp3?key=48cdb945fc62e1e506fbbe9352177684",
+        "title": "Compassion and Rationality: An interview with Jacy Reese Anthis",
+        "source": "Micro-Digressions: A Philosophy Podcast",
+        "date": "May 19, 2020",
+        "year": "2020",
+        "img": "microdigressions.jpg"
       }
     ],
     "videointerviews": [
@@ -710,7 +746,7 @@
       {
         "externalurl": "https://nowthisnews.com/videos/politics/the-end-of-animal-farming-argues-against-factory-farming",
         "videourl": "https://content.jwplatform.com/videos/7OdwSavR-1280.mp4",
-        "title": "'The End of Animal Farming' Argues Against Factory Farming",
+        "title": "Moral Circle Expansion",
         "source": "NowThis",
         "date": "January 31, 2019",
         "year": "2019",
@@ -809,9 +845,17 @@
         "externalurl": "https://www.youtube.com/watch?v=Ls3NBFenjGw",
         "title": "What can animal advocates learn from history",
         "source": "CARE 2019",
-        "date": "Oct 17, 2019",
+        "date": "October 17, 2019",
         "year": "2019",
         "img": "carejamie2019.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=my4bqQrcXI8",
+        "title": "Moral Circle Expansion: Animal advocacy and the long-term future",
+        "source": "Effective Altruism Oxford",
+        "date": "June 24, 2020",
+        "year": "2020",
+        "img": "eaojamie2020.png"
       }
     ]
   },

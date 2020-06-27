@@ -1,0 +1,58 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("media", "Media", "outreach", "Outreach", "header_photos/" + "media", "") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("media", photos["media"], "Media") }}
+
+<div class="container first-container outreach-list-container">
+      <h1><span><i>Book</i></span></h1>
+      <div class="row outreach-section-list book">
+        <div class="link">
+          <a href="{{mediaitems.book.externalurl}}">
+            <img src="../img/media/{{mediaitems.book.img}}"/>
+          </a>
+        </div>
+        <div class="quote">
+          <div>"{{mediaitems.book.quote}}"</div>
+          <div class="quote-attribution">—{{mediaitems.book.quoteattribution}}</div>
+        </div>
+      </div>
+
+      <h1><span>Articles</span></h1>
+      <div class="row outreach-section-list">
+        {% for articleitem in mediaitems.externalarticles | reverse %}
+          {% from "../templates/partials/mediaitem.njk" import mediaitem %}
+          {{ mediaitem(articleitem, "article") }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Presentations</span></h1>
+      <div class="row outreach-section-list presentations">
+        {% for presentationitem in mediaitems.presentations | reverse %}
+          {% from "../templates/partials/mediaitem.njk" import mediaitem %}
+          {{ mediaitem(presentationitem, "presentation") }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Video Interviews</span></h1>
+      <div class="row outreach-section-list interviews">
+        {% for interviewitem in mediaitems.videointerviews | reverse %}
+          {% from "../templates/partials/mediaitem.njk" import mediaitem %}
+          {{ mediaitem(interviewitem, "interview") }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Radio & External Podcasts</span></h1>
+      <div class="row outreach-section-list interviews">
+        {% for interviewitem in mediaitems.audiointerviews | reverse %}
+          {% from "../templates/partials/mediaitem.njk" import mediaitem %}
+          {{ mediaitem(interviewitem, "interview") }}
+        {% endfor %}
+      </div>
+</div>
+
+{% endblock %}

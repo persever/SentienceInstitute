@@ -37,13 +37,13 @@
   <h2><span>Publication of <i>The End of Animal Farming</i></span></h2>
   <div class="row outreach-section-list book">
     <div class="link">
-      <a href="{{outreachitems.book.externalurl}}">
-        <img src="../img/outreach/{{outreachitems.book.img}}"/>
+      <a href="{{mediaitems.book.externalurl}}">
+        <img src="../img/media/{{mediaitems.book.img}}"/>
       </a>
     </div>
     <div class="quote">
-      <div>"{{outreachitems.book.quote}}"</div>
-      <div class="quote-attribution">—{{outreachitems.book.quoteattribution}}</div>
+      <div>"{{mediaitems.book.quote}}"</div>
+      <div class="quote-attribution">—{{mediaitems.book.quoteattribution}}</div>
     </div>
   </div>
 
@@ -72,7 +72,7 @@
   <h2><span>Outreach</span></h2>
   <h3>Articles</h3>
   <ul>
-  {% for article in outreachitems.externalarticles | reverse %}
+  {% for article in mediaitems.externalarticles | reverse %}
     {% if article.year == "2018" %}
       {% from "../templates/partials/miniitem.njk" import miniitem %}
       <li>{{ miniitem(article) }}</li>
@@ -83,7 +83,7 @@
 
   <h3>Podcasts & Radio</h3>
   <ul>
-  {% for audio in outreachitems.audio | reverse %}
+  {% for audio in mediaitems.audio | reverse %}
     {% if audio.year == "2018" %}
       {% from "../templates/partials/miniitem.njk" import miniitem %}
       <li>{{ miniitem(audio) }}</li>
@@ -93,7 +93,7 @@
 
   <h3>Select Recorded Presentations</h3>
   <ul>
-  {% for video in outreachitems.presentations | reverse %}
+  {% for video in mediaitems.presentations | reverse %}
     {% if video.year == "2018" %}
       {% from "../templates/partials/miniitem.njk" import miniitem %}
       <li>{{ miniitem(video) }}</li>

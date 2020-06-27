@@ -1,12 +1,12 @@
-{% macro outreachitem(item, type) %}
+{% macro mediaitem(item, type) %}
 
 <div class="col-lg-4 col-md-6 col-sm-12">
 
 {%if type == "article"%}
-  <a class="outreach-item-link" href="{{item.externalurl}}">
+  <a class="media-item-link" href="{{item.externalurl}}">
 {%endif%}
 
-<div class="outreach-item">
+<div class="media-item">
 
   {#
   {%if (type == "presentation") or ((type == "interview") and (item.videourl))%}
@@ -14,13 +14,13 @@
   {%else%}
   #}
 
-    <div class="outreach-item-image" style="background-image: url(../img/outreach/{{item.img}})"></div>
+    <div class="media-item-image" style="background-image: url(../img/media/{{item.img}})"></div>
 
   {#
   {%endif%}
   #}
 
-  <div class="outreach-item-info">
+  <div class="media-item-info">
     {#
     {%if (type == "interview") and (item.audio)%}
       <audio controls>
@@ -28,14 +28,14 @@
       </audio>
     {%endif%}
     #}
-    <div><span class="outreach-item-date">{{item.date}}</span></div>
+    <div><span class="media-item-date">{{item.date}}</span></div>
     {%if type == "article"%}
-      <div class="outreach-item-title">{{item.title}}</div>
-      <div class="outreach-item-author">{{item.author}}</div>
+      <div class="media-item-title">{{item.title}}</div>
+      <div class="media-item-author">{{item.author}}</div>
     {%else%}
-      <div class="outreach-item-title"><a class="outreach-item-link" href="{{item.externalurl}}">{{item.title}}</a></div>
+      <div class="media-item-title"><a class="media-item-link" href="{{item.externalurl}}">{{item.title}}</a></div>
     {%endif%}
-    <div><span class="outreach-item-source">{{item.source}}</span></div>
+    <div><span class="media-item-source">{{item.source}}</span></div>
   </div>
 
 </div>
