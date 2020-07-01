@@ -2443,6 +2443,11 @@ hr{
     // I can't find a way to center the images right now, though I probably could by editing the Google Document
 
   }
+  &.researcher-opening-container{
+    .c2{
+      font-weight: $bold-weight;
+    }
+  }
 }
 
 .estimates-spreadsheet-container {

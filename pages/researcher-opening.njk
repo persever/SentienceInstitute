@@ -1,6 +1,6 @@
 {% extends "layout_for_iframe.njk" %}
 {% block metatags %}
-{{ metatagsrender("researcher-opening", "Open Position: Researcher", "header_photos/" + 9, "Interested in researching effective strategies to expand humanity's moral circle? Our team is hiring a researcher.") }}
+{{ metatagsrender("researcher-opening", "Open Position: Researcher", "header_photos/" + 9, "Interested in researching the expansion of humanity's moral circle? Our team is hiring a researcher.") }}
 {% endblock %}
 
 {% block content %}
@@ -8,101 +8,8 @@
 {% from "../templates/partials/headerimage.njk" import headerimage %}
 {{ headerimage(9, photos[9], "Researcher Opening") }}
 
-<div class="container first-container">
-  This opening has closed. Future openings will be shared to our newsletter. Subscribe below!
-{#
-  <h2>Researcher</h2>
-  <h3>Application Deadline: February 15, 2019</h3>
-  <p>
-    We're looking for a researcher to join our team and help us develop new insights into effective animal advocacy and broader moral circle expansion. <span class="bold">This position will focus on quantitative research, such as surveys and randomized controlled trials.</span> Role title will be "Researcher" or "Research Fellow" depending on candidate's qualifications.
-  </p>
-  <p style="margin-bottom: 0;">
-    <span class="bold">Employment type</span>: Full-time (US "at-will" or UK "permanent"); we may consider a contract or half-time role for exceptional candidates
-  </p>
-  <p style="margin-bottom: 0;">
-    <span class="bold">Location</span>: Remote, US-based (we may be able to make arrangements for international hires, but we are unable to sponsor US visas); current staff are in NYC and London
-  </p>
-  <p style="margin-bottom: 0;">
-    <span class="bold">Experience type</span>: Several years of professional or academic social science research with a quantitative focus
-  </p>
-  <p style="margin-bottom: 0;">
-    <span class="bold">Reports to</span>: Research Director
-  </p>
-  <p style="margin-bottom: 0;">
-    <span class="bold">Work style</span>: Relatively independent with frequent peer review and feedback and some collaboration
-  </p>
-  <p style="margin-bottom: 0;">
-    <span class="bold">Salary</span>: $45,000-50,000 (or international equivalent per costs of living) dependent on qualifications and need; negotiable; no benefits
-  </p>
-  <p style="margin-bottom: 0;">
-    <span class="bold">Paid time off</span>: 28 days per year (all-inclusive)
-  </p>
-  <p style="margin-bottom: 0;">
-    <span class="bold">Work schedule</span>: Flexible
-  </p>
-  <p>
-    <span class="bold">Professional development</span>: Employees will have opportunities to attend conferences and seminars relevant to their work
-  </p>
-
-  <p>
-    <span class="bold">As a researcher, you will generally:<span>
-  </p>
-  <p>
-    <ul>
-      <li>Collaborate with our Research Director to decide what projects on our <a href="http://www.sentienceinstitute.org/research-agenda">research agenda</a>, or what similar projects, to work on. This will primarily include surveys on public attitudes and randomized controlled trials of advocacy messages.</li>
-      <li>Conduct that research fairly independently with regular check-ins and eventual peer review prior to publication. Frequent questions and meetings will be expected at the beginning, but should slow down over time as you become more familiar with the research literature and methods.</li>
-      <li>Provide assistance as needed with other research projects and ideas, mainly by reviewing research for accuracy, clarity, quality of the reasoning, and overlooked evidence.</li>
-    </ul>
-  </p>
-  <p>
-    Since we’re a small organization, depending on your individual preferences and abilities you may also have opportunities to take on some outreach or other responsibilities, though that is by no means an expectation of researchers and is merely an opportunity for those who are interested.
-  </p>
-  <p>
-    <span class="bold">Required qualifications:</span>
-  </p>
-  <p>
-    <ul>
-      <li>Several years of research and writing experience in academia, think tanks, or a relevant institution.</li>
-      <li>Experience designing, running, and analyzing surveys and/or randomized controlled trials.</li>
-      <li>Strength in statistics.</li>
-      <li>Strong critical reasoning ability.</li>
-      <li>Comfort with updating your views when presented with new information.</li>
-      <li>Ability to ask questions that move your projects forward and improve their quality.</li>
-      <li>Good written communication skills.</li>
-      <li>Ability to work mostly independently with limited structure or mentorship.</li>
-      <li>Willingness to report to, collaborate with, and at times defer to our Research Director.</li>
-    </ul>
-  </p>
-  <p>
-    <span class="bold">Preferred attributes (we encourage you to apply even if you don't meet these):</span>
-  </p>
-  <p>
-    <ul>
-      <li>Graduate-level academic education in a social science or another relevant field.</li>
-      <li>Comfort with researching open-ended questions.</li>
-      <li>Comfort with speculation and making judgements based on limited evidence when stronger evidence is not available.</li>
-      <li>Familiarity with the animal advocacy movement and its strategies, and particularly with the <a href="/foundational-questions-summaries">debates and research on effective animal advocacy</a>.</li>
-      <li>Familiarity with effective altruism.</li>
-    </ul>
-  </p>
-  <p>
-    <span class="bold">Interview process, for your information:</span>
-  </p>
-  <p>
-    <ul>
-      <li>Complete the application form below.</li>
-      <li>If we're interested in moving forward, we'll contact you to schedule an interview with our Research Director Jacy and Executive Director Kelly, and will give you questions to prepare for discussion.</li>
-      <li>After the interview, if we're interested in moving forward, we'll provide a short (max 2 hours) trial project.</li>
-      <li>After that, we may contact you with further questions before we make our final decision.</li>
-    </ul>
-  </p>
-  <p>
-    <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfElFLauUZ8D3TId-W05z-19Uq6mWZH4ypXGQFSjznxjAmY9A/viewform?usp=sf_link">Apply to the Researcher Position</a>
-  </p>
-  <p>
-   Please note that the application form requires a Google account for uploads. If you do not have a Google account you may send your responses and materials to kelly@sentienceinstitute.org. Please contact kelly@sentienceinstitute.org with any questions.
-  </p>
-#}
+<div class="container first-container gdoc-html-container researcher-opening-container">
+  {% include "../page_content/researcher-opening.html" %}
 </div>
 
 {% endblock %}
