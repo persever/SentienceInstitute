@@ -2448,6 +2448,50 @@ hr{
       font-weight: $bold-weight;
     }
   }
+  &.prisoners-rights-container {
+    .c33.c9.c36 {
+      font-style: italic;
+    }
+
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c18 {
+          margin-left: 30px;
+        }
+      }
+    }
+
+    // spacing for bullet point lists
+    ul li {
+      margin-bottom: $normal-space;
+    }
+
+    // bolded strategic implications
+    .c21.c6 {
+      font-weight: bold;
+    }
+
+    // italics for court cases, books, etc.
+    .c9 {
+      font-style: italic;
+    }
+
+    // blockquotes
+    .c2.c26 {
+      margin-left: 30px;
+    }
+
+    // I can't find a way to center the images right now, though I probably could by editing the Google Document
+
+  }
 }
 
 .estimates-spreadsheet-container {
