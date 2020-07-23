@@ -986,6 +986,20 @@
         "apple": "https://podcasts.apple.com/us/podcast/elliot-swartz-good-food-institute-on-bottlenecks-to/id1489363314?i=1000478406898",
         "spotify": "https://open.spotify.com/episode/33lKelLSVIKcu9oXkw2Ukc"
       }
+    },{
+      "no": "10",
+      "embedsnippet": "4494071-frank-baumgartner-of-unc-chapel-hill-on-policy-dynamics-lobbying-and-issue-framing",
+      "title": "Frank Baumgartner of UNC-Chapel Hill on policy dynamics, lobbying, and issue framing",
+      "date": "July 22, 2020",
+      "guest": {
+        "name": "Frank Baumgartner",
+        "affiliation": "UNC-Chapel Hill"
+      },
+      "directories": {
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC00NDk0MDcx?sa=X&ved=2ahUKEwi17JeIxuPqAhV8gnIEHQrsBswQkfYCegQIARAF",
+        "apple": "https://podcasts.apple.com/us/podcast/frank-baumgartner-unc-chapel-hill-on-policy-dynamics/id1489363314?i=1000485833407",
+        "spotify": "https://open.spotify.com/episode/33lKelLSVIKcu9oXkw2Ukc"
+      }
     }
   ],
   "researchitems": {
