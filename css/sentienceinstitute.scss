@@ -12,6 +12,8 @@ $grey-shadow: rgba(158,158,158, 0.8);
 $grey: #9E9E9E;
 $dark-grey: #212121;
 $red: #AC3600;
+$green: #007448;
+$light-green: #289E71;
 $small-space: 6px;
 $normal-space: 15px;
 $large-space: 30px;
@@ -2491,6 +2493,129 @@ hr{
     }
 
     // I can't find a way to center the images right now, though I probably could by editing the Google Document
+
+  }
+  &.health-behavior-container {
+    .c26 {
+      font-style: italic;
+    }
+
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c38 {
+          margin-left: 30px;
+        }
+        .c34 {
+          margin-left: 60px;
+        }
+      }
+    }
+
+    // spacing for bullet point lists
+    ul li {
+      margin-bottom: $normal-space;
+    }
+
+    // bolded table heading and first row cells
+    .c36 {
+      font-weight: bold;
+    }
+
+    // table except TOC
+    table:not(:first-of-type) {
+      border-top: 1px solid #000;
+      border-left: 1px solid #000;
+      margin-bottom: $normal-space;
+
+      tr {
+        display: flex;
+
+        td {
+          font-weight: $normal-weight;
+          text-align: left;
+          align-items: flex-start;
+          padding: 6px;
+          border-bottom: 1px solid #000;
+          border-right: 1px solid #000;
+
+          p {
+            text-align: left;
+            align-items: flex-start;
+          }
+
+          &.c5, &.c9 {
+            background-color: $light-green;
+          }
+
+          &.c24, &.c11.c53, &.c8.c53 {
+            background-color: $red;
+          }
+        }
+      }
+    }
+  }
+  &.health-behavior-appendix-a-container {
+    .c25 {
+      font-style: italic;
+    }
+
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c12 {
+          margin-left: 30px;
+        }
+      }
+    }
+
+    // spacing for bullet point lists
+    ul li {
+      margin-bottom: $normal-space;
+    }
+
+  }
+  &.health-behavior-appendix-b-container {
+    .c10 {
+      font-style: italic;
+    }
+
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    // spacing for bullet point lists
+    ul li {
+      margin-bottom: $normal-space;
+    }
+
+    // figure headings
+    .c19 {
+      font-weight: bold;
+    }
 
   }
 }

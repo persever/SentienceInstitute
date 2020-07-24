@@ -189,7 +189,8 @@
       "date": "June 16, 2017",
       "title": "Effective Animal Advocacy Researcher Survey June 2017",
       "img": "170616",
-      "authors": ["jacy"]
+      "authors": ["jacy"],
+      "isResearch": true
     },
     {
       "url": "what-we-can-do-in-2018-with-your-support",
@@ -228,7 +229,8 @@
         "title": "Dolphin at the Vancouver Aquarium",
         "credit": "Jo-Anne McArthur / We Animals"
       },
-      "authors": ["jacy"]
+      "authors": ["jacy"],
+      "isResearch": true
     },
     {
       "url": "three-big-changes",
@@ -320,8 +322,7 @@
       "year": "2019",
       "title": "Technology Case Studies Update",
       "img": "190923",
-      "authors": ["jacy"],
-      "isJournal": true
+      "authors": ["jacy"]
     },
     {
       "url": "eoy2019",
@@ -352,7 +353,8 @@
       "year": "2020",
       "title": "Institutional Change and the Limitations of Consumer Activism",
       "img": "200212",
-      "authors": ["jacy"]
+      "authors": ["jacy"],
+      "isJournal": true
     },
     {
       "url": "institutional-tactics",
@@ -1134,6 +1136,48 @@
         "year": "2019"
       }
     ],
+    "appendices": [
+      {
+        "url": "health-behavior-appendix-a",
+        "type": "Appendix",
+        "title": "Appendix A: Definitions and Discussion by Intervention Type",
+        "author": "Jamie Harris",
+        "citation_author": ["Harris, Jamie"],
+        "date": "July 24, 2020",
+        "img": "health-behavior",
+        "img_info": {
+          "title": "Bowl of fruit on a table",
+          "credit": "wanda dunn"
+        },
+        "pdf": {
+          "name": "Appendix A Health Behavior Interventions Literature Review"
+        },
+        "date_meta": "2020/07/24",
+        "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
+        "series": "Appendices",
+        "year": "2020"
+      },
+      {
+        "url": "health-behavior-appendix-b",
+        "type": "Appendix",
+        "title": "Appendix B: Theory Used in Health Behavior Intervention Design and Research",
+        "author": "Jamie Harris",
+        "citation_author": ["Harris, Jamie"],
+        "date": "July 24, 2020",
+        "img": "health-behavior",
+        "img_info": {
+          "title": "Bowl of fruit on a table",
+          "credit": "wanda dunn"
+        },
+        "pdf": {
+          "name": "Appendix B Health Behavior Interventions Literature Review"
+        },
+        "date_meta": "2020/07/24",
+        "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
+        "series": "Appendices",
+        "year": "2020"
+      }
+    ],
     "other": [
       {
         "url": "animal-farming-attitudes-survey-2017",
@@ -1210,6 +1254,26 @@
         "description": "This experiment tests the effects of learning about food technology on attitudes towards animal farming.",
         "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;EXPERIMENT;ANIMAL FARMING;ANIMAL AGRICULTURE;TECHNOLOGY",
         "series": "Experiments",
+        "year": "2020"
+      },{
+        "url": "health-behavior",
+        "type": "Literature Review",
+        "title": "Health Behavior Interventions Literature Review",
+        "author": "Jamie Harris",
+        "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" , "Anthis, Kelly"],
+        "date": "July 24, 2020",
+        "img": "health-behavior",
+        "img_info": {
+          "title": "Bowl of fruit on a table",
+          "credit": "wanda dunn"
+        },
+        "abstract": "There is an extensive research literature on the effectiveness of various interventions for changing health behaviors, such as dietary habits, physical activity, and smoking. Existing reviews and overviews tend to aggregate research on the effects of specific interventions on particular health behaviors. This review provides a largely qualitative, non-statistical summary of the evidence for the effectiveness of intervention types across health behaviors, by aggregating 706 research items (mostly systematic reviews and meta-analyses) based on the strength of evidence. This review makes a number of subjective judgment calls and uses novel methods of evaluation in order to quickly digest and summarize an extremely large evidence base. It focuses on applications to the farmed animal movement, especially to the behavioral change of reducing animal product consumption. In general, while the health behavior literature includes a very large number of studies, there is much inconsistency in wording, methodology, and subject matter, which makes it difficult to extract useful insights for behavior change advocates. However, some conclusions are warranted. Key findings include that almost all types of health behavior interventions targeted at individuals or small groups seem likely to have effect sizes conventionally interpreted as “small” or “very small,” that their effect sizes tend to be even smaller in the long term, and that interventions with educational and behavioral components outperform solely educational interventions.",
+        "pdf": {
+          "name": "Health Behavior Interventions Literature Review"
+        },
+        "date_meta": "2020/07/24",
+        "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
+        "series": "Literature Reviews",
         "year": "2020"
       }
     ]
