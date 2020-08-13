@@ -1549,12 +1549,13 @@ hr{
 
     // UPDATE WHEN UPDATING PAGE (1/3)
     //italicized, e.g. "1 = most promising in terms of this criterion"
-    .c38{
+    .c24{
       font-style: italic;
     }
 
     // UPDATE WHEN UPDATING PAGE (2/3)
-    ol.c20 {
+    // lists spacing, e.g. ul containing "For confrontation: Confrontation was"
+    ol.c5 {
       li {
         padding-bottom: 0;
       }
@@ -1566,7 +1567,10 @@ hr{
 
     // UPDATE WHEN UPDATING PAGE (3/3)
     // TOC
-    table.c43:first-of-type{
+    // In previous version, not all of the classes seemed relevant, but it looks okay now
+    // ALSO, when updating FQS, random footnotes may show up at the bottom. Make sure last footnote
+    // in HTML is the last footnote in the Google Doc.
+    table.c33:first-of-type{
       margin-left: 60px;
 
       p, span{
@@ -1578,12 +1582,12 @@ hr{
         background: none;
       }
 
-      p.c18, p.c31, p.c39{
+      p.c34, p.c42 {
         margin-left: -60px;
         font-weight: $normal-weight;
       }
 
-      p.c16{
+      p.c31{
         margin-left: -30px;
       }
 
