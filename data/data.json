@@ -1,6 +1,31 @@
 {
   "team": [
     {
+      "id": "jamie",
+      "name": "Jamie Harris",
+      "role": "Researcher",
+      "SIpage": "jamie-harris",
+      "email": "jamie@sentienceinstitute.org",
+      "twitterId": "",
+      "facebookId": "jamie.harris.397",
+      "desc": "Jamie has a History degree from Oxford University and a Postgraduate Certificate in Education from Nottingham University. Dedicated to reducing animal suffering, he has volunteered for a variety of effective animal advocacy organisations, including Faunalytics, The Humane League and the Good Food Institute. He is also working to grow the effective altruism movement by managing the local group Effective Animal Altruism London."
+    },
+    {
+      "id": "ali",
+      "name": "Ali Ladak",
+      "role": "Researcher",
+      "SIpage": "ali-ladak",
+      "email": "ali@sentienceinstitute.org",
+      "role": "Researcher",
+      "desc": "Ali has postgraduate degrees in economics and cognitive science. He previously worked at Charity Entrepreneurship, where he carried out research to prioritize global health and development policy interventions. Before this, he worked at an economic consultancy, where he used empirical research methods to evaluate social policies. Ali has also worked on research projects with Charity Entrepreneurship and Faunalytics to support the animal advocacy movement."
+    },
+    {
+      "id": "kelly",
+      "name": "Kelly Anthis",
+      "role": "Co-Founder & Advisory Board Member",
+      "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
+    },
+    {
       "id": "jacy",
       "name": "Jacy Reese Anthis",
       "link": "https://jacyanthis.com/",
@@ -12,22 +37,6 @@
       "linkedinId": "jacyreeseanthis",
       "role": "Co-Founder & Research Fellow",
       "desc": "Jacy Anthis is a writer, social scientist, and author of <i>The End of Animal Farming</i>. He previously worked as a Senior Fellow at Sentience Politics, and before that as a researcher and Chair of the board of directors at Animal Charity Evaluators. He has written on effective altruism topics in outlets such as <i>The Guardian<\/i>, <i>Vox<\/i>, and <i>National Review<\/i> and presented his research in over 20 countries."
-    },
-    {
-      "id": "jamie",
-      "name": "Jamie Harris",
-      "role": "Researcher",
-      "SIpage": "jamie-harris",
-      "email": "jamie@sentienceinstitute.org",
-      "twitterId": "",
-      "facebookId": "jamie.harris.397",
-      "desc": "Jamie has a History degree from Oxford University and a Postgraduate Certificate in Education from Nottingham University. Dedicated to reducing animal suffering, he has volunteered for a variety of effective animal advocacy organisations, including Faunalytics, The Humane League and the Good Food Institute. He is also working to grow the effective altruism movement by managing the local group Effective Animal Altruism London."
-    },
-    {
-      "id": "kelly",
-      "name": "Kelly Anthis",
-      "role": "Co-Founder & Advisory Board Member",
-      "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
     },
     {
       "id": "natalie",
