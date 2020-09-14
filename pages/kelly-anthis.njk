@@ -1,16 +1,16 @@
 {% extends "layout.njk" %}
 {% block metatags %}
-{{ metatagsrender("jamie", "Our Team: Jamie Harris", "team/jamie", "Jamie has a History degree from Oxford University and a Postgraduate Certificate in Education from Nottingham University.") }}
+{{ metatagsrender("kelly", "Kelly Anthis", "team/kelly", "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years.", "profile") }}
 {% endblock %}
 
 {% block content %}
 
 {% from "../templates/partials/headerimage.njk" import headerimage %}
-{{ headerimage(2, photos[2], "Jamie Harris") }}
+{{ headerimage(3, photos[3], "Kelly Anthis") }}
 
 <div class="container first-container team-container-individual">
   {% from "../templates/partials/teammember.njk" import teammember %}
-  {{ teammember(team[0]) }}
+  {{ teammember(team[2]) }}
 </div>
 
 {% endblock %}

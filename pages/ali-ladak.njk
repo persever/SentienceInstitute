@@ -1,16 +1,16 @@
 {% extends "layout.njk" %}
 {% block metatags %}
-{{ metatagsrender("jamie", "Our Team: Jamie Harris", "team/jamie", "Jamie has a History degree from Oxford University and a Postgraduate Certificate in Education from Nottingham University.") }}
+{{ metatagsrender("ali", "Our Team: Ali Ladak", "team/jamie", "Ali has postgraduate degrees in economics and cognitive science.") }}
 {% endblock %}
 
 {% block content %}
 
 {% from "../templates/partials/headerimage.njk" import headerimage %}
-{{ headerimage(2, photos[2], "Jamie Harris") }}
+{{ headerimage(3, photos[3], "Ali Ladak") }}
 
 <div class="container first-container team-container-individual">
   {% from "../templates/partials/teammember.njk" import teammember %}
-  {{ teammember(team[0]) }}
+  {{ teammember(team[1]) }}
 </div>
 
 {% endblock %}
