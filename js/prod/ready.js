@@ -91,12 +91,10 @@ function docReady() {
   $(".person-desc").each(function(){
     $(this).html($.parseHTML($(this).text()));
   });
-
   if ($(".gdoc-html-container")[0]){
     $("a[href*='%3']").each(function(){
       var oldhref = this.href;
       var newhref = oldhref.replace("%3D", "=");
-      console.log(oldhref,newhref);
       $(this).attr("href", newhref);
     });
 
@@ -104,6 +102,7 @@ function docReady() {
 
       var oldId = $(this).attr("id");
       var newId = $(this).text().replace(/\s+/g, '-').toLowerCase();
+      console.log(oldId,newId);
       $("[id*='"+oldId+"']").attr("id", newId);
 
       $("a[href^='#" + oldId + "']").each(function(){
