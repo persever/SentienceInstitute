@@ -1044,8 +1044,8 @@
         "affiliation": "University of Santiago de Compostela"
       },
       "directories": {
-        "google": "",
-        "apple": "",
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC02MTA1MjE3",
+        "apple": "https://podcasts.apple.com/us/podcast/oscar-horta-university-santiago-compostela-on-why-we/id1489363314?i=1000496515376",
         "spotify": "https://open.spotify.com/episode/5x74mqwrR5WPuKGIPumrF5"
       }
     }
