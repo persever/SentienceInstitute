@@ -38,7 +38,6 @@
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
-    "braces": "^3.0.2",
-    "node-sass": "^4.13.0"
+    "braces": "^3.0.2"
   }
 }
