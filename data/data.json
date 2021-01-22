@@ -1081,8 +1081,8 @@
         "affiliation": "The Pollination Project"
       },
       "directories": {
-        "google": "",
-        "apple": "",
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC03MzQ5OTky",
+        "apple": "https://podcasts.apple.com/us/podcast/ajay-dahiya-pollination-project-on-funding-grassroots/id1489363314",
         "spotify": "https://open.spotify.com/show/6wHmiXgbAUGHOZ9lNTyDay"
       }
     }
