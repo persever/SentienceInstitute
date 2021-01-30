@@ -21,13 +21,6 @@
   #}
 
   <div class="media-item-info">
-    {#
-    {%if (type == "interview") and (item.audio)%}
-      <audio controls>
-        <source src="{{item.audio}}" type="audio/ogg">
-      </audio>
-    {%endif%}
-    #}
     <div><span class="media-item-date">{{item.date}}</span></div>
     {%if type == "article"%}
       <div class="media-item-title">{{item.title}}</div>

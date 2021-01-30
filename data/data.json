@@ -104,8 +104,8 @@
   },
   "photos": {
     "home_image": {
-      "title": "Rescued Rooster At Catskill Animal Sanctuary",
-      "credit": "Jo-Anne McArthur / We Animals"
+      "title": "Dolphin at the Vancouver Aquarium",
+      "credit": "Jo-Anne McArthur / Zoocheck"
     },
     "1": {
       "title": "Running goats at Farm Sanctuary",
@@ -667,7 +667,6 @@
     "audiointerviews": [
       {
         "externalurl": "https://player.fm/series/livegan/e8-jacy-reese",
-        "audio": "https://www.buzzsprout.com/128075/609587-e8-jacy-reese.mp3",
         "title": "E8: Jacy Reese",
         "source": "LIVEGAN",
         "date": "December 12, 2017",
@@ -675,14 +674,12 @@
       },
       {
         "externalurl": "https://www.onegreenplanet.org/episode-forty-two-jacy-reese/",
-        "audio": "/audio/onegreenplanet.mp3",
         "title": "#42 - The End of Animal Farming, Effective Altruism, and the Quest to Expand Our Moral Circle with Jacy Reese",
         "source": "Eat for the Planet",
         "img": "onegreenplanet.png"
       },
       {
         "externalurl": "https://www.bbc.co.uk/programmes/b0b1syd3",
-        "audio": "/audio/bbc4.mp3",
         "title": "Animals",
         "source": "BBC Radio 4 - FutureProofing",
         "date": "May 12, 2018",
@@ -691,7 +688,6 @@
       },
       {
         "externalurl": "https://www.buzzsprout.com/120806/768903-woke-stutters-episode-12-jacy-reese",
-        "audio": "wokestutters.mp3",
         "title": "Episode 12: Co-Founder and Research Director at the Sentience Institute Jacy Reese",
         "source": "Woke Stutters",
         "date": "August 5, 2018",
@@ -700,7 +696,6 @@
       },
       {
         "externalurl": "https://www.foodnavigator-usa.com/Article/2018/09/07/Soup-to-Nuts-Podcast-As-plant-based-eating-takes-off-is-the-end-of-animal-agriculture-near",
-        "audio": "https://cdn-a.william-reed.com/content/download/529603/8586820/version/1/file/animal+farming.mp3",
         "title": "Soup-to-Nuts Podcast: As plant-based eating takes off, is the end of animal agriculture near?",
         "source": "Food Navigator",
         "date": "September 7, 2018",
@@ -709,7 +704,6 @@
       },
       {
         "externalurl": "https://www.ourhenhouse.org/2018/09/episode-455-jacy-reese/",
-        "audio": "https://media.blubrry.com/ourhenhouse/s/dts.podtrac.com/redirect.mp3/media.blubrry.com/ohhsignature/s/www.ourhenhouse.org/podcastepisode455.mp3",
         "title": "Episode 455: Jacy Reese",
         "source": "Our Hen House",
         "date": "September 29, 2018",
@@ -718,7 +712,6 @@
       },
       {
         "externalurl": "https://mainstreetvegan.net/msv-podcast-november-7-2018-protest-kitchen-the-end-of-animal-farming/",
-        "audio": "https://dcs.megaphone.fm/UOR6194287664.mp3?key=48cdb945fc62e1e506fbbe9352177684",
         "title": "Protest Kitchen + The End of Animal Farming",
         "source": "Main Street Vegan",
         "date": "November 8, 2018",
@@ -727,7 +720,6 @@
       },
       {
         "externalurl": "https://mainstreetvegan.net/msv-podcast-november-7-2018-protest-kitchen-the-end-of-animal-farming/",
-        "audio": "https://dcs.megaphone.fm/UOR6194287664.mp3?key=48cdb945fc62e1e506fbbe9352177684",
         "title": "Episode 132: Jacy Reese",
         "source": "The Godless Spellchecker",
         "date": "January 14, 2019",
@@ -736,7 +728,6 @@
       },
       {
         "externalurl": "https://mainstreetvegan.net/msv-podcast-november-7-2018-protest-kitchen-the-end-of-animal-farming/",
-        "audio": "https://dcs.megaphone.fm/UOR6194287664.mp3?key=48cdb945fc62e1e506fbbe9352177684",
         "title": "Compassion and Rationality: An interview with Jacy Reese Anthis",
         "source": "Micro-Digressions: A Philosophy Podcast",
         "date": "May 19, 2020",
