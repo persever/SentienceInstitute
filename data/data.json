@@ -13,18 +13,19 @@
     {
       "id": "ali",
       "name": "Ali Ladak",
-      "role": "Researcher",
       "SIpage": "ali-ladak",
       "email": "ali@sentienceinstitute.org",
       "role": "Researcher",
       "desc": "Ali has postgraduate degrees in economics and cognitive science. He previously worked at Charity Entrepreneurship, where he carried out research to prioritize global health and development policy interventions. Before this, he worked at an economic consultancy, where he used empirical research methods to evaluate social policies. Ali has also worked on research projects with Charity Entrepreneurship and Faunalytics to support the animal advocacy movement."
     },
     {
-      "id": "kelly",
-      "name": "Kelly Anthis",
-      "SIpage": "kelly-anthis",
-      "role": "Co-Founder & Advisory Board Member",
-      "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
+      "id": "janet",
+      "name": "Janet Pauketat",
+      "link": "https://researchgate.net/profile/Janet_Pauketat",
+      "SIpage": "janet-pauketat",
+      "twitterId": "janet_pauketat",
+      "role": "Research Fellow",
+      "desc": "Janet has a PhD in Psychological and Brain Sciences from the University of California, Santa Barbara and a Masters of Research from the University of St Andrews where she studied the psychology of how socio-cultural contexts shape behavior and the morally expanding capacities of global citizenship. After earning her PhD, Janet studied collective emotions in social movements as a postdoctoral research associate at Princeton University. She has worked with researchers at the University of St Andrews on moral values in social movements and at the National University of Singapore on values affecting immigration attitudes. She currently collaborates on a study of the re-wilding of formerly captive Asian elephants in Thailand."
     },
     {
       "id": "jacy",
@@ -38,6 +39,13 @@
       "linkedinId": "jacyreeseanthis",
       "role": "Co-Founder & Research Fellow",
       "desc": "Jacy Anthis is a writer, social scientist, and author of <i>The End of Animal Farming</i>. He is currently a PhD Fellow at The University of Chicago. He previously worked as a Senior Fellow at Sentience Politics, and before that as a researcher and Chair of the board of directors at Animal Charity Evaluators. He has written on effective altruism topics in outlets such as <i>The Guardian<\/i>, <i>Vox<\/i>, and <i>National Review<\/i> and presented his research in over 20 countries."
+    },
+    {
+      "id": "kelly",
+      "name": "Kelly Anthis",
+      "SIpage": "kelly-anthis",
+      "role": "Co-Founder & Advisory Board Member",
+      "desc": "Kelly co-founded Sentience Institute and served as the organization’s executive director for its first three years. She grew the organization’s financial support quickly, presented at numerous conferences, developed and managed the website, hired and managed staff with co-founder Jacy, edited staff’s research and outreach, and conducted research herself. Kelly previously served as Director of Communications at Sentience Politics, co-organized a grassroots animal advocacy organization, and worked as a front-end engineer. Kelly has participated in many animal rescues and has volunteered her graphic design skills to several animal advocacy organizations. She is also guardian to two rescued hens."
     },
     {
       "id": "natalie",
@@ -64,14 +72,6 @@
       "role": "Advisory Board Member",
       "link": "https://www.lehman.edu/academics/political-science/faculty-mohorcich.php",
       "desc": "J. Mohorčich is Assistant Professor of Political Science at Lehman College, CUNY, where he teaches courses in American politics, political philosophy, and science policy. He has previously taught at Johns Hopkins University and the University of Mannheim and was a Research Fellow at Sentience Institute. His published work has to do with technology adoption and social change, nonhuman cognition and intellectual labor, and political theory and survival."
-    },
-    {
-      "id": "janet",
-      "name": "Janet Pauketat",
-      "role": "Advisory Board Member",
-      "link": "https://researchgate.net/profile/Janet_Pauketat",
-      "twitterId": "janet_pauketat",
-      "desc": "Janet is an independent scholar studying the psychology of how socio-cultural contexts and emotion shape behavior and the morally expanding capacities of global citizenship. Janet served as a postdoctoral research associate at Princeton University subsequent to earning her PhD from the University of California, Santa Barbara. She has worked with researchers at the University of St Andrews on moral values in social movements and at the National University of Singapore on values affecting immigration attitudes. She currently collaborates on a study of wildness in captive Asian elephants in Thailand."
     }
   ],
   "authors": {
