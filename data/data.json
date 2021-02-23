@@ -719,7 +719,7 @@
         "img": "mainstreetvegan.png"
       },
       {
-        "externalurl": "https://mainstreetvegan.net/msv-podcast-november-7-2018-protest-kitchen-the-end-of-animal-farming/",
+        "externalurl": "https://www.gspellchecker.com/2019/01/ep132-the-end-of-animal-farming-jacy-reese/",
         "title": "Episode 132: Jacy Reese",
         "source": "The Godless Spellchecker",
         "date": "January 14, 2019",
@@ -727,12 +727,20 @@
         "img": "godlessspellchecker.jpg"
       },
       {
-        "externalurl": "https://mainstreetvegan.net/msv-podcast-november-7-2018-protest-kitchen-the-end-of-animal-farming/",
+        "externalurl": "https://www.buzzsprout.com/956725/3835724",
         "title": "Compassion and Rationality: An interview with Jacy Reese Anthis",
         "source": "Micro-Digressions: A Philosophy Podcast",
         "date": "May 19, 2020",
         "year": "2020",
         "img": "microdigressions.jpg"
+      },
+      {
+        "externalurl": "https://spkesy.ca/binge/02/2021/the-end-of-animal-farming/",
+        "title": "Jacy Reese, The End of Animal Farming",
+        "source": "Speakeasy",
+        "date": "February 18, 2021",
+        "year": "2021",
+        "img": "speakeasy.png"
       }
     ],
     "videointerviews": [
@@ -771,6 +779,46 @@
         "date": "January 31, 2019",
         "year": "2019",
         "img": "nowthismce.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=JCiBGYlrYf0",
+        "title": "Brain Bar",
+        "source": "Vodafone / Brain Bar",
+        "date": "May 30, 2019",
+        "year": "2019",
+        "img": "brainbar.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=0UycWPLpXWo",
+        "title": "The Future of Eating & Farming",
+        "source": "Spiritualitarian Series",
+        "date": "October 6, 2020",
+        "year": "2029",
+        "img": "spiritualitarian.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=ea_v6kWCGZQ",
+        "title": "How can we do the most good?",
+        "source": "Sentientism",
+        "date": "December 20, 2020",
+        "year": "2020",
+        "img": "sentientism.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=4qeBm-uVVh8",
+        "title": "The End of Animal Farming & Wild Animal Suffering",
+        "source": "Humane Hancock",
+        "date": "January 30, 2021",
+        "year": "2021",
+        "img": "hancock.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=bPifvFzdbHM",
+        "title": "Strategies for Animal Liberation",
+        "source": "Save Movement Sverige",
+        "date": "February 19, 2021",
+        "year": "2021",
+        "img": "savesweden.png"
       }
     ],
     "presentations": [
@@ -876,6 +924,14 @@
         "date": "June 24, 2020",
         "year": "2020",
         "img": "eaojamie2020.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=W1LL5-IyRnc",
+        "title": "O Fim da Indústria Pecuária [English]",
+        "source": "Veganario Fest",
+        "date": "October 18, 2020",
+        "year": "2020",
+        "img": "veganario.png"
       }
     ]
   },
