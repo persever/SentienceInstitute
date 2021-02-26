@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/the-importance-of-artificial-sentience", "The Importance of Artificial Sentience", "blog/" + blogposts[19].img, "Artificial sentient beings could be created in vast numbers in the future.....") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[19], authors) }}
+
+{% endblock %}
