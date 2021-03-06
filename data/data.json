@@ -1428,6 +1428,19 @@
         "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
         "series": "Literature Reviews",
         "year": "2020"
+      },{
+        "url": "afa-survey-2020",
+        "type": "Survey",
+        "title": "Animals, Food and Technology Survey: 2020 Update",
+        "author": "Ali Ladak",
+        "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
+        "date": "March 03, 2020",
+        "img": "afa-survey-2020",
+        "abstract": "In October 2020, we conducted the third iteration of the Animals, Food and Technology survey. Overall, as in previous years, we found significant opposition in the US to the animal farming industry, with a majority of people reporting discomfort with the industry, and strong support for a range of often quite radical policy changes, such as banning slaughterhouses.",
+        "date_meta": "2020/03/03",
+        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
+        "series": "Surveys",
+        "year": "2020"
       }
     ]
   }

@@ -3015,6 +3015,63 @@ hr{
   }
 }
 
+.afa-survey-2020-container {
+  table:not(:first-of-type) {
+    line-height: 1.2;
+    border-bottom: 1px solid $dark-grey;
+    border-right: 1px solid $dark-grey;
+
+    tr{
+      display: flex;
+
+      td {
+        padding: 2px;
+        width: 100%;
+        border-left: 1px solid $dark-grey;
+        border-top: 1px solid $dark-grey;
+
+        p {
+          text-align: left;
+          width: 100%;
+        }
+      }    
+    }    
+
+    // First column
+    .c1, .c0{
+      text-align: left;
+      padding: 3px;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break:clone;
+      margin: 0px;
+    }
+  }
+
+  // text below tables
+  .c22 {
+      font-size:$small-font-size;
+      font-style: italic;
+      text-align: left;
+      margin: 2px;
+      padding: 2px;
+  }
+
+  // Table 1 heading font
+  .c15 {
+    font-style: italic;
+   }
+
+   // Remove padding under table heading
+   .c29{
+    padding: 0px;
+    margin: 0px;
+   }
+
+   // TOC unbold
+   .c14, .c19{
+    font-weight: $normal-weight;
+   }
+}
 
 
 [href="/blog/how-is-SI-research-different"] .blog-item-image{
