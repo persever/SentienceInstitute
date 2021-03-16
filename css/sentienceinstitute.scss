@@ -3015,7 +3015,7 @@ hr{
   }
 }
 
-.afa-survey-2020-container {
+.aft-survey-container {
   table:not(:first-of-type) {
     line-height: 1.2;
     border-bottom: 1px solid $dark-grey;
@@ -3038,7 +3038,7 @@ hr{
     }    
 
     // First column
-    .c1, .c0{
+    .c1, .c2{
       text-align: left;
       padding: 3px;
       box-decoration-break: clone;
@@ -3048,7 +3048,7 @@ hr{
   }
 
   // text below tables
-  .c22 {
+  .c18 {
       font-size:$small-font-size;
       font-style: italic;
       text-align: left;
@@ -3056,19 +3056,19 @@ hr{
       padding: 2px;
   }
 
-  // Table 1 heading font
-  .c15 {
+  // Italics font
+  .c10 {
     font-style: italic;
    }
 
    // Remove padding under table heading
-   .c29{
+   .c4{
     padding: 0px;
     margin: 0px;
    }
 
    // TOC unbold
-   .c14, .c19{
+   .c7, .c22{
     font-weight: $normal-weight;
    }
 }
