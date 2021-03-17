@@ -5,7 +5,7 @@
 {% block metatags %}
 {% from "../templates/partials/reportmetatags.njk" import reportmetatags %}
 {{ reportmetatags(item) }}
-{{ metatagsrender("aft-survey", "Animals, Food and Technology (AFT) Survey", "header_photos/" + "aft-2020", "In October 2020, we conducted the third iteration of the Animals, Food and Technology (AFT) survey.") }}
+{{ metatagsrender("aft-survey-2020", "Animals, Food and Technology (AFT) Survey", "header_photos/" + "aft-2020", "In October 2020, we conducted the third iteration of the Animals, Food and Technology (AFT) survey.") }}
 {% endblock %}
 
 
@@ -16,8 +16,8 @@
 
 {% from "../templates/partials/pageinfo.njk" import pageinfo %}
 {{ pageinfo(item) }}
-<div class="container first-container report-container gdoc-html-container aft-survey-container">
-  {% include "../page_content/aft-survey.html" %}
+<div class="container first-container report-container gdoc-html-container aft-survey-2020-container">
+  {% include "../page_content/aft-survey-2020.html" %}
 </div>
 
 {% endblock %}
