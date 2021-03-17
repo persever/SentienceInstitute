@@ -1431,16 +1431,16 @@
       },{
         "url": "aft-survey",
         "type": "Survey",
-        "title": "Animals, Food and Technology Survey",
-        "author": "Ali Ladak",
+        "title": "Animals, Food, and Technology (AFT) Survey",
+        "author": "Ali Ladak and Jacy Reese Anthis",
         "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
-        "date": "March 16, 2020",
+        "date": "March 16, 2021",
         "img": "aft-survey",
         "abstract": "In October 2020, we conducted the third iteration of the Animals, Food and Technology (AFT) survey. Overall, as in previous years, we found significant opposition in the US to the animal farming industry, with a majority of people reporting discomfort with the industry, and strong support for a range of often quite radical policy changes, such as banning slaughterhouses.",
         "date_meta": "2020/03/03",
         "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
         "series": "Surveys",
-        "year": "2020"
+        "year": "2021"
       }
     ]
   }
