@@ -6,6 +6,11 @@
   </div>
   <div class="page-title">
     {{item.title}}
+    {%if item.secondaryTitle%}
+    <div>
+      {{item.secondaryTitle}}
+    </div>
+    {%endif%}
   </div>
   {%if item.subtitle%}
   <div class="page-subtitle">
