@@ -1280,7 +1280,7 @@
         "img": "biofuels",
         "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;BIOFUELS;BIOFUEL;KIOR;AMRYIS;NOVOZYMES",
         "pdf": {
-          "url": "https://drive.google.com/file/d/1IWBz-f3e9GVOaIEwoMQSibN_Mi9XkfPu/view"
+          "name": "sentience-institute-tech-study-biofuels"
         },
         "series": "Technology Adoption Case Studies",
         "type": "Technology Adoption Case Study",
@@ -1353,7 +1353,7 @@
         "citation_author": [ "Anthis, Jacy Reese" ],
         "date": "Last updated April 11, 2019",
         "img": "us-factory-farming-estimates",
-        "abstract": "We estimate that 99% of US farmed animals are living in factory farms at present.",
+        "abstract": "We estimate that 99% of US farmed animals are living in factory farms at present. By species, we estimate that 70.4% of cows, 98.3% of pigs, 99.8% of turkeys, 98.2% of chickens raised for eggs, and over 99.9% of chickens raised for meat are living in factory farms. Based on the confinement and living conditions of farmed fish, we estimate that virtually all US fish farms are suitably described as factory farms, though there is limited data on fish farm conditions and no standardized definition. Land animal figures use data from the USDA Census of Agriculture and EPA definitions of Concentrated Animal Feeding Operations.",
         "spreadsheetsrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSF6WrMq9gMQ0zoCGLWc5QGHNz0xwWRwPqTqoehKkITVkEiBRvRgCOMq6wxm-Zt5jkdPJh78durrcly/pubhtml?widget=true&amp;headers=false",
         "spreadsheeturl": "https://docs.google.com/spreadsheets/d/1iUpRFOPmAE5IO4hO4PyS4MP_kHzkuM_-soqAyVNQcJc/edit#gid=0",
         "date_meta": "2019/4/11",
@@ -1364,8 +1364,8 @@
         "url": "global-animal-farming-estimates",
         "type": "Estimate",
         "title": "Global Farmed & Factory Farmed Animals Estimates",
-        "author": "Kelly Anthis",
-        "citation_author": [ "Anthis, Kelly" ],
+        "author": "Kelly Anthis and Jacy Reese Anthis",
+        "citation_author": [ "Anthis, Kelly" , "Anthis, Jacy Reese"  ],
         "date": "Last updated February 21, 2019",
         "img": "global-animal-farming-estimates",
         "abstract": "We estimate that over 90% of farmed animals globally are living in factory farms at present. This includes an estimated 74% of farmed land animals and virtually all farmed fish. However, there is substantial uncertainty in these figures given the land animal estimates’ heavy reliance on information from Worldwatch Institute with unclear methodology and limited data on fish farming. In total, we estimate that around 31.0 billion land animals and 38.8 to 215.9 billion fish are being farmed globally at any given time.",
@@ -1436,6 +1436,10 @@
         "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
         "date": "March 17, 2021",
         "img": "aft-survey-2020",
+        "img_info": {
+          "title": "A hen in a battery cage",
+          "credit": "Jo-Anne McArthur / Animal Equality"
+        },
         "abstract": "In October 2020, we conducted the third iteration of the Animals, Food, and Technology (AFT) survey. Overall, as in previous years, we found significant opposition in the US to the animal farming industry, with a majority of people reporting discomfort with the industry, and strong support for a range of often quite radical policy changes, such as banning slaughterhouses.",
         "date_meta": "2021/17/03",
         "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
