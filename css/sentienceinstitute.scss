@@ -3074,6 +3074,43 @@ hr{
    }
 }
 
+.fair-trade-container {
+  .c21 {
+    font-style: italic;
+  }
+
+  // TOC
+  table {
+    tr{
+      display: flex;
+      td {
+        p {
+          font-weight: $normal-weight;
+          margin: 0;
+        }
+      }
+      .c16 {
+        margin-left: 30px;
+      }
+      .c33{
+        margin-left: 60px;
+      }
+    }
+  }
+
+// indented quotation
+.c34 {
+  margin-left: 30px;
+}
+
+// bolded bullet points
+  .c10 {
+    font-weight: $bold-weight;
+  }    
+} 
+
+  // I can't find a way to center the images right now, though I probably could by editing the Google Document
+
 
 [href="/blog/how-is-SI-research-different"] .blog-item-image{
   background-position: left;
