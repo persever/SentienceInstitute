@@ -180,8 +180,10 @@ async function njk(d) {
       pattern: /https:\/\/www.google.com\/url\?q=/g
     }))
     // For Google redirects, expression after actual link
+    // As of April 2021, Google Docs exports query strings like this: &amp;sa=D&amp;source=editors&amp;ust=1619363555701000&amp;usg=AOvVaw16XvCGXmufbBn1KL4yo1Mt where the last string varies
     .pipe(stripCode({
-      pattern: /&amp;sa=D&amp;ust=(?:(?!\">).)*/g
+      // pattern: /&amp;sa=D&amp;ust=(?:(?!\">).)*/g
+      pattern: /&amp;sa=D&amp;(?:(?!\">).)*/g
     }))
     // .pipe(replace(/src="%3/g, "="))
     .pipe(replace(/%23/g, "#"))
