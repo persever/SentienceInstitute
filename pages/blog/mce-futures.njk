@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/mce-futures", "Moral Circle Expansion: A Promising Strategy to Impact the Far Future", "blog/" + blogposts[5].img, "We are excited to announce today’s publication of our latest work, “Moral Circle Expansion: A Promising Strategy to Impact the Far Future,” in Futures. This paper defines moral circle expansion (MCE) and analyzes its implication. It is a foundational work for our research at Sentience Institute.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[20], authors) }}
+
+{% endblock %}
