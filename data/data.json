@@ -1169,6 +1169,20 @@
         "apple": "https://podcasts.apple.com/us/podcast/jo-anderson-faunalytics-saulius-%C5%A1im%C4%8Dikas-rethink-priorities/id1489363314?i=1000510572427",
         "spotify": "https://open.spotify.com/episode/4x47SOcbp5Cic6SslHa3FB"
       }
+    },{
+      "no": "16",
+      "embedsnippet": "8708442-tobias-baumann-of-the-center-for-reducing-suffering-on-moral-circle-expansion-cause-prioritization-and-reducing-risks-of-astronomical-suffering-in-the-long-term-future",
+      "title": "Tobias Baumann of the Center for Reducing Suffering on moral circle expansion, cause prioritization, and reducing risks of astronomical suffering in the long-term future",
+      "date": "June 23, 2021",
+      "guest": {
+        "name": "Tobias Baumann",
+        "affiliation": "Center for Reducing Suffering"
+      },
+      "directories": {
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC04NzA4NDQy?sa=X&ved=2ahUKEwiHqYDLk67xAhXKwIUKHRTSCgMQkfYCegQIARAF",
+        "apple": "",
+        "spotify": "https://open.spotify.com/episode/6XsUmRvEtyzT8T7irRVaob"
+      }
     }
   ],
   "researchitems": {
