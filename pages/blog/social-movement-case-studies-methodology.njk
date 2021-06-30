@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/social-movement-case-studies-methodology", "Social Movement Case Studies Methodology", "blog/" + blogposts[22].img, "We have documented how social movements focused on moral circle expansion, such as the farmed animal movement.....") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[22], authors) }}
+
+{% endblock %}

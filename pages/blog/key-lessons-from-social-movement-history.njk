@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/key-lessons-from-social-movement-history", "Key Lessons From Social Movement History", "blog/" + blogposts[21].img, "In this post I summarize key strategic implications from our five completed social movement case studies.....") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[21], authors) }}
+
+{% endblock %}

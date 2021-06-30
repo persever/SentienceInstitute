@@ -3120,6 +3120,57 @@ hr{
   }
 }
 
+.key-lessons-from-social-movement-history-container {
+  .c8, .c18 {
+    font-style: italic;
+  }
+
+  // indented quotation
+  .c14 {
+    margin-left: 30px;
+  }
+}
+
+.social-movement-case-studies-methodology-container {
+  .c27 {
+    font-style: italic;
+  }
+
+  // table formatting
+  table {
+    line-height: 1.2;
+    border-bottom: 1px solid $dark-grey;
+    border-right: 1px solid $dark-grey;
+
+    tr{
+      display: flex;
+
+      td {
+        width: 100%;
+        border-left: 1px solid $dark-grey;
+        border-top: 1px solid $dark-grey;
+
+        p {
+          text-align: left;
+          width: 100%;
+          margin: 3px;
+          padding: 6px;
+        }
+      }
+    }
+  }
+  //padding below bullets
+  .c9 {
+    margin-bottom: 0px;
+  }
+
+  //indent sub bullets
+  .c16 {
+    margin-left: 30px;
+    list-style-type: circle;
+  }
+}
+
   // I can't find a way to center the images right now, though I probably could by editing the Google Document
 
 
