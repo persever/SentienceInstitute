@@ -426,7 +426,8 @@
       "year": "2021",
       "title": "Key Lessons From Social Movement History",
       "img": "20210630_1",
-      "authors": ["jamie"]
+      "authors": ["jamie"],
+      "isResearch": true
     },
     {
       "url": "social-movement-case-studies-methodology",
@@ -435,7 +436,8 @@
       "year": "2021",
       "title": "Social Movement Case Studies Methodology",
       "img": "20210630_2",
-      "authors": ["jamie"]
+      "authors": ["jamie"],
+      "isResearch": true
     }
   ],
   "pressreleases": [
