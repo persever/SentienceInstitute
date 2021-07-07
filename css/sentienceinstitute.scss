@@ -1519,6 +1519,14 @@ hr{
     h1:first-of-type {
       margin-top: 0;
     }
+    //padding below bullets
+    .c7 {
+      margin-bottom: 0px;
+    }
+    //sub bullet style
+  .c8 {
+    list-style-type: circle;
+  }
   }
 
   span {
