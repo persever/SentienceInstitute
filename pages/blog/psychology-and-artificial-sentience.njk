@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/psychology-and-artificial-sentience", "Psychological Perspectives Relevant to Artificial Sentience", "blog/" + blogposts[22].img, "At Sentience Institute, we operate under the principle that moral circle expansion is a key strategy for reducing s-risks, particularly those related to artificial sentience.....") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[23], authors) }}
+
+{% endblock %}

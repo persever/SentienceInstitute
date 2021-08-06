@@ -101,6 +101,12 @@
       "facebookId": "jamie.harris.397",
       "img": "../img/team/jamie.png"
     }
+    ,
+    "janet": {
+      "name": "Janet Pauketat",
+      "role": "Research Fellow",
+      "img": "../img/team/janet.png"
+    }
   },
   "photos": {
     "home_image": {
@@ -437,6 +443,16 @@
       "title": "Social Movement Case Studies Methodology",
       "img": "20210630_2",
       "authors": ["jamie"],
+      "isResearch": true
+    },
+    {
+      "url": "psychology-and-artificial-sentience",
+      "gdocname": "PsychologyandAS",
+      "date": "August 08, 2021",
+      "year": "2021",
+      "title": "Psychological Perspectives Relevant to Artificial Sentience",
+      "img": "20210806",
+      "authors": ["janet"],
       "isResearch": true
     }
   ],
