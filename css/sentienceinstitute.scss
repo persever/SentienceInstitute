@@ -1525,14 +1525,6 @@ hr{
     h1:first-of-type {
       margin-top: 0;
     }
-    //padding below bullets
-    .c7 {
-      margin-bottom: 0px;
-    }
-    //sub bullet style
-  .c8 {
-    list-style-type: circle;
-  }
   }
 
   span {
@@ -1702,40 +1694,47 @@ hr{
         line-height: 1.5;
       }
 
-      .c6{
+    // indent subheadings  
+      .c1, .c21{
         margin-left: 30px;
       }
     }
 
-    ul.c1{
-      margin-bottom: 0;
-    }
+  //  ul.c1{
+  //    margin-bottom: 0;
+  //  }
 
-    li.c8{
+  // left margin for sub-bullets  
+    li.c3{
       margin-left: 30px;
     }
   }
 
+  //padding below bullets
+    .c7 {
+      margin-bottom: 0px;
+    }
+
   &.perspective-container {
   //italics
-    .c14 {
+    .c5 {
     font-style: italic;
   }
 
   // TOC formatting
   padding below bullets
-  .c10, .c11, .c17, .c7 {
+  .c15, .c9, .c25 {
     margin-bottom: 0px;
     padding: 0px;
   }
 
-  // For some reason .c18 not working above
-  .c10 {
+  // For some reason .c15 not working above
+  .c15 {
     margin-bottom: 0px;
   }
 
   //indent sub bullets
-  .c17 {
+  .c9 {
     margin-left: 30px;
     list-style-type: circle;
     margin-bottom: 0px;
