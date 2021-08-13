@@ -1,12 +1,12 @@
 {% extends "layout.njk" %}
 {% block metatags %}
-{{ metatagsrender("perspective", "Our Perspective", "header_photos/" + 7, "The moral circle, a concept introduced by Lecky (1869) and popularized by Singer (1981), refers to the boundary around entities that are granted moral consideration.") }}
+{{ metatagsrender("perspective", "Our Perspective", "header_photos/" + 12, "The moral circle, a concept introduced by Lecky (1869) and popularized by Singer (1981), refers to the boundary around entities that are granted moral consideration.") }}
 {% endblock %}
 
 {% block content %}
 
 {% from "../templates/partials/headerimage.njk" import headerimage %}
-{{ headerimage(7, photos[7], "Our Perspective") }}
+{{ headerimage(12, photos[12], "Our Perspective") }}
 
 <div class="container first-container gdoc-html-container perspective-container">
   {% include "../page_content/OurPerspective.html" %}
