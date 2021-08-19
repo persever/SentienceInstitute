@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/moral-consideration-of-artificial-entities", "The Moral Consideration of Artificial Entities: A Literature Review", "blog/" + blogposts[24].img, "We are excited to announce today’s publication of our latest work, “Sentience Institute sees artificial sentience as an important frontier for moral circle expansion, among other reasons, because such beings could be created in vast numbers in the future.  We conducted a literature review in order to increase our understanding of relevant work to date and help stimulate the development of a thriving research field on this topic.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[24], authors) }}
+
+{% endblock %}

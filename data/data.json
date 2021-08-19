@@ -458,6 +458,16 @@
       "img": "20210806",
       "authors": ["janet"],
       "isResearch": true
+    },
+    {
+      "url": "moral-consideration-of-artificial-entities",
+      "gdocname": "TheMoralConsiderationOfArtificialEntities",
+      "date": "August 19, 2021",
+      "year": "2021",
+      "title": "The Moral Consideration of Artificial Entities: A Literature Review",
+      "img": "20210819",
+      "authors": ["jamie", "jacy"],
+      "isJournal": true
     }
   ],
   "pressreleases": [
