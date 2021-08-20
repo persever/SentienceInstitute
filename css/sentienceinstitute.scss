@@ -3071,7 +3071,7 @@ hr{
     border-right: 1px solid $dark-grey;
 
     tr{
-      display: flex;
+     // display: flex;
 
       td {
         padding: 2px;
@@ -3097,7 +3097,7 @@ hr{
   }
 
   // text below tables
-  .c18 {
+  .c25 {
       font-size:$small-font-size;
       font-style: italic;
       text-align: left;
@@ -3106,19 +3106,14 @@ hr{
   }
 
   // Italics font
-  .c10 {
+  .c17 {
     font-style: italic;
    }
 
    // Remove padding under table heading
-   .c4{
+   .c15, .c8{
     padding: 0px;
     margin: 0px;
-   }
-
-   // TOC unbold
-   .c7, .c22{
-    font-weight: $normal-weight;
    }
 }
 
