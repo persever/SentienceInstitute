@@ -471,6 +471,15 @@
       "img": "20210819",
       "authors": ["jamie", "jacy"],
       "isJournal": true
+    },
+    {
+      "url": "prioritization-questions-for-artificial-sentience",
+      "gdocname": "PrioritizationQuestionsForArtificialSentience",
+      "date": "October 10, 2021",
+      "year": "2021",
+      "title": "Prioritization Questions for Artificial Sentience",
+      "img": "20211015",
+      "authors": ["jamie"]
     }
   ],
   "pressreleases": [
