@@ -1569,6 +1569,22 @@
         "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
         "series": "Surveys",
         "year": "2021"
+      },{
+        "url": "public-opinion",
+        "type": "Literature Review",
+        "title": "Effective strategies for changing public opinion: A literature review",
+        "author": "Jamie Harris",
+        "citation_author": [ "Harris, Jamie" ],
+        "date": "November 08, 2021",
+        "img": "public-opinion",
+        "abstract": "Social movements often try to affect public opinion as a lever for legislation and other social change. This report provides a broad overview of research relating to (1) whether advocates can successfully influence public opinion and how they can do so most effectively, and (2) what the other causes of public opinion change are and how advocates can harness them. Key findings include that direct persuasion attempts to change attitudes (rather than behavior) tend to have “small” or “very small” short-term effects, but advocates may be able to have lasting indirect effects on public opinion via policy change or reframing the issues. We list factors that affect how persuasive messages are and make tentative suggestions for how advocates can cost-effectively leverage external influences on public opinion such as the media, celebrities, politicians, and policy.",
+        "pdf": {
+          "name": "Effective strategies for changing public opinion"
+        },
+        "date_meta": "2021/08/11",
+        "keywords": "PUBLIC OPINION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM",
+        "series": "Literature Reviews",
+        "year": "2021"
       }
     ]
   }
