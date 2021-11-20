@@ -3356,6 +3356,33 @@ hr{
   }
 }
 
+.artificial-sentience-terminology-container {
+  iframe{
+    border-top:0.5px solid grey;
+    border-color: $light-grey;
+    //width: 98.8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .c8, .c7 {
+    font-style: italic;
+  }
+
+  .c7, .c24 {
+    font-weight: $normal-weight;
+  }
+
+  // TOC
+  .c12{
+    margin-bottom: 0px;
+  }
+
+  .c27.c12, .c12.c14 {
+    margin-left: 30px;
+  }
+}
+ 
   // I can't find a way to center the images right now, though I probably could by editing the Google Document
 
 

@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/artificial-sentience-terminology", "The Terminology of Artificial Sentience", "blog/" + blogposts[26].img, "We consider the terminology used to describe artificial entities and how this terminology may affect the moral consideration of artificial entities. Different combinations of terms variously emphasize the entity's role, material features, psychological features, and different research perspectives.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[26], authors) }}
+
+{% endblock %}
