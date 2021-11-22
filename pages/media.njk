@@ -42,7 +42,7 @@
         {% endfor %}
       </div>
 
-      <h1><span>Radio & External Podcasts</span></h1>
+      <h1><span>Radio & Podcasts</span></h1>
       <div class="row outreach-section-list interviews">
         {% for interviewitem in mediaitems.audiointerviews | reverse %}
           {% from "../templates/partials/mediaitem.njk" import mediaitem %}
@@ -50,7 +50,7 @@
         {% endfor %}
       </div>
 
-      <h1><span>External Articles</span></h1>
+      <h1><span>Articles</span></h1>
       <div class="row outreach-section-list">
         {% for articleitem in mediaitems.externalarticles | reverse %}
           {% from "../templates/partials/mediaitem.njk" import mediaitem %}
