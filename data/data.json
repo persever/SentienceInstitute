@@ -503,6 +503,10 @@
       "year": "2021",
       "title": "2021 End of Year Summary",
       "img": "20211125",
+      "img_info": {
+        "title": "Catfish",
+        "credit": "Pexels / Pixabay"
+      },
       "authors": ["ali"]
     }
   ],
