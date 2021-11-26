@@ -1708,12 +1708,14 @@ hr{
     li.c3{
       margin-left: 30px;
     }
-  }
 
   //padding below bullets
     .c7 {
       margin-bottom: 0px;
-    }
+    }  
+  }
+
+
 
   &.perspective-container {
   //italics
@@ -3382,7 +3384,30 @@ hr{
     margin-left: 30px;
   }
 }
- 
+
+.eoy2021-container {
+  .c4 {
+    font-style: italic;
+  }
+  .c7 {
+    padding-bottom: 15px;
+  }
+
+  .c10.c13 {
+    padding-bottom: 5px;
+  }
+}
+
+.faq-container {
+  .c5, .c9 {
+    margin-bottom: 0px;
+  }
+
+  .c21, .c2 {
+    margin-bottom: 0px;
+  }
+}
+
   // I can't find a way to center the images right now, though I probably could by editing the Google Document
 
 

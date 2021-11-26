@@ -113,6 +113,11 @@
       "name": "Janet Pauketat",
       "role": "Research Fellow",
       "img": "../img/team/janet.png"
+    },
+    "ali": {
+      "name": "Ali Ladak",
+      "role": "Researcher",
+      "img": "../img/team/ali.png"
     }
   },
   "photos": {
@@ -489,6 +494,16 @@
       "title": "The Terminology of Artificial Sentience",
       "img": "20211122",
       "authors": ["janet"]
+    }
+    ,
+    {
+      "url": "eoy2021",
+      "gdocname": "2021EndofYearSummary",
+      "date": "November 25, 2021",
+      "year": "2021",
+      "title": "2021 End of Year Summary",
+      "img": "20211125",
+      "authors": ["ali"]
     }
   ],
   "pressreleases": [
