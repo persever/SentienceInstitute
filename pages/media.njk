@@ -1,13 +1,12 @@
 {% extends "layout.njk" %}
 {% block metatags %}
-{{ metatagsrender("media", "Media", "outreach", "Outreach", "header_photos/" + "media", "") }}
+{{ metatagsrender("media", "Media", "outreach", "Outreach", "header_photos/" + 3, "") }}
 {% endblock %}
 
 {% block content %}
 
 {% from "../templates/partials/headerimage.njk" import headerimage %}
-{{ headerimage("media", photos["media"], "Media") }}
-
+{{ headerimage(3, photos[3], "Media") }}
 <div class="container first-container outreach-list-container">
       
       <div>This page lists media-related activities of Sentience Institute. For our own published content, see our <a href = "https://www.sentienceinstitute.org/research">research reports</a>, <a href = "https://www.sentienceinstitute.org/blog">blog</a>, and <a href = "https://www.sentienceinstitute.org/podcast">podcast</a>.<br><br>

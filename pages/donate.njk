@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
 
-  {{ metatagsrender("donate", "Donate", "header_photos/" + 3, "Support our work by donating.") }}
+  {{ metatagsrender("donate", "Donate", "header_photos/" + "donate", "Support our work by donating.") }}
 
   <script src="https://www.paypal.com/sdk/js?client-id=AeK94AwcohuNExMEZqPvnsvD4VV33534-oVuIDVw2wggGfD4aNQz4JgPY9oTh9jbAGmiYIGNod27DhPV"></script>
 {% endblock %}
@@ -23,7 +23,7 @@
 </style>
 
 {% from "../templates/partials/headerimage.njk" import headerimage %}
-{{ headerimage(3, photos[3], "Donate") }}
+{{ headerimage("donate", photos["donate"], "Donate") }}
 <div class="container first-container donation-page-container">
 
   {#
