@@ -3424,19 +3424,20 @@ hr{
     line-height: 1.2;
     border-bottom: 1px solid $dark-grey;
     border-right: 1px solid $dark-grey;
+    table-layout: fixed;
 
       tr{
         display: flex;
 
       td {
         padding: 3px;
-        //width: 100%;
+        min-width: 13.33%;
         border-left: 1px solid $dark-grey;
         border-top: 1px solid $dark-grey;
 
         p {
           text-align: left;
-          //width: 100%;
+          width: 100%;
           margin-bottom: 2px;
         }
       }
