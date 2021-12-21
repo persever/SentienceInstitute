@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/assessing-sentience-in-artificial-entities", "Assessing Sentience in Artificial Entities", "blog/" + blogposts[28].img, "In a previous post we explained our reasons for favoring the term “artificial sentience.” However, while this term captures what we truly care about — artificial entities with the capacity for positive and/or negative experiences — it may be too vague when we try to use it to make judgments about sentience in specific artificial entities.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[28], authors) }}
+
+{% endblock %}
