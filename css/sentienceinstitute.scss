@@ -3419,8 +3419,8 @@ hr{
     margin-bottom: 0px;
   }
 
-    // Table
-    table:first-of-type {
+    // Table formatting
+    table {
     line-height: 1.2;
     border-bottom: 1px solid $dark-grey;
     border-right: 1px solid $dark-grey;
@@ -3430,20 +3430,20 @@ hr{
 
       td {
         padding: 3px;
-        width: 100%;
+        //width: 100%;
         border-left: 1px solid $dark-grey;
         border-top: 1px solid $dark-grey;
 
         p {
           text-align: left;
-          width: 100%;
+          //width: 100%;
           margin-bottom: 2px;
         }
       }
     }
   }
 
-  table:first-of-type {
+  table {
     tr td.c12:nth-of-type(2){
       width: 60% !important;
     }
@@ -3453,7 +3453,6 @@ hr{
   .c21.c23 {
     font-weight: $bold-weight;
   }
-
 }
 
   // I can't find a way to center the images right now, though I probably could by editing the Google Document
