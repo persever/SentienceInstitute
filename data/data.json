@@ -313,7 +313,7 @@
       "gdocname": "Howtractableischangingthecours",
       "date": "March 12, 2019",
       "year": "2019",
-      "title": "How tractable is changing the course of history?",
+      "title": "How Tractable is Changing the Course of History?",
       "img": "190312",
       "authors": ["jamie"],
       "isResearch": true
@@ -323,7 +323,7 @@
       "gdocname": "Whatcanthefarmedanimalmo",
       "date": "May 17, 2019",
       "year": "2019",
-      "title": "What can the farmed animal movement learn from history?",
+      "title": "What Can the Farmed Animal Movement Learn from History?",
       "img": "190517a",
       "img_info": {
         "title": "Pigs going to the slaughterhouse in transport trucks, in the heat of summer",
@@ -337,7 +337,7 @@
       "gdocname": "HowisSIresearchdifferent",
       "date": "May 17, 2019",
       "year": "2019",
-      "title": "How is SI research different from existing social movement literature and relevant historical works?",
+      "title": "How is SI Research Different from Existing Social Movement Literature and Relevant Historical Works?",
       "img": "190517b",
       "img_info": {
         "title": "Portrait of a fox in a cage at a fur farm in Canada",
@@ -350,7 +350,7 @@
       "gdocname": "GMOAAM",
       "date": "August 20, 2019",
       "year": "2019",
-      "title": "Cell-cultured meat: lessons from GMO adoption and resistance",
+      "title": "Cell-Cultured Meat: lLssons from GMO Adoption and Resistance",
       "img": "190820",
       "authors": ["jacy"],
       "isJournal": true
@@ -401,7 +401,7 @@
       "gdocname": "Whichinstitutionaltacticscananimaladvocatesus",
       "date": "April 27, 2020",
       "year": "2020",
-      "title": "Which institutional tactics can animal advocates use?",
+      "title": "Which Institutional Tactics can Animal Advocates use?",
       "img": "200427",
       "img_info": {
         "title": "A black mink in a very small cage at a fur farm",
@@ -1446,7 +1446,7 @@
         },
         "series": "Technology Adoption Case Studies",
         "type": "Technology Adoption Case Study",
-        "title": "What can nuclear power teach us about the institutional adoption of clean meat?",
+        "title": "What Can Nuclear Power Teach us about the Institutional Adoption of Clean meat?",
         "url": "nuclear-power-clean-meat",
         "year": "2019"
       },
@@ -1464,7 +1464,7 @@
         },
         "series": "Technology Adoption Case Studies",
         "type": "Technology Adoption Case Study",
-        "title": "What can the adoption of GM foods teach us about the adoption of other food technologies?",
+        "title": "What Can the Adoption of GM Foods Teach us about the Adoption of Other Food Technologies?",
         "url": "gm-foods",
         "year": "2018"
       },
@@ -1482,7 +1482,7 @@
         },
         "series": "Technology Adoption Case Studies",
         "type": "Technology Adoption Case Study",
-        "title": "What can biofuel commercialization teach us about scale, failure, and success in biotechnology?",
+        "title": "What Can Biofuel Commercialization Teach us about Scale, Failure, and Success in Biotechnology?",
         "url": "biofuels",
         "year": "2019"
       }
@@ -1646,7 +1646,7 @@
       },{
         "url": "public-opinion",
         "type": "Literature Review",
-        "title": "Effective strategies for changing public opinion: A literature review",
+        "title": "Effective Strategies for Changing Public Opinion: A Literature Review",
         "author": "Jamie Harris",
         "citation_author": [ "Harris, Jamie" ],
         "date": "November 08, 2021",
