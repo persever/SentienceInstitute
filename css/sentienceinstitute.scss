@@ -2497,10 +2497,16 @@ hr{
 
   }
   &.researcher-opening-container{
-    .c2{
+    .c1{
       font-weight: $bold-weight;
     }
   }
+
+  &.generalist-opening-container{
+    .c15{
+      font-weight: $bold-weight;
+    }
+  }  
   &.prisoners-rights-container {
     .c33.c9.c36 {
       font-style: italic;
