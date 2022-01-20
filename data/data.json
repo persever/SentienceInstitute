@@ -38,7 +38,7 @@
       "instagramId": "jacyreeseanthis",
       "linkedinId": "jacyreeseanthis",
       "role": "Co-Founder & Research Fellow",
-      "desc": "Jacy Anthis is a writer, social scientist, and author of <i>The End of Animal Farming</i>. He is currently a PhD Fellow at The University of Chicago. He previously worked as a Senior Fellow at Sentience Politics, and before that as a researcher and Chair of the board of directors at Animal Charity Evaluators. He has written on effective altruism topics in outlets such as <i>The Guardian<\/i>, <i>Vox<\/i>, and <i>National Review<\/i> and presented his research in over 20 countries."
+      "desc": "Jacy is a writer, social scientist, and author of <i>The End of Animal Farming</i>. He is currently a PhD Fellow at The University of Chicago. He previously worked as a Senior Fellow at Sentience Politics, and before that as a researcher and Chair of the board of directors at Animal Charity Evaluators. He has written on effective altruism topics in outlets such as <i>The Guardian<\/i>, <i>Vox<\/i>, and <i>National Review<\/i> and presented his research in over 20 countries."
     },
     {
       "id": "kelly",
@@ -59,6 +59,13 @@
       "role": "Advisory Board Member",
       "link": "https://usc-es.academia.edu/OscarHorta",
       "desc": "Oscar Horta has been involved in antispeciesist and vegan activism since the mid 90s. He’s a founding member of Animal Ethics. He teaches philosophy at the University of Santiago de Compostela, and has been a visiting researcher in other universities. His main fields of research are speciesism and wild animal suffering."
+    },
+    {
+      "id": "maya",
+      "name": "Maya Mathur",
+      "role": "Advisory Board Member",
+      "link": "http://www.mayamathur.com/ ",
+      "desc": "Maya Mathur is an Assistant Professor at the Stanford University Quantitative Sciences Unit and Associate Director of the Stanford Center for Open and Reproducible Science. She holds a PhD in Biostatistics. Her statistics research develops new methods for meta-analysis, causal inference, epidemiology, and reproducibility. Her empirical research includes work on behavioral and choice-architecture interventions to reduce global consumption of meat and animal products."
     },
     {
       "id": "kellym",
