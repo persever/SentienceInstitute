@@ -9,11 +9,11 @@
 {{ headerimage("research", photos["research"], "Reports") }}
 
 <div class="container first-container research-list-container">
-      <h1><span>Technology Adoption Case Studies</span></h1>
-      <div class="row research-section-list tech-studies-list">
-        {% for item in researchitems.technologyadoption | reverse %}
-          {% from "../templates/partials/researchitem.njk" import researchitem %}
-          {{ researchitem(item) }}
+      <h1><span>Estimates, Literature Reviews, Surveys, and Experiments</span></h1>
+      <div class="row research-section-list">
+        {% for item in researchitems.other | reverse %}
+          {% from "../templates/partials/miniresearchitem.njk" import miniresearchitem %}
+          {{ miniresearchitem(item) }}
         {% endfor %}
       </div>
 
@@ -25,11 +25,11 @@
         {% endfor %}
       </div>
 
-      <h1><span>Estimates, Literature Reviews, Surveys, and Experiments</span></h1>
-      <div class="row research-section-list">
-        {% for item in researchitems.other | reverse %}
-          {% from "../templates/partials/miniresearchitem.njk" import miniresearchitem %}
-          {{ miniresearchitem(item) }}
+      <h1><span>Technology Adoption Case Studies</span></h1>
+      <div class="row research-section-list tech-studies-list">
+        {% for item in researchitems.technologyadoption | reverse %}
+          {% from "../templates/partials/researchitem.njk" import researchitem %}
+          {{ researchitem(item) }}
         {% endfor %}
       </div>
 
