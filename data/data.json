@@ -530,6 +530,20 @@
       },
       "authors": ["ali"]
     }
+    ,
+    {
+      "url": "data-publication-AIMS-survey",
+      "gdocname": "DataPublicationAIMSSurvey",
+      "date": "March 23, 2022",
+      "year": "2022",
+      "title": "Data Publication for the 2021 Artificial Intelligence, Morality, and Sentience (AIMS) Survey",
+      "img": "20220323",
+      "img_info": {
+        "title": "FUTURE WORLD, ArtScience Museum Singapore",
+        "credit": "Robynne Hu / Unsplash"
+      },
+      "authors": ["janet"]
+    }
   ],
   "pressreleases": [
     {

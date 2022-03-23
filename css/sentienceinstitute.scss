@@ -3462,6 +3462,58 @@ hr{
   }
 }
 
+.data-publication-AIMS-survey-container {
+    // Italics
+    .c9.c30, .c8 {
+      font-style: italic;
+    }
+
+    // Table formatting
+    
+    // Table notes formatting
+    .c27.c26.c25, .c24.c25 {
+      vertical-align: super;
+      font-size: 80%;
+    }
+    .c8.c28 {
+      font-size: 80%;
+      vertical-align: super;
+      font-style: italic;
+    }
+
+    table {
+    line-height: 1.2;
+    border-bottom: 1px solid $dark-grey;
+    border-right: 1px solid $dark-grey;
+    table-layout: fixed;
+
+      tr{
+        display: flex;
+
+      td {
+        padding: 3px;
+        min-width: 13.33%;
+        border-left: 1px solid $dark-grey;
+        border-top: 1px solid $dark-grey;
+
+        p {
+          text-align: center;
+          width: 100%;
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+
+    table {
+      tr td.c0:nth-of-type(1){
+        width: 45% !important;
+      }
+    }
+    .c5, .c24 {
+      font-weight: $bold-weight;
+      }
+}
   // I can't find a way to center the images right now, though I probably could by editing the Google Document
 
 
