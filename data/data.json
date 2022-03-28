@@ -544,6 +544,21 @@
       },
       "authors": ["janet"]
     }
+    ,
+    {
+      "url": "consciousness-semanticism",
+      "gdocname": "ConsciousnessSemanticism",
+      "date": "March 28, 2022",
+      "year": "2022",
+      "title": "Consciousness Semanticism: A Precise Eliminativist Theory of Consciousness",
+      "img": "220328",
+      "img_info": {
+        "title": "Brain model early 20th century",
+        "credit": "David Matos / Unsplash"
+      },
+      "authors": ["jacy"],
+      "isResearch": true
+    }
   ],
   "pressreleases": [
     {

@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/consciousness-semanticism", "Consciousness Semanticism: A Precise Eliminativist Theory of Consciousness", "blog/" + blogposts[30].img, "We are excited to announce the publication of our latest work, “Consciousness Semanticism: A Precise Eliminativist Theory of Consciousness,” in the Brain Inspired Cogntive Architectures 2021 conference proceedings. This paper argues for a new understanding of consciousness and sentience that can help us better identify the nature of biological and digital minds.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[30], authors) }}
+
+{% endblock %}
