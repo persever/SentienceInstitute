@@ -1,14 +1,14 @@
 {
   "team": [
     {
-      "id": "jamie",
-      "name": "Jamie Harris",
-      "role": "Researcher",
-      "SIpage": "jamie-harris",
-      "email": "jamie@sentienceinstitute.org",
-      "twitterId": "",
-      "facebookId": "jamie.harris.397",
-      "desc": "Jamie has a History degree from Oxford University and a Postgraduate Certificate in Education from Nottingham University. Dedicated to reducing animal suffering, he has volunteered for a variety of effective animal advocacy organisations, including Faunalytics, The Humane League and the Good Food Institute. He is also working to grow the effective altruism movement by managing the local group Effective Animal Altruism London."
+      "id": "michael",
+      "name": "Michael Dello-Iacovo",
+      "role": "Strategy Lead and Researcher",
+      "SIpage": "michael-dello-iacovo",
+      "email": "michael@sentienceinstitute.org",
+      "twitterId": "MichaelDello",
+      "facebookId": "Michael.Dello",
+      "desc": "Michael has a PhD in space science from the University of New South Wales, focusing on the use of geophysics for asteroid deflection, off-Earth mining, and space colonisation. He was previously the CEO of Effective Altruism Australia, has volunteered with a number of effective altruism organisations and community groups since 2015, and has been involved with the Australian Animal Justice Party since 2018, including running as a candidate in elections and co-founding the party's youth wing. He is dedicated to reducing the suffering of sentient minds through his career."
     },
     {
       "id": "ali",

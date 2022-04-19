@@ -1,0 +1,16 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("michael", "Our Team: Michael Dello-Iacovo", "team/michael", "Michael has a PhD in space science from the University of New South Wales, focusing on the use of geophysics for asteroid deflection, off-Earth mining, and space colonisation. He was previously the CEO of Effective Altruism Australia, has volunteered with a number of effective altruism organisations and community groups since 2015, and has been involved with the Australian Animal Justice Party since 2018, including running as a candidate in elections and co-founding the party's youth wing. He is dedicated to reducing the suffering of sentient minds through his career.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(1, photos[1], "Michael Dello-Iacovo") }}
+
+<div class="container first-container team-container-individual">
+  {% from "../templates/partials/teammember.njk" import teammember %}
+  {{ teammember(team[0]) }}
+</div>
+
+{% endblock %}
