@@ -125,6 +125,11 @@
       "name": "Ali Ladak",
       "role": "Researcher",
       "img": "../img/team/ali.png"
+    },
+    "maya": {
+      "name": "Maya Mathur",
+      "role": "Advisory Board Member",
+      "img": "../img/team/maya.png"
     }
   },
   "photos": {
@@ -558,6 +563,21 @@
       },
       "authors": ["jacy"],
       "isResearch": true
+    }
+    ,
+    {
+      "url": "animal-welfare-reforms-AFO",
+      "gdocname": "AnimalWelfareReformsAFO",
+      "date": "April 28, 2022",
+      "year": "2022",
+      "title": "The Effects of Exposure to Information about Animal Welfare Reforms on Animal Farming Opposition: A Randomized Experiment",
+      "img": "20220428",
+      "img_info": {
+        "title": "Chicken Farm",
+        "credit": "twinquinn84 / Pixabay"
+      },
+      "authors": ["jamie", "ali", "maya"],
+      "isJournal": true
     }
   ],
   "pressreleases": [

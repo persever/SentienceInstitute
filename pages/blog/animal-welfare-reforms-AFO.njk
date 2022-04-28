@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/animal-welfare-reforms-AFO", "The Effects of Exposure to Information about Animal Welfare Reforms on Animal Farming Opposition: A Randomized Experiment", "blog/" + blogposts[31].img, "We are pleased to announce the publication of our latest journal article, “The Effects of Exposure to Information About Animal Welfare Reforms on Animal Farming Opposition: A Randomized Experiment” in Anthrozoös.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[31], authors) }}
+
+{% endblock %}
