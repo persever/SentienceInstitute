@@ -1682,7 +1682,7 @@ hr{
   }
 
   &.research-agenda-container{
-    .c5 {
+    .c7 {
       font-style: italic;
     }
 
@@ -1695,7 +1695,7 @@ hr{
       }
 
     // indent subheadings
-      .c7{
+      .c12{
         margin-left: 30px;
       }
     }
@@ -1705,12 +1705,12 @@ hr{
   //  }
 
   // left margin for sub-bullets
-    li.c10.c12{
+    li.c9.c13{
       margin-left: 30px;
     }
 
   //padding below bullets
-    .c11 {
+    .c16 {
       margin-bottom: 0px;
     }
   }
