@@ -503,7 +503,8 @@
       "year": "2021",
       "title": "Prioritization Questions for Artificial Sentience",
       "img": "20211015",
-      "authors": ["jamie"]
+      "authors": ["jamie"],
+      "isResearch": true
     },
     {
       "url": "artificial-sentience-terminology",
@@ -512,7 +513,8 @@
       "year": "2021",
       "title": "The Terminology of Artificial Sentience",
       "img": "20211122",
-      "authors": ["janet"]
+      "authors": ["janet"],
+      "isResearch": true
     }
     ,
     {
@@ -540,7 +542,8 @@
         "title": "Cyber Network",
         "credit": "TheDigitalArtist / Pixabay"
       },
-      "authors": ["ali"]
+      "authors": ["ali"],
+      "isResearch": true
     }
     ,
     {
@@ -554,7 +557,8 @@
         "title": "FUTURE WORLD, ArtScience Museum Singapore",
         "credit": "Robynne Hu / Unsplash"
       },
-      "authors": ["janet"]
+      "authors": ["janet"],
+      "isResearch": true
     }
     ,
     {
