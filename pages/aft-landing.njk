@@ -1,0 +1,41 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("aft-landing", "Animals, Food, and Technology (AFT) Survey", "header_photos/" + "aft-landing", "Our Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("aft-landing", photos["aft-landing"], "Animals, Food, and Technology (AFT) Survey") }}
+
+<div class="container first-container research-list-container">
+
+      <div>Our Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US. The survey was first conducted in 2017, and we have since completed three further iterations in 2019, 2020, and 2021. On this page you can find links to our AFT reports and data. For any questions about the survey please contact <a href = "mailto:jacy@sentienceinstitute.org">jacy@sentienceinstitute.org</a>.<br><br></div>
+
+      <h1><span>Reports</span></h1>
+      <div class="row research-section-list">
+        {% for item in researchitems.aft | reverse %}
+          {% from "../templates/partials/miniresearchitem.njk" import miniresearchitem %}
+          {{ miniresearchitem(item) }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Data Download</span></h1>
+      <div><br>The data for all years of the AFT can be downloaded at the link below. Please feel free to use this data in your own research.<br>
+      
+      <a href = "add link to data"><u>Animals, Food, and Technology (AFT) Round 4 Pooled 2017–2021 Data</u></a><br><br>
+
+      Please cite this data as follows:<br>
+      Anthis, Jacy Reese; Ladak, Ali (2021). Animals, Food, and Technology (AFT) Survey: Round 4 Pooled Data 2017–2021. <i>Sentience Institute. </i>https://doi.org/XXX.XXXX
+      </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/clamp.min.js"></script>
+<script>
+  $(".research-item-abstract span").each(function() {
+    $clamp(this, {clamp: 5});
+  });
+</script>
+
+{% endblock %}

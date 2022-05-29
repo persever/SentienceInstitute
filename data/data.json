@@ -1727,6 +1727,39 @@
         "series": "Literature Reviews",
         "year": "2021"
       }
+    ],
+    "aft": [
+      {
+        "url": "animal-farming-attitudes-survey-2017",
+        "type": "Survey",
+        "title": "Animals, Food, and Technology (AFT) Survey 2017",
+        "author": "Jacy Reese Anthis",
+        "citation_author": [ "Anthis, Jacy Reese" ],
+        "date": "November 20, 2017",
+        "img": "afa-2017",
+        "abstract": "We surveyed 1,094 US adults, census-balanced to be representative of age, sex, region, ethnicity, and income, on their attitudes towards animal farming and animal-free food. Among other insights, we found that 49% of US adults support a ban on factory farming, 47% support a ban on slaughterhouses, and 33% support a ban on animal farming, suggesting that animal-free food advocates might be more successful with a stronger focus on institutions than individuals, and with stronger institutional proposals than they currently campaign for.",
+        "date_meta": "2017/11/20",
+        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
+        "series": "Surveys",
+        "year": "2017"
+      },{
+                "url": "aft-survey-2020",
+        "type": "Survey",
+        "title": "Animals, Food, and Technology (AFT) Survey: 2020 Update",
+        "author": "Ali Ladak and Jacy Reese Anthis",
+        "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
+        "date": "March 17, 2021",
+        "img": "aft-survey-2020",
+        "img_info": {
+          "title": "A hen in a battery cage",
+          "credit": "Jo-Anne McArthur / Animal Equality"
+        },
+        "abstract": "In October 2020, we conducted the third iteration of the Animals, Food, and Technology (AFT) survey. Overall, as in previous years, we found significant opposition in the US to the animal farming industry, with a majority of people reporting discomfort with the industry, and strong support for a range of often quite radical policy changes, such as banning slaughterhouses.",
+        "date_meta": "2021/17/03",
+        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
+        "series": "Surveys",
+        "year": "2021"
+      }
     ]
   }
 }
