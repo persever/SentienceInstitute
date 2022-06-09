@@ -10,7 +10,7 @@ const { parallel, series, src, dest, watch } = require("gulp"),
     nunjucksRender = require("gulp-nunjucks-render"),
     rename = require("gulp-rename"),
     replace = require('gulp-replace'),
-    sass = require('gulp-sass'),
+    sass = require('gulp-sass')(require('sass')),
     stripCode = require('gulp-strip-code'),
     versionAppend = require('gulp-version-append');
 
