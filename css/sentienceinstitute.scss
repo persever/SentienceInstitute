@@ -3532,14 +3532,22 @@ hr{
 
 .is-artificial-consciousness-possible-container {
     // Italics
-    .c13 {
+    .c14, .c10 {
       font-style: italic;
     }
 
     // ToC bottom margin
-    .c11 {
+    .c15 {
     margin-bottom: 0px
     }
+
+    // images formatting
+//    img:not(:first-of-type) {
+ //   //border-radius: 50%;
+  //  width: 33%;
+    //height: auto;
+  //  text-align: right;
+  //}
 }
 
 [href="/blog/how-is-SI-research-different"] .blog-item-image{
