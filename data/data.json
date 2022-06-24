@@ -1741,6 +1741,23 @@
         "keywords": "PUBLIC OPINION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM",
         "series": "Literature Reviews",
         "year": "2021"
+      },{
+        "url": "aims-survey-2021",
+        "type": "Survey",
+        "title": "Artificial Intelligence, Morality, and Sentience (AIMS) Survey: 2021",
+        "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
+        "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
+        "date": "June 24, 2022",
+        "img": "aims-survey-2021",
+        "img_info": {
+          "title": "AI robot cyborg technology",
+          "credit": "Peter Pieras / Pixabay"
+        },
+        "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+        "date_meta": "2022/24/06",
+        "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+        "series": "Surveys",
+        "year": "2022"
       }
     ],
     "aft": [
@@ -1774,6 +1791,36 @@
         "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
         "series": "Surveys",
         "year": "2021"
+      }
+    ],
+    "aims": [
+      {
+      "url": "blog/data-publication-AIMS-survey",
+      "author": "Janet Pauketat",
+      "date": "March 23, 2022",
+      "title": "Data Publication for the 2021 Artificial Intelligence, Morality, and Sentience (AIMS) Survey",
+      "img": "aims-data-publication",
+      "img_info": {
+        "title": "FUTURE WORLD, ArtScience Museum Singapore",
+        "credit": "Robynne Hu / Unsplash"
+      }
+      },{
+        "url": "aims-survey-2021",
+        "type": "Survey",
+        "title": "Artificial Intelligence, Morality, and Sentience (AIMS) Survey: 2021",
+        "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
+        "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
+        "date": "June 24, 2022",
+        "img": "aims-survey-2021",
+        "img_info": {
+          "title": "AI robot cyborg technology",
+          "credit": "Peter Pieras / Pixabay"
+        },
+        "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+        "date_meta": "2022/24/06",
+        "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+        "series": "Surveys",
+        "year": "2022"
       }
     ]
   }

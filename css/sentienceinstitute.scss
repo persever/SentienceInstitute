@@ -3550,6 +3550,53 @@ hr{
   //}
 }
 
+.aims-survey-2021-container{
+  // Italics
+  .c29, .c17, .c13{
+  font-style: italic;
+  }
+
+  // TOC
+  .c41{
+  margin-bottom: 0px;
+  }
+
+  .c25{
+  margin-bottom: 0px;
+  margin-left: 30px;
+  }
+
+  .c38{
+  margin-bottom: 0px;
+  margin-left: 60px;
+  }
+
+  // Iframes - add top border to embedded
+  // tables only, not plots
+  div#tables iframe{
+  border-top:0.5px solid grey;
+  border-color: $light-grey;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+
+  // Margin below bullets
+  .c15{
+    margin-bottom: 0px;
+  }
+
+  // Appendix table
+  table, td {
+  border: 1px solid $dark-grey;
+  }
+
+  table {
+    p {
+      margin-left: 5px;
+    }
+  }
+}
+
 [href="/blog/how-is-SI-research-different"] .blog-item-image{
   background-position: left;
 }

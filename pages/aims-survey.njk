@@ -1,0 +1,41 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("aims-survey", "Artificial Intelligence, Morality, and Sentience (AIMS) Survey", "header_photos/" + "aims-survey", "Our Artificial Intelligence, Morality, and Sentience (AIMS) Survey survey measures the social and moral perception of different types of artificial intelligences (AIs), particularly sentient AIs, in the US.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("aims-landing", photos["aims-landing"], "Artificial Intelligence, Morality, and Sentience (AIMS) Survey") }}
+
+<div class="container first-container research-list-container">
+
+      <div>Our Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the social and moral perception of different types of artificial intelligences (AIs), particularly sentient AIs, in the US. We conducted the first iteration of the survey in 2021, and intend to run the survey peridocally to track changes over time. On this page you can find links to our AIMS reports and data. For any questions about the survey please contact <a href = "mailto:janet@sentienceinstitute.org">janet@sentienceinstitute.org</a>.<br><br></div>
+
+      <h1><span>Reports and Blogposts</span></h1>
+      <div class="row research-section-list">
+        {% for item in researchitems.aims | reverse %}
+          {% from "../templates/partials/miniresearchitem.njk" import miniresearchitem %}
+          {{ miniresearchitem(item) }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Data Download</span></h1>
+      <div><br>The data for the AIMS survey can be downloaded at the link below. Please feel free to use this data in your own research.<br>
+      
+      <a href = "https://data.mendeley.com/datasets/x5689yhv2n/1"><u>Artificial Intelligence, Morality, and Sentience (AIMS) Survey 2021 Data</u></a><br><br>
+
+      Please cite this data as follows:<br>
+      Pauketat, Janet; Ladak, Ali; Harris, Jamie; Anthis, Jacy (2022), “Artificial Intelligence, Morality, and Sentience (AIMS) 2021”, Mendeley Data, V1, doi: 10.17632/x5689yhv2n.1
+      </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/clamp.min.js"></script>
+<script>
+  $(".research-item-abstract span").each(function() {
+    $clamp(this, {clamp: 5});
+  });
+</script>
+
+{% endblock %}
