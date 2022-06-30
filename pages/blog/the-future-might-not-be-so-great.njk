@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/the-future-might-not-be-so-great", "The Future Might Not Be So Great.", "blog/" + blogposts[33].img, "Many in the effective altruism (EA) community prioritize the reduction of extinction risks such as nuclear war and unsafe artificial intelligence. Is this the best approach to improving the long-term future?") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[33], authors) }}
+
+{% endblock %}
