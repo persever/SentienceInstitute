@@ -3640,15 +3640,28 @@ hr{
   margin-bottom: 0px;
   }
 
-  // Appendix table
+  // table
   table, td {
   border: 1px solid $dark-grey;
+  table-layout: fixed;
+  width: 100%
   }
 
   table {
     p {
       margin-left: 5px;
     }
+  }
+
+  td:first-child, th:first-child {
+      max-width: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+  }
+
+  .c52, .c24{
+    width: calc(30%) !important;
+    word-wrap: break-word !important;
   }
 
   .c8.c15, .c17{
