@@ -19,6 +19,14 @@
       "desc": "Ali has postgraduate degrees in economics and cognitive science. He previously worked at Charity Entrepreneurship, where he carried out research to prioritize global health and development policy interventions. Before this, he worked at an economic consultancy, where he used empirical research methods to evaluate social policies. Ali has also worked on research projects with Charity Entrepreneurship and Faunalytics to support the animal advocacy movement."
     },
     {
+      "id": "katerina",
+      "name": "Katerina Manoli",
+      "SIpage": "katerina-manoli",
+      "email": "katerina@sentienceinstitute.org",
+      "role": "Researcher",
+      "desc": "Katerina has a background in Philosophy, Psychology, and Neuroscience, and is currently a PhD student at the Max Planck Institute for Human Cognitive and Brain Sciences in Leipzig, Germany. She has conducted research on the perception of artificial agents and the ethics of human-AI interaction at the Donders Institute for Brain, Cognition and Behaviour, Harvard University’s Department of Social Studies, and Glasgow University’s School of Psychology and Neuroscience. Additionally, since 2014 she has been on the board of several effective altruism organisations and community groups in the UK and Germany, including her most recent position as a STEM student mentor at Effective Thesis."
+    },
+    {
       "id": "janet",
       "name": "Janet Pauketat",
       "link": "https://researchgate.net/profile/Janet_Pauketat",
@@ -26,6 +34,14 @@
       "twitterId": "janet_pauketat",
       "role": "Research Fellow",
       "desc": "Janet has a PhD in Psychological and Brain Sciences from the University of California, Santa Barbara and a Masters of Research from the University of St Andrews where she studied the psychology of how socio-cultural contexts shape behavior and the morally expanding capacities of global citizenship. After earning her PhD, Janet studied collective emotions in social movements as a postdoctoral research associate at Princeton University. She has worked with researchers at the University of St Andrews on moral values in social movements and at the National University of Singapore on values affecting immigration attitudes. She currently collaborates on a study of the re-wilding of formerly captive Asian elephants in Thailand."
+    },
+    {
+      "id": "brad",
+      "name": "Brad Saad",
+      "link": "https://sites.google.com/a/brown.edu/brad-saad/",
+      "SIpage": "brad-saad",
+      "role": "Research Fellow",
+      "desc": "Brad has a PhD in philosophy from the University of Texas at Austin. Since graduating, he has conducted research in philosophy of mind, philosophy of science, and epistemology at the University of Antwerp's Centre for Philosophical Psychology, Oxford's Future of Humanity Institute, and Rutgers's Department of Philosophy. At present, he is a research fellow at the Sentience Institute and a researcher in philosophy of artificial intelligence at Utrecht University.  His current research is focused on digital minds and catastrophic risks."
     },
     {
       "id": "jacy",
@@ -603,6 +619,21 @@
         "credit": "Infralist.com / Unsplash"
       },
       "authors": ["ali"],
+      "isResearch": true
+    }
+    ,
+    {
+      "url": "the-future-might-not-be-so-great",
+      "gdocname": "TheFutureMightNotBeSoGreat",
+      "date": "June 30, 2022",
+      "year": "2022",
+      "title": "The Future Might Not Be So Great.",
+      "img": "220630",
+      "img_info": {
+        "title": "Stars in the sky during night time",
+        "credit": "Chen Liu"
+      },
+      "authors": ["jacy"],
       "isResearch": true
     }
   ],

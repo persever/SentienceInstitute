@@ -1,0 +1,368 @@
+[33m7bd38b39[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m aft landing and 2021 report
+[33m5795ab22[m aims survey bullet point indent
+[33m222cadeb[m aims report table 1 bottom row
+[33mce9e8abd[m aims landing page wording update
+[33mc7758ca4[m aims report missing italic
+[33m29d9f4b4[m aims survey 2021 and landing page
+[33m7eff49ba[m hiding FAQ and Mission from navbar in an effort to make our meta-pages less numerous and confusing
+[33m8fce08b4[m editing mission statement and MCE essay title
+[33m1397ac42[m edit images for mobile viewing AC blog post
+[33m936a4886[m header njk
+[33m8c9741f2[m AC njk file
+[33m4125750b[m AC blog njk file fix
+[33mcd6cad61[m AS blog header
+[33m7976cea5[m AC blog image
+[33m11eaf373[m remove AFT landing menu button
+[33md1efe03f[m artificial consciousness blog post
+[33me39661d9[m artificial consciousness blog post fixing broken link
+[33mde7fd8b6[m is artificial consciousness possible blog post
+[33m8f2e80cb[m adding debit/credit card wording to donate page
+[33m38904621[m aft landing page
+[33m4499d941[m adding publication date to FQS
+[33m4784db25[m adding publication date to FQS
+[33m79143a2c[m adding isResearch flag in data.json to recent blog posts to make them show on research page
+[33m3cb61541[m editing matti team photo
+[33m4de98554[m adding matti to team page
+[33mfeecf35f[m correcting tag on consc blog post
+[33m38c0e36f[m anthrozoos links
+[33m0872379b[m pdf link anthrozoos
+[33m3208342f[m anthrozoos blog edits
+[33m14f5652d[m anthrozoos current conditions effect text
+[33mc7ad5254[m anthrozoos maya job title
+[33mb9f25e26[m anthrozoos date
+[33mbddbeec4[m research agenda
+[33ma210a1ce[m anthrozoos paper
+[33m71f100c4[m recropping janet's photo for consistency
+[33m93c6dba9[m adding michael and removing jamie from team page
+[33mc8461a84[m updating agenda
+[33m4303a2c3[m semanticism blog post
+[33me7ae59dd[m updating What is Sentience? blog post with reference to new consciousness paper
+[33m4ba96196[m njk title data pub
+[33mea2d129e[m data pub aims njk file
+[33mabc8100a[m aims data pub typo
+[33m2f8d6bbe[m aims blog typo
+[33maeefc656[m Merge branch 'master' of https://github.com/persever/SentienceInstitute
+[33m0786c338[m data publication blog post
+[33m21aefec8[m gulped
+[33m1c09c1ec[m adding 990 2021
+[33mc2b7c1b8[m substratsim as current project on RA
+[33m7a0143a1[m adding authorship to FQS for now
+[33mf050f406[m updating get involved page
+[33m7695f9e4[m adding 2021 mistakes
+[33m3ba2698f[m Merge branch 'master' of http://github.com/persever/SentienceInstitute into master
+[33m8f0a42b6[m typo in gmos title
+[33m1da16b28[m pt preprint
+[33maea3fb7d[m pt preprint update
+[33mf3b4af7c[m update pt preprint
+[33m92215ff7[m reorder research page
+[33m34e95d79[m minor wording change to research methods
+[33mccea8d36[m PT preprint update
+[33m741e55f5[m added maya to team page
+[33m19f1cb4a[m job postings
+[33macc3b758[m job postings
+[33m3f4adeab[m anti-abortion typos
+[33m66b73be4[m assessing sentience typo
+[33m21212f82[m Merge branch 'master' of https://github.com/persever/SentienceInstitute
+[33mfc05687b[m assessing sentience typo
+[33m9fa20754[m .
+[33mafb6c1af[m capitalization
+[33m79b55ceb[m assessing sentience table cols
+[33m9fb58af1[m assessing sentience blog
+[33m32814ba9[m assessing sentience blog
+[33m2f26417b[m updating research agenda
+[33mffb12c27[m editing donate page
+[33m6f359753[m terminology blog typo
+[33m0765fad6[m dropdown menu
+[33ma45dc67d[m research dropdown menu
+[33mf9523dcc[m research dropdown menu
+[33m67841b00[m research dropdown menu
+[33m7fa26972[m eoy 2021 njk file
+[33mf99cf128[m eoy date
+[33mc054bbb3[m wording 5-15 candidates
+[33md118fc77[m photo credits
+[33mfdcfd66e[m heading spacing
+[33m63a31605[m EOY 2021 page
+[33md8ccf706[m media page headings
+[33m4da72b31[m media page
+[33m0bd48039[m update terminology blog header!
+[33m1ce3faad[m italics table 2
+[33m9a8c353d[m terminology blog post
+[33m332236fb[m updating board minutes and bylaws
+[33m5876967f[m table formatting
+[33mcffc0b62[m public opinion lit review
+[33ma32043ca[m typo aft 2020
+[33maf8c53ad[m typo aft
+[33mfcc931cb[m aft 2020 update figs
+[33m74700275[m update figs for AFT 2020
+[33m4d987f07[m cc post njk fix
+[33m272c9651[m cc blog post fix
+[33md585c455[m cc blog post corrections
+[33m67d6f996[m prioritization questions blog post
+[33m93cc8eff[m adding thomas
+[33mc602f18d[m one to two emails per year
+[33m74af3de8[m reformat aft survey 2020
+[33m01251b26[m mce futures update
+[33mcbfeb861[m moral consideration artificial entities
+[33m44f8fe8b[m perspective page punctuation
+[33m5c66c952[m perspective page edits
+[33mea55df53[m mce ref/cause areas intro edits perspective page
+[33m7e7cfb2b[m perpective longtermism paragraph
+[33mdc05d223[m perspective page x-risks
+[33m52260644[m undo perspective page image changes
+[33m66e23aef[m pers page image formatting
+[33m9ae8f8de[m perspective page image formatting
+[33m1f45cb65[m header image text
+[33ma2cb4edf[m header for perspective page
+[33md7d8ce00[m perspective page date
+[33m61b39cbc[m update research agenda contents
+[33m8f916953[m update image color
+[33m6bcf012b[m resize image
+[33mebc3d72b[m perspective page update
+[33m3ae5ab8e[m image psych as blog post fix
+[33m6b28d23c[m psych as blog link
+[33m4d644004[m fix broken links psych as blog
+[33m0dcd3d95[m psych and as blog post
+[33m67e8cc70[m moral consideration AE appendix
+[33m6d08c07f[m podcast css tidying
+[33mf0c4c771[m tobias baumann podcast ep2
+[33me838fedc[m agenda - bullet formatting
+[33ma76a8ee3[m mce paper to journals
+[33m361d87eb[m social movement case studies to research
+[33m413af397[m transparency update
+[33m17417e00[m Merge branch 'master' of http://github.com/persever/SentienceInstitute into master
+[33m9f3c8dcb[m making branches consistent
+[33mb402e845[m case studies blog posts
+[33m95e3d2b6[m Merge branch 'master' of http://github.com/persever/SentienceInstitute into master
+[33mcf090df9[m 2020 990
+[33m2fa37e9d[m tobias baumann podcast apple
+[33m3a206c4e[m tobias baumann podcast
+[33m181cc310[m interdisciplinary wording
+[33m9a8a9627[m update PT preprint link
+[33mfcbf8c9f[m reupload PT preprint
+[33me0403bff[m wording error in AS blog post
+[33m69fd630f[m perspective taking pdfs
+[33mf605f979[m mce futures blog post 3
+[33m07e27fc3[m mce futures blog post 2
+[33m380344e5[m mce futures blog post
+[33mcb422257[m Rename FAQ.html to faq.html
+[33m1454f0a9[m Rename FAQ.njk to faq.njk
+[33m16adb112[m consistent lower case of /faq link and page name
+[33m642e0194[m faq page links
+[33m5a789db3[m utilitarianism.net links
+[33m92f7e353[m agenda update 3
+[33m73b15450[m agenda update 2
+[33m45f92dc7[m agenda update
+[33mb422b76c[m fixing regex for new gdoc output
+[33mdd7ae0e8[m updating mission and perspective pages
+[33me5e672aa[m pdf upload
+[33m5de9b710[m pdf upload
+[33mb25cbc60[m date update
+[33mefe017da[m fig 2 sizing
+[33m89b5803e[m fair trade report
+[33mc3a01657[m oh podcast bolding fix
+[33me6557a89[m oscar h podcast page bolding correction
+[33m03099bd5[m updates to oscar horta podcast transcripts
+[33m78de1d32[m updating italicized text in afa 2017 write-up
+[33m414c794a[m updating mistakes page
+[33m5b81e049[m metadata update for Google Scholar
+[33m0056cfcd[m correct table 1 title
+[33m094fb228[m plot size
+[33mab933965[m chart formatting
+[33m4e698ed6[m Merge branch 'master' of https://github.com/persever/SentienceInstitute
+[33md025998a[m iframe size/formatting
+[33m1f1907be[m oxford comma in page title
+[33m781d4969[m typo in njk
+[33m20e40179[m updating figures to excl. no opinions
+[33m9a0f9b4e[m intro text edit
+[33m81b2c8a6[m new header image aft-survey-2020
+[33me30da322[m reupload aft survey 2020 update
+[33m03097d31[m aft survey edits
+[33m337706be[m aft survey 2020
+[33me55f0c73[m typos in podcast
+[33m8f3cc00f[m fix wording error
+[33md322e14a[m fix wording error
+[33m8695849c[m AFT survey 2020 first commit
+[33m4e550658[m board minutes nov 2020
+[33md63148ab[m importance of as blog
+[33m4d3c0fe7[m podcast ep 15 apple
+[33m9ce4b861[m podcast ep 15 google spotify links
+[33m4ad35492[m fixing link
+[33m074d80ac[m media page updates
+[33m6e16ea45[m reupload episode 15
+[33m04563ea4[m fix incorrect podcast ep 15 links
+[33m7188bc4b[m podcast episode 15
+[33m78fc572b[m address update
+[33m84a3aa86[m updating home page photo
+[33mba6d5dd2[m adding new team member
+[33m11f1fedd[m podcast links 14
+[33m022a3a86[m podcast links 14
+[33md1d22ea9[m podcast links 14
+[33m46463ebb[m uploading podcast ep 14
+[33m07e18e27[m editing agenda
+[33m23905e3d[m .
+[33m8bc24c6a[m podcast ep 13
+[33m7797242f[m updating blog header image
+[33mcc513d7b[m eoy2020 blog post
+[33mab48a2b4[m removing fqs newsletter system
+[33m61210b89[m updating research agenda
+[33m5f6a0586[m apple 12
+[33m598dadc7[m spotify link 12
+[33mc7739882[m podcast 12
+[33mbc87edec[m fixing appendix formatting bug
+[33ma62f9574[m .
+[33mb81cdabe[m team page update
+[33mb218731f[m adding ali to team page
+[33m26e58b6d[m adding janet to team page
+[33m48213f13[m adding apple link for podcast 11
+[33m3f6a93f9[m new podcast episode 11
+[33m4c42c969[m survey description
+[33mf87873d6[m 2019 wording
+[33m7ce33c13[m updating FQS
+[33m59c9f253[m page description
+[33mbf1f9c75[m gulped
+[33m87a9f7f1[m google data-nosnippet for photo text
+[33me3dc698f[m removing job posting
+[33me1c4e359[m fixing toc bug
+[33m809bc8d2[m health behavior lit review
+[33m6063ca63[m podcast 10
+[33m6057e447[m prisoners case study
+[33m0f33f64d[m further clarification
+[33m59953e20[m clarifying wording
+[33m74b06814[m updating title
+[33mc1c8800f[m updating cover photo
+[33meb820889[m job posting
+[33mc18b2502[m moving Outreach to Media page, but having some gulp issues? works ~25% of the time?
+[33m5c9cff30[m updating outreach page and adding content
+[33m77f7533d[m adding apple link
+[33ma2569256[m adding google and spotify links ep 9
+[33mc16c1d73[m adding podcast episode 9
+[33md76e2bd9[m updating twitter url
+[33mfe04c8d7[m correcting google scholar meta data
+[33ma0adbaea[m updated mission wording
+[33ma31a72ac[m removed extra sitemap file
+[33m406cf755[m mistakes update
+[33m6a96df0e[m sitemap update
+[33m94a21297[m sitemap update
+[33me7986dd4[m new sitemap
+[33m3fb402cc[m extra clarification with gulp
+[33mf4bb29ba[m gulped
+[33ma1648012[m adding info to afa write-up update
+[33m40b14458[m updating jr url to ja
+[33mabbd2e37[m adding adpm report
+[33m5a45b40a[m replacing broken pdf
+[33mbaa0d4fb[m jra in author json
+[33m9e9705de[m typo in scss
+[33mee16c2ed[m updated sitemap
+[33m8a9aecbd[m adding prereg note to aft survey write-up
+[33m52d69170[m adding qualifier to afft experiment write-up
+[33mca22e835[m fixing javascript %3D = conversion from g docs
+[33m0bbad5dc[m setting up metadata for google scholar
+[33m99e0f3ec[m adding google scholar meta data
+[33mc5d6eb5c[m fixing youtube link
+[33mef0c1656[m uploading afft experiment report
+[33m7b55febc[m updating podcast links
+[33m6ab1f81b[m ep 8
+[33m46ec6e42[m podcast episode 8 Animal Think Tank
+[33m018be64e[m name
+[33m4945444a[m title
+[33m9720337d[m new board meeting minutes
+[33ma69711cd[m updating name
+[33mc69ad851[m updating name
+[33m1d093066[m seo
+[33m5554e044[m keywords
+[33mfbdea0f8[m links to SI bio pages
+[33m4207d08c[m link correction
+[33m9fe7a315[m name
+[33m1b77bd0f[m updating name
+[33mbe49a25e[m fixing G Doc conversion errors in blog post
+[33m3eedee58[m reformatted team page to one section
+[33m68df6c36[m fixed team pages
+[33m20e9df16[m added institutional tactics blog post
+[33m7b97b3f7[m adding J website
+[33mef1a7e1e[m removing Jeff from Advisory Board due to his other commitments
+[33me1dd47f4[m setting up for PC
+[33mb98fbb9d[m Merge branch 'master' of http://github.com/persever/SentienceInstitute
+[33mdd7f9840[m ds_store update
+[33m353559cc[m added 2019 990 form in Downloads and edited transparency.njk
+[33m84610c36[m Add ep 7 apple link
+[33m07b41c13[m Add ep 7 links
+[33m47df1742[m Add podcast 7
+[33mb8a373f1[m Add ep 6 links:
+[33me13b88fe[m Prep lisa podcast ep 6
+[33mfc58d80d[m Fix broken link
+[33m33f398c4[m Add blogpost and FAQ images
+[33mc15381c2[m Add FAQ page, add TOC to perspective page
+[33m744a0e6b[m Add blogpost, except image
+[33m567f1307[m Add ep 5 apple link
+[33m022f0058[m Fix podcast ep directories elif error
+[33m90091d53[m Add podcast ep 5 directory liniiks
+[33m440bf613[m Add conditions for podcast directory links
+[33mab61fb39[m Initial add of podcast ep 5
+[33m4467d02a[m Add apple podcast link
+[33mcbe60b76[m Podcast ep 4 add header bold styling and remove apple link
+[33m5c020eb5[m Add podcast ep 4
+[33mb18cfe0a[m Update homepage text
+[33m5f806827[m Remove EOY fundraising bar
+[33m7d09702a[m Update bpdf button css to hide weird paragraph below
+[33m241a244a[m Change pdf downloads to links
+[33mc748a0ac[m Update team page
+[33me760a6d9[m Update board meeting minutes
+[33m3f729796[m Update donation figure
+[33me96d7f3b[m Remove third-level FQS TOC items
+[33m16c8c494[m Update FQS date
+[33m5d5a4278[m Update FQS
+[33mf0770bfd[m Update donate page per new NY law
+[33m04901391[m Update 'are raised in' to 'are living in' for clarity
+[33mc1e2e307[m Update donation figure
+[33m0d0f66a5[m Update Ria po podcast transcript to reflect cut out section
+[33md4a1e13c[m Redirect /reports to /research, correct metadata on /research
+[33mda6f08bc[m Update team page
+[33m63ab1369[m ...
+[33ma4e5e891[m Update donation figure
+[33m5b8267f9[m Update .htaccess
+[33m7a68c828[m Update donation figure
+[33m9cde7357[m Set intermediate goal to display none so no accidental appearances
+[33m5213224f[m Update donation bar css for mobile
+[33me3b4e3d7[m Update SCOTUS pod appendix links, fix typo on team page
+[33m73a7e93d[m Update SCOTUS pdf appendix links
+[33m94235c53[m Fix SCOTUS appendix links
+[33me441c95a[m Update podcast transcripts
+[33m2f3ac94e[m Update AFA content
+[33m7100e6b9[m Podcast updates
+[33m7a0be516[m Clean css:
+[33md0a0e553[m Fix podcast header logo
+[33m4f862c25[m Add podcast to nav
+[33m7b8d573c[m Publish podcasts
+[33mfac794dc[m Add foie gras article to outreach page
+[33m09e01b19[m Update agenda, aadd eoy2019 blogpost
+[33m8aedb770[m Part way through podcast prep
+[33m0d317c9a[m Create pages for individual podcast episodes
+[33m46e24caa[m Update pointers per new research organization
+[33m020f4768[m Reorganize research
+[33mcb6f88de[m Add SCOTUS report, add bottom margins to abortion lis
+[33md0be5e75[m Update site version for css force update
+[33m363f317a[m Increase rez of team images, update anti-abortion css bold
+[33me2c692e0[m Update podcast image, add to podcast page
+[33mb5183e6f[m Update nav logo font
+[33m6f103f82[m Prep nav for podcast, update version
+[33mdb5db65d[m Add podcast page, remove rss button from footers
+[33m0a6823bd[m Fix abortion images and htaccess gulping
+[33m2c312e3c[m Add anti-abortion study
+[33ma97159ff[m Fix blog .htaccess to use blog directory
+[33m3b8fc398[m Remove presumably templated IE fix without file
+[33m3f34b800[m Update lodash.template
+[33m3d9fa03a[m Remove redundant call for hosted jquery
+[33mc8810821[m Remove twitter icons from blog posts whose authors do not have twitter
+[33mec69fde4[m Update clean-css
+[33m000c06e2[m Update clean-css
+[33mc0de04f9[m Update npm packages
+[33m5e1b500f[m Customize donate button
+[33me8f5f05c[m Update fundraiser bar words
+[33mf6a241b7[m Add thank you page, and logo for PayPal's use
+[33m1d57cc6d[m Correctly add PayPal donation buttons
+[33m696e1ae6[m Update donate page
+[33mac398ece[m More npm updating
+[33mae0912f9[m Correctly update dependencies
+[33m8ce7bd4d[m Update npm, and dependencies per github security suggestions
+[33ma344eda0[m Update gulp and node modules
+[33mabe89dd3[m Install updated modules
