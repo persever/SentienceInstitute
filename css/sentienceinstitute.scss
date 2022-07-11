@@ -3616,6 +3616,7 @@ hr{
   .c14, .c15{
   margin-left: 30px;
   }
+}
 
 .the-future-might-not-be-so-great-container{
   // Italics
@@ -3646,14 +3647,14 @@ hr{
   margin-left: 60px;
   }
 
-  // Iframes - add top border to embedded
-  // tables only, not plots
-  div#tables iframe{
-  border-top:0.5px solid grey;
-  border-color: $light-grey;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  }
+//  // Iframes - add top border to embedded
+//  // tables only, not plots
+//  div#tables iframe{
+//  border-top:0.5px solid grey;
+//  border-color: $light-grey;
+//  margin-top: 0px;
+//  margin-bottom: 0px;
+//  }
 
   // table
   table, td {
@@ -3668,16 +3669,16 @@ hr{
     }
   }
 
-  td:first-child, th:first-child {
-      max-width: 10px;
-      overflow: hidden;
-      white-space: nowrap;
-  }
-
-  .c52, .c24{
-    width: calc(30%) !important;
-    word-wrap: break-word !important;
-  }
+//  td:first-child, th:first-child {
+//      max-width: 10px;
+//      overflow: hidden;
+//      white-space: nowrap;
+//  }
+//
+//  .c52, .c24{
+//    width: calc(30%) !important;
+//    word-wrap: break-word !important;
+//  }
 
   .c8.c15, .c17{
   text-align: center !important;
