@@ -1,0 +1,23 @@
+{% extends "layout.njk" %}
+
+{%set item = researchitems.other[9] %}
+
+{% block metatags %}
+{% from "../templates/partials/reportmetatags.njk" import reportmetatags %}
+{{ reportmetatags(item) }}
+{{ metatagsrender("aft-survey-2021", "Animals, Food, and Technology (AFT) Survey", "header_photos/" + "aft-survey-2021", "The Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US. As in previous iterations, we found strong opposition to various aspects of the animal farming industry, with a majority of people reporting discomfort with the industry (74.6%), and relatively strong support for a range of quite radical policy changes, such as banning slaughterhouses (49.1%), factory farming (52.7%), and animal farming as a whole (38.8%).") }}
+{% endblock %}
+
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(item.img, photos[item.img]) }}
+
+{% from "../templates/partials/pageinfo.njk" import pageinfo %}
+{{ pageinfo(item) }}
+<div class="container first-container report-container gdoc-html-container aft-survey-2021-container">
+  {% include "../page_content/aft-survey-2021.html" %}
+</div>
+
+{% endblock %}

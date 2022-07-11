@@ -3602,6 +3602,22 @@ hr{
   }
 }
 
+.aft-survey-2021-container{
+  // Italics
+  .c4, .c11{
+  font-style: italic;
+  }
+
+  // ToC
+  .c20, .c14, .c15, .c28{
+  margin-bottom: 0px;
+  }
+
+  .c14, .c15{
+  margin-left: 30px;
+  }
+}
+
 [href="/blog/how-is-SI-research-different"] .blog-item-image{
   background-position: left;
 }
