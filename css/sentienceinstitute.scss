@@ -3675,10 +3675,29 @@ hr{
 //      white-space: nowrap;
 //  }
 //
-//  .c52, .c24{
-//    width: calc(30%) !important;
-//    word-wrap: break-word !important;
-//  }
+  .c52, .c24{
+   width: calc(20%) !important;
+   word-wrap: break-word !important;
+  }
+
+  td.c41{
+    background-color: #00744880;
+  }
+
+  td.c27{
+    background-color: #AC360080;
+  }
+
+  td.c3{
+    background-color: #9E9E9E80;
+  }
+
+  // $grey-shadow: rgba(158,158,158, 0.8);
+  // $grey: #9E9E9E;
+  // $dark-grey: #212121;
+  // $red: #AC3600;
+  // $green: #007448;
+  // $light-green: #289E71;
 
   .c8.c15, .c17{
   text-align: center !important;
