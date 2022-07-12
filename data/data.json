@@ -220,6 +220,43 @@
       "title": "Factory farmed turkeys",
       "credit": "Jo-Anne McArthur / Djurattsalliansen"
     },
+    "aft-survey-2020": {
+      "title": "A hen in a battery cage",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "aft-survey-2021": {
+      "title": "Resident rescued pigs at Farm Sanctuary",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "aft-landing": {
+      "title": "Hens explore the outdoors and new home at Farm Sanctuary",
+      "credit": "Jo-Anne McArthur / We Animals"
+    },
+    "aims-survey-2021": {
+      "credit": "Peter Pieras / Pixabay"
+    },
+    "aims-landing": {
+      "credit": "Pawel Czerwinski / Unsplash"
+    },
+    "public-opinion": {
+      "credit": "Edwin Andrade / Unsplash"
+    },
+    "health-behavior": {
+      "title": "Bowl of fruit on a table",
+      "credit": "wanda dunn"
+    },
+    "fair-trade": {
+      "title": "Continuous background of fresh arabica coffee beans",
+      "credit": "Anastasiia Chepinska / Unsplash"
+    },
+    "prisoners-rights": {
+      "title": "Prison cell block",
+      "credit": "Bob Jagendorf"
+    },
+    "death-penalty": {
+      "title": "Anti-Death Penalty Summit",
+      "credit": "C. Elle"
+    },
     "outreach":{
       "title": "David, a rescued Malayan sun bear, at Tam Dao sanctuary in Vietnam",
       "credit": "Jo-Anne McArthur / We Animals"
@@ -1531,8 +1568,8 @@
         "date": "April 1, 2021",
         "img": "fair-trade",
         "img_info": {
-          "title": "Coffee beans",
-          "credit": "Anastasiia Chepinska"
+          "title": "Continuous background of fresh arabica coffee beans",
+          "credit": "Anastasiia Chepinska / Unsplash"
         },
         "abstract": "This report aims to assess (1) the extent to which the international Fair Trade movement, especially from 1964 to the present, can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize.",
         "pdf": {
@@ -1795,14 +1832,14 @@
         "title": "Animals, Food, and Technology (AFT) Survey: 2021 Update",
         "author": "Ali Ladak and Jacy Reese Anthis",
         "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
-        "date": "July 11, 2022",
+        "date": "July 12, 2022",
         "img": "aft-survey-2021",
         "img_info": {
           "title": "Resident rescued pigs at Farm Sanctuary",
           "credit": "Jo-Anne McArthur / We Animals Media"
         },
         "abstract": "The Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US. As in previous iterations, we found strong opposition to various aspects of the animal farming industry, with a majority of people reporting discomfort with the industry (74.6%), and relatively strong support for a range of quite radical policy changes, such as banning slaughterhouses (49.1%), factory farming (52.7%), and animal farming as a whole (38.8%).",
-        "date_meta": "2022/11/07",
+        "date_meta": "2022/12/07",
         "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
         "series": "Surveys",
         "year": "2022"
@@ -1845,14 +1882,14 @@
         "title": "Animals, Food, and Technology (AFT) Survey: 2021 Update",
         "author": "Ali Ladak and Jacy Reese Anthis",
         "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
-        "date": "July 11, 2022",
+        "date": "July 12, 2022",
         "img": "aft-survey-2021",
         "img_info": {
           "title": "Resident rescued pigs at Farm Sanctuary",
           "credit": "Jo-Anne McArthur / We Animals Media"
         },
         "abstract": "The Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US. As in previous iterations, we found strong opposition to various aspects of the animal farming industry, with a majority of people reporting discomfort with the industry (74.6%), and relatively strong support for a range of quite radical policy changes, such as banning slaughterhouses (49.1%), factory farming (52.7%), and animal farming as a whole (38.8%).",
-        "date_meta": "2022/11/07",
+        "date_meta": "2022/12/07",
         "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
         "series": "Surveys",
         "year": "2022"
