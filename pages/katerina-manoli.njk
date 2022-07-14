@@ -1,0 +1,16 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("Katerina", "Our Team: Katerina Manoli", "team/katerina", "Katerina has a background in Philosophy, Psychology, and Neuroscience, and is currently a PhD student at the Max Planck Institute for Human Cognitive and Brain Sciences in Leipzig, Germany. She has conducted research on the perception of artificial agents and the ethics of human-AI interaction at the Donders Institute for Brain, Cognition and Behaviour, Harvard University’s Department of Social Studies, and Glasgow University’s School of Psychology and Neuroscience. Additionally, since 2014 she has been on the board of several effective altruism organisations and community groups in the UK and Germany, including her most recent position as a STEM student mentor at Effective Thesis.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(1, photos[1], "Katerina Manoli") }}
+
+<div class="container first-container team-container-individual">
+  {% from "../templates/partials/teammember.njk" import teammember %}
+  {{ teammember(team[2]) }}
+</div>
+
+{% endblock %}
