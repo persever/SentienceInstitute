@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/predicting-the-moral-consideration-of-artificial-intelligences", "Predicting the Moral Consideration of Artificial Intelligences", "blog/" + blogposts[34].img, "Sentience Institute sees artificial sentience as an important frontier of moral circle expansion. One of our goals is to help build the research literature on this topic. In 2021, we published a review of the literature on the moral consideration of artificial entities.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[34], authors) }}
+
+{% endblock %}

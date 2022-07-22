@@ -673,6 +673,21 @@
       "authors": ["jacy"],
       "isResearch": true
     }
+    ,
+    {
+      "url": "predicting-the-moral-consideration-of-artificial-intelligences",
+      "gdocname": "PredictingTheMoralConsiderationOfArtificialIntelligences",
+      "date": "July 22, 2022",
+      "year": "2022",
+      "title": "Predicting the Moral Consideration of Artificial Intelligences",
+      "img": "20220722",
+      "img_info": {
+        "title": "Future Robot Artificial Intelligence",
+        "credit": "kalhh / Pixabay"
+      },
+      "authors": ["janet", "jacy"],
+      "isJournal": true
+    }
   ],
   "pressreleases": [
     {
