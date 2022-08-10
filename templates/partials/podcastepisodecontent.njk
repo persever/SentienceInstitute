@@ -20,7 +20,7 @@
   <div class="episode-info">
     <div class="episode-date">{{episode.date}}</div>
     <div>Guest <span class="guest-name">{{episode.guest.name}}</span>, <span class="guest-affiliation">{{episode.guest.affiliation}}</span></div>
-    <div>Hosted by <span class="host-name">Jamie Harris</span>, <i>Sentience Institute</i></div>
+    <div>Hosted by <span class="host-name">{{episode.host}}</span>, <i>Sentience Institute</i></div>
   </div>
   <div class="podcast-episode-writeup">
     {% include "../../page_content/podcast/" + episode.no + ".html" %}
