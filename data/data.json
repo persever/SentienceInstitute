@@ -1520,9 +1520,9 @@
       },
       "host": "Michael Dello-Iacovo",
       "directories": {
-        "google": "",
-        "apple": "",
-        "spotify": ""
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC0xMTA2NjQzNw?sa=X&ved=0CAUQkfYCahcKEwjwhOrNmL75AhUAAAAAHQAAAAAQPA",
+        "apple": "https://podcasts.apple.com/gb/podcast/thomas-metzinger-on-a-moratorium-on-artificial/id1489363314?i=1000575625585",
+        "spotify": "https://open.spotify.com/episode/4yX7W8EtQ8UeAXqAIvkm3i"
       }
     }
   ],
