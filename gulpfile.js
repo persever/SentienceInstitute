@@ -190,10 +190,10 @@ async function njk(d) {
     // If this changes at some point, remember that podcast pages are gulped separately.
     .pipe(stripCode({
       // pattern: /&amp;sa=D&amp;ust=(?:(?!\">).)*/g
-      // pattern: /&amp;sa=D&amp;(?:(?!\">).)*/g
+      pattern: /&amp;sa=D&amp;(?:(?!\">).)*/g
       // pattern: /&amp;sa=D&amp;(?:(?!\">).)*(?=")/g
       // pattern: /&amp;sa=D&amp;(.)*\"\>/g
-       pattern: /&amp;.*(?=")/g
+       // pattern: /&amp;.*(?=")/g
     }))
     // .pipe(replace(/src="%3/g, "="))
     .pipe(replace(/%23/g, "#"))

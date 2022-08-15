@@ -3161,6 +3161,95 @@ hr{
   }
 }
 
+.the-history-of-ai-rights-research-container {
+  .c14 {
+    font-style: italic;
+  }
+
+  // TOC
+  table:first-of-type {
+    tr{
+      display: flex;
+      td {
+        p {
+          font-weight: $normal-weight;
+          margin: 0;
+        }
+      }
+      .c24.c6 {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  table:not(:first-of-type) {
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid $dark-grey;
+    td {
+      border: 1px solid $dark-grey;
+    }
+  }
+
+  // table
+  table:nth-of-type(2) {
+
+    td.c53{
+      background-color: #b4a7d6;
+    }
+
+    td.c55{
+      background-color: #dd7e6b;
+    }
+
+    td.c43{
+      background-color: #ea9999;
+    }
+
+    td.c52{
+      background-color: #e6b8af;
+    }
+
+    td.c48{
+      background-color: #f4cccc;
+    }
+
+    td.c36{
+      background-color: #fce5cd;
+    }
+
+    td.c28{
+      background-color: #fff2cc;
+    }
+
+    td.c51{
+      background-color: #d0e0e3;
+    }
+
+    td.c42{
+      background-color: #c9daf8;
+    }
+
+    td.c47{
+      background-color: #d9ead3;
+    }
+
+    td.c33.c54{
+      background-color: #cfe2f3;
+    }
+
+    td.c54.c56{
+      background-color: #ead1dc;
+    }
+
+  }
+
+// bold
+  .c40, .c9.c7 {
+    font-weight: $bold-weight;
+  }
+}
+
 .key-lessons-from-social-movement-history-container {
   .c8, .c18 {
     font-style: italic;

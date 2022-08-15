@@ -1620,6 +1620,26 @@
         "keywords": "FAIR TRADE;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
         "series": "Social Movement Case Studies",
         "year": "2021"
+      },{
+        "url": "the-history-of-ai-rights-research",
+        "type": "Social Movement Case Study",
+        "title": "The History of AI Rights Research",
+        "author": "Jamie Harris",
+        "citation_author": [ "Harris, Jamie" ],
+        "date": "July 6, 2022",
+        "img": "the-history-of-ai-rights-research",
+        "img_info": {
+          "title": "bare tree near 3-storey building photo",
+          "credit": "Victoria Heath / Unsplash"
+        },
+        "abstract": "This report documents the history of research on AI rights and other moral consideration of artificial entities. It highlights key intellectual influences on this literature as well as research and academic discussion addressing the topic more directly. We find that researchers addressing AI rights have often seemed to be unaware of the work of colleagues whose interests overlap with their own. Academic interest in this topic has grown substantially in recent years; this reflects wider trends in academic research, but it seems that certain influential publications, the gradual, accumulating ubiquity of AI and robotic technology, and relevant news events may all have encouraged increased academic interest in this specific topic. We suggest four levers that, if pulled on in the future, might increase interest further: the adoption of publication strategies similar to those of the most successful previous contributors; increased engagement with adjacent academic fields and debates; the creation of specialized journals, conferences, and research institutions; and more exploration of legal rights for artificial entities.",
+        "pdf": {
+          "name": "The History of AI Rights Research"
+        },
+        "date_meta": "2022/07/6",
+        "keywords": "AI RIGHTS;ROBOT RIGHTS;PHILOSOPHY;ARTIFICIAL INTELLIGENCE;FUTURISM;SCIENCE FICTION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
+        "series": "Social Movement Case Studies",
+        "year": "2022"
       }
     ],
     "technologyadoption": [
