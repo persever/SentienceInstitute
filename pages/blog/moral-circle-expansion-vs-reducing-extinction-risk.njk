@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/moral-circle-expansion-vs-reducing-extinction-risk", "Why I Prioritize Moral Circle Expansion Over Reducing Extinction Risk Through Artificial Intelligence Alignment", "blog/" + blogposts[4].img, "When people in the effective altruism (EA) community have worked to affect the far future, they’ve typically focused on reducing extinction risk, especially risks associated with superintelligence or general artificial intelligence (AI). I agree with the arguments for the far future being extremely important in our EA decisions, but I tentatively favor improving the quality of the far future by expanding humanity’s moral circle more than increasing the likelihood of the far future or humanity’s continued existence by reducing AI-based extinction risk") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[4], authors) }}
+
+{% endblock %}

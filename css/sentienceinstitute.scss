@@ -3250,6 +3250,7 @@ hr{
   }
 }
 
+
 .key-lessons-from-social-movement-history-container {
   .c8, .c18 {
     font-style: italic;
@@ -3804,6 +3805,33 @@ hr{
   // Italics
   .c9{
   font-style: italic;
+  }
+}
+
+.moral-circle-expansion-vs-reducing-extinction-risk-container{
+  // Italics
+  .c16.c12.c17{
+  font-style: italic;
+  }
+
+  // ToC
+  table:first-of-type {
+    tr{
+      display: flex;
+      td {
+        p {
+          font-weight: $normal-weight;
+          margin: 0;
+        }
+      }
+      .c23 {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  .c1.c21 {
+    margin-left: 30px;
   }
 }
 
