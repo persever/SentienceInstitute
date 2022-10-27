@@ -1231,6 +1231,7 @@ hr{
 
 .container.podcast-episode-container {
   // Individual page 'header' bolds
+  //&.podcast-episode-19-container .c6, .c10,
   &.podcast-episode-18-container .c11, .c12,
   &.podcast-episode-17-container .c7,
   &.podcast-episode-16-container .c6,
@@ -1252,6 +1253,10 @@ hr{
   &.podcast-episode-1-container .c11 {
     font-weight: $bold-weight;
   }
+
+  // &.podcast-episode-19-container .c7 {
+  //   font-style: $normal-weight !important;
+  // }
 
   // Individual page italics
   &.podcast-episode-17-container .c6 {

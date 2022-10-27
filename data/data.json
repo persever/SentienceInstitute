@@ -1524,6 +1524,21 @@
         "apple": "https://podcasts.apple.com/gb/podcast/thomas-metzinger-on-a-moratorium-on-artificial/id1489363314?i=1000575625585",
         "spotify": "https://open.spotify.com/episode/4yX7W8EtQ8UeAXqAIvkm3i"
       }
+    },{
+      "no": "19",
+      "embedsnippet": "11582506-kurt-gray-on-human-robot-interaction-and-mind-perception",
+      "title": "Kurt Gray on human-robot interaction and mind perception",
+      "date": "October 31, 2022",
+      "guest": {
+        "name": "Kurt Gray",
+        "affiliation": "UNC-Chapel Hill"
+      },
+      "host": "Michael Dello-Iacovo",
+      "directories": {
+        "google": "",
+        "apple": "",
+        "spotify": ""
+      }
     }
   ],
   "researchitems": {
