@@ -180,9 +180,10 @@ async function njk(d) {
       pattern: /https:\/\/www.google.com\/url\?q=/g
     }))
     // For Google redirects, expression after actual link
-    .pipe(stripCode({
-       pattern: /youtube/g
-    }))
+    // As of November 2022, this is killing YouTube links so testing commenting it out
+    // .pipe(stripCode({
+    //    pattern: /youtube/g
+    // }))
     .pipe(stripCode({
        pattern: /source=editors&amp;/g
     }))

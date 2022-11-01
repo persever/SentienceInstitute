@@ -948,6 +948,15 @@
         "year": "2020",
         "author": "Jacy Reese Anthis",
         "img": "hills.jpg"
+      },
+      {
+        "externalurl": "https://qz.com/1209936/our-treatment-of-animals-is-stalling-human-progress/",
+        "title": "UChicago AI Summit Examines Promise and Concerns for Science and Society",
+        "source": "Data Science Institute",
+        "date": "November 1, 2022",
+        "year": "2022",
+        "author": "Rob Mitchum",
+        "img": "aisummit.jpg"
       }
     ],
     "audiointerviews": [
@@ -1137,6 +1146,15 @@
         "date": "October 14, 2021",
         "year": "2021",
         "img": "boldconjectures.png"
+      },
+      {
+        "externalurl": "https://www.youtube.com/watch?v=2plpUUlIheQ",
+        "videourl": "https://www.youtube.com/embed/2plpUUlIheQ",
+        "title": "The end of animal farming | Jacy Reese Anthis | TEDx SHORTS",
+        "source": "TEDx Talks",
+        "date": "March 5, 2022",
+        "year": "2022",
+        "img": "tedxshort.jpg"
       }
     ],
     "presentations": [
