@@ -50,9 +50,9 @@
       "SIpage": "jacy-reese-anthis",
       "email": "jacy@sentienceinstitute.org",
       "twitterId": "jacyanthis",
-      "facebookId": "jacyreeseanthis",
-      "instagramId": "jacyreeseanthis",
-      "linkedinId": "jacyreeseanthis",
+      "facebookId": "jacyanthis",
+      "instagramId": "jacyanthis",
+      "linkedinId": "jacyanthis",
       "role": "Co-Founder",
       "desc": "Jacy is a writer, social scientist, and author of <i>The End of Animal Farming</i>. He is currently a PhD Fellow at The University of Chicago. He previously worked as a Senior Fellow at Sentience Politics, and before that as a researcher and Chair of the board of directors at Animal Charity Evaluators. He has written on effective altruism topics in outlets such as <i>The Guardian<\/i>, <i>Vox<\/i>, and <i>National Review<\/i> and presented his research in over 20 countries."
     },
@@ -147,6 +147,13 @@
       "name": "Maya Mathur",
       "role": "Assistant Professor, Stanford University",
       "img": "../img/team/maya.png"
+    },
+    "michael": {
+      "name": "Michael Dello-Iacovo",
+      "role": "Strategy Lead and Researcher",
+      "twitterId": "MichaelDello",
+      "facebookId": "MichaelDello",
+      "img": "../img/team/michael.png"
     }
   },
   "photos": {
@@ -689,12 +696,12 @@
       "date": "November 25, 2022",
       "year": "2022",
       "title": "2022 End of Year Summary",
-      "img": "20211125",
+      "img": "221125",
       "img_info": {
-        "title": "Catfish",
-        "credit": "Pexels / Pixabay"
+        "title": "man wearing gray polo shirt beside dry-erase board photo",
+        "credit": "Kaleidico"
       },
-      "authors": ["Michael"]
+      "authors": ["michael"]
     }
   ],
   "pressreleases": [
