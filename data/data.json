@@ -682,6 +682,20 @@
       "authors": ["janet", "jacy"],
       "isJournal": true
     }
+    ,
+    {
+      "url": "eoy2022",
+      "gdocname": "2022EndofYearSummary",
+      "date": "November 25, 2022",
+      "year": "2022",
+      "title": "2022 End of Year Summary",
+      "img": "20211125",
+      "img_info": {
+        "title": "Catfish",
+        "credit": "Pexels / Pixabay"
+      },
+      "authors": ["Michael"]
+    }
   ],
   "pressreleases": [
     {

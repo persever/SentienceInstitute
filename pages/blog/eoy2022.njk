@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/eoy2022", "2022 End of Year Summary", "blog/" + blogposts[27].img, "Our main focus in 2022 has been conducting high-quality empirical research, primarily surveys and behavioral experiments, to build the field of digital minds research (e.g., How will humans react to AI that seems agentic and intentional? How will we know when an AI is sentient?).") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[35], authors) }}
+
+{% endblock %}
