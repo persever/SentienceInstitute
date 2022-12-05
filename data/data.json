@@ -1582,6 +1582,21 @@
       },
       "host": "Michael Dello-Iacovo",
       "directories": {
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC0xMTU4MjUwNg?sa=X&ved=0CAUQkfYCahcKEwiI4NPPruP7AhUAAAAAHQAAAAAQCg",
+        "apple": "https://podcasts.apple.com/gb/podcast/kurt-gray-on-human-robot-interaction-and-mind-perception/id1489363314?i=1000584424682",
+        "spotify": "https://open.spotify.com/episode/0xp9EI3cw6T8OVxj6h2t8r"
+      }
+    },{
+      "no": "20",
+      "embedsnippet": "11642122-david-gunkel-on-robot-rights",
+      "title": "David Gunkel on robot rights",
+      "date": "December 05, 2022",
+      "guest": {
+        "name": "David Gunkel",
+        "affiliation": "Northern Illinois University"
+      },
+      "host": "Michael Dello-Iacovo",
+      "directories": {
         "google": "",
         "apple": "",
         "spotify": ""
