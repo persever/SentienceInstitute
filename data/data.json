@@ -971,9 +971,27 @@
         "img": "hills.jpg"
       },
       {
-        "externalurl": "https://qz.com/1209936/our-treatment-of-animals-is-stalling-human-progress/",
+        "externalurl": "https://www.pressreader.com/uk/the-sunday-telegraph/20220327/page/15",
+        "title": "Robots 'Need Rights' Before Consciousness",
+        "source": "The Telegraph",
+        "date": "March 28, 2022",
+        "year": "2022",
+        "author": "Tom Ough",
+        "img": "telegraph.png"
+      },
+      {
+        "externalurl": "https://sentientmedia.org/is-smart-farming-really-smart-for-farmed-animals/",
+        "title": "Is Smart Farming Making Life Worse for Farmed Animals?",
+        "source": "Sentient Media",
+        "date": "April 27, 2022",
+        "year": "2022",
+        "author": "Karen Asp",
+        "img": "sentientmedia.jpg"
+      },
+      {
+        "externalurl": "https://cs.uchicago.edu/news/uchicago-ai-summit-examines-promise-and-concerns-for-science-and-society/",
         "title": "UChicago AI Summit Examines Promise and Concerns for Science and Society",
-        "source": "Data Science Institute",
+        "source": "University of Chicago Computer Science Department",
         "date": "November 1, 2022",
         "year": "2022",
         "author": "Rob Mitchum",
