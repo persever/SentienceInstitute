@@ -1700,11 +1700,11 @@ hr{
       }
 
     // indent subheadings
-      .c12, .c22 {
+      .c14, .c22 {
         margin-left: 30px;
       }
 
-      .c8 {
+      .c12 {
         margin-left: 60px;
       }
     }
@@ -1714,13 +1714,18 @@ hr{
   //  }
 
   // left margin for sub-bullets
-    li.c9.c13{
+    li.c0.c2{
       margin-left: 30px;
     }
 
   //padding below bullets
-    .c16 {
+    ul.c5 {
       margin-bottom: 0px;
+    }
+
+  //bold
+    .c6 {
+      font-weight: $bold-weight;
     }
   }
 
