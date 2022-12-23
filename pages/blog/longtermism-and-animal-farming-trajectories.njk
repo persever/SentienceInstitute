@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/longtermism-and-animal-farming-trajectories", "Longtermism and Animal Farming Trajectories", "blog/" + blogposts[36].img, "The end of animal farming will be the end of farmed animal suffering. However, humanity may exist for many eons to come, and the way animal farming ends may have substantial impact on that future.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[36], authors) }}
+
+{% endblock %}
