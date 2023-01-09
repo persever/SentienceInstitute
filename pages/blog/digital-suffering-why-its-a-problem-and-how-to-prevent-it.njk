@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/digital-suffering-why-its-a-problem-and-how-to-prevent-it", "Digital suffering: why it’s a problem and how to prevent it", "blog/" + blogposts[37].img, "In a recent paper published in Inquiry and supported by Sentience Institute alongside Future of Humanity Institute and Utrecht University, Adam Bradley and I propose Access Monitor Prevent (AMP), a strategy for gaining epistemic access to the experiences of future digital minds and preventing digital suffering.
+") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[37], authors) }}
+
+{% endblock %}

@@ -154,6 +154,11 @@
       "twitterId": "MichaelDello",
       "facebookId": "MichaelDello",
       "img": "../img/team/michael.png"
+    },
+    "brad": {
+      "name": "Brad Saad",
+      "role": "Research Fellow",
+      "img": "../img/team/brad.png"
     }
   },
   "photos": {
@@ -716,6 +721,17 @@
         "credit": "Jo-Anne McArthur / We Animals"
       },
       "authors": ["michael"]
+    }
+    ,
+    {
+      "url": "digital-suffering-why-its-a-problem-and-how-to-prevent-it",
+      "gdocname": "Digitalsufferingwhyitsaproblemandhowtopreventit",
+      "date": "January 9, 2023",
+      "year": "2023",
+      "title": "Digital suffering: why it’s a problem and how to prevent it",
+      "img": "20210806",
+      "authors": ["brad"],
+      "isJournal": true
     }
   ],
   "pressreleases": [
