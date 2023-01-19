@@ -1653,6 +1653,21 @@
       },
       "host": "Michael Dello-Iacovo",
       "directories": {
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC0xMTY0MjEyMg?sa=X&ved=0CAQQ8qgGahcKEwjgsYPghNP8AhUAAAAAHQAAAAAQAQ",
+        "apple": "https://podcasts.apple.com/us/podcast/david-gunkel-on-robot-rights/id1489363314?i=1000588939761",
+        "spotify": "https://open.spotify.com/episode/0e5Qhx0n8QtAIjpopFZ3Wc"
+      }
+    },{
+      "no": "21",
+      "embedsnippet": "12056839-matti-wilks-on-human-animal-interaction-and-moral-circle-expansion",
+      "title": "Matti Wilks on human-animal interaction and moral circle expansion",
+      "date": "January 19, 2023",
+      "guest": {
+        "name": "Matti Wilks",
+        "affiliation": "University of Edinburgh"
+      },
+      "host": "Michael Dello-Iacovo",
+      "directories": {
         "google": "",
         "apple": "",
         "spotify": ""
