@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/What-would-qualify-an-artificial-intelligence-for-moral-standing", "What would qualify an artificial intelligence for moral standing?", "blog/" + blogposts[38].img, "The article asks which criteria an artificial intelligence (AI) must satisfy to be granted moral standing — that is, to be granted moral consideration for its own sake.
+") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[38], authors) }}
+
+{% endblock %}
