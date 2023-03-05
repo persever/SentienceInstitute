@@ -108,7 +108,7 @@
   "authors": {
     "jacy": {
       "name": "Jacy Reese Anthis",
-      "role": "Co-Founder & Research Fellow",
+      "role": "Co-Founder",
       "twitterId": "jacyanthis",
       "facebookId": "jacyreeseanthis",
       "website": "https://jacyanthis.com/",
@@ -116,9 +116,8 @@
     },
     "kelly": {
       "name": "Kelly Anthis",
-      "role": "Co-Founder & Executive Director",
+      "role": "Co-Founder",
       "twitterId": "kellyAnthis",
-      "facebookId": "kellyAnthis",
       "img": "../img/team/kelly.png"
     },
     "j": {
@@ -735,7 +734,7 @@
     }
     ,
     {
-      "url": "What-would-qualify-an-artificial-intelligence-for-moral-standing",
+      "url": "what-would-qualify-an-artificial-intelligence-for-moral-standing",
       "gdocname": "Whatwouldqualifyanartificialintelligenceformoralstanding",
       "date": "January 30, 2023",
       "year": "2023",
@@ -743,6 +742,20 @@
       "img": "20211122",
       "authors": ["ali"],
       "isJournal": true
+    }
+    ,
+    {
+      "url": "key-questions-for-digital-minds",
+      "gdocname": "Keyquestionsfordigitalminds",
+      "date": "March 6, 2023",
+      "year": "2023",
+      "title": "Key Questions for Digital Minds",
+      "img": "20230306",
+      "img_info": {
+        "title": "a small digital brain etched on a computer chip floating on a pool of dark blue liquid with concetric circular ripples coming out from the computer chip, 4k, ultrarealism --aspect 2:1",
+        "credit": "Jacy Reese Anthis / Stable Diffusion"
+      },
+      "authors": ["jacy"]
     }
   ],
   "pressreleases": [
