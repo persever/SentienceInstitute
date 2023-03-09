@@ -1,15 +1,3 @@
-{% extends "layout.njk" %}
-{% block metatags %}
-{{ metatagsrender("mission", "Our Mission", "header_photos/" + 4, "Our mission is to build evidence for how to most effectively expand humanity’s moral circle, and to encourage advocates to make use of that evidence.") }}
-{% endblock %}
-
-{% block content %}
-
-{% from "../templates/partials/headerimage.njk" import headerimage %}
-{{ headerimage(4, photos[4], "Our Mission") }}
-
-<div class="container first-container gdoc-html-container mission-container">
-  {% include "../page_content/OurMission.html" %}
-</div>
-
-{% endblock %}
+<script>
+location.replace("https://sentienceinstitute.org/perspective")
+</script>
