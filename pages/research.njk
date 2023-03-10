@@ -1,0 +1,65 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("reports", "Reports", "header_photos/" + "reports", "Our research aims to produce insights about how to most effectively expand humanity’s moral circle. View our publications.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("reports", photos["reports"], "Reports") }}
+
+<div class="container first-container research-list-container">
+      <h1><span>Estimates, Literature Reviews, Surveys, and Experiments</span></h1>
+      <div class="row research-section-list">
+        {% for item in researchitems.other | reverse %}
+          {% from "../templates/partials/miniresearchitem.njk" import miniresearchitem %}
+          {{ miniresearchitem(item) }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Social Movement Case Studies</span></h1>
+      <div class="row research-section-list">
+        {% for item in researchitems.socialmovements | reverse %}
+          {% from "../templates/partials/researchitem.njk" import researchitem %}
+          {{ researchitem(item) }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Technology Adoption Case Studies</span></h1>
+      <div class="row research-section-list tech-studies-list">
+        {% for item in researchitems.technologyadoption | reverse %}
+          {% from "../templates/partials/researchitem.njk" import researchitem %}
+          {{ researchitem(item) }}
+        {% endfor %}
+      </div>
+
+      <h1><span>Other Research (via blog)</span></h1>
+      <div class="row research-section-list">
+        {% for post in blogposts | reverse %}
+          {% from "../templates/partials/blogitem.njk" import blogitem %}
+          {%if post.isResearch%}
+          {{ blogitem(post, authors) }}
+          {%endif%}
+        {% endfor %}
+      </div>
+
+      <h1><span>Journal Publications (via Blog)</span></h1>
+      <div class="row research-section-list">
+        {% for post in blogposts | reverse %}
+          {% from "../templates/partials/blogitem.njk" import blogitem %}
+          {%if post.isJournal%}
+          {{ blogitem(post, authors) }}
+          {%endif%}
+        {% endfor %}
+      </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/clamp.min.js"></script>
+<script>
+  $(".research-item-abstract span").each(function() {
+    $clamp(this, {clamp: 5});
+  });
+</script>
+
+{% endblock %}

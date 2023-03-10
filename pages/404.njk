@@ -1,0 +1,35 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
+
+  {{ metatagsrender("donate", "404", "header_photos/" + "donate", "This is a 404 error page.") }}
+
+  <script src="https://www.paypal.com/sdk/js?client-id=AeK94AwcohuNExMEZqPvnsvD4VV33534-oVuIDVw2wggGfD4aNQz4JgPY9oTh9jbAGmiYIGNod27DhPV"></script>
+{% endblock %}
+
+{% block content %}
+
+<style>
+  .donate-container:not(.donate-page-donate-container) {
+    display: none;
+  }
+  .newsletter-container + hr {
+    display: none;
+  }
+  .newsletter-container{
+    padding-bottom: 60px;
+  }
+</style>
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage("donate", photos["donate"], "404") }}
+
+<div class="container first-container donation-page-container">
+  <div>
+  <h1>404 Error</h1>
+  <p>Sorry, that page doesn't exist on our website.</p>
+  </div>
+</div>
+
+{% endblock %}
