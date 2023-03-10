@@ -759,7 +759,8 @@
         "title": "a small digital brain etched on a computer chip floating on a pool of dark blue liquid, 4k, ultrarealism",
         "credit": "Jacy Reese Anthis / Midjourney"
       },
-      "authors": ["jacy"]
+      "authors": ["jacy"],
+      "isResearch": true
     }
   ],
   "pressreleases": [

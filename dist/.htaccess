@@ -8,7 +8,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.+)$ /$1.html [L,QSA]
 
-Redirect /reports /research
+Redirect /research /reports
+
+Redirect /mission /perspective
 
 # BEGIN Caching
 <ifModule mod_headers.c>

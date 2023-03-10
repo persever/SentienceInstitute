@@ -1,12 +1,12 @@
 {% extends "layout.njk" %}
 {% block metatags %}
-{{ metatagsrender("research", "Reports", "header_photos/" + "research", "Our research aims to produce insights about how to most effectively expand humanity’s moral circle. View our publications.") }}
+{{ metatagsrender("reports", "Reports", "header_photos/" + "reports", "Our research aims to produce insights about how to most effectively expand humanity’s moral circle. View our publications.") }}
 {% endblock %}
 
 {% block content %}
 
 {% from "../templates/partials/headerimage.njk" import headerimage %}
-{{ headerimage("research", photos["research"], "Reports") }}
+{{ headerimage("reports", photos["reports"], "Reports") }}
 
 <div class="container first-container research-list-container">
       <h1><span>Estimates, Literature Reviews, Surveys, and Experiments</span></h1>
