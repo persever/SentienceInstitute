@@ -1734,79 +1734,94 @@ hr{
 
 
   &.perspective-container {
-  //italics
-    .c5 {
-    font-style: italic;
-  }
+    //italics
+      .c9 {
+      font-style: italic;
+    }
 
-  // TOC formatting
-  padding below bullets
-  .c15, .c9, .c25 {
-    margin-bottom: 0px;
-    padding: 0px;
-  }
+    // // TOC formatting
+    // padding below bullets
+    // .c22, .c3, .c5., .c24 {
+    //   margin-bottom: 0px;
+    //   padding: 0px;
+    // }
 
-  // For some reason .c15 not working above
-  .c15 {
-    margin-bottom: 0px;
-  }
+    // // // For some reason .c15 not working above
+    // // .c15 {
+    // //   margin-bottom: 0px;
+    // // }
+    // TOC
+    table {
+      tr{
+        display: flex;
+        td {
+          p{
+            font-weight: $normal-weight;
+            margin: 0;
+          }
+        }
+        .c19 {
+          margin-left: 30px;
+        }
+      }
+    }
 
-  //indent sub bullets
-  .c9 {
-    margin-left: 30px;
-    list-style-type: circle;
-    margin-bottom: 0px;
-  }
+    // //indent sub bullets
+    // .c3 {
+    //   margin-left: 30px;
+    //   list-style-type: circle;
+    //   margin-bottom: 0px;
+    // }
 
-//    table {
-//      margin-bottom: calc(16px*3);
-//
-//      * {
-//        font-weight: $normal-weight;
-//        margin-bottom: 0;
-//      }
-//
-//      .c17 {
-//        margin-left: 30px;
-//      }
-//    }
-//
-//    ul .c4 {
-//      font-weight: $bold-weight;
-//    }
-//  }
-//
-//  table{
-//    display: flex;
-//
-//    tbody{
-//      display: flex;
-//      flex-direction: column;
-//      width: 100%;
-//
-//      td{
-//        display: inline-flex;
-//        flex-direction: column;
-//        padding: 0;
-//        word-wrap: break-word;
-//
-//        p {
-//          max-width: 100%;
-//        }
-//      }
-//
-//      tr{
-//        &:first-of-type, td:first-of-type{
-//          font-weight: $bold-weight;
-//        }
-//
-//        td:not(:first-of-type){
-//          padding-left: $normal-space;
-//          align-items: flex-end;
-//          text-align: right;
-//        }
-//      }
-//    }
+  //    table {
+  //      margin-bottom: calc(16px*3);
+  //
+  //      * {
+  //        font-weight: $normal-weight;
+  //        margin-bottom: 0;
+  //      }
+  //
+  //      .c17 {
+  //        margin-left: 30px;
+  //      }
+  //    }
+  //
+  //    ul .c4 {
+  //      font-weight: $bold-weight;
+  //    }
+  //  }
+  //
+  //  table{
+  //    display: flex;
+  //
+  //    tbody{
+  //      display: flex;
+  //      flex-direction: column;
+  //      width: 100%;
+  //
+  //      td{
+  //        display: inline-flex;
+  //        flex-direction: column;
+  //        padding: 0;
+  //        word-wrap: break-word;
+  //
+  //        p {
+  //          max-width: 100%;
+  //        }
+  //      }
+  //
+  //      tr{
+  //        &:first-of-type, td:first-of-type{
+  //          font-weight: $bold-weight;
+  //        }
+  //
+  //        td:not(:first-of-type){
+  //          padding-left: $normal-space;
+  //          align-items: flex-end;
+  //          text-align: right;
+  //        }
+  //      }
+  //    }
   }
 
   &.eaa-researcher-survey-june-2017-container{
