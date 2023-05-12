@@ -714,6 +714,34 @@ hr{
       }
     }
   }
+
+  // btn code from https://css3buttongenerator.com/
+  .btn {
+    background: #004b8c;
+    background-image: -webkit-linear-gradient(top, #004b8c, #2980b9);
+    background-image: -moz-linear-gradient(top, #004b8c, #2980b9);
+    background-image: -ms-linear-gradient(top, #004b8c, #2980b9);
+    background-image: -o-linear-gradient(top, #004b8c, #2980b9);
+    background-image: linear-gradient(to bottom, #004b8c, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #004b8c;
+    background-image: -webkit-linear-gradient(top, #004b8c, #3498db);
+    background-image: -moz-linear-gradient(top, #004b8c, #3498db);
+    background-image: -ms-linear-gradient(top, #004b8c, #3498db);
+    background-image: -o-linear-gradient(top, #004b8c, #3498db);
+    background-image: linear-gradient(to bottom, #004b8c, #3498db);
+    text-decoration: none;
+  }
 }
 
 .donation-bar-container{
@@ -3911,6 +3939,21 @@ hr{
   margin-bottom: 0px;
   margin-left: 30px;
   }
+}
+
+.moral-spillover-in-human-ai-interaction-container {
+  // Italics
+  .c0.c19{
+  font-style: italic;
+  }
+
+  .c10.c8{
+    font-weight: $bold-weight;
+    }
+
+    .c3.c10{
+      font-weight: $bold-weight;
+      }
 }
 
 .moral-circle-expansion-vs-reducing-extinction-risk-container{

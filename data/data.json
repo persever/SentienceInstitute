@@ -158,6 +158,11 @@
       "name": "Brad Saad",
       "role": "Research Fellow",
       "img": "../img/team/brad.png"
+    },
+    "katerina": {
+      "name": "Katerina Manoli",
+      "role": "Researcher",
+      "img": "../img/team/katerina.png"
     }
   },
   "photos": {
@@ -760,6 +765,21 @@
         "credit": "Jacy Reese Anthis / Midjourney"
       },
       "authors": ["jacy"],
+      "isResearch": true
+    }
+    ,
+    {
+      "url": "moral-spillover-in-human-ai-interaction",
+      "gdocname": "Moralspilloverinhumanaiinteraction",
+      "date": "May 12, 2023",
+      "year": "2023",
+      "title": "Moral Spillover in Human-AI Interaction",
+      "img": "13",
+      "img_info": {
+        "title": "Digital brain on a computer chip attached to a neural network, server in the background, blue color scheme, ultrarealism image, abstract, 4K quality 1",
+        "credit": "Michael Dello-Iacovo / Midjourney"
+      },
+      "authors": ["Katerina"],
       "isResearch": true
     }
   ],
