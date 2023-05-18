@@ -3943,16 +3943,44 @@ hr{
 
 .moral-spillover-in-human-ai-interaction-container {
   // Italics
-  .c0.c19{
+  .c0.c6{
   font-style: italic;
   }
 
-  .c10.c8{
+  .c17.c18{
     font-weight: $bold-weight;
     }
 
-    .c3.c10{
+  .c7.c17{
       font-weight: $bold-weight;
+      }
+
+  .c13.c14.c20{
+    margin-bottom: 0px;
+    margin-left: 30px;
+  }
+
+  // table
+  table, td {
+  border: 1px solid $dark-grey;
+  table-layout: fixed;
+  width: 100%
+  }
+
+  table {
+    p {
+      margin-left: 5px;
+    }
+  }
+
+      // TOC
+      .c23{
+      margin-bottom: 0px;
+      }
+
+      .c23.c50{
+      margin-bottom: 0px;
+      margin-left: 30px;
       }
 }
 
