@@ -782,6 +782,21 @@
       "authors": ["katerina", "janet"],
       "isResearch": true
     }
+    ,
+    {
+      "url": "what-does-sentience-really-mean",
+      "gdocname": "Whatdoessentiencereallymean",
+      "date": "May 25, 2023",
+      "year": "2023",
+      "title": "What Does Sentience Really Mean?",
+      "img": "230525",
+      "img_info": {
+        "title": "saturn's rings of ice, close-up, hyperrealism --ar 16:9",
+        "credit": "Jacy Reese Anthis / Midjourney"
+      },
+      "authors": ["jacy"],
+      "isResearch": false
+    }
   ],
   "pressreleases": [
     {

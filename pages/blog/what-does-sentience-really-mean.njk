@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/what-does-sentience-really-mean", "What Does Sentience Really Mean?", "blog/" + 230525, "A few weeks ago, I spoke with Annie Lowery at The Atlantic about digital minds, especially how to assess mental faculties such as reasoning and sentience and how we can draw lessons from the history of human-animal interaction for the future of human-AI interaction—both how humans will treat AIs and how AIs will treat humans.
+") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[41], authors) }}
+
+{% endblock %}
