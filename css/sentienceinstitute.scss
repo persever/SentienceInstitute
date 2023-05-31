@@ -423,6 +423,10 @@ nav.navbar{
   }
 }
 
+div.parallax-mirror {
+  z-index: auto !important;
+}
+
 .page-info-box{
   left: 0;
   background-color: $dark-grey;
