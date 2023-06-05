@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/mass-media-propaganda-and-social-influence", "Mass Media, Propaganda, and Social Influence: Evidence of Effectiveness from Courchesne et al. (2021)", "blog/" + 230605, "Courchesne et al. (2021) analyzed 82 empirical studies of influence operations. They found that influence operations are effective. In this blog post, I review literature on persuasion and social influence that bears on similar questions.
+") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[42], authors) }}
+
+{% endblock %}

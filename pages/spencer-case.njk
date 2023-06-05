@@ -1,0 +1,16 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("spencer", "Our Team: Spencer Case", "team/spencer", "Spencer Case has a Ph.D. in philosophy from the University of Colorado Boulder at 2018 and was an international research fellow at Wuhan University (2019-2021). He is especially interested in the debate over moral realism, the view that there are objective moral facts. He’s the coauthor, along with Matt Lutz, of Is Morality Real? A Debate, which will be available via Routledge September 7, 2023. A second book, Why it’s ok to be Patriotic, is also in the works. He has published articles in outlets like National Review, Quillette, Discourse, Arc Digital, and the Washington Free Beacon. He’s also the host of Micro-Digressions: a Philosophy Podcast.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(1, photos[1], "Spencer Case") }}
+
+<div class="container first-container team-container-individual">
+  {% from "../templates/partials/teammember.njk" import teammember %}
+  {{ teammember(team[5]) }}
+</div>
+
+{% endblock %}

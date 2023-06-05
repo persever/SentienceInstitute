@@ -423,6 +423,10 @@ nav.navbar{
   }
 }
 
+div.parallax-mirror {
+  z-index: auto !important;
+}
+
 .page-info-box{
   left: 0;
   background-color: $dark-grey;
@@ -3989,6 +3993,116 @@ hr{
   .c2.c3{
   font-style: italic;
   }
+}
+
+.mass-media-propaganda-and-social-influence-container {
+  // Italics
+  .c41{
+  font-style: italic;
+  }
+
+  .c7.c44{
+      font-weight: $bold-weight;
+      }
+
+  .c29.c10{
+      font-weight: $bold-weight;
+      }
+
+  .c10.c44{
+      font-weight: $bold-weight;
+      }
+
+  .c30.c42{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  .c4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .c15{
+    margin-bottom: 0px;
+    margin-left: 60px;
+  }
+
+  .c30.c63{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+  }
+
+  .c30{
+    margin-top: 15px;
+  }
+
+  .c39.c63{
+    margin-top: 15px;
+  }
+
+  .c11{
+    margin-bottom: 0px;
+    margin-left: 30px;
+  }
+
+  .c46.c42{
+    margin-bottom: 0px;
+    margin-left: 30px;
+  }
+
+  .c16.c23{
+    margin-bottom: 0px;
+    margin-left: 60px;
+  }
+
+  .c46.c23{
+    margin-bottom: 0px;
+    margin-left: 60px;
+  }
+
+  .c30.c31{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 90px;
+  }
+
+
+
+  // Iframes - add top border to embedded
+  // tables only, not plots
+  div#tables iframe{
+  border-top:0.5px solid grey;
+  border-color: $light-grey;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+
+  // table
+  table, td {
+  border: 1px solid $dark-grey;
+  table-layout: fixed;
+  width: 100%
+  }
+
+  table {
+    p {
+      margin-left: 5px;
+    }
+  }
+
+      // TOC
+      .c35{
+      margin-bottom: 0px;
+      }
+
+      .c35.c48{
+      margin-bottom: 0px;
+      margin-left: 30px;
+      }
 }
 
 .moral-circle-expansion-vs-reducing-extinction-risk-container{
