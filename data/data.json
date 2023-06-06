@@ -11,6 +11,34 @@
       "desc": "Michael has a PhD in space science from the University of New South Wales, focusing on the use of geophysics for asteroid deflection, off-Earth mining, and space colonisation. He was previously the CEO of Effective Altruism Australia, has volunteered with a number of effective altruism organisations and community groups since 2015, and has been involved with the Australian Animal Justice Party since 2018, including running as a candidate in elections and co-founding the party's youth wing. He is dedicated to reducing the suffering of sentient minds through his career."
     },
     {
+      "id": "janet",
+      "name": "Janet Pauketat",
+      "link": "https://researchgate.net/profile/Janet_Pauketat",
+      "SIpage": "janet-pauketat",
+      "email": "janet@sentienceinstitute.org",
+      "twitterId": "janet_pauketat",
+      "role": "Research Fellow",
+      "desc": "Janet has a PhD in Psychological and Brain Sciences from the University of California, Santa Barbara and a Masters of Research from the University of St Andrews where she studied the psychology of how socio-cultural contexts shape behavior and the morally expanding capacities of global citizenship. After earning her PhD, Janet studied collective emotions in social movements as a postdoctoral research associate at Princeton University. She has worked with researchers at the University of St Andrews on moral values in social movements and at the National University of Singapore on values affecting immigration attitudes. She currently collaborates on a study of the re-wilding of formerly captive Asian elephants in Thailand."
+    },
+    {
+      "id": "brad",
+      "name": "Brad Saad",
+      "link": "https://sites.google.com/a/brown.edu/brad-saad/",
+      "SIpage": "brad-saad",
+      "email": "brad@sentienceinstitute.org",
+      "role": "Research Fellow",
+      "desc": "Brad has a PhD in philosophy from the University of Texas at Austin. Since graduating, he has conducted research in philosophy of mind, philosophy of science, and epistemology at the University of Antwerp's Centre for Philosophical Psychology, Oxford's Future of Humanity Institute, and Rutgers's Department of Philosophy. At present, he is a research fellow at the Sentience Institute and a researcher in philosophy of artificial intelligence at Utrecht University.  His current research is focused on digital minds and catastrophic risks."
+    },
+    {
+      "id": "spencer",
+      "name": "Spencer Case",
+      "link": "https://www.spencercasephilosophy.com/",
+      "SIpage": "spencer-case",
+      "email": "spencer@sentienceinstitute.org",
+      "role": "Research Fellow",
+      "desc": "Spencer Case has a PhD in philosophy from the University of Colorado Boulder at 2018 and was an international research fellow at Wuhan University (2019-2021). He is especially interested in the debate over moral realism, the view that there are objective moral facts. He’s the coauthor, along with Matt Lutz, of <i>Is Morality Real? A Debate</i>, which will be available via <i>Routledge</i> September 7, 2023. A second book, <i>Why it’s ok to be Patriotic</i>, is also in the works. He has published articles in outlets like <i>National Review</i>, <i>Quillette</i>, <i>Discourse</i>, <i>Arc Digital</i>, and <i>The Washington Free Beacon</i>. He’s also the host of Micro-Digressions: a Philosophy Podcast."
+    },
+    {
       "id": "ali",
       "name": "Ali Ladak",
       "SIpage": "ali-ladak",
@@ -25,31 +53,6 @@
       "email": "katerina@sentienceinstitute.org",
       "role": "Researcher",
       "desc": "Katerina has a background in Philosophy, Psychology, and Neuroscience, and is currently a PhD student at the Max Planck Institute for Human Cognitive and Brain Sciences in Leipzig, Germany. She has conducted research on the perception of artificial agents and the ethics of human-AI interaction at the Donders Institute for Brain, Cognition and Behaviour, Harvard University’s Department of Social Studies, and Glasgow University’s School of Psychology and Neuroscience. Additionally, since 2014 she has been on the board of several effective altruism organisations and community groups in the UK and Germany, including her most recent position as a STEM student mentor at Effective Thesis."
-    },
-    {
-      "id": "janet",
-      "name": "Janet Pauketat",
-      "link": "https://researchgate.net/profile/Janet_Pauketat",
-      "SIpage": "janet-pauketat",
-      "twitterId": "janet_pauketat",
-      "role": "Research Fellow",
-      "desc": "Janet has a PhD in Psychological and Brain Sciences from the University of California, Santa Barbara and a Masters of Research from the University of St Andrews where she studied the psychology of how socio-cultural contexts shape behavior and the morally expanding capacities of global citizenship. After earning her PhD, Janet studied collective emotions in social movements as a postdoctoral research associate at Princeton University. She has worked with researchers at the University of St Andrews on moral values in social movements and at the National University of Singapore on values affecting immigration attitudes. She currently collaborates on a study of the re-wilding of formerly captive Asian elephants in Thailand."
-    },
-    {
-      "id": "brad",
-      "name": "Brad Saad",
-      "link": "https://sites.google.com/a/brown.edu/brad-saad/",
-      "SIpage": "brad-saad",
-      "role": "Research Fellow",
-      "desc": "Brad has a PhD in philosophy from the University of Texas at Austin. Since graduating, he has conducted research in philosophy of mind, philosophy of science, and epistemology at the University of Antwerp's Centre for Philosophical Psychology, Oxford's Future of Humanity Institute, and Rutgers's Department of Philosophy. At present, he is a research fellow at the Sentience Institute and a researcher in philosophy of artificial intelligence at Utrecht University.  His current research is focused on digital minds and catastrophic risks."
-    },
-    {
-      "id": "spencer",
-      "name": "Spencer Case",
-      "link": "",
-      "SIpage": "spencer-case",
-      "role": "Research Fellow",
-      "desc": "Spencer Case has a Ph.D. in philosophy from the University of Colorado Boulder at 2018 and was an international research fellow at Wuhan University (2019-2021). He is especially interested in the debate over moral realism, the view that there are objective moral facts. He’s the coauthor, along with Matt Lutz, of Is Morality Real? A Debate, which will be available via Routledge September 7, 2023. A second book, Why it’s ok to be Patriotic, is also in the works. He has published articles in outlets like National Review, Quillette, Discourse, Arc Digital, and the Washington Free Beacon. He’s also the host of Micro-Digressions: a Philosophy Podcast."
     },
     {
       "id": "jacy",
