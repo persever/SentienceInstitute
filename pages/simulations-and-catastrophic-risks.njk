@@ -1,0 +1,23 @@
+{% extends "layout.njk" %}
+
+{%set item = researchitems.other[10] %}
+
+{% block metatags %}
+{% from "../templates/partials/reportmetatags.njk" import reportmetatags %}
+{{ reportmetatags(item) }}
+{{ metatagsrender("simulations-and-catastrophic-risks", "Simulations and Catastrophic Risks", "header_photos/" + "230620", "This report explores interactions between large-scale social simulations and catastrophic risks.  It offers a tour of the surrounding theoretical terrain and brings together disparate literatures that bear on the topic.") }}
+{% endblock %}
+
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(item.img, photos[item.img]) }}
+
+{% from "../templates/partials/pageinfo.njk" import pageinfo %}
+{{ pageinfo(item) }}
+<div class="container first-container report-container gdoc-html-container simulations-and-catastrophic-risks-container">
+  {% include "../page_content/simulations-and-catastrophic-risks.html" %}
+</div>
+
+{% endblock %}

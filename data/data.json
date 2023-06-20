@@ -2141,6 +2141,23 @@
         "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
         "series": "Surveys",
         "year": "2022"
+      },{
+        "url": "simulations-and-catastrophic-risks",
+        "type": "Literature Review",
+        "title": "Simulations and Catastrophic Risks",
+        "author": "Brad Saad",
+        "citation_author": [ "Saad, Brad" ],
+        "date": "June 20, 2023",
+        "img": "230620",
+        "img_info": {
+          "title": "computer screen with a blue nebula, hyperrealism --ar 16:9",
+          "credit": "Michael Dello-Iacovo / Midjourney"
+        },
+        "abstract": "This report explores interactions between large-scale social simulations and catastrophic risks.  It offers a tour of the surrounding theoretical terrain and brings together disparate literatures that bear on the topic.",
+        "date_meta": "2023/20/06",
+        "keywords": "SIMULATIONS;CATASTROPHIC RISK;S-RISK",
+        "series": "Literature Reviews",
+        "year": "2023"
       }
     ],
     "aft": [
