@@ -1892,7 +1892,7 @@
         "pdf": {
           "name": "sentience-institute-tech-study-nuclear-energy"
         },
-        "series": "Technology Adoption Case Studies",
+        "series": "Literature Reviews",
         "type": "Technology Adoption Case Study",
         "title": "What Can Nuclear Power Teach us about the Institutional Adoption of Clean meat?",
         "url": "nuclear-power-clean-meat",
@@ -2143,10 +2143,10 @@
         "year": "2022"
       },{
         "url": "simulations-and-catastrophic-risks",
-        "type": "Literature Review",
+        "type": "Report",
         "title": "Simulations and Catastrophic Risks",
-        "author": "Brad Saad",
-        "citation_author": [ "Saad, Brad" ],
+        "author": "Bradford Saad",
+        "citation_author": [ "Saad, Bradford" ],
         "date": "June 20, 2023",
         "img": "230620",
         "img_info": {
@@ -2156,7 +2156,7 @@
         "abstract": "This report explores interactions between large-scale social simulations and catastrophic risks.  It offers a tour of the surrounding theoretical terrain and brings together disparate literatures that bear on the topic.",
         "date_meta": "2023/20/06",
         "keywords": "SIMULATIONS;CATASTROPHIC RISK;S-RISK",
-        "series": "Literature Reviews",
+        "series": "Reports",
         "year": "2023"
       }
     ],
