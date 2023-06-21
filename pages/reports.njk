@@ -9,37 +9,11 @@
 {{ headerimage("reports", photos["reports"], "Reports") }}
 
 <div class="container first-container research-list-container">
-      <h1><span>Estimates, Literature Reviews, Surverys, and Experiments</span></h1>
+      <!-- ideally this would be 3 in a row, not 2 -->
       <div class="row research-section-list">
-        {% for item in researchitems.other | reverse %}
+        {% for item in researchitems | reverse %}
           {% from "../templates/partials/miniresearchitem.njk" import miniresearchitem %}
           {{ miniresearchitem(item) }}
-        {% endfor %}
-      </div>
-
-      <h1><span>Social Movement Case Studies</span></h1>
-      <div class="row research-section-list">
-        {% for item in researchitems.socialmovements | reverse %}
-          {% from "../templates/partials/researchitem.njk" import researchitem %}
-          {{ researchitem(item) }}
-        {% endfor %}
-      </div>
-
-      <h1><span>Technology Adoption Case Studies</span></h1>
-      <div class="row research-section-list tech-studies-list">
-        {% for item in researchitems.technologyadoption | reverse %}
-          {% from "../templates/partials/researchitem.njk" import researchitem %}
-          {{ researchitem(item) }}
-        {% endfor %}
-      </div>
-
-      <h1><span>Other Research (via blog)</span></h1>
-      <div class="row research-section-list">
-        {% for post in blogposts | reverse %}
-          {% from "../templates/partials/blogitem.njk" import blogitem %}
-          {%if post.isResearch%}
-          {{ blogitem(post, authors) }}
-          {%endif%}
         {% endfor %}
       </div>
 

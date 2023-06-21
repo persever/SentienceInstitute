@@ -49,7 +49,7 @@
 
   <h2><span>Reports</span></h2>
   <ul>
-  {% for researchproject in researchitems.technologyadoption | reverse %}
+  {% for researchproject in researchitems | reverse %}
     {% if researchproject.year == "2018" %}
     {% from "../templates/partials/miniitem.njk" import miniitem %}
     <li>{{ miniitem(researchproject) }}</li>

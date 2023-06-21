@@ -1,6 +1,6 @@
 {% macro miniresearchitem(item) %}
 
-<div class="col-lg-6 col-sm-12 research-item-container mini-research-item">
+<div class="col-lg-4 col-md-6 col-sm-12" research-item-container mini-research-item">
 {%if item.url%}
   <a class="research-item-link" href="/{{item.url}}">
 {%elif item.externalurl%}
@@ -8,11 +8,16 @@
 {%endif%}
     <div class="research-item">
       <div class="research-item-image" style="background-image: url(../img/header_photos/{{item.img}}-small.png)"></div>
-      <div class="research-item-info">
-        {%if item.author%}
-          <div><span class="research-item-author">{{item.author}} &bull; </span><span class="research-item-date">{{item.date}}</span></div>
-        {%endif%}
-        <div class="research-item-title">{{item.title}}</div>
+      <div class="blog-item-info">
+        <div class="blog-item-date">
+        {{item.date}}
+        </div>
+        <div class="blog-item-title">
+          {{item.title}}
+        </div>
+        <div class="blog-item-authors">
+          {{item.author}}
+        </div>
       </div>
     </div>
   </a>

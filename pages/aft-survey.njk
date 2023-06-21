@@ -14,7 +14,7 @@
 
       <h1><span>Reports</span></h1>
       <div class="row research-section-list">
-        {% for item in researchitems.aft | reverse %}
+        {% for item in aft | reverse %}
           {% from "../templates/partials/miniresearchitem.njk" import miniresearchitem %}
           {{ miniresearchitem(item) }}
         {% endfor %}

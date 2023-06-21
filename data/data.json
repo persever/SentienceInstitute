@@ -593,8 +593,7 @@
       "img": "20211122",
       "authors": ["janet"],
       "isResearch": true
-    }
-    ,
+    },
     {
       "url": "eoy2021",
       "gdocname": "2021EndofYearSummary",
@@ -607,8 +606,7 @@
         "credit": "Pexels / Pixabay"
       },
       "authors": ["ali"]
-    }
-    ,
+    },
     {
       "url": "assessing-sentience-in-artificial-entities",
       "gdocname": "AssessingSentienceinArtificialEntities",
@@ -622,8 +620,7 @@
       },
       "authors": ["ali"],
       "isResearch": true
-    }
-    ,
+    },
     {
       "url": "data-publication-AIMS-survey",
       "gdocname": "DataPublicationAIMSSurvey",
@@ -637,8 +634,7 @@
       },
       "authors": ["janet"],
       "isResearch": true
-    }
-    ,
+    },
     {
       "url": "consciousness-semanticism",
       "gdocname": "ConsciousnessSemanticism",
@@ -652,8 +648,7 @@
       },
       "authors": ["jacy"],
       "isJournal": true
-    }
-    ,
+    },
     {
       "url": "animal-welfare-reforms-AFO",
       "gdocname": "AnimalWelfareReformsAFO",
@@ -667,8 +662,7 @@
       },
       "authors": ["jamie", "ali", "maya"],
       "isJournal": true
-    }
-    ,
+    },
     {
       "url": "is-artificial-consciousness-possible",
       "gdocname": "IsArtificialConsciousnessPossible",
@@ -682,8 +676,7 @@
       },
       "authors": ["ali"],
       "isResearch": true
-    }
-    ,
+    },
     {
       "url": "the-future-might-not-be-so-great",
       "gdocname": "TheFutureMightNotBeSoGreat",
@@ -697,8 +690,7 @@
       },
       "authors": ["jacy"],
       "isResearch": true
-    }
-    ,
+    },
     {
       "url": "predicting-the-moral-consideration-of-artificial-intelligences",
       "gdocname": "PredictingTheMoralConsiderationOfArtificialIntelligences",
@@ -712,8 +704,7 @@
       },
       "authors": ["janet", "jacy"],
       "isJournal": true
-    }
-    ,
+    },
     {
       "url": "eoy2022",
       "gdocname": "2022EndofYearSummary",
@@ -726,8 +717,7 @@
         "credit": "Kaleidico"
       },
       "authors": ["michael"]
-    }
-    ,
+    },
     {
       "url": "longtermism-and-animal-farming-trajectories",
       "gdocname": "LongtermismandAnimalFarmingTrajectories",
@@ -740,8 +730,7 @@
         "credit": "Jo-Anne McArthur / We Animals"
       },
       "authors": ["michael"]
-    }
-    ,
+    },
     {
       "url": "digital-suffering-why-its-a-problem-and-how-to-prevent-it",
       "gdocname": "Digitalsufferingwhyitsaproblemandhowtopreventit",
@@ -751,8 +740,7 @@
       "img": "20210806",
       "authors": ["brad"],
       "isJournal": true
-    }
-    ,
+    },
     {
       "url": "what-would-qualify-an-artificial-intelligence-for-moral-standing",
       "gdocname": "Whatwouldqualifyanartificialintelligenceformoralstanding",
@@ -762,8 +750,7 @@
       "img": "20211122",
       "authors": ["ali"],
       "isJournal": true
-    }
-    ,
+    },
     {
       "url": "key-questions-for-digital-minds",
       "gdocname": "Keyquestionsfordigitalminds",
@@ -777,8 +764,7 @@
       },
       "authors": ["jacy"],
       "isResearch": true
-    }
-    ,
+    },
     {
       "url": "moral-spillover-in-human-ai-interaction",
       "gdocname": "Moralspilloverinhumanaiinteraction",
@@ -792,8 +778,7 @@
       },
       "authors": ["katerina", "janet"],
       "isResearch": true
-    }
-    ,
+    },
     {
       "url": "what-does-sentience-really-mean",
       "gdocname": "Whatdoessentiencereallymean",
@@ -1461,7 +1446,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/kevin-schneider-nonhuman-rights-project/id1489363314?i=1000457935527",
         "spotify": "https://open.spotify.com/episode/1spCY30hyQgcKceX24GaPu"
       }
-    },{
+    },
+    {
       "no": "2",
       "embedsnippet": "2173280-pei-su-actasia",
       "title": "Pei Su of ACTAsia on humane education in China",
@@ -1476,7 +1462,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/pei-su-actasia/id1489363314?i=1000457935526",
         "spotify": "https://open.spotify.com/episode/30R0cfBebKN70CFJgAd7YD"
       }
-    },{
+    },
+    {
       "no": "3",
       "embedsnippet": "2173268-ria-rehberg-veganuary",
       "title": "Ria Rehberg of Veganuary on driving institutional change through online campaigns",
@@ -1491,7 +1478,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/ria-rehberg-veganuary/id1489363314?i=1000457935525",
         "spotify": "https://open.spotify.com/episode/5wwlFBLPXQmNc9nTOmNpUZ"
       }
-    },{
+    },
+    {
       "no": "4",
       "embedsnippet": "2421944-kristof-dhont-of-university-of-kent-on-intergroup-contact-research-and-research-careers",
       "title": "Kristof Dhont of University of Kent on intergroup contact research and research careers",
@@ -1506,7 +1494,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/kristof-dhont-university-kent-on-intergroup-contact/id1489363314?i=1000461846509",
         "spotify": "https://open.spotify.com/episode/1W5ekVDUkmFd80deemARfj"
       }
-    },{
+    },
+    {
       "no": "5",
       "embedsnippet": "2577658-christie-lagally-of-rebellyous-foods-on-scaling-up-high-quality-plant-based-foods",
       "title": "Christie Lagally of Rebellyous Foods on scaling up high-quality plant-based foods",
@@ -1521,7 +1510,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/christie-lagally-rebellyous-foods-on-scaling-up-high/id1489363314?i=1000464987317",
         "spotify": "https://open.spotify.com/episode/6mRyI455TmHezNpZP74HnR"
       }
-    },{
+    },
+    {
       "no": "6",
       "embedsnippet": "2869108-lisa-feria-of-stray-dog-capital-on-impact-investing-and-animal-free-food-tech-entrepreneurship",
       "title": "Lisa Feria of Stray Dog Capital on impact investing and animal-free food tech entrepreneurship",
@@ -1536,7 +1526,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/lisa-feria-stray-dog-capital-on-impact-investing-animal/id1489363314?i=1000468037304",
         "spotify": "https://open.spotify.com/episode/2q90DiZ8uLjc1j5pzZVuOg"
       }
-    },{
+    },
+    {
       "no": "7",
       "embedsnippet": "3027670-jayasimha-nuggehalli-on-capacity-building-and-animal-welfare-in-asia",
       "title": "Jayasimha Nuggehalli on capacity building and animal welfare in Asia",
@@ -1551,7 +1542,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/laila-kassam-animal-think-tank-on-popular-protest-movements/id1489363314?i=1000474409370",
         "spotify": "https://open.spotify.com/episode/0AQRq7SxQDkVkzM3shxzaS"
       }
-    },{
+    },
+    {
       "no": "8",
       "embedsnippet": "3689416-laila-kassam-of-animal-think-tank-on-popular-protest-movements-mass-arrests-and-publicity-stunts",
       "title": "Laila Kassam of Animal Think Tank on popular protest movements, mass arrests, and publicity stunts",
@@ -1566,7 +1558,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/laila-kassam-animal-think-tank-on-popular-protest-movements/id1489363314?i=1000474409370",
         "spotify": "https://open.spotify.com/episode/0AQRq7SxQDkVkzM3shxzaS"
       }
-    },{
+    },
+    {
       "no": "9",
       "embedsnippet": "3921740-elliot-swartz-of-the-good-food-institute-on-the-bottlenecks-to-the-scale-up-of-cultured-meat-and-plant-based-meat",
       "title": "Elliot Swartz of the Good Food Institute on the bottlenecks to the scale-up of cultured meat and plant-based meat",
@@ -1581,7 +1574,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/elliot-swartz-good-food-institute-on-bottlenecks-to/id1489363314?i=1000478406898",
         "spotify": "https://open.spotify.com/episode/33lKelLSVIKcu9oXkw2Ukc"
       }
-    },{
+    },
+    {
       "no": "10",
       "embedsnippet": "4494071-frank-baumgartner-of-unc-chapel-hill-on-policy-dynamics-lobbying-and-issue-framing",
       "title": "Frank Baumgartner of UNC-Chapel Hill on policy dynamics, lobbying, and issue framing",
@@ -1596,7 +1590,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/frank-baumgartner-unc-chapel-hill-on-policy-dynamics/id1489363314?i=1000485833407",
         "spotify": "https://open.spotify.com/episode/33lKelLSVIKcu9oXkw2Ukc"
       }
-    },{
+    },
+    {
       "no": "11",
       "embedsnippet": "5192641-leah-garces-of-mercy-for-animals-on-factory-farm-investigations-long-term-strategy-and-animal-advocacy-during-covid-19",
       "title": "Leah Garcés of Mercy For Animals on factory farm investigations, long-term strategy, and animal advocacy during COVID-19",
@@ -1611,7 +1606,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/leah-garc%C3%A9s-mercy-for-animals-on-factory-farm-investigations/id1489363314?i=1000489712044",
         "spotify": "https://open.spotify.com/episode/7ds11gKhjDmjP8V6UnyOKq"
       }
-    },{
+    },
+    {
       "no": "12",
       "embedsnippet": "6105217-oscar-horta-of-the-university-of-santiago-de-compostela-on-why-we-should-help-wild-animals",
       "title": "Oscar Horta of the University of Santiago de Compostela on why we should help wild animals",
@@ -1626,7 +1622,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/oscar-horta-university-santiago-compostela-on-why-we/id1489363314?i=1000496515376",
         "spotify": "https://open.spotify.com/episode/5x74mqwrR5WPuKGIPumrF5"
       }
-    },{
+    },
+    {
       "no": "13",
       "embedsnippet": "6732268-oscar-horta-of-the-university-of-santiago-de-compostela-on-how-we-can-best-help-wild-animals",
       "title": "Oscar Horta of the University of Santiago de Compostela on how we can best help wild animals",
@@ -1641,7 +1638,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/oscar-horta-university-santiago-compostela-on-how-we/id1489363314?i=1000502927913",
         "spotify": "https://open.spotify.com/episode/71Lo9xcwg3Y4qMmBYWGHwY"
       }
-    },{
+    },
+    {
       "no": "14",
       "embedsnippet": "7349992-ajay-dahiya-of-the-pollination-project-on-funding-grassroots-animal-advocacy-and-inner-transformation",
       "title": "Ajay Dahiya of The Pollination Project on funding grassroots animal advocacy and inner transformation",
@@ -1656,7 +1654,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/ajay-dahiya-pollination-project-on-funding-grassroots/id1489363314?i=1000506195813",
         "spotify": "https://open.spotify.com/show/6wHmiXgbAUGHOZ9lNTyDay"
       }
-    },{
+    },
+    {
       "no": "15",
       "embedsnippet": "7829524-jo-anderson-of-faunalytics-and-saulius-simcikas-of-rethink-priorities-on-research-for-effective-animal-advocacy",
       "title": "Jo Anderson of Faunalytics and Saulius Šimčikas of Rethink Priorities on research for effective animal advocacy",
@@ -1671,7 +1670,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/jo-anderson-faunalytics-saulius-%C5%A1im%C4%8Dikas-rethink-priorities/id1489363314?i=1000510572427",
         "spotify": "https://open.spotify.com/episode/4x47SOcbp5Cic6SslHa3FB"
       }
-    },{
+    },
+    {
       "no": "16",
       "embedsnippet": "8708442-tobias-baumann-of-the-center-for-reducing-suffering-on-moral-circle-expansion-cause-prioritization-and-reducing-risks-of-astronomical-suffering-in-the-long-term-future",
       "title": "Tobias Baumann of the Center for Reducing Suffering on moral circle expansion, cause prioritization, and reducing risks of astronomical suffering in the long-term future",
@@ -1686,7 +1686,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/tobias-baumann-center-for-reducing-suffering-on-moral/id1489363314?i=1000526636629",
         "spotify": "https://open.spotify.com/episode/6XsUmRvEtyzT8T7irRVaob"
       }
-    },{
+    },
+    {
       "no": "17",
       "embedsnippet": "8914653-tobias-baumann-of-the-center-for-reducing-suffering-on-global-priorities-research-and-effective-strategies-to-reduce-suffering",
       "title": "Tobias Baumann of the Center for Reducing Suffering on global priorities research and effective strategies to reduce suffering",
@@ -1701,7 +1702,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/tobias-baumann-center-for-reducing-suffering-on-global/id1489363314?i=1000530299518",
         "spotify": "https://open.spotify.com/episode/6HNCVKHfPwFEPEdaSUoCRi"
       }
-    },{
+    },
+    {
       "no": "18",
       "embedsnippet": "11066437-thomas-metzinger-on-a-moratorium-on-artificial-sentience-development",
       "title": "Thomas Metzinger on a moratorium on artificial sentience development",
@@ -1716,7 +1718,8 @@
         "apple": "https://podcasts.apple.com/gb/podcast/thomas-metzinger-on-a-moratorium-on-artificial/id1489363314?i=1000575625585",
         "spotify": "https://open.spotify.com/episode/4yX7W8EtQ8UeAXqAIvkm3i"
       }
-    },{
+    },
+    {
       "no": "19",
       "embedsnippet": "11582506-kurt-gray-on-human-robot-interaction-and-mind-perception",
       "title": "Kurt Gray on human-robot interaction and mind perception",
@@ -1731,7 +1734,8 @@
         "apple": "https://podcasts.apple.com/gb/podcast/kurt-gray-on-human-robot-interaction-and-mind-perception/id1489363314?i=1000584424682",
         "spotify": "https://open.spotify.com/episode/0xp9EI3cw6T8OVxj6h2t8r"
       }
-    },{
+    },
+    {
       "no": "20",
       "embedsnippet": "11642122-david-gunkel-on-robot-rights",
       "title": "David Gunkel on robot rights",
@@ -1746,7 +1750,8 @@
         "apple": "https://podcasts.apple.com/us/podcast/david-gunkel-on-robot-rights/id1489363314?i=1000588939761",
         "spotify": "https://open.spotify.com/episode/0e5Qhx0n8QtAIjpopFZ3Wc"
       }
-    },{
+    },
+    {
       "no": "21",
       "embedsnippet": "12056839-matti-wilks-on-human-animal-interaction-and-moral-circle-expansion",
       "title": "Matti Wilks on human-animal interaction and moral circle expansion",
@@ -1763,455 +1768,425 @@
       }
     }
   ],
-  "researchitems": {
-    "socialmovements": [
-      {
-        "url": "british-antislavery",
-        "type": "Social Movement Case Study",
-        "title": "Social Movement Lessons From the British Antislavery Movement: Focused on Applications to the Movement Against Animal Farming",
-        "author": "Kelly Anthis and Jacy Reese Anthis",
-        "citation_author": [ "Anthis, Kelly" , "Anthis, Jacy Reese" ],
-        "date": "December 1, 2017",
-        "img": "british-antislavery",
-        "abstract": "Studying past social movements can provide invaluable insights for modern movement strategy. This report aims to assess (1) what factors led the British government to abolish the transatlantic Slave trade in 1807 and then human chattel slavery in 1833, and (2) what those findings suggest about how modern social movements should strategize. While many of the implications are generalizable to a variety of movements, the analysis will focus on applications to the movement against animal farming. Key implications include the need to focus on institutional change, the circumstances under which strategic reforms can facilitate the eventual elimination of the institution, and what messaging can best generate support.",
-        "pdf": {
-          "name": "Social_Movement_Lessons_From_the_British_Antislavery_Movement"
-        },
-        "date_meta": "2017/12/1",
-        "keywords": "SLAVERY;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE;ANTI-SLAVERY",
-        "series": "Social Movement Case Studies",
-        "year": "2017"
-      },{
-        "url": "anti-abortion",
-        "type": "Social Movement Case Study",
-        "title": "Social Movement Lessons From the US Anti-Abortion Movement",
-        "author": "Jamie Harris",
-        "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" , "McNamara, Kelly" ],
-        "date": "November 26, 2019",
-        "img": "anti-abortion",
-        "abstract": "This report aims to assess (1) the extent to which the modern (1966-2019) anti-abortion movement in the United States can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize. The analysis highlights the farmed animal movement as an illustrative example of the strategic implications for a variety of movements. Key findings of this report include that encouraging legal change without popular support can provide momentum for a social movement’s opponents; legislation and direct action may be effective at reducing supply through disruption and burdensome regulation, but direct effects on demand are smaller; and close alignment with political or religious groups may be tractable but risks longer-term stagnation.",
-        "pdf": {
-          "name": "Anti-Abortion_Movement_Study"
-        },
-        "date_meta": "2019/11/26",
-        "keywords": "ABORTION;ANTI-ABORTION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
-        "series": "Social Movement Case Studies",
-        "year": "2019"
-      },{
-        "url": "death-penalty",
-        "type": "Social Movement Case Study",
-        "title": "Social Movement Lessons from the US Anti-Death Penalty Movement",
-        "author": "Jamie Harris",
-        "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" , "McNamara, Kelly" ],
-        "date": "May 22, 2020",
-        "img": "death-penalty",
-        "img_info": {
-          "title": "Anti-Death Penalty Summit",
-          "credit": "C. Elle"
-        },
-        "abstract": "This report aims to assess (1) the extent to which the anti-death penalty movement in the United States, especially from 1966-2015, can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize. The analysis highlights the farmed animal movement as an illustrative example of the strategic implications for a variety of movements. Key findings of this report include that a narrow focus on legal strategies can discourage the growth of a grassroots movement that may be more effective in the longer term and that legislative change is possible without public support.",
-        "pdf": {
-          "name": "Social Movement Lessons from the US Anti-Death Penalty Movement"
-        },
-        "date_meta": "2020/05/22",
-        "keywords": "DEATH PENALTY;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
-        "series": "Social Movement Case Studies",
-        "year": "2020"
-      },{
-        "url": "prisoners-rights",
-        "type": "Social Movement Case Study",
-        "title": "Social Movement Lessons from the US Prisoners' Rights Movement",
-        "author": "Jamie Harris",
-        "citation_author": [ "Harris, Jamie" , "McNamara, Kelly" ],
-        "date": "July 21, 2020",
-        "img": "prisoners-rights",
-        "img_info": {
-          "title": "Prison cell block",
-          "credit": "Bob Jagendorf"
-        },
-        "abstract": "This report aims to assess (1) the extent to which the prisoners’ rights movement in the United States from the 1950s onwards can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize. The analysis highlights the farmed animal movement as an illustrative example of the strategic implications for a variety of movements. Key findings of this report include that incremental successes of modest improvements in welfare may distract advocates’ attention from more fundamental political and systemic issues and that social movements based heavily on a strategy of litigation (or perhaps any single strategy) seem to be fragile.",
-        "pdf": {
-          "name": "Social Movement Lessons from the US Prisoners Rights Movement"
-        },
-        "date_meta": "2020/07/21",
-        "keywords": "PRISONERS RIGHTS;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
-        "series": "Social Movement Case Studies",
-        "year": "2020"
-      },{
-        "url": "fair-trade",
-        "type": "Social Movement Case Study",
-        "title": "Social Movement Lessons from the Fair Trade Movement",
-        "author": "Jamie Harris",
-        "citation_author": [ "Harris, Jamie" , "McNamara, Kelly" ],
-        "date": "April 1, 2021",
-        "img": "fair-trade",
-        "img_info": {
-          "title": "Continuous background of fresh arabica coffee beans",
-          "credit": "Anastasiia Chepinska / Unsplash"
-        },
-        "abstract": "This report aims to assess (1) the extent to which the international Fair Trade movement, especially from 1964 to the present, can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize.",
-        "pdf": {
-          "name": "Social Movement Lessons from the Fair Trade Movement"
-        },
-        "date_meta": "2021/04/01",
-        "keywords": "FAIR TRADE;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
-        "series": "Social Movement Case Studies",
-        "year": "2021"
-      },{
-        "url": "the-history-of-ai-rights-research",
-        "type": "Social Movement Case Study",
-        "title": "The History of AI Rights Research",
-        "author": "Jamie Harris",
-        "citation_author": [ "Harris, Jamie" ],
-        "date": "July 6, 2022",
-        "img": "the-history-of-ai-rights-research",
-        "img_info": {
-          "title": "bare tree near 3-storey building photo",
-          "credit": "Victoria Heath / Unsplash"
-        },
-        "abstract": "This report documents the history of research on AI rights and other moral consideration of artificial entities. It highlights key intellectual influences on this literature as well as research and academic discussion addressing the topic more directly. We find that researchers addressing AI rights have often seemed to be unaware of the work of colleagues whose interests overlap with their own. Academic interest in this topic has grown substantially in recent years; this reflects wider trends in academic research, but it seems that certain influential publications, the gradual, accumulating ubiquity of AI and robotic technology, and relevant news events may all have encouraged increased academic interest in this specific topic. We suggest four levers that, if pulled on in the future, might increase interest further: the adoption of publication strategies similar to those of the most successful previous contributors; increased engagement with adjacent academic fields and debates; the creation of specialized journals, conferences, and research institutions; and more exploration of legal rights for artificial entities.",
-        "pdf": {
-          "name": "The History of AI Rights Research"
-        },
-        "date_meta": "2022/07/6",
-        "keywords": "AI RIGHTS;ROBOT RIGHTS;PHILOSOPHY;ARTIFICIAL INTELLIGENCE;FUTURISM;SCIENCE FICTION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
-        "series": "Social Movement Case Studies",
-        "year": "2022"
-      }
-    ],
-    "technologyadoption": [
-      {
-        "abstract": "Studies on clean meat adoption have mostly focused on consumer acceptance, but institutional choices by governments, industries, and news media can also delay or accelerate the adoption of new technologies. This report examines the factors that contributed to nuclear power’s widespread adoption in France and applies those findings to the question of how to advance the adoption of clean meat. Among other conclusions, this report finds that supply constraints on a competing good can accelerate the adoption of a new technology, that technical explanations about why a new product is safe are likely to backfire, that safety incidents that appear to confirm preexisting concerns are especially damaging to a new technology, and that states reliant on imports to meet their needs for a good or service are more promising targets for the early adoption of substitute technologies than states that are more self-reliant.",
-        "author": "J. Mohorčich",
-        "citation_author": [ "Mohorčich, J." , "Anthis, Jacy Reese" ],
-        "date": "November 28, 2017",
-        "date_meta": "2017/11/28",
-        "description": "This case study examines the rise of nuclear power in France.",
-        "img": "nuclear-france",
-        "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;NUCLEAR ENERGY;NUCLEAR POWER",
-        "pdf": {
-          "name": "sentience-institute-tech-study-nuclear-energy"
-        },
-        "series": "Literature Reviews",
-        "type": "Technology Adoption Case Study",
-        "title": "What Can Nuclear Power Teach us about the Institutional Adoption of Clean meat?",
-        "url": "nuclear-power-clean-meat",
-        "year": "2019"
+  "researchitems": [
+    {
+      "url": "animal-farming-attitudes-survey-2017",
+      "type": "Survey",
+      "title": "Animals, Food, and Technology (AFT) Survey 2017",
+      "author": "Jacy Reese Anthis",
+      "citation_author": [ "Anthis, Jacy Reese" ],
+      "date": "November 20, 2017",
+      "img": "afa-2017",
+      "abstract": "We surveyed 1,094 US adults, census-balanced to be representative of age, sex, region, ethnicity, and income, on their attitudes towards animal farming and animal-free food. Among other insights, we found that 49% of US adults support a ban on factory farming, 47% support a ban on slaughterhouses, and 33% support a ban on animal farming, suggesting that animal-free food advocates might be more successful with a stronger focus on institutions than individuals, and with stronger institutional proposals than they currently campaign for.",
+      "date_meta": "2017/11/20",
+      "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
+      "series": "Surveys",
+      "year": "2017"
+    },
+    {
+      "abstract": "Studies on clean meat adoption have mostly focused on consumer acceptance, but institutional choices by governments, industries, and news media can also delay or accelerate the adoption of new technologies. This report examines the factors that contributed to nuclear power’s widespread adoption in France and applies those findings to the question of how to advance the adoption of clean meat. Among other conclusions, this report finds that supply constraints on a competing good can accelerate the adoption of a new technology, that technical explanations about why a new product is safe are likely to backfire, that safety incidents that appear to confirm preexisting concerns are especially damaging to a new technology, and that states reliant on imports to meet their needs for a good or service are more promising targets for the early adoption of substitute technologies than states that are more self-reliant.",
+      "author": "J. Mohorčich",
+      "citation_author": [ "Mohorčich, J." , "Anthis, Jacy Reese" ],
+      "date": "November 28, 2017",
+      "date_meta": "2017/11/28",
+      "description": "This case study examines the rise of nuclear power in France.",
+      "img": "nuclear-france",
+      "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;NUCLEAR ENERGY;NUCLEAR POWER",
+      "pdf": {
+        "name": "sentience-institute-tech-study-nuclear-energy"
       },
-      {
-        "abstract": "This report seeks to understand the choices and strategies that can hasten or hurt the adoption of novel food technologies by examining how genetically modified (GM) food became an object of controversy in the United States and Europe. Among other conclusions, this report finds that perceptions of food companies as secretive and aggressive damaged GM food adoption, that GM firms understood their work to be humanitarian, innovative, and environmentally-friendly and so were largely caught unawares by popular backlash, that technology adoption is more readily affected by advocacy when buyers in a supply chain exert relatively more pressure on sellers than the reverse, and that focusing on the positive aspects of a technology has been more successful for encouraging its adoption than focusing on responding to negative perceptions.",
-        "author": "J. Mohorčich",
-        "citation_author": [ "Mohorčich, J." , "Anthis, Jacy Reese" ],
-        "date": "June 20, 2018",
-        "date_meta": "2018/6/20",
-        "description": "This case study examines the adoption failures of genetically modified foods.",
-        "img": "gmos",
-        "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;GMOS;GM FOOD;GM FOODS",
-        "pdf": {
-          "name": "sentience-institute-tech-study-gmos"
-        },
-        "series": "Technology Adoption Case Studies",
-        "type": "Technology Adoption Case Study",
-        "title": "What Can the Adoption of GM Foods Teach us about the Adoption of Other Food Technologies?",
-        "url": "gm-foods",
-        "year": "2018"
+      "series": "Literature Reviews",
+      "type": "Technology Adoption Case Study",
+      "title": "What Can Nuclear Power Teach us about the Institutional Adoption of Clean meat?",
+      "url": "nuclear-power-clean-meat",
+      "year": "2019"
+    },
+    {
+      "url": "british-antislavery",
+      "type": "Social Movement Case Study",
+      "title": "Social Movement Lessons From the British Antislavery Movement: Focused on Applications to the Movement Against Animal Farming",
+      "author": "Kelly Anthis and Jacy Reese Anthis",
+      "citation_author": [ "Anthis, Kelly" , "Anthis, Jacy Reese" ],
+      "date": "December 1, 2017",
+      "img": "british-antislavery",
+      "abstract": "Studying past social movements can provide invaluable insights for modern movement strategy. This report aims to assess (1) what factors led the British government to abolish the transatlantic Slave trade in 1807 and then human chattel slavery in 1833, and (2) what those findings suggest about how modern social movements should strategize. While many of the implications are generalizable to a variety of movements, the analysis will focus on applications to the movement against animal farming. Key implications include the need to focus on institutional change, the circumstances under which strategic reforms can facilitate the eventual elimination of the institution, and what messaging can best generate support.",
+      "pdf": {
+        "name": "Social_Movement_Lessons_From_the_British_Antislavery_Movement"
       },
-      {
-        "abstract": "This paper examines the history of four biofuel firms (KiOR, Amyris, REG, and Novozymes) to draw lessons for the development and commercialization of cell-cultured meat. Findings include the strategic advantage of pursuing high-margin, low-volume products before low-margin, high-volume products, the pitfalls of overpromising with respect to timelines and product, the trap of technological inflexibility, and the way that many different firms pursuing parallel vertical integration strategies can spread fragility within an industry.",
-        "author": "J. Mohorčich",
-        "citation_author": [ "Mohorčich, J." , "Anthis, Jacy Reese" ],
-        "date": "August 21, 2019",
-        "date_meta": "2019/8/21",
-        "description": "This case study examines the adoption failures of biofuels.",
-        "img": "biofuels",
-        "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;BIOFUELS;BIOFUEL;KIOR;AMRYIS;NOVOZYMES",
-        "pdf": {
-          "name": "sentience-institute-tech-study-biofuels"
-        },
-        "series": "Technology Adoption Case Studies",
-        "type": "Technology Adoption Case Study",
-        "title": "What Can Biofuel Commercialization Teach us about Scale, Failure, and Success in Biotechnology?",
-        "url": "biofuels",
-        "year": "2019"
-      }
-    ],
-    "appendices": [
-      {
-        "url": "health-behavior-appendix-a",
-        "type": "Appendix",
-        "title": "Appendix A: Definitions and Discussion by Intervention Type",
-        "author": "Jamie Harris",
-        "citation_author": ["Harris, Jamie"],
-        "date": "July 24, 2020",
-        "img": "health-behavior",
-        "img_info": {
-          "title": "Bowl of fruit on a table",
-          "credit": "wanda dunn"
-        },
-        "pdf": {
-          "name": "Appendix A Health Behavior Interventions Literature Review"
-        },
-        "date_meta": "2020/07/24",
-        "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
-        "series": "Appendices",
-        "year": "2020"
+      "date_meta": "2017/12/1",
+      "keywords": "SLAVERY;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE;ANTI-SLAVERY",
+      "series": "Social Movement Case Studies",
+      "year": "2017"
+    },
+    {
+      "abstract": "This report seeks to understand the choices and strategies that can hasten or hurt the adoption of novel food technologies by examining how genetically modified (GM) food became an object of controversy in the United States and Europe. Among other conclusions, this report finds that perceptions of food companies as secretive and aggressive damaged GM food adoption, that GM firms understood their work to be humanitarian, innovative, and environmentally-friendly and so were largely caught unawares by popular backlash, that technology adoption is more readily affected by advocacy when buyers in a supply chain exert relatively more pressure on sellers than the reverse, and that focusing on the positive aspects of a technology has been more successful for encouraging its adoption than focusing on responding to negative perceptions.",
+      "author": "J. Mohorčich",
+      "citation_author": [ "Mohorčich, J." , "Anthis, Jacy Reese" ],
+      "date": "June 20, 2018",
+      "date_meta": "2018/6/20",
+      "description": "This case study examines the adoption failures of genetically modified foods.",
+      "img": "gmos",
+      "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;GMOS;GM FOOD;GM FOODS",
+      "pdf": {
+        "name": "sentience-institute-tech-study-gmos"
       },
-      {
-        "url": "health-behavior-appendix-b",
-        "type": "Appendix",
-        "title": "Appendix B: Theory Used in Health Behavior Intervention Design and Research",
-        "author": "Jamie Harris",
-        "citation_author": ["Harris, Jamie"],
-        "date": "July 24, 2020",
-        "img": "health-behavior",
-        "img_info": {
-          "title": "Bowl of fruit on a table",
-          "credit": "wanda dunn"
-        },
-        "pdf": {
-          "name": "Appendix B Health Behavior Interventions Literature Review"
-        },
-        "date_meta": "2020/07/24",
-        "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
-        "series": "Appendices",
-        "year": "2020"
-      }
-    ],
-    "other": [
-      {
-        "url": "animal-farming-attitudes-survey-2017",
-        "type": "Survey",
-        "title": "Animals, Food, and Technology (AFT) Survey 2017",
-        "author": "Jacy Reese Anthis",
-        "citation_author": [ "Anthis, Jacy Reese" ],
-        "date": "November 20, 2017",
-        "img": "afa-2017",
-        "abstract": "We surveyed 1,094 US adults, census-balanced to be representative of age, sex, region, ethnicity, and income, on their attitudes towards animal farming and animal-free food. Among other insights, we found that 49% of US adults support a ban on factory farming, 47% support a ban on slaughterhouses, and 33% support a ban on animal farming, suggesting that animal-free food advocates might be more successful with a stronger focus on institutions than individuals, and with stronger institutional proposals than they currently campaign for.",
-        "date_meta": "2017/11/20",
-        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
-        "series": "Surveys",
-        "year": "2017"
-      },{
-        "url": "us-factory-farming-estimates",
-        "type": "Estimate",
-        "title": "US Factory Farming Estimates",
-        "author": "Jacy Reese Anthis",
-        "citation_author": [ "Anthis, Jacy Reese" ],
-        "date": "Last updated April 11, 2019",
-        "img": "us-factory-farming-estimates",
-        "abstract": "We estimate that 99% of US farmed animals are living in factory farms at present. By species, we estimate that 70.4% of cows, 98.3% of pigs, 99.8% of turkeys, 98.2% of chickens raised for eggs, and over 99.9% of chickens raised for meat are living in factory farms. Based on the confinement and living conditions of farmed fish, we estimate that virtually all US fish farms are suitably described as factory farms, though there is limited data on fish farm conditions and no standardized definition. Land animal figures use data from the USDA Census of Agriculture and EPA definitions of Concentrated Animal Feeding Operations.",
-        "spreadsheetsrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSF6WrMq9gMQ0zoCGLWc5QGHNz0xwWRwPqTqoehKkITVkEiBRvRgCOMq6wxm-Zt5jkdPJh78durrcly/pubhtml?widget=true&amp;headers=false",
-        "spreadsheeturl": "https://docs.google.com/spreadsheets/d/1iUpRFOPmAE5IO4hO4PyS4MP_kHzkuM_-soqAyVNQcJc/edit#gid=0",
-        "date_meta": "2019/4/11",
-        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;FACTORY FARMING;CAFOs",
-        "series": "Estimates",
-        "year": "2019"
-      },{
-        "url": "global-animal-farming-estimates",
-        "type": "Estimate",
-        "title": "Global Farmed & Factory Farmed Animals Estimates",
-        "author": "Kelly Anthis and Jacy Reese Anthis",
-        "citation_author": [ "Anthis, Kelly" , "Anthis, Jacy Reese"  ],
-        "date": "Last updated February 21, 2019",
-        "img": "global-animal-farming-estimates",
-        "abstract": "We estimate that over 90% of farmed animals globally are living in factory farms at present. This includes an estimated 74% of farmed land animals and virtually all farmed fish. However, there is substantial uncertainty in these figures given the land animal estimates’ heavy reliance on information from Worldwatch Institute with unclear methodology and limited data on fish farming. In total, we estimate that around 31.0 billion land animals and 38.8 to 215.9 billion fish are being farmed globally at any given time.",
-        "spreadsheetsrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR6ypxCIVIX_PHvYbXaJvmZWmRibqa6JlWq7Px3ehsnY1QDWKjrpPAYbrXmkNVRtYzIgIv2WScjfyBK/pubhtml?widget=true&amp;headers=false",
-        "spreadsheeturl": "https://docs.google.com/spreadsheets/d/1Njl_GS7jDOELjOtywvk3thIFpW_v10uZ5APJl1KgaY0/edit#gid=0",
-        "date_meta": "2019/2/19",
-        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;FACTORY FARMING;CAFOs",
-        "series": "Estimates",
-        "year": "2019"
-      },{
-        "url": "scotus",
-        "type": "Literature Review",
-        "title": "Is the US Supreme Court a Driver of Social Change or Driven by it? A Literature Review",
-        "author": "Jamie Harris",
-        "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" ],
-        "date": "November 27, 2019",
-        "img": "scotus",
-        "abstract": "Whether the Supreme Court of the United States drives or is driven by social change is an important strategic question for social movements that seek to implement systemic change in the United States. However, a thorough summary of empirical research on this question is lacking. This report summarizes the results of the most important empirical contributions to this debate. The results of aggregating 121 research items based on the strength of evidence suggest that Supreme Court decision-making is influenced by public opinion and by the activities of interest groups. Supreme Court rulings that are favorable to social movements’ goals can encourage positive changes in public attitudes, behavior, and policy, though these effects are sometimes negligible and the evidence is slightly weaker than that for the influence of public opinion on Supreme Court decisions. Additionally, Supreme Court rulings may encourage substantial backlash, so it may be counterproductive for social movements to actively pursue radical legal change if they are not prepared to respond to these threats.",
-        "pdf": {
-          "name": "SCOTUS_and_Social_Change"
-        },
-        "date_meta": "2019/11/27",
-        "keywords": "SCOTUS;SUPREME COURT;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;SURVEY;PUBLIC OPINION",
-        "series": "Literature Reviews",
-        "year": "2019"
-      },{
-        "url": "afft-experiment",
-        "type": "Experiment",
-        "title": "The Effects of Animal-Free Food Technology Awareness on Animal Farming Opposition",
-        "author": "Jamie Harris",
-        "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" ],
-        "date": "May 14, 2020",
-        "img": "afft-experiment",
-        "abstract": "There is limited research on the effects of animal-free food technologies (AFFT), such as cultured meat and new plant-based foods that accurately mimic animal products, on attitudes toward animal farming. This study found that providing participants with information about AFFT significantly lowered animal farming opposition (AFO) relative to participants who were provided with information about low-technology plant-based foods or about an unrelated topic. The results suggest that including information about AFFT in advocacy materials can be detrimental to attitudinal change. Information about low-technology plant-based foods had no significant effects on AFO relative to information about an unrelated topic, so does not seem to have this downside.",
-        "pdf": {
-          "name": "The Effects of Animal-Free Food Technology Awareness on Animal Farming Opposition"
-        },
-        "date_meta": "2020/5/14",
-        "description": "This experiment tests the effects of learning about food technology on attitudes towards animal farming.",
-        "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;EXPERIMENT;ANIMAL FARMING;ANIMAL AGRICULTURE;TECHNOLOGY",
-        "series": "Experiments",
-        "year": "2020"
-      },{
-        "url": "health-behavior",
-        "type": "Literature Review",
-        "title": "Health Behavior Interventions Literature Review",
-        "author": "Jamie Harris",
-        "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" , "Anthis, Kelly"],
-        "date": "July 24, 2020",
-        "img": "health-behavior",
-        "img_info": {
-          "title": "Bowl of fruit on a table",
-          "credit": "wanda dunn"
-        },
-        "abstract": "There is an extensive research literature on the effectiveness of various interventions for changing health behaviors, such as dietary habits, physical activity, and smoking. Existing reviews and overviews tend to aggregate research on the effects of specific interventions on particular health behaviors. This review provides a largely qualitative, non-statistical summary of the evidence for the effectiveness of intervention types across health behaviors, by aggregating 706 research items (mostly systematic reviews and meta-analyses) based on the strength of evidence. This review makes a number of subjective judgment calls and uses novel methods of evaluation in order to quickly digest and summarize an extremely large evidence base. It focuses on applications to the farmed animal movement, especially to the behavioral change of reducing animal product consumption. In general, while the health behavior literature includes a very large number of studies, there is much inconsistency in wording, methodology, and subject matter, which makes it difficult to extract useful insights for behavior change advocates. However, some conclusions are warranted. Key findings include that almost all types of health behavior interventions targeted at individuals or small groups seem likely to have effect sizes conventionally interpreted as “small” or “very small,” that their effect sizes tend to be even smaller in the long term, and that interventions with educational and behavioral components outperform solely educational interventions.",
-        "pdf": {
-          "name": "Health Behavior Interventions Literature Review"
-        },
-        "date_meta": "2020/07/24",
-        "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
-        "series": "Literature Reviews",
-        "year": "2020"
-      },{
-        "url": "aft-survey-2020",
-        "type": "Survey",
-        "title": "Animals, Food, and Technology (AFT) Survey: 2020 Update",
-        "author": "Ali Ladak and Jacy Reese Anthis",
-        "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
-        "date": "March 17, 2021",
-        "img": "aft-survey-2020",
-        "img_info": {
-          "title": "A hen in a battery cage",
-          "credit": "Jo-Anne McArthur / Animal Equality"
-        },
-        "abstract": "In October 2020, we conducted the third iteration of the Animals, Food, and Technology (AFT) survey. Overall, as in previous years, we found significant opposition in the US to the animal farming industry, with a majority of people reporting discomfort with the industry, and strong support for a range of often quite radical policy changes, such as banning slaughterhouses.",
-        "date_meta": "2021/17/03",
-        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
-        "series": "Surveys",
-        "year": "2021"
-      },{
-        "url": "public-opinion",
-        "type": "Literature Review",
-        "title": "Effective Strategies for Changing Public Opinion: A Literature Review",
-        "author": "Jamie Harris",
-        "citation_author": [ "Harris, Jamie" ],
-        "date": "November 08, 2021",
-        "img": "public-opinion",
-        "abstract": "Social movements often try to affect public opinion as a lever for legislation and other social change. This report provides a broad overview of research relating to (1) whether advocates can successfully influence public opinion and how they can do so most effectively, and (2) what the other causes of public opinion change are and how advocates can harness them. Key findings include that direct persuasion attempts to change attitudes (rather than behavior) tend to have “small” or “very small” short-term effects, but advocates may be able to have lasting indirect effects on public opinion via policy change or reframing the issues. We list factors that affect how persuasive messages are and make tentative suggestions for how advocates can cost-effectively leverage external influences on public opinion such as the media, celebrities, politicians, and policy.",
-        "pdf": {
-          "name": "Effective strategies for changing public opinion"
-        },
-        "date_meta": "2021/08/11",
-        "keywords": "PUBLIC OPINION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM",
-        "series": "Literature Reviews",
-        "year": "2021"
-      },{
-        "url": "aims-survey-2021",
-        "type": "Survey",
-        "title": "Artificial Intelligence, Morality, and Sentience (AIMS) Survey: 2021",
-        "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
-        "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
-        "date": "June 27, 2022",
-        "img": "aims-survey-2021",
-        "img_info": {
-          "title": "AI robot cyborg technology",
-          "credit": "Peter Pieras / Pixabay"
-        },
-        "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
-        "date_meta": "2022/27/06",
-        "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
-        "series": "Surveys",
-        "year": "2022"
-      },{
-        "url": "aft-survey-2021",
-        "type": "Survey",
-        "title": "Animals, Food, and Technology (AFT) Survey: 2021 Update",
-        "author": "Ali Ladak and Jacy Reese Anthis",
-        "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
-        "date": "July 15, 2022",
-        "img": "aft-survey-2021",
-        "img_info": {
-          "title": "Resident rescued pigs at Farm Sanctuary",
-          "credit": "Jo-Anne McArthur / We Animals Media"
-        },
-        "abstract": "The Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US. As in previous iterations, we found strong opposition to various aspects of the animal farming industry, with a majority of people reporting discomfort with the industry (74.6%), and relatively strong support for a range of quite radical policy changes, such as banning slaughterhouses (49.1%), factory farming (52.7%), and animal farming as a whole (38.8%).",
-        "date_meta": "2022/15/07",
-        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
-        "series": "Surveys",
-        "year": "2022"
-      },{
-        "url": "simulations-and-catastrophic-risks",
-        "type": "Report",
-        "title": "Simulations and Catastrophic Risks",
-        "author": "Bradford Saad",
-        "citation_author": [ "Saad, Bradford" ],
-        "date": "June 20, 2023",
-        "img": "230620",
-        "img_info": {
-          "title": "computer screen with a blue nebula, hyperrealism --ar 16:9",
-          "credit": "Michael Dello-Iacovo / Midjourney"
-        },
-        "abstract": "This report explores interactions between large-scale social simulations and catastrophic risks.  It offers a tour of the surrounding theoretical terrain and brings together disparate literatures that bear on the topic.",
-        "date_meta": "2023/20/06",
-        "keywords": "SIMULATIONS;CATASTROPHIC RISK;S-RISK",
-        "series": "Reports",
-        "year": "2023"
-      }
-    ],
-    "aft": [
-      {
-        "url": "animal-farming-attitudes-survey-2017",
-        "type": "Survey",
-        "title": "Animals, Food, and Technology (AFT) Survey 2017",
-        "author": "Jacy Reese Anthis",
-        "citation_author": [ "Anthis, Jacy Reese" ],
-        "date": "November 20, 2017",
-        "img": "afa-2017",
-        "abstract": "We surveyed 1,094 US adults, census-balanced to be representative of age, sex, region, ethnicity, and income, on their attitudes towards animal farming and animal-free food. Among other insights, we found that 49% of US adults support a ban on factory farming, 47% support a ban on slaughterhouses, and 33% support a ban on animal farming, suggesting that animal-free food advocates might be more successful with a stronger focus on institutions than individuals, and with stronger institutional proposals than they currently campaign for.",
-        "date_meta": "2017/11/20",
-        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
-        "series": "Surveys",
-        "year": "2017"
-      },{
-        "url": "aft-survey-2020",
-        "type": "Survey",
-        "title": "Animals, Food, and Technology (AFT) Survey: 2020 Update",
-        "author": "Ali Ladak and Jacy Reese Anthis",
-        "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
-        "date": "March 17, 2021",
-        "img": "aft-survey-2020",
-        "img_info": {
-          "title": "A hen in a battery cage",
-          "credit": "Jo-Anne McArthur / Animal Equality"
-        },
-        "abstract": "In October 2020, we conducted the third iteration of the Animals, Food, and Technology (AFT) survey. Overall, as in previous years, we found significant opposition in the US to the animal farming industry, with a majority of people reporting discomfort with the industry, and strong support for a range of often quite radical policy changes, such as banning slaughterhouses.",
-        "date_meta": "2021/17/03",
-        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
-        "series": "Surveys",
-        "year": "2021"
-      },{
-        "url": "aft-survey-2021",
-        "type": "Survey",
-        "title": "Animals, Food, and Technology (AFT) Survey: 2021 Update",
-        "author": "Ali Ladak and Jacy Reese Anthis",
-        "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
-        "date": "July 15, 2022",
-        "img": "aft-survey-2021",
-        "img_info": {
-          "title": "Resident rescued pigs at Farm Sanctuary",
-          "credit": "Jo-Anne McArthur / We Animals Media"
-        },
-        "abstract": "The Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US. As in previous iterations, we found strong opposition to various aspects of the animal farming industry, with a majority of people reporting discomfort with the industry (74.6%), and relatively strong support for a range of quite radical policy changes, such as banning slaughterhouses (49.1%), factory farming (52.7%), and animal farming as a whole (38.8%).",
-        "date_meta": "2022/15/07",
-        "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
-        "series": "Surveys",
-        "year": "2022"
-      }
-    ],
-    "aims": [
-      {
+      "series": "Technology Adoption Case Studies",
+      "type": "Technology Adoption Case Study",
+      "title": "What Can the Adoption of GM Foods Teach us about the Adoption of Other Food Technologies?",
+      "url": "gm-foods",
+      "year": "2018"
+    },
+    {
+      "url": "global-animal-farming-estimates",
+      "type": "Estimate",
+      "title": "Global Farmed & Factory Farmed Animals Estimates",
+      "author": "Kelly Anthis and Jacy Reese Anthis",
+      "citation_author": [ "Anthis, Kelly" , "Anthis, Jacy Reese"  ],
+      "date": "Last updated February 21, 2019",
+      "img": "global-animal-farming-estimates",
+      "abstract": "We estimate that over 90% of farmed animals globally are living in factory farms at present. This includes an estimated 74% of farmed land animals and virtually all farmed fish. However, there is substantial uncertainty in these figures given the land animal estimates’ heavy reliance on information from Worldwatch Institute with unclear methodology and limited data on fish farming. In total, we estimate that around 31.0 billion land animals and 38.8 to 215.9 billion fish are being farmed globally at any given time.",
+      "spreadsheetsrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR6ypxCIVIX_PHvYbXaJvmZWmRibqa6JlWq7Px3ehsnY1QDWKjrpPAYbrXmkNVRtYzIgIv2WScjfyBK/pubhtml?widget=true&amp;headers=false",
+      "spreadsheeturl": "https://docs.google.com/spreadsheets/d/1Njl_GS7jDOELjOtywvk3thIFpW_v10uZ5APJl1KgaY0/edit#gid=0",
+      "date_meta": "2019/2/19",
+      "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;FACTORY FARMING;CAFOs",
+      "series": "Estimates",
+      "year": "2019"
+    },
+    {
+      "url": "us-factory-farming-estimates",
+      "type": "Estimate",
+      "title": "US Factory Farming Estimates",
+      "author": "Jacy Reese Anthis",
+      "citation_author": [ "Anthis, Jacy Reese" ],
+      "date": "Last updated April 11, 2019",
+      "img": "us-factory-farming-estimates",
+      "abstract": "We estimate that 99% of US farmed animals are living in factory farms at present. By species, we estimate that 70.4% of cows, 98.3% of pigs, 99.8% of turkeys, 98.2% of chickens raised for eggs, and over 99.9% of chickens raised for meat are living in factory farms. Based on the confinement and living conditions of farmed fish, we estimate that virtually all US fish farms are suitably described as factory farms, though there is limited data on fish farm conditions and no standardized definition. Land animal figures use data from the USDA Census of Agriculture and EPA definitions of Concentrated Animal Feeding Operations.",
+      "spreadsheetsrc": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSF6WrMq9gMQ0zoCGLWc5QGHNz0xwWRwPqTqoehKkITVkEiBRvRgCOMq6wxm-Zt5jkdPJh78durrcly/pubhtml?widget=true&amp;headers=false",
+      "spreadsheeturl": "https://docs.google.com/spreadsheets/d/1iUpRFOPmAE5IO4hO4PyS4MP_kHzkuM_-soqAyVNQcJc/edit#gid=0",
+      "date_meta": "2019/4/11",
+      "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;FACTORY FARMING;CAFOs",
+      "series": "Estimates",
+      "year": "2019"
+    },
+    {
+      "abstract": "This paper examines the history of four biofuel firms (KiOR, Amyris, REG, and Novozymes) to draw lessons for the development and commercialization of cell-cultured meat. Findings include the strategic advantage of pursuing high-margin, low-volume products before low-margin, high-volume products, the pitfalls of overpromising with respect to timelines and product, the trap of technological inflexibility, and the way that many different firms pursuing parallel vertical integration strategies can spread fragility within an industry.",
+      "author": "J. Mohorčich",
+      "citation_author": [ "Mohorčich, J." , "Anthis, Jacy Reese" ],
+      "date": "August 21, 2019",
+      "date_meta": "2019/8/21",
+      "description": "This case study examines the adoption failures of biofuels.",
+      "img": "biofuels",
+      "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;CASE STUDY;TECHNOLOGY ADOPTION;BIOFUELS;BIOFUEL;KIOR;AMRYIS;NOVOZYMES",
+      "pdf": {
+        "name": "sentience-institute-tech-study-biofuels"
+      },
+      "series": "Technology Adoption Case Studies",
+      "type": "Technology Adoption Case Study",
+      "title": "What Can Biofuel Commercialization Teach us about Scale, Failure, and Success in Biotechnology?",
+      "url": "biofuels",
+      "year": "2019"
+    },
+    {
+      "url": "anti-abortion",
+      "type": "Social Movement Case Study",
+      "title": "Social Movement Lessons From the US Anti-Abortion Movement",
+      "author": "Jamie Harris",
+      "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" , "McNamara, Kelly" ],
+      "date": "November 26, 2019",
+      "img": "anti-abortion",
+      "abstract": "This report aims to assess (1) the extent to which the modern (1966-2019) anti-abortion movement in the United States can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize. The analysis highlights the farmed animal movement as an illustrative example of the strategic implications for a variety of movements. Key findings of this report include that encouraging legal change without popular support can provide momentum for a social movement’s opponents; legislation and direct action may be effective at reducing supply through disruption and burdensome regulation, but direct effects on demand are smaller; and close alignment with political or religious groups may be tractable but risks longer-term stagnation.",
+      "pdf": {
+        "name": "Anti-Abortion_Movement_Study"
+      },
+      "date_meta": "2019/11/26",
+      "keywords": "ABORTION;ANTI-ABORTION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
+      "series": "Social Movement Case Studies",
+      "year": "2019"
+    },
+    {
+      "url": "scotus",
+      "type": "Literature Review",
+      "title": "Is the US Supreme Court a Driver of Social Change or Driven by it? A Literature Review",
+      "author": "Jamie Harris",
+      "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" ],
+      "date": "November 27, 2019",
+      "img": "scotus",
+      "abstract": "Whether the Supreme Court of the United States drives or is driven by social change is an important strategic question for social movements that seek to implement systemic change in the United States. However, a thorough summary of empirical research on this question is lacking. This report summarizes the results of the most important empirical contributions to this debate. The results of aggregating 121 research items based on the strength of evidence suggest that Supreme Court decision-making is influenced by public opinion and by the activities of interest groups. Supreme Court rulings that are favorable to social movements’ goals can encourage positive changes in public attitudes, behavior, and policy, though these effects are sometimes negligible and the evidence is slightly weaker than that for the influence of public opinion on Supreme Court decisions. Additionally, Supreme Court rulings may encourage substantial backlash, so it may be counterproductive for social movements to actively pursue radical legal change if they are not prepared to respond to these threats.",
+      "pdf": {
+        "name": "SCOTUS_and_Social_Change"
+      },
+      "date_meta": "2019/11/27",
+      "keywords": "SCOTUS;SUPREME COURT;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;SURVEY;PUBLIC OPINION",
+      "series": "Literature Reviews",
+      "year": "2019"
+    },
+    {
+      "url": "afft-experiment",
+      "type": "Experiment",
+      "title": "The Effects of Animal-Free Food Technology Awareness on Animal Farming Opposition",
+      "author": "Jamie Harris",
+      "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" ],
+      "date": "May 14, 2020",
+      "img": "afft-experiment",
+      "abstract": "There is limited research on the effects of animal-free food technologies (AFFT), such as cultured meat and new plant-based foods that accurately mimic animal products, on attitudes toward animal farming. This study found that providing participants with information about AFFT significantly lowered animal farming opposition (AFO) relative to participants who were provided with information about low-technology plant-based foods or about an unrelated topic. The results suggest that including information about AFFT in advocacy materials can be detrimental to attitudinal change. Information about low-technology plant-based foods had no significant effects on AFO relative to information about an unrelated topic, so does not seem to have this downside.",
+      "pdf": {
+        "name": "The Effects of Animal-Free Food Technology Awareness on Animal Farming Opposition"
+      },
+      "date_meta": "2020/5/14",
+      "description": "This experiment tests the effects of learning about food technology on attitudes towards animal farming.",
+      "keywords": "CELL-BASED MEAT;CLEAN MEAT;CULTIVATED MEAT;CULTURED MEAT;EXPERIMENT;ANIMAL FARMING;ANIMAL AGRICULTURE;TECHNOLOGY",
+      "series": "Experiments",
+      "year": "2020"
+    },
+    {
+      "url": "death-penalty",
+      "type": "Social Movement Case Study",
+      "title": "Social Movement Lessons from the US Anti-Death Penalty Movement",
+      "author": "Jamie Harris",
+      "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" , "McNamara, Kelly" ],
+      "date": "May 22, 2020",
+      "img": "death-penalty",
+      "img_info": {
+        "title": "Anti-Death Penalty Summit",
+        "credit": "C. Elle"
+      },
+      "abstract": "This report aims to assess (1) the extent to which the anti-death penalty movement in the United States, especially from 1966-2015, can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize. The analysis highlights the farmed animal movement as an illustrative example of the strategic implications for a variety of movements. Key findings of this report include that a narrow focus on legal strategies can discourage the growth of a grassroots movement that may be more effective in the longer term and that legislative change is possible without public support.",
+      "pdf": {
+        "name": "Social Movement Lessons from the US Anti-Death Penalty Movement"
+      },
+      "date_meta": "2020/05/22",
+      "keywords": "DEATH PENALTY;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
+      "series": "Social Movement Case Studies",
+      "year": "2020"
+    },
+    {
+      "url": "prisoners-rights",
+      "type": "Social Movement Case Study",
+      "title": "Social Movement Lessons from the US Prisoners' Rights Movement",
+      "author": "Jamie Harris",
+      "citation_author": [ "Harris, Jamie" , "McNamara, Kelly" ],
+      "date": "July 21, 2020",
+      "img": "prisoners-rights",
+      "img_info": {
+        "title": "Prison cell block",
+        "credit": "Bob Jagendorf"
+      },
+      "abstract": "This report aims to assess (1) the extent to which the prisoners’ rights movement in the United States from the 1950s onwards can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize. The analysis highlights the farmed animal movement as an illustrative example of the strategic implications for a variety of movements. Key findings of this report include that incremental successes of modest improvements in welfare may distract advocates’ attention from more fundamental political and systemic issues and that social movements based heavily on a strategy of litigation (or perhaps any single strategy) seem to be fragile.",
+      "pdf": {
+        "name": "Social Movement Lessons from the US Prisoners Rights Movement"
+      },
+      "date_meta": "2020/07/21",
+      "keywords": "PRISONERS RIGHTS;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
+      "series": "Social Movement Case Studies",
+      "year": "2020"
+    },
+    {
+      "url": "health-behavior",
+      "type": "Literature Review",
+      "title": "Health Behavior Interventions Literature Review",
+      "author": "Jamie Harris",
+      "citation_author": [ "Harris, Jamie" , "Anthis, Jacy Reese" , "Anthis, Kelly"],
+      "date": "July 24, 2020",
+      "img": "health-behavior",
+      "img_info": {
+        "title": "Bowl of fruit on a table",
+        "credit": "wanda dunn"
+      },
+      "abstract": "There is an extensive research literature on the effectiveness of various interventions for changing health behaviors, such as dietary habits, physical activity, and smoking. Existing reviews and overviews tend to aggregate research on the effects of specific interventions on particular health behaviors. This review provides a largely qualitative, non-statistical summary of the evidence for the effectiveness of intervention types across health behaviors, by aggregating 706 research items (mostly systematic reviews and meta-analyses) based on the strength of evidence. This review makes a number of subjective judgment calls and uses novel methods of evaluation in order to quickly digest and summarize an extremely large evidence base. It focuses on applications to the farmed animal movement, especially to the behavioral change of reducing animal product consumption. In general, while the health behavior literature includes a very large number of studies, there is much inconsistency in wording, methodology, and subject matter, which makes it difficult to extract useful insights for behavior change advocates. However, some conclusions are warranted. Key findings include that almost all types of health behavior interventions targeted at individuals or small groups seem likely to have effect sizes conventionally interpreted as “small” or “very small,” that their effect sizes tend to be even smaller in the long term, and that interventions with educational and behavioral components outperform solely educational interventions.",
+      "pdf": {
+        "name": "Health Behavior Interventions Literature Review"
+      },
+      "date_meta": "2020/07/24",
+      "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
+      "series": "Literature Reviews",
+      "year": "2020"
+    },
+    {
+      "url": "aft-survey-2020",
+      "type": "Survey",
+      "title": "Animals, Food, and Technology (AFT) Survey: 2020 Update",
+      "author": "Ali Ladak and Jacy Reese Anthis",
+      "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
+      "date": "March 17, 2021",
+      "img": "aft-survey-2020",
+      "img_info": {
+        "title": "A hen in a battery cage",
+        "credit": "Jo-Anne McArthur / Animal Equality"
+      },
+      "abstract": "In October 2020, we conducted the third iteration of the Animals, Food, and Technology (AFT) survey. Overall, as in previous years, we found significant opposition in the US to the animal farming industry, with a majority of people reporting discomfort with the industry, and strong support for a range of often quite radical policy changes, such as banning slaughterhouses.",
+      "date_meta": "2021/17/03",
+      "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
+      "series": "Surveys",
+      "year": "2021"
+    },
+    {
+      "url": "fair-trade",
+      "type": "Social Movement Case Study",
+      "title": "Social Movement Lessons from the Fair Trade Movement",
+      "author": "Jamie Harris",
+      "citation_author": [ "Harris, Jamie" , "McNamara, Kelly" ],
+      "date": "April 1, 2021",
+      "img": "fair-trade",
+      "img_info": {
+        "title": "Continuous background of fresh arabica coffee beans",
+        "credit": "Anastasiia Chepinska / Unsplash"
+      },
+      "abstract": "This report aims to assess (1) the extent to which the international Fair Trade movement, especially from 1964 to the present, can be said to have successfully achieved its goals, (2) what factors caused the various successes and failures of this movement, and (3) what these findings suggest about how modern social movements should strategize.",
+      "pdf": {
+        "name": "Social Movement Lessons from the Fair Trade Movement"
+      },
+      "date_meta": "2021/04/01",
+      "keywords": "FAIR TRADE;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
+      "series": "Social Movement Case Studies",
+      "year": "2021"
+    },
+    {
+      "url": "public-opinion",
+      "type": "Literature Review",
+      "title": "Effective Strategies for Changing Public Opinion: A Literature Review",
+      "author": "Jamie Harris",
+      "citation_author": [ "Harris, Jamie" ],
+      "date": "November 8, 2021",
+      "img": "public-opinion",
+      "abstract": "Social movements often try to affect public opinion as a lever for legislation and other social change. This report provides a broad overview of research relating to (1) whether advocates can successfully influence public opinion and how they can do so most effectively, and (2) what the other causes of public opinion change are and how advocates can harness them. Key findings include that direct persuasion attempts to change attitudes (rather than behavior) tend to have “small” or “very small” short-term effects, but advocates may be able to have lasting indirect effects on public opinion via policy change or reframing the issues. We list factors that affect how persuasive messages are and make tentative suggestions for how advocates can cost-effectively leverage external influences on public opinion such as the media, celebrities, politicians, and policy.",
+      "pdf": {
+        "name": "Effective strategies for changing public opinion"
+      },
+      "date_meta": "2021/08/11",
+      "keywords": "PUBLIC OPINION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM",
+      "series": "Literature Reviews",
+      "year": "2021"
+    },
+    {
+      "url": "aims-survey-2021",
+      "type": "Survey",
+      "title": "Artificial Intelligence, Morality, and Sentience (AIMS) Survey: 2021",
+      "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
+      "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
+      "date": "June 27, 2022",
+      "img": "aims-survey-2021",
+      "img_info": {
+        "title": "AI robot cyborg technology",
+        "credit": "Peter Pieras / Pixabay"
+      },
+      "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+      "date_meta": "2022/27/06",
+      "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+      "series": "Surveys",
+      "year": "2022"
+    },
+    {
+      "url": "the-history-of-ai-rights-research",
+      "type": "Social Movement Case Study",
+      "title": "The History of AI Rights Research",
+      "author": "Jamie Harris",
+      "citation_author": [ "Harris, Jamie" ],
+      "date": "July 6, 2022",
+      "img": "the-history-of-ai-rights-research",
+      "img_info": {
+        "title": "bare tree near 3-storey building photo",
+        "credit": "Victoria Heath / Unsplash"
+      },
+      "abstract": "This report documents the history of research on AI rights and other moral consideration of artificial entities. It highlights key intellectual influences on this literature as well as research and academic discussion addressing the topic more directly. We find that researchers addressing AI rights have often seemed to be unaware of the work of colleagues whose interests overlap with their own. Academic interest in this topic has grown substantially in recent years; this reflects wider trends in academic research, but it seems that certain influential publications, the gradual, accumulating ubiquity of AI and robotic technology, and relevant news events may all have encouraged increased academic interest in this specific topic. We suggest four levers that, if pulled on in the future, might increase interest further: the adoption of publication strategies similar to those of the most successful previous contributors; increased engagement with adjacent academic fields and debates; the creation of specialized journals, conferences, and research institutions; and more exploration of legal rights for artificial entities.",
+      "pdf": {
+        "name": "The History of AI Rights Research"
+      },
+      "date_meta": "2022/07/6",
+      "keywords": "AI RIGHTS;ROBOT RIGHTS;PHILOSOPHY;ARTIFICIAL INTELLIGENCE;FUTURISM;SCIENCE FICTION;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;QUALITATIVE",
+      "series": "Social Movement Case Studies",
+      "year": "2022"
+    },
+    {
+      "url": "aft-survey-2021",
+      "type": "Survey",
+      "title": "Animals, Food, and Technology (AFT) Survey: 2021 Update",
+      "author": "Ali Ladak and Jacy Reese Anthis",
+      "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
+      "date": "July 15, 2022",
+      "img": "aft-survey-2021",
+      "img_info": {
+        "title": "Resident rescued pigs at Farm Sanctuary",
+        "credit": "Jo-Anne McArthur / We Animals Media"
+      },
+      "abstract": "The Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US. As in previous iterations, we found strong opposition to various aspects of the animal farming industry, with a majority of people reporting discomfort with the industry (74.6%), and relatively strong support for a range of quite radical policy changes, such as banning slaughterhouses (49.1%), factory farming (52.7%), and animal farming as a whole (38.8%).",
+      "date_meta": "2022/15/07",
+      "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
+      "series": "Surveys",
+      "year": "2022"
+    },
+    {
+      "url": "simulations-and-catastrophic-risks",
+      "type": "Report",
+      "title": "Simulations and Catastrophic Risks",
+      "author": "Bradford Saad",
+      "citation_author": [ "Saad, Bradford" ],
+      "date": "June 20, 2023",
+      "img": "230620",
+      "img_info": {
+        "title": "computer screen with a blue nebula, hyperrealism --ar 16:9",
+        "credit": "Michael Dello-Iacovo / Midjourney"
+      },
+      "abstract": "This report explores interactions between large-scale social simulations and catastrophic risks.  It offers a tour of the surrounding theoretical terrain and brings together disparate literatures that bear on the topic.",
+      "date_meta": "2023/20/06",
+      "keywords": "SIMULATIONS;CATASTROPHIC RISK;S-RISK",
+      "series": "Reports",
+      "year": "2023"
+    }
+  ],
+  "aft": [
+    {
+      "url": "animal-farming-attitudes-survey-2017",
+      "type": "Survey",
+      "title": "Animals, Food, and Technology (AFT) Survey 2017",
+      "author": "Jacy Reese Anthis",
+      "citation_author": [ "Anthis, Jacy Reese" ],
+      "date": "November 20, 2017",
+      "img": "afa-2017",
+      "abstract": "We surveyed 1,094 US adults, census-balanced to be representative of age, sex, region, ethnicity, and income, on their attitudes towards animal farming and animal-free food. Among other insights, we found that 49% of US adults support a ban on factory farming, 47% support a ban on slaughterhouses, and 33% support a ban on animal farming, suggesting that animal-free food advocates might be more successful with a stronger focus on institutions than individuals, and with stronger institutional proposals than they currently campaign for.",
+      "date_meta": "2017/11/20",
+      "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
+      "series": "Surveys",
+      "year": "2017"
+    },
+    {
+      "url": "aft-survey-2020",
+      "type": "Survey",
+      "title": "Animals, Food, and Technology (AFT) Survey: 2020 Update",
+      "author": "Ali Ladak and Jacy Reese Anthis",
+      "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
+      "date": "March 17, 2021",
+      "img": "aft-survey-2020",
+      "img_info": {
+        "title": "A hen in a battery cage",
+        "credit": "Jo-Anne McArthur / Animal Equality"
+      },
+      "abstract": "In October 2020, we conducted the third iteration of the Animals, Food, and Technology (AFT) survey. Overall, as in previous years, we found significant opposition in the US to the animal farming industry, with a majority of people reporting discomfort with the industry, and strong support for a range of often quite radical policy changes, such as banning slaughterhouses.",
+      "date_meta": "2021/17/03",
+      "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
+      "series": "Surveys",
+      "year": "2021"
+    },
+    {
+      "url": "aft-survey-2021",
+      "type": "Survey",
+      "title": "Animals, Food, and Technology (AFT) Survey: 2021 Update",
+      "author": "Ali Ladak and Jacy Reese Anthis",
+      "citation_author": [ "Anthis, Jacy Reese", "Ladak, Ali" ],
+      "date": "July 15, 2022",
+      "img": "aft-survey-2021",
+      "img_info": {
+        "title": "Resident rescued pigs at Farm Sanctuary",
+        "credit": "Jo-Anne McArthur / We Animals Media"
+      },
+      "abstract": "The Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US. As in previous iterations, we found strong opposition to various aspects of the animal farming industry, with a majority of people reporting discomfort with the industry (74.6%), and relatively strong support for a range of quite radical policy changes, such as banning slaughterhouses (49.1%), factory farming (52.7%), and animal farming as a whole (38.8%).",
+      "date_meta": "2022/15/07",
+      "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
+      "series": "Surveys",
+      "year": "2022"
+    }
+  ],
+  "aims": [
+    {
       "url": "blog/data-publication-AIMS-survey",
       "author": "Janet Pauketat",
       "date": "March 23, 2022",
@@ -2221,24 +2196,66 @@
         "title": "FUTURE WORLD, ArtScience Museum Singapore",
         "credit": "Robynne Hu / Unsplash"
       }
-      },{
-        "url": "aims-survey-2021",
-        "type": "Survey",
-        "title": "Artificial Intelligence, Morality, and Sentience (AIMS) Survey: 2021",
-        "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
-        "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
-        "date": "June 27, 2022",
-        "img": "aims-survey-2021",
-        "img_info": {
-          "title": "AI robot cyborg technology",
-          "credit": "Peter Pieras / Pixabay"
-        },
-        "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
-        "date_meta": "2022/27/06",
-        "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
-        "series": "Surveys",
-        "year": "2022"
-      }
-    ]
-  }
+    },
+    {
+      "url": "aims-survey-2021",
+      "type": "Survey",
+      "title": "Artificial Intelligence, Morality, and Sentience (AIMS) Survey: 2021",
+      "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
+      "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
+      "date": "June 27, 2022",
+      "img": "aims-survey-2021",
+      "img_info": {
+        "title": "AI robot cyborg technology",
+        "credit": "Peter Pieras / Pixabay"
+      },
+      "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+      "date_meta": "2022/27/06",
+      "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+      "series": "Surveys",
+      "year": "2022"
+    }
+  ],
+  "appendices": [
+    {
+      "url": "health-behavior-appendix-a",
+      "type": "Appendix",
+      "title": "Appendix A: Definitions and Discussion by Intervention Type",
+      "author": "Jamie Harris",
+      "citation_author": ["Harris, Jamie"],
+      "date": "July 24, 2020",
+      "img": "health-behavior",
+      "img_info": {
+        "title": "Bowl of fruit on a table",
+        "credit": "wanda dunn"
+      },
+      "pdf": {
+        "name": "Appendix A Health Behavior Interventions Literature Review"
+      },
+      "date_meta": "2020/07/24",
+      "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
+      "series": "Appendices",
+      "year": "2020"
+    },
+    {
+      "url": "health-behavior-appendix-b",
+      "type": "Appendix",
+      "title": "Appendix B: Theory Used in Health Behavior Intervention Design and Research",
+      "author": "Jamie Harris",
+      "citation_author": ["Harris, Jamie"],
+      "date": "July 24, 2020",
+      "img": "health-behavior",
+      "img_info": {
+        "title": "Bowl of fruit on a table",
+        "credit": "wanda dunn"
+      },
+      "pdf": {
+        "name": "Appendix B Health Behavior Interventions Literature Review"
+      },
+      "date_meta": "2020/07/24",
+      "keywords": "HEALTH;HEALTH BEHAVIOR;SOCIAL MOVEMENTS;SOCIAL CHANGE;POLICY;BEHAVIOR CHANGE",
+      "series": "Appendices",
+      "year": "2020"
+    }
+  ]
 }

@@ -9,8 +9,8 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.+)$ /$1.html [L,QSA]
 
 # We want /reports to be the main page, but I can't figure out how to get rid of this redirect.
-# Redirect /research /reports
-Redirect /reports /research
+Redirect /research /reports
+# Redirect /reports /research
 Redirect /mission /perspective
 
 # ErrorDocument 404 /404.html
