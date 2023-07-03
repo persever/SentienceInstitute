@@ -1762,9 +1762,9 @@
       },
       "host": "Michael Dello-Iacovo",
       "directories": {
-        "google": "",
-        "apple": "",
-        "spotify": ""
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC0xMjA1NjgzOQ?sa=X&ved=0CAUQkfYCahcKEwig0YjQ3PH_AhUAAAAAHQAAAAAQAQ",
+        "apple": "https://podcasts.apple.com/us/podcast/matti-wilks-on-human-animal-interaction-and-moral/id1489363314?i=1000595416227",
+        "spotify": "https://open.spotify.com/episode/2VsEdnuJqKredS9peOqEI4"
       }
     }
   ],
