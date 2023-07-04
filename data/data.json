@@ -1766,6 +1766,22 @@
         "apple": "https://podcasts.apple.com/us/podcast/matti-wilks-on-human-animal-interaction-and-moral/id1489363314?i=1000595416227",
         "spotify": "https://open.spotify.com/episode/2VsEdnuJqKredS9peOqEI4"
       }
+    },
+    {
+      "no": "22",
+      "embedsnippet": "13136902-raphael-milliere-on-large-language-models",
+      "title": "Raphaël Millière on large language models",
+      "date": "July 03, 2023",
+      "guest": {
+        "name": "Raphaël Millière",
+        "affiliation": "Columbia University"
+      },
+      "host": "Michael Dello-Iacovo",
+      "directories": {
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC0xMzEzNjkwMg?sa=X&ved=0CAUQkfYCahcKEwjY2oTi9vP_AhUAAAAAHQAAAAAQAQ",
+        "apple": "https://podcasts.apple.com/us/podcast/rapha%C3%ABl-milli%C3%A8re-on-large-language-models/id1489363314?i=1000619131370",
+        "spotify": "https://open.spotify.com/episode/0ib26lSriEuTVEdUJe9Ul0"
+      }
     }
   ],
   "researchitems": [
