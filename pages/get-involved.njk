@@ -1,6 +1,6 @@
 {% extends "layout_for_iframe.njk" %}
 {% block metatags %}
-{{ metatagsrender("get-involved", "Get Involved", "header_photos/" + 13, "We are currently accepting applications for a researcher on a rolling basis. Find out more and apply now!") }}
+{{ metatagsrender("get-involved", "Get Involved", "header_photos/" + 13, "We are not currently running a hiring round, but we welcome expressions of interest for a researcher position through this form.") }}
 {% endblock %}
 
 {% block content %}
@@ -8,9 +8,6 @@
 {% from "../templates/partials/headerimage.njk" import headerimage %}
 {{ headerimage("get-involved", photos["get-involved"], "Get Involved") }}
 
-
-{% from "../templates/partials/pageinfo.njk" import pageinfo %}
-{{ pageinfo(item) }}
 <div class="container first-container report-container gdoc-html-container get-involved-container">
   {% include "../page_content/get-involved.html" %}
 </div>
