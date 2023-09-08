@@ -3841,6 +3841,33 @@ hr{
   }
 }
 
+.aims-survey-2023-container{
+  // Italics
+  .c17.c2, .c2{
+  font-style: italic;
+  }
+
+  // TOC
+  .c10{
+  margin-bottom: 0px;
+  }
+
+  .c10.c12{
+  margin-bottom: 0px;
+  margin-left: 30px;
+  }
+
+  // Iframes - add top border to embedded
+  // tables only, not plots
+  div#tables iframe{
+  border-top:0.5px solid grey;
+  border-color: $light-grey;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+
+}
+
 .the-future-might-not-be-so-great-container{
   // Italics
   .c12{

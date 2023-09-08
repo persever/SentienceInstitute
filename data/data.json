@@ -290,6 +290,7 @@
       "credit": "Jo-Anne McArthur / We Animals"
     },
     "aims-survey-2021": {
+      "title": "AI robot cyborg technology",
       "credit": "Peter Pieras / Pixabay"
     },
     "aims-landing": {
@@ -2183,6 +2184,24 @@
       "keywords": "SIMULATIONS;CATASTROPHIC RISK;S-RISK",
       "series": "Reports",
       "year": "2023"
+    },
+    {
+      "url": "aims-survey-2023",
+      "type": "Survey",
+      "title": "Artificial Intelligence, Morality, and Sentience (AIMS) Survey: 2023",
+      "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
+      "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
+      "date": "September 10, 2023",
+      "img": "aims-survey-2021",
+      "img_info": {
+        "title": "AI robot cyborg technology",
+        "credit": "Peter Pieras / Pixabay"
+      },
+      "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+      "date_meta": "2023/10/09",
+      "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+      "series": "Surveys",
+      "year": "2023"
     }
   ],
   "aft": [
@@ -2266,6 +2285,24 @@
       "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
       "series": "Surveys",
       "year": "2022"
+    },
+    {
+      "url": "aims-survey-2023",
+      "type": "Survey",
+      "title": "Artificial Intelligence, Morality, and Sentience (AIMS) Survey: 2023",
+      "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
+      "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
+      "date": "September 10, 2023",
+      "img": "aims-survey-2021",
+      "img_info": {
+        "title": "AI robot cyborg technology",
+        "credit": "Peter Pieras / Pixabay"
+      },
+      "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+      "date_meta": "2023/10/09",
+      "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+      "series": "Surveys",
+      "year": "2023"
     }
   ],
   "appendices": [
