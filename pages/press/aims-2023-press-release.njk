@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("press/" + pressreleases[2].url, pressreleases[2].title, "press/" + pressreleases[2].img, "Americans are significantly more concerned about AI in 2023 than they were in 2021 before ChatGPT...", pressreleases[2].date) }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/pressrelease.njk" import pressrelease %}
+{{ pressrelease(pressreleases[2], pressreleases[2].url) }}
+
+{% endblock %}

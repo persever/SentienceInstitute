@@ -1,0 +1,23 @@
+{% extends "layout.njk" %}
+
+{% set item = researchitems[21] %}
+
+{% block metatags %}
+{% from "../templates/partials/reportmetatags.njk" import reportmetatags %}
+{{ reportmetatags(item) }}
+{{ metatagsrender("aims-survey-supplement-2023", "Public Opinion on AI Safety: AIMS 2023 Supplement", "header_photos/" + "aims-supplement-2023", "The Artificial Intelligence, Morality, and Sentience (AIMS) supplement is a survey of U.S. adults on attitudes towards AI x-risks, safety, and regulation, beliefs about AI sentience and timelines to advanced AI emergence, attitudes towards specific AIs, and attitudes towards mind uploading and science fiction.") }}
+{% endblock %}
+
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(item.img, photos[item.img]) }}
+
+{% from "../templates/partials/pageinfo.njk" import pageinfo %}
+{{ pageinfo(item) }}
+<div class="container first-container report-container gdoc-html-container aims-survey-supplement-2023-container">
+  {% include "../page_content/aims-survey-supplement-2023.html" %}
+</div>
+
+{% endblock %}

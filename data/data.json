@@ -237,6 +237,10 @@
       "title": "Young broiler birds in an industrial barn",
       "credit": "Jo-Anne McArthur / Animal Equality"
     },
+    "aims-2023-press-release": {
+      "title": "data on a tv screen, computer server in background, blue color --ar 16:9",
+      "credit": "Michael Dello-Iacovo / Midjourney"
+    },
     "global-animal-farming-estimates": {
       "title": "Factory farmed turkeys",
       "credit": "Jo-Anne McArthur / Djurattsalliansen"
@@ -292,6 +296,14 @@
     "aims-survey-2021": {
       "title": "AI robot cyborg technology",
       "credit": "Peter Pieras / Pixabay"
+    },
+    "aims-survey-2023": {
+      "title": "robot with blue background looking over a futuristic city --ar 16:9",
+      "credit": "Michael Dello-Iacovo / Midjourney"
+    },
+    "aims-supplement-2023": {
+      "title": "computer server and microchips in a library, abstract, blue color --ar 16:9",
+      "credit": "Michael Dello-Iacovo"
     },
     "aims-landing": {
       "credit": "Pawel Czerwinski / Unsplash"
@@ -866,6 +878,17 @@
       "img_info": {
         "title": "Young broiler birds in an industrial barn",
         "credit": "Jo-Anne McArthur / Animal Equality"
+      }
+    },
+    {
+      "url": "aims-2023-press-release",
+      "gdocname": "AIMS2023PressRelease",
+      "date": "2023-09-10",
+      "title": "Americans Growing More Alarmed about AI since ChatGPT and Surprisingly Concerned for Sentient AI Rights in First-of-its-Kind Poll",
+      "img": "aims-2023-press-release",
+      "img_info": {
+        "title": "data on a tv screen, computer server in background, blue color --ar 16:9",
+        "credit": "Michael Dello-Iacovo / Midjourney"
       }
     }
   ],
@@ -2192,12 +2215,30 @@
       "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
       "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
       "date": "September 10, 2023",
-      "img": "aims-survey-2021",
+      "img": "aims-survey-2023",
       "img_info": {
-        "title": "AI robot cyborg technology",
-        "credit": "Peter Pieras / Pixabay"
+        "title": "robot with blue background looking over a futuristic city --ar 16:9",
+        "credit": "Michael Dello-Iacovo / Midjourney"
       },
       "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+      "date_meta": "2023/10/09",
+      "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+      "series": "Surveys",
+      "year": "2023"
+    },
+    {
+      "url": "aims-survey-supplement-2023",
+      "type": "Survey",
+      "title": "Public Opinion on AI Safety: AIMS 2023 Supplement",
+      "author": "Janet Pauketat, Justin Bullock, and Jacy Reese Anthis",
+      "citation_author": [ "Pauketat, Janet", "Bullock, Justin", "Anthis, Jacy Reese" ],
+      "date": "September 10, 2023",
+      "img": "aims-supplement-2023",
+      "img_info": {
+        "title": "computer server and microchips in a library, abstract, blue color --ar 16:9",
+        "credit": "Michael Dello-Iacovo"
+      },
+      "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) supplement is a survey of U.S. adults on attitudes towards AI x-risks, safety, and regulation, beliefs about AI sentience and timelines to advanced AI emergence, attitudes towards specific AIs, and attitudes towards mind uploading and science fiction.",
       "date_meta": "2023/10/09",
       "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
       "series": "Surveys",
@@ -2293,12 +2334,30 @@
       "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
       "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
       "date": "September 10, 2023",
-      "img": "aims-survey-2021",
+      "img": "aims-survey-2023",
       "img_info": {
-        "title": "AI robot cyborg technology",
-        "credit": "Peter Pieras / Pixabay"
+        "title": "robot with blue background looking over a futuristic city --ar 16:9",
+        "credit": "Michael Dello-Iacovo / Midjourney"
       },
       "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+      "date_meta": "2023/10/09",
+      "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+      "series": "Surveys",
+      "year": "2023"
+    },
+    {
+      "url": "aims-survey-supplement-2023",
+      "type": "Survey",
+      "title": "Public Opinion on AI Safety: AIMS 2023 Supplement",
+      "author": "Janet Pauketat, Justin Bullock, and Jacy Reese Anthis",
+      "citation_author": [ "Pauketat, Janet", "Bullock, Justin", "Anthis, Jacy Reese" ],
+      "date": "September 10, 2023",
+      "img": "aims-supplement-2023",
+      "img_info": {
+        "title": "computer server and microchips in a library, abstract, blue color --ar 16:9",
+        "credit": "Michael Dello-Iacovo"
+      },
+      "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) supplement is a survey of U.S. adults on attitudes towards AI x-risks, safety, and regulation, beliefs about AI sentience and timelines to advanced AI emergence, attitudes towards specific AIs, and attitudes towards mind uploading and science fiction.",
       "date_meta": "2023/10/09",
       "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
       "series": "Surveys",
