@@ -1601,21 +1601,31 @@ hr{
   }
 
   &.press-container.aims-2023-press-release{
-    .c6 {
+    .c7 {
       font-style: italic;
     }
 
-    .c1 {
+    .c2 {
       font-size: 16px;
     }
 
-    .c15 {
+    .c10 {
       font-size: 25px;
       margin-top: 0px;
     }
 
-    .c11.c13 {
+    .c12.c17 {
+      font-size: 30px;
       margin-bottom: 0px;
+    }
+
+    .c12.c14 {
+      font-weight: $bold-weight;
+      font-size: 25px;
+    }
+
+    .c5 {
+      font-weight: $bold-weight;
     }
   }
 
