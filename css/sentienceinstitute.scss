@@ -4390,6 +4390,16 @@ hr{
   background-position: left;
 }
 
+[href="/press/aims-2023-press-release"] .blog-item-image{
+  align-items: center;
+
+  img {
+    max-height: 100%;
+    margin: auto;
+    object-fit: contain;
+  }
+}
+
 @media (max-width: 767px){
   .podcast-container {
     .podcast-info {
