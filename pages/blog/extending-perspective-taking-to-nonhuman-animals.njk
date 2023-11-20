@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/extending-persepctive-taking-to-nonhuman-animals", "Extending Perspective Taking to Nonhuman Animals and Artificial Entities", "blog/" + 231120, "This article details two experiments which tested whether perspective taking can have positive effects in the contexts of animals and intelligent artificial entities.
+") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[43], authors) }}
+
+{% endblock %}

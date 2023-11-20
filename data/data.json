@@ -165,6 +165,11 @@
       "name": "Katerina Manoli",
       "role": "Researcher",
       "img": "../img/team/katerina.png"
+    },
+    "matti": {
+      "name": "Matti Wilks",
+      "role": "Advisory Board Member",
+      "img": "../img/team/matti.png"
     }
   },
   "photos": {
@@ -845,6 +850,20 @@
         "credit": "Geralt / Pixabay"
       },
       "authors": ["janet"],
+      "isResearch": true
+    },
+    {
+      "url": "extending-perspective-taking-to-nonhuman-animals",
+      "gdocname": "ExtendingPerspectiveTakingtoNonhumanAnimals",
+      "date": "November 20, 2023",
+      "year": "2023",
+      "title": "Extending Perspective Taking to Nonhuman Animals and Artificial Entities",
+      "img": "231120",
+      "img_info": {
+        "title": "Star, wave, gold",
+        "credit": "Geralt / Pixabay"
+      },
+      "authors": ["ali", "matti", "jacy"],
       "isResearch": true
     }
   ],
