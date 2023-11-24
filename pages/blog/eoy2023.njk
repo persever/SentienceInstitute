@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/eoy2023", "2023 End of Year Summary", "blog/" + 231124, "Our priority in 2023 continues to be researching the rise of digital minds: AIs that have or are perceived as having mental faculties, such as reasoning, agency, experience, and sentience. We hope to answer questions such as: What will be the next ‘ChatGPT moment’ in which humanity’s relationship with AI rapidly changes? How can humans and AIs interact in ways that are beneficial rather than destructive?
+") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[44], authors) }}
+
+{% endblock %}

@@ -860,11 +860,25 @@
       "title": "Extending Perspective Taking to Nonhuman Animals and Artificial Entities",
       "img": "231120",
       "img_info": {
-        "title": "Star, wave, gold",
-        "credit": "Geralt / Pixabay"
+        "title": "a solid blue mist approaching a sparse forest with small birds in the distant sky, and a small, futuristic hut in the middle, in an abstract style, 4K --ar 16:9",
+        "credit": "Michael Dello-Iacovo / Midjourney"
       },
       "authors": ["ali", "matti", "jacy"],
       "isResearch": true
+    },
+    {
+      "url": "eoy2023",
+      "gdocname": "2023EndofYearSummary",
+      "date": "November 24, 2023",
+      "year": "2023",
+      "title": "2023 End of Year Summary",
+      "img": "231124",
+      "img_info": {
+        "title": "using abstract brush strokes of change, depict a cosmic exploration with elements of computer circuitry and a blue color scheme. 4K --ar 16:9",
+        "credit": "Michael Dello-Iacovo / Midjourney"
+      },
+      "authors": ["michael"],
+      "isResearch": false
     }
   ],
   "pressreleases": [
