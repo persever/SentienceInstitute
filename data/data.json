@@ -1866,6 +1866,22 @@
         "apple": "https://podcasts.apple.com/us/podcast/rapha%C3%ABl-milli%C3%A8re-on-large-language-models/id1489363314?i=1000619131370",
         "spotify": "https://open.spotify.com/episode/0ib26lSriEuTVEdUJe9Ul0"
       }
+    },
+    {
+      "no": "23",
+      "embedsnippet": "14506971-eric-schwitzgebel-on-user-perception-of-the-moral-status-of-ai",
+      "title": "Eric Schwitzgebel on user perception of the moral status of AI",
+      "date": "February 16, 2024",
+      "guest": {
+        "name": "Eric Schwitzgebel",
+        "affiliation": "University of California"
+      },
+      "host": "Michael Dello-Iacovo",
+      "directories": {
+        "google": "",
+        "apple": "",
+        "spotify": ""
+      }
     }
   ],
   "researchitems": [

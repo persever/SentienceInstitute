@@ -1263,6 +1263,8 @@ hr{
 
 .container.podcast-episode-container {
   // Individual page 'header' bolds
+  &.podcast-episode-23-container .c6,
+  &.podcast-episode-23-container .c12,
   &.podcast-episode-22-container .c5,
   &.podcast-episode-22-container .c12,
   &.podcast-episode-21-container .c3,
@@ -1293,6 +1295,7 @@ hr{
   }
 
   // Individual page italics
+  &.podcast-episode-23-container .c7.c9,
   &.podcast-episode-22-container .c11,
   &.podcast-episode-20-container .c0,
   &.podcast-episode-17-container .c6 {
