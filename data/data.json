@@ -1878,9 +1878,9 @@
       },
       "host": "Michael Dello-Iacovo",
       "directories": {
-        "google": "",
-        "apple": "",
-        "spotify": ""
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS83Mzc1MzQucnNz/episode/QnV6enNwcm91dC0xNDUwNjk3MQ?sa=X&ved=0CAUQkfYCahcKEwjQiO_crLaEAxUAAAAAHQAAAAAQAQ&hl",
+        "apple": "https://podcasts.apple.com/us/podcast/eric-schwitzgebel-on-user-perception-of-the-moral/id1489363314?i=1000645558646",
+        "spotify": "https://open.spotify.com/episode/1cxGZD8lTV0fvqAK8wkqM0"
       }
     }
   ],
