@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/ai-policy-insights-from-the-aims-survey", "AI Policy Insights from the AIMS Survey", "blog/" + 240222, "In this blog post, we summarize key AI policy insights from the Artificial Intelligence, Morality and Sentience (AIMS) survey to elucidate public opinion on pivotal AI safety issues.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[45], authors) }}
+
+{% endblock %}

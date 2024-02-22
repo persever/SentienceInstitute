@@ -170,6 +170,11 @@
       "name": "Matti Wilks",
       "role": "Advisory Board Member",
       "img": "../img/team/matti.png"
+    },
+    "justin": {
+      "name": "Justin Bullock",
+      "role": "Research Fellow",
+      "img": "../img/team/justin.jpg"
     }
   },
   "photos": {
@@ -878,6 +883,20 @@
         "credit": "Michael Dello-Iacovo / Midjourney"
       },
       "authors": ["michael"],
+      "isResearch": false
+    },
+    {
+      "url": "ai-policy-insights-from-the-aims-survey",
+      "gdocname": "AIPolicyInsightsfromtheAIMSSurvey",
+      "date": "February 22, 2024",
+      "year": "2024",
+      "title": "AI Policy Insights from the AIMS Survey",
+      "img": "240222",
+      "img_info": {
+        "title": "using abstract brush strokes of change, depict a cosmic exploration with elements of computer circuitry and a blue color scheme. 4K --ar 16:9",
+        "credit": "Michael Dello-Iacovo / Midjourney"
+      },
+      "authors": ["justin", "janet"],
       "isResearch": false
     }
   ],
