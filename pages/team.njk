@@ -9,9 +9,9 @@
 {{ headerimage(1, photos[1], "Our Team") }}
 
 <div class="container first-container team-container">
-
+  {#
   <h2>Staff</h2>
-
+  #}
   <div class="row">
     {% for person in team %}
       {% from "../templates/partials/teammember.njk" import teammember %}
@@ -28,17 +28,16 @@
       {{ teammember(person) }}
     {% endfor %}
   </div>
-  #}
 
   <hr>
-  <h2>Advisors</h2>
+  <h2>Advisory Board</h2>
   <div class="row">
     {% for person in advisors %}
-      {% from "../templates/partials/advisorymember.njk" import teammember %}
+      {% from "../templates/partials/teammember.njk" import teammember %}
       {{ teammember(person) }}
     {% endfor %}
   </div>
-
+  #}
 
 </div>
 
