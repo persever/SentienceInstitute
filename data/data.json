@@ -1,16 +1,6 @@
 {
   "team": [
     {
-      "id": "michael",
-      "name": "Michael Dello-Iacovo",
-      "role": "Strategy Lead and Researcher",
-      "SIpage": "michael-dello-iacovo",
-      "email": "michael@sentienceinstitute.org",
-      "twitterId": "MichaelDello",
-      "facebookId": "Michael.Dello",
-      "desc": "Michael has a PhD in space science from the University of New South Wales, focusing on the use of geophysics for asteroid deflection, off-Earth mining, and space colonisation. He was previously the CEO of Effective Altruism Australia, has volunteered with a number of effective altruism organisations and community groups since 2015, and has been involved with the Australian Animal Justice Party since 2018, including running as a candidate in elections and co-founding the party's youth wing. He is dedicated to reducing the suffering of sentient minds through his career."
-    },
-    {
       "id": "janet",
       "name": "Janet Pauketat",
       "link": "https://researchgate.net/profile/Janet_Pauketat",
