@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/a-taxonomy-of-robot-autonomy", "A Taxonomy of Robot Autonomy for Human-Robot Interaction", "blog/" + 240520, "We recently published “A Taxonomy of Robot Autonomy for Human-Robot Interaction” in collaboration with the Human-Robot Interaction (HRI) lab at the University of Chicago.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[46], authors) }}
+
+{% endblock %}

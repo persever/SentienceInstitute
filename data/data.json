@@ -881,6 +881,20 @@
       },
       "authors": ["justin", "janet"],
       "isResearch": false
+    },
+    {
+      "url": "a-taxonomy-of-robot-autonomy",
+      "gdocname": "ATaxonomyofRobotAutonomyForHumanRobotInteract",
+      "date": "May 20, 2024",
+      "year": "2024",
+      "title": "A Taxonomy of Robot Autonomy for Human-Robot Interaction",
+      "img": "20240520",
+      "img_info": {
+        "title": "abstract, painted waist-up portrait of a pensive, thinking robot with abstract horizontal layers of muted color in the background --ar 16:5 --v 6.0",
+        "credit": "Jacy Reese Anthis / Midjourney"
+      },
+      "authors": ["jacy"],
+      "isResearch": true
     }
   ],
   "pressreleases": [
