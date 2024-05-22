@@ -895,6 +895,20 @@
       },
       "authors": ["jacy"],
       "isResearch": true
+    },
+    {
+      "url": "which-ais-do-people-care-about-most",
+      "gdocname": "WhichArtificialIntelligencesDoPeopleCareAbout",
+      "date": "May 22, 2024",
+      "year": "2024",
+      "title": "Which Artificial Intelligences Do People Care About Most? A Conjoint Experiment on Moral Consideration",
+      "img": "20240522",
+      "img_info": {
+        "title": "an abstract swirled canvas with the vague outline of a heart shape blended into the background --ar 16:5 --v 6.0",
+        "credit": "Jacy Reese Anthis / Midjourney"
+      },
+      "authors": ["ali","jamie","jacy"],
+      "isResearch": true
     }
   ],
   "pressreleases": [
