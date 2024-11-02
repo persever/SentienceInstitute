@@ -9,7 +9,6 @@
 {{ headerimage("reports", photos["reports"], "Reports") }}
 
 <div class="container first-container research-list-container">
-      <!-- ideally this would be 3 in a row, not 2 -->
       <div class="row research-section-list">
         {% for item in researchitems | reverse %}
           {% from "../templates/partials/miniresearchitem.njk" import miniresearchitem %}
