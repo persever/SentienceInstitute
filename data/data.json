@@ -909,6 +909,20 @@
       },
       "authors": ["ali","jamie","jacy"],
       "isResearch": true
+    },
+    {
+      "url": "eoy2024",
+      "gdocname": "2024EndofYearSummary",
+      "date": "December 5, 2024",
+      "year": "2024",
+      "title": "2024 End of Year Summary",
+      "img": "241205",
+      "img_info": {
+        "title": "a dark winter forest with the floor covered in snow and a blue tint everywhere --ar 16:5 --v 6.0",
+        "credit": "Jacy Reese Anthis / Midjourney"
+      },
+      "authors": ["jacy"],
+      "isResearch": false
     }
   ],
   "pressreleases": [
