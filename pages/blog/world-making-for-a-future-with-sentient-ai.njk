@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/eoy2024", "2024 End of Year Summary", "blog/" + 241205, "As artificial intelligence (AI) systems become more powerful and prevalent, it becomes more urgent that we understand and prepare for the rise of digital minds, digital systems that appear to have mental faculties such as reasoning, emotion, and agency. This urgency has been at the top of our minds over the past year with accelerating AI developments.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[48], authors) }}
+
+{% endblock %}

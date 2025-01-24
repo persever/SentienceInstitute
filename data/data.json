@@ -923,6 +923,20 @@
       },
       "authors": ["jacy"],
       "isResearch": false
+    },
+    {
+      "url": "world-making-for-a-future-with-sentient-ai",
+      "gdocname": "World-MakingForAFutureWithSentientAI",
+      "date": "January 24, 2025",
+      "year": "2025",
+      "title": "World-Making for a Future with Sentient AI",
+      "img": "20250124",
+      "img_info": {
+        "title": "Future world with widespread sentient AI used as research subjects with a blue tint everywhere --ar 16:5 --v 6.0",
+        "credit": "Janet Pauketat / Midjourney"
+      },
+      "authors": ["janet","ali","jacy"],
+      "isResearch": true
     }
   ],
   "pressreleases": [
