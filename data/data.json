@@ -902,6 +902,48 @@
       },
       "authors": ["janet","ali","jacy"],
       "isResearch": true
+    },
+    {
+      "url": "perceptions-of-sentient-ai-and-other-digital-minds",
+      "gdocname": "PerceptionsofSentientAIandOtherDigitalMindsEv",
+      "date": "April 25, 2025",
+      "year": "2025",
+      "title": "Perceptions of Sentient AI and Other Digital Minds: Evidence from the AI, Morality, and Sentience (AIMS) Survey",
+      "img": "250425_1",
+      "img_info": {
+        "title": "Widely varying shades of blue in an abstract cubist style. There is a very slight hint of what may be two highly abstract faces with intense cubism, a human and a robot, with their eyes closed. --ar 16:5 --v 7.0",
+        "credit": "Jacy Reese Anthis / Midjourney"
+      },
+      "authors": ["jacy","janet","ali","katerina"],
+      "isResearch": true
+    },
+    {
+      "url": "robots-chatbots-self-driving-cars",
+      "gdocname": "RobotsChatbotsSelfDrivingCarsPerceptionsofMin",
+      "date": "April 25, 2025",
+      "year": "2025",
+      "title": "Robots, Chatbots, Self-Driving Cars: Perceptions of Mind and Morality Across Artificial Intelligences",
+      "img": "250425_2",
+      "img_info": {
+        "title": "A variety of artificial intelligences are in overlapping sketches across the black canvas. This includes chatbots, recommendation algorithms, humanoid robots, vacuum cleaning robots, self-driving cars, other autonomous vehicles, and a variety of other AI systems. They are sketched with color pencils in shades of blue and red in a disorganized and chaotic style. --ar 16:5 --v 7.0",
+        "credit": "Jacy Reese Anthis / Midjourney"
+      },
+      "authors": ["ali","matti","jacy"],
+      "isResearch": true
+    },
+    {
+      "url": "public-opinion-and-the-rise-of-digital-minds",
+      "gdocname": "PublicOpinionandtheRiseofDigitalMindsPerceive",
+      "date": "May 7, 2025",
+      "year": "2025",
+      "title": "Public Opinion and the Rise of Digital Minds: Perceived Risk, Trust, and Regulation Support",
+      "img": "250507",
+      "img_info": {
+        "title": "a silhouette, abstractly drawn crowd demonstrates next to a government building with signs and cheering, shades of blue and yellow --ar 16:5 --v 7.0",
+        "credit": "Jacy Reese Anthis / Midjourney"
+      },
+      "authors": ["justin","janet","jacy"],
+      "isResearch": true
     }
   ],
   "pressreleases": [
@@ -2425,6 +2467,50 @@
       "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
       "series": "Surveys",
       "year": "2023"
+    }
+  ],
+  "aims_peer_reviewed": [
+    {
+      "url": "world-making-for-a-future-with-sentient-ai",
+      "gdocname": "WorldMakingForAFutureWithSentientAI",
+      "date": "January 24, 2025",
+      "year": "2025",
+      "title": "World-Making for a Future with Sentient AI",
+      "img": "250124",
+      "img_info": {
+        "title": "Future world with widespread sentient AI used as research subjects with a blue tint everywhere --ar 16:5 --v 6.0",
+        "credit": "Janet Pauketat / Midjourney"
+      },
+      "authors": ["janet","ali","jacy"],
+      "isResearch": true
+    },
+    {
+      "url": "perceptions-of-sentient-ai-and-other-digital-minds",
+      "gdocname": "PerceptionsofSentientAIandOtherDigitalMindsEv",
+      "date": "April 25, 2025",
+      "year": "2025",
+      "title": "Perceptions of Sentient AI and Other Digital Minds: Evidence from the AI, Morality, and Sentience (AIMS) Survey",
+      "img": "250425_1",
+      "img_info": {
+        "title": "Widely varying shades of blue in an abstract cubist style. There is a very slight hint of what may be two highly abstract faces with intense cubism, a human and a robot, with their eyes closed. --ar 16:5 --v 7.0",
+        "credit": "Jacy Reese Anthis / Midjourney"
+      },
+      "authors": ["jacy","janet","ali","katerina"],
+      "isResearch": true
+    },
+    {
+      "url": "public-opinion-and-the-rise-of-digital-minds",
+      "gdocname": "PublicOpinionandtheRiseofDigitalMindsPerceive",
+      "date": "May 7, 2025",
+      "year": "2025",
+      "title": "Public Opinion and the Rise of Digital Minds: Perceived Risk, Trust, and Regulation Support",
+      "img": "250507",
+      "img_info": {
+        "title": "a silhouette, abstractly drawn crowd demonstrates next to a government building with signs and cheering, shades of blue and yellow --ar 16:5 --v 7.0",
+        "credit": "Jacy Reese Anthis / Midjourney"
+      },
+      "authors": ["justin","janet","jacy"],
+      "isResearch": true
     }
   ],
   "appendices": [

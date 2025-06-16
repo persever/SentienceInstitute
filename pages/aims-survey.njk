@@ -20,6 +20,14 @@
         {% endfor %}
       </div>
 
+      <h1><span>Peer-Reviewed Publications</span></h1>
+      <div class="row research-section-list">
+        {% for post in aims_peer_reviewed | reverse %}
+          {% from "../templates/partials/blogitem.njk" import blogitem %}
+          {{ blogitem(post, authors) }}
+        {% endfor %}
+      </div>
+
       <h1><span>Data Download</span></h1>
       <div><br>The data for the AIMS survey can be downloaded at the link below. Please feel free to use this data in your own research.<br>
 
