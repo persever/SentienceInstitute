@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/robots-chatbots-self-driving-cars", "Robots, Chatbots, Self-Driving Cars: Perceptions of Mind and Morality Across Artificial Intelligences", "blog/" + 250425_2, "We are pleased to announce our latest peer-reviewed publication, “Robots, Chatbots, Self-Driving Cars: Perceptions of Mind and Morality Across Artificial Intelligences.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[51], authors) }}
+
+{% endblock %}
