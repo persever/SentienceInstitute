@@ -944,6 +944,20 @@
       },
       "authors": ["justin","janet","jacy"],
       "isResearch": true
+    },
+    {
+      "url": "eoy2025",
+      "gdocname": "2025EndofYearSummary",
+      "date": "January 14, 2026",
+      "year": "2026",
+      "title": "2025 End of Year Summary",
+      "img": "260114",
+      "img_info": {
+        "title": "a silhouette of a group of women and men in front of the sun, framed by the outline of a large black circular ring against a sunset background. the scene is captured from behind with a wide-angle perspective that emphasizes the figure against the warm hues of dusk. this composition creates a sense of mystery and elegance within the minimalist setting. with a blue tint --ar 16:5 --v 6.0",
+        "credit": "Janet Pauketat / Midjourney"
+      },
+      "authors": ["janet"],
+      "isResearch": false
     }
   ],
   "pressreleases": [

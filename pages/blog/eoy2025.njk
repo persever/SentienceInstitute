@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/eoy2025", "2025 End of Year Summary", "blog/" + 260114, "In 2025, we continued to invest in understanding the rise of digital minds, digital systems that appear to have mental faculties such as reasoning, emotion, and agency.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[53], authors) }}
+
+{% endblock %}
