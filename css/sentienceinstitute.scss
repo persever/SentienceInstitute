@@ -3992,6 +3992,58 @@ hr{
 
 }
 
+.aims-survey-2024-container{
+  // Italics
+  .c11{
+  font-style: italic;
+  }
+
+  // Bold
+  .c2, .c19, .c44{
+  font-weight: bold;
+  }
+
+  // TOC
+  .c27{
+  margin-bottom: 0px;
+  }
+
+  .c27.c31{
+  margin-bottom: 0px;
+  margin-left: 30px;
+  }
+
+  table:not(:first-of-type), table:not(:first-of-type) td {
+  border: 1px solid $dark-grey;
+  }
+
+  table:not(:first-of-type) {
+    td {
+      vertical-align: top;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 5px;
+    }
+  }
+
+  // Iframes - add top border to embedded
+  // tables only, not plots
+  div#tables iframe{
+  border-top:0.5px solid grey;
+  border-color: $light-grey;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+
+  .c41{
+    text-align: center;
+    // vertical-align: center;
+  }
+
+}
+
 .the-future-might-not-be-so-great-container{
   // Italics
   .c12{

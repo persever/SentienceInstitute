@@ -1,0 +1,23 @@
+{% extends "layout.njk" %}
+
+{% set item = researchitems[22] %}
+
+{% block metatags %}
+{% from "../templates/partials/reportmetatags.njk" import reportmetatags %}
+{{ reportmetatags(item) }}
+{{ metatagsrender("aims-survey-2024", "Prolific Data May Misestimate Some AI Attitudes Compared to a Nationally Representative Sample", "header_photos/" + "aims-survey-2024", "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs.") }}
+{% endblock %}
+
+
+{% block content %}
+
+{% from "../templates/partials/headerimage.njk" import headerimage %}
+{{ headerimage(item.img, photos[item.img]) }}
+
+{% from "../templates/partials/pageinfo.njk" import pageinfo %}
+{{ pageinfo(item) }}
+<div class="container first-container report-container gdoc-html-container aims-survey-2024-container">
+  {% include "../page_content/aims-survey-2024.html" %}
+</div>
+
+{% endblock %}

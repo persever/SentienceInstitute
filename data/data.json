@@ -2362,6 +2362,24 @@
       "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
       "series": "Surveys",
       "year": "2023"
+    },
+    {
+      "url": "aims-survey-2024",
+      "type": "Survey",
+      "title": "Prolific Data May Misestimate Some AI Attitudes Compared to a Nationally Representative Sample ",
+      "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
+      "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
+      "date": "February 16, 2026",
+      "img": "aims-survey-2024",
+      "img_info": {
+        "title": "futuristic room with a white board and computers showing math equations on a white board. the scene is captured from behind with a blue tint everywhere --ar 16:5 --v 6.0",
+        "credit": "Janet Pauketat / Midjourney"
+      },
+      "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+      "date_meta": "2026/02/16",
+      "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+      "series": "Surveys",
+      "year": "2026"
     }
   ],
   "aft": [
@@ -2392,7 +2410,7 @@
         "credit": "Jo-Anne McArthur / Animal Equality"
       },
       "abstract": "In October 2020, we conducted the third iteration of the Animals, Food, and Technology (AFT) survey. Overall, as in previous years, we found significant opposition in the US to the animal farming industry, with a majority of people reporting discomfort with the industry, and strong support for a range of often quite radical policy changes, such as banning slaughterhouses.",
-      "date_meta": "2021/17/03",
+      "date_meta": "2021/03/17",
       "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
       "series": "Surveys",
       "year": "2021"
@@ -2410,7 +2428,7 @@
         "credit": "Jo-Anne McArthur / We Animals Media"
       },
       "abstract": "The Animals, Food, and Technology (AFT) survey tracks attitudes towards animal farming and animal product alternatives in the US. As in previous iterations, we found strong opposition to various aspects of the animal farming industry, with a majority of people reporting discomfort with the industry (74.6%), and relatively strong support for a range of quite radical policy changes, such as banning slaughterhouses (49.1%), factory farming (52.7%), and animal farming as a whole (38.8%).",
-      "date_meta": "2022/15/07",
+      "date_meta": "2022/07/15",
       "keywords": "ANIMAL FARMING;SOCIAL MOVEMENTS;SOCIAL CHANGE;EFFECTIVE ALTRUISM;SURVEY;POLL;CULTURED MEAT;FOOD TECHNOLOGY;TECHNOLOGY",
       "series": "Surveys",
       "year": "2022"
@@ -2441,7 +2459,7 @@
         "credit": "Peter Pieras / Pixabay"
       },
       "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
-      "date_meta": "2022/27/06",
+      "date_meta": "2022/06/27",
       "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
       "series": "Surveys",
       "year": "2022"
@@ -2459,7 +2477,7 @@
         "credit": "Michael Dello-Iacovo / Midjourney"
       },
       "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
-      "date_meta": "2023/10/09",
+      "date_meta": "2023/09/10",
       "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
       "series": "Surveys",
       "year": "2023"
@@ -2477,7 +2495,7 @@
         "credit": "Michael Dello-Iacovo"
       },
       "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) supplement is a survey of U.S. adults on attitudes towards AI x-risks, safety, and regulation, beliefs about AI sentience and timelines to advanced AI emergence, attitudes towards specific AIs, and attitudes towards mind uploading and science fiction.",
-      "date_meta": "2023/10/09",
+      "date_meta": "2023/09/10",
       "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
       "series": "Surveys",
       "year": "2023"
@@ -2492,6 +2510,24 @@
         "title": "a futuristic parliament house with no people inside, --ar 16:9 --v 6.0",
         "credit": "Michael Dello-Iacovo / Midjourney"
       }
+    },
+    {
+      "url": "aims-survey-2024",
+      "type": "Survey",
+      "title": "Prolific Data May Misestimate Some AI Attitudes Compared to a Nationally Representative Sample ",
+      "author": "Janet Pauketat, Ali Ladak, and Jacy Reese Anthis",
+      "citation_author": [ "Pauketat, Janet", "Ladak, Ali", "Anthis, Jacy Reese" ],
+      "date": "February 16, 2026",
+      "img": "aims-survey-2024",
+      "img_info": {
+        "title": "futuristic room with a white board and computers showing math equations on a white board. the scene is captured from behind with a blue tint everywhere --ar 16:5 --v 6.0",
+        "credit": "Janet Pauketat / Midjourney"
+      },
+      "abstract": "The Artificial Intelligence, Morality, and Sentience (AIMS) survey measures the moral and social perception of different types of artificial intelligences (AIs), particularly sentient AIs. The data provide baseline information about U.S. public opinion, and we intend to run the AIMS survey periodically to track changes over time.",
+      "date_meta": "2026/02/16",
+      "keywords": "SOCIAL MOVEMENTS;SURVEY;POLL;ARTIFICIAL INTELLIGENCE;ARTIFICIAL SENTIENCE; DIGITAL MINDS",
+      "series": "Surveys",
+      "year": "2026"
     }
   ],
   "aims_peer_reviewed": [

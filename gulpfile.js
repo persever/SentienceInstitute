@@ -96,7 +96,7 @@ function audio() {
 }
 
 function img() {
-  return src(["img/**/*.+(png|jpg)", "!img/images/**", "!img/header_photos_original/**"])
+  return src(["img/**/*.+(png|jpg|html)", "!img/images/**", "!img/header_photos_original/**"])
     .pipe(dest(destination + "img"));
 }
 
