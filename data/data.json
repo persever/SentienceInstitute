@@ -958,6 +958,34 @@
       },
       "authors": ["janet"],
       "isResearch": false
+    },
+    {
+      "url": "digital-companionship",
+      "gdocname": "DigitalCompanionshipOverlappingUsesofAICompan",
+      "date": "April 21, 2026",
+      "year": "2026",
+      "title": "Digital Companionship: Overlapping Uses of AI Companions and AI Assistants",
+      "img": "260421_2",
+      "img_info": {
+        "title": "a close up digital illustration of a woman's face in profile, looking right towards a humanoid artificial intelligence robot friend, characterized by a mosaic of blue and turquoise polygons. the woman's features, including her eye, nose, and lips, are clearly defined by the tiled structure with thin black lines. her hair is a detailed swirl of deep blue mosaic fragments. the background on the left is a soft focus, patterned area with light and dark blue floral designs. the background on the right is a dense, collage like arrangement of different sized and shaded blue and teal ceramic tiles, some with a distressed finish. --ar 16:9",
+        "credit": "Janet Pauketat / Midjourney"
+      },
+      "authors": ["katerina","janet","ali","jacy"],
+      "isResearch": false
+    },
+    {
+      "url": "autonomy-and-sentience",
+      "gdocname": "MentalModelsofAutonomyandSentienceShapeReacti",
+      "date": "January 14, 2026",
+      "year": "2026",
+      "title": "Mental Models of Autonomy and Sentience Shape Reactions to AI",
+      "img": "260421_2",
+      "img_info": {
+        "title": "Create an image of a network with 7 nodes that have images inside them. there is one image in each node. the images are a pleasurable expression, a robot walking, an angry face, a person thinking, a sad expression, an computer showing text on its screen, and a person waving. In the bottom third of the image are a group of people in silhoutte standing and looking up. The background is navy blue with a mosaic of different blue, white, and grey color tiles. the image is in the style of modern art --ar 16:9",
+        "credit": "Janet Pauketat / Midjourney"
+      },
+      "authors": ["janet","katerina","jacy"],
+      "isResearch": false
     }
   ],
   "pressreleases": [

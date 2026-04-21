@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/autonomy-and-sentience", "Mental Models of Autonomy and Sentience Shape Reactions to AI", "blog/" + 260421_2, "In this article, we employed four experiments to activate mental models of autonomy and sentience. We found that AI sentience is foundational for human-computer interaction and the moral consideration of AI although autonomy has a stronger effect on perceived threat.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[55], authors) }}
+
+{% endblock %}

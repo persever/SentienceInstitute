@@ -1,0 +1,11 @@
+{% extends "layout.njk" %}
+{% block metatags %}
+{{ metatagsrender("blog/digital-companionship", "Digital Companionship: Overlapping Uses of AI Companions and AI Assistants", "blog/" + 260421_1, "In this article, we document fluid use cases for ChatGPT and Replika, despite their assistant and companion marketing, and reveal the allure and challenge of digital companionship with bounded AI persons using a survey and interview mixed methodology.") }}
+{% endblock %}
+
+{% block content %}
+
+{% from "../templates/partials/blogpost.njk" import blogpost %}
+{{ blogpost(blogposts[54], authors) }}
+
+{% endblock %}
