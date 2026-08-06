@@ -37,7 +37,7 @@
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
-    "braces": "^3.0.2",
+    "braces": "^3.0.3",
     "gulp": "^4.0.2",
     "gulp-git": "^2.10.1",
     "gulp-install": "^1.1.0",
