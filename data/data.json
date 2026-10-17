@@ -10,6 +10,22 @@
       "desc": "Janet has a PhD in Psychological and Brain Sciences from the University of California, Santa Barbara and a Masters of Research from the University of St Andrews where she studied the psychology of how socio-cultural contexts shape behavior and the morally expanding capacities of global citizenship. After earning her PhD, Janet studied collective emotions in social movements as a postdoctoral research associate at Princeton University. She has worked with researchers at the University of St Andrews on moral values in social movements and at the National University of Singapore on values affecting immigration attitudes. She currently collaborates on a study of the re-wilding of formerly captive Asian elephants in Thailand."
     },
     {
+      "id": "katerina",
+      "name": "Katerina Manoli",
+      "SIpage": "katerina-manoli",
+      "email": "katerina@sentienceinstitute.org",
+      "role": "Research Scientist",
+      "desc": "Katerina is an interdisciplinary researcher working at the intersection of cognitive neuroscience, human–AI interaction, and digital minds. She holds a PhD in Cognitive and Computational Neuroscience from the Max Planck Institute for Human Cognitive and Brain Sciences. Her research focuses on neurocognitive development, social cognition, and the understanding of biological and digital minds. She has held research positions at the Donders Institute for Brain, Cognition and Behavior, Harvard University, Kyoto University, and the University of Glasgow. Her work has been presented internationally and published in leading venues spanning neuroscience and human–AI interaction."
+    },
+    {
+      "id": "ali",
+      "name": "Ali Ladak",
+      "SIpage": "ali-ladak",
+      "email": "ali@sentienceinstitute.org",
+      "role": "Research Fellow",
+      "desc": "Ali has postgraduate degrees in economics and cognitive science. He previously worked at Charity Entrepreneurship, where he carried out research to prioritize global health and development policy interventions. Before this, he worked at an economic consultancy, where he used empirical research methods to evaluate social policies. Ali has also worked on research projects with Charity Entrepreneurship and Faunalytics to support the animal advocacy movement."
+    },
+    {
       "id": "spencer",
       "name": "Spencer Case",
       "link": "https://www.spencercasephilosophy.com/",
@@ -17,22 +33,6 @@
       "email": "spencer@sentienceinstitute.org",
       "role": "Research Fellow",
       "desc": "Spencer Case has a PhD in philosophy from the University of Colorado Boulder at 2018 and was an international research fellow at Wuhan University (2019-2021). He is especially interested in the debate over moral realism, the view that there are objective moral facts. He’s the coauthor, along with Matt Lutz, of <i>Is Morality Real? A Debate</i>, which will be available via <i>Routledge</i> September 7, 2023. A second book, <i>Why it’s ok to be Patriotic</i>, is also in the works. He has published articles in outlets like <i>National Review</i>, <i>Quillette</i>, <i>Discourse</i>, <i>Arc Digital</i>, and <i>The Washington Free Beacon</i>. He’s also the host of Micro-Digressions: a Philosophy Podcast."
-    },
-    {
-      "id": "ali",
-      "name": "Ali Ladak",
-      "SIpage": "ali-ladak",
-      "email": "ali@sentienceinstitute.org",
-      "role": "Researcher",
-      "desc": "Ali has postgraduate degrees in economics and cognitive science. He previously worked at Charity Entrepreneurship, where he carried out research to prioritize global health and development policy interventions. Before this, he worked at an economic consultancy, where he used empirical research methods to evaluate social policies. Ali has also worked on research projects with Charity Entrepreneurship and Faunalytics to support the animal advocacy movement."
-    },
-    {
-      "id": "katerina",
-      "name": "Katerina Manoli",
-      "SIpage": "katerina-manoli",
-      "email": "katerina@sentienceinstitute.org",
-      "role": "Research Scientist",
-      "desc": "Katerina is an interdisciplinary researcher working at the intersection of cognitive neuroscience, human–AI interaction, and digital minds. She holds a PhD in Cognitive and Computational Neuroscience from the Max Planck Institute for Human Cognitive and Brain Sciences. Her research focuses on neurocognitive development, social cognition, and the understanding of biological and digital minds. She has held research positions at the Donders Institute for Brain, Cognition and Behavior, Harvard University, Kyoto University, and the University of Glasgow. Her work has been presented internationally and published in leading venues spanning neuroscience and human–AI interaction."
     },
     {
       "id": "jacy",
